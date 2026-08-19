@@ -258,7 +258,7 @@ h2{font-size:clamp(28px,4.4vw,52px);line-height:1.06;font-weight:300;letter-spac
 .contact-h b{color:var(--accent);font-weight:300}
 .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
 .cc{background:var(--bg);padding:28px 24px 28px 0;transition:background .2s}
-.contact-grid .cc:not(:first-child){padding-left:28px}
+.contact-grid .cc:not(:nth-child(3n+1)){padding-left:28px}
 .cc .k{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--fg-3);margin-bottom:11px}
 .cc .v{font-size:15px;color:var(--fg);word-break:break-word}
 .cc a:hover{color:var(--accent)}
@@ -283,7 +283,7 @@ footer{margin-top:96px;border-top:1px solid var(--line);padding:28px 0 40px;disp
   .links{grid-template-columns:1fr}
   .contact-grid{grid-template-columns:1fr}
   .cc{padding:22px 0}
-  .contact-grid .cc:not(:first-child){padding-left:0}
+  .contact-grid .cc:not(:nth-child(3n+1)){padding-left:0}
   section{padding:76px 0}
 }
 @media(max-width:640px){
