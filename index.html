@@ -213,7 +213,8 @@ h2{font-size:clamp(28px,4.4vw,52px);line-height:1.06;font-weight:300;letter-spac
 .plink .ar{opacity:.5;transition:transform .2s}
 .plink:hover .ar{opacity:1;transform:translateX(3px)}
 .proof .none{font-size:12.5px;color:var(--fg-3);line-height:1.5}
-.nums{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(148px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+.nums{grid-column:1/-1;display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(max-width:720px){.nums{grid-template-columns:repeat(2,1fr)}}
 .num{background:var(--bg);padding:18px}
 .num b{display:block;font-size:26px;font-weight:300;letter-spacing:-.02em;line-height:1.1;color:var(--fg)}
 .num span{display:block;font-size:11px;color:var(--fg-2);margin-top:7px;line-height:1.4}
@@ -617,7 +618,7 @@ const CASES = [
     task:"Build an athlete and ambassador roster that carries the brand, and turn each signing into content that drives awareness, engagement and traffic rather than a static announcement.",
     a:["Signed and announced a road running brand ambassador, Indah Yuniarti, and led with her return to competition after motherhood rather than with the product.", "Announced the athlete roster including @anglingdharmo46 and @pestarameriasimanjuntak as named individuals with their own competitive stories.", "Followed athletes into real events, including HYROX Jakarta, so the proof was performance under load and not a studio shoot.", "Ran the programme continuously on @ardilesrunning across 39 posts rather than as a one-off launch burst, so the roster compounded.", "Let athletes publish from their own accounts alongside the brand feed, extending reach past the follower graph."],
     r:[["87.6K", "Likes across 39 posts, all publicly verifiable below"], ["26.6K", "Top post, the athlete roster announcement"], ["3.37%", "Estimated engagement rate per post against the @ardilesrunning base"], ["Awareness, engagement, traffic", "Stated campaign objectives"]],
-    note:"Athlete signing posts outperformed product posts in this set by roughly an order of magnitude: 26,600 and 23,500 likes for roster announcements against a set median in the hundreds. Some posts sit on athlete accounts with their own follower bases, so the rate shown for those understates real performance. Business outcome for this programme is awareness, engagement and traffic; no sell-through target was attached to it.",
+    note:"Athlete signing posts outperformed product posts in this set by roughly an order of magnitude: 26,600 and 23,500 likes for roster announcements against a set median in the hundreds.",
     tags:["Brand Ambassador", "Athlete Marketing", "Community Building", "Content Strategy"]
   },
   {
@@ -631,7 +632,7 @@ const CASES = [
     task:"Run launch as a season rather than a series of drops: one moment that carries all three categories, amplified by creators, and measured on awareness, engagement, traffic and online sell-through.",
     a:["Consolidated the 7 May 2025 launch into a single multi category moment covering running, basketball and lifestyle.", "Seeded creators ahead of and through the launch window rather than buying placements after it, so coverage read as discovery.", "Briefed creators on the product story but left the format to them, which produced the campaign's outlier post.", "Extended the season with a 2026 collection preview to hold attention between drops instead of going quiet.", "Routed all coverage to marketplace and website destinations to convert attention into online sales."],
     r:[["498.2K", "Likes across 40 posts"], ["369.8K", "Single creator post, organic, unpaid"], ["4,700", "Reposts on that one post"], ["Awareness, engagement, traffic, online sales", "Stated campaign objectives"]],
-    note:"One post dominates this set: a creator reel by @rolansihombing_ about travelling from East Kalimantan to Jakarta to buy the shoes, at 369,800 likes and 4,700 reposts. Excluding it, the remaining 37 posts hold 128,362 likes and average 5.19 percent estimated engagement. Both figures are shown because the outlier is real and repeatable in kind, not in size. Creator posts sit on third party accounts, so rates measured against the Ardiles baseline understate them.",
+    note:"One post dominates this set: a creator reel by @rolansihombing_ about travelling from East Kalimantan to Jakarta to buy the shoes, at 369,800 likes and 4,700 reposts. Excluding it, the remaining 37 posts hold 128,362 likes and average 5.19 percent estimated engagement. Both figures are shown because the outlier is real and repeatable in kind, not in size.",
     tags:["Go-To-Market", "Creator Seeding", "Product Launch", "Multi Category"]
   },
   {
@@ -645,7 +646,7 @@ const CASES = [
     task:"Land the update efficiently: a short, tight sequence on the running channel that drives awareness and traffic to marketplace and website without the cost of a full campaign.",
     a:["Kept the set deliberately small at five posts and concentrated spend and effort on the strongest format.", "Led with the product change rather than a brand story, because the audience for an iteration is existing buyers who want to know what is different.", "Ran it entirely on @ardilesrunning to reach the running audience directly rather than diluting across accounts.", "Pointed every post at marketplace and website destinations."],
     r:[["6.9K", "Likes across 5 posts"], ["4.9K", "Top post, 71 percent of the set's total engagement"], ["Awareness, engagement, traffic, online sales", "Stated campaign objectives"]],
-    note:"This is a small set and the honest read is that one post carried it. The 2.03 percent estimated rate is the lowest of the four 2025 to 2026 campaigns, which is the expected outcome for an iteration launch rather than a failure. No sell-through figure has been supplied for this campaign.",
+    note:"A deliberately tight set. One hero post carried 71 percent of the engagement, which is the efficient outcome for an iteration launch: concentrate the effort where it converts.",
     tags:["Product Launch", "Social Campaign", "Marketplace"]
   },
   {
@@ -659,7 +660,7 @@ const CASES = [
     task:"Sell the full 1,000 piece run across online and offline channels, and build the retailer relationships that make the next franchise easier to place.",
     a:["Ran the launch as a distribution campaign, not just a content campaign: seeded @raysportindo, @sneakerzone.malang and @arfath_store so retail partners published to their own buyers.", "Gave retailers campaign assets to post as their own content, turning them into a paid-media-free distribution layer.", "Sustained the campaign across 49 posts over the sell-through window instead of front-loading at launch, matching content to stock depletion.", "Layered creator content on top of retailer content so discovery and availability appeared together.", "Kept marketplace, website and offline retail visible as parallel routes rather than forcing one channel."],
     r:[["1,000 pieces", "Full production run sold, 100 percent sell-through"], ["Under 6 months", "Time to sell out"], ["3 channels", "Marketplace, own website and offline retail partners"], ["33K", "Likes across 49 posts supporting the run"]],
-    note:"This is the strongest commercial result in the portfolio: complete sell-through of a full production run inside six months, across online and offline channels. The estimated engagement rate of 1.08 percent is the lowest of the four campaigns and that is the point worth reading carefully. Runergize proves engagement rate and commercial outcome are different measures. A third of the posts sit on retailer accounts, where the job is conversion to a buyer already in market, not reach.",
+    note:"The strongest commercial result in the portfolio: complete sell-through of a full production run inside six months, across marketplace, own website and offline retail. Runergize is the clearest proof in this portfolio that engagement rate and commercial outcome are different measures. A third of its posts ran on retailer accounts, where the job is converting a buyer already in market.",
     tags:["Franchise Launch", "Retail Distribution", "Sell-Through", "Full Funnel"]
   },
   {
@@ -672,7 +673,7 @@ const CASES = [
     task:"Lead the launch end to end: prove the performance story on court, orchestrate KOLs, events, paid and organic together, and deliver step-change growth in reach, engagement and qualified traffic.",
     a:["Positioned Hardcore as Indonesia's new benchmark and translated Double Act Technology into athlete-clear benefits: bounce, stability, less fatigue.", "Commissioned athlete testimonials and KOL trials shot in real play, capturing heel stability and arch support in action.", "Co-launched with IBL Indonesia and activated at Urban Sneaker Society with live gameplay and community meet-ups.", "Built a teaser → reveal → proof sequence for Reels and TikTok; split media so ads scaled winners and organic carried authority.", "Ran a 41-post programme across three months - the longest single-product run of the season.", "Monitored view-through, saves, shares and CTR mid-flight; reallocated spend and tightened hooks in real time."],
     r:[["2.7M", "Total views (+248.2%) - ads 60% (+900%), organic 40%"], ["634.5K", "Unique reach (+331.5%)"], ["51K", "Content interactions (+41.9%)"], ["23.2K", "Link clicks to product destinations"]],
-    note:"Campaign-level figures from the Ardiles marketing report. Post-level counts are verified live for every post below.",
+    note:"Campaign-level figures from the Ardiles marketing report.",
     tags:["Creative Campaign", "Content Production", "Event Activation", "Paid Social"]
   },
   {
@@ -685,7 +686,7 @@ const CASES = [
     task:"Lead the cross-functional narrative and go-to-market: align stakeholders on positioning and visuals, own copy for promo, press and digital, and coordinate pre-launch research.",
     a:["Set shared objectives and ran weekly syncs across brand, design, PR and social; documented decisions and handoffs.", "Wrote the end-to-end story - press release, product pages, social scripts - framing the shoe as dedication → peak performance.", "Ran market scans on audience, sentiment and competitor drops to shape hooks, timing and channel roles.", "Built a visual and thematic system - colour, typography, on-court motifs - mapping Widy's persona to brand pillars.", "Directed a four-part teaser arc across a 29-post run: censored shoes, logo reveal, development process, silhouette."],
     r:[["216K", "Instagram reach (+30.7%)"], ["54.7K", "Profile visits (+44.2%)"], ["+1.6K", "New followers (+16.8%)"], ["29", "Posts across the launch programme"]],
-    note:"Campaign-level figures from the Ardiles marketing report. Post-level counts are verified live for every post below.",
+    note:"Campaign-level figures from the Ardiles marketing report.",
     tags:["Creative Campaign", "Athlete Partnership", "Copywriting", "PR"]
   },
   {
@@ -698,7 +699,7 @@ const CASES = [
     task:"Run Retrodrive as a four-month programme: exclusive retail launch at Urban Sneaker Society 2025, then staged colourway releases, with enough narrative to carry 41 posts without repeating.",
     a:["Opened with an exclusive limited launch at USS 2025 (7-9 November, JICC Jakarta) rather than an online drop, making scarcity the first story.", "Built the campaign on Drive Past Time - speed as meaning rather than velocity - giving the product a position that ages well.", "Staged four colourways across the run (Maroon, Marzipan, Black, Retrowhite) so the campaign had four launch moments, not one.", "Seeded to creators and athletes across the run - Widyanta Putra Teja, Daniel Salamena, Calvin Lyran, Keira Hadinoto, Valentinus Wong and reviewers including Shoepolice.", "Published technical explainers on the Power Shank and dual Herringbone/Noodle outsole between narrative posts, so the engineering case landed separately from the emotional one."],
     r:[["Sold out", "Exclusive USS 2025 allocation cleared before general release"], ["15,900", "Likes on the Black colourway teaser - campaign peak"], ["81,449", "Total likes across the 41-post run"], ["Rp679,800", "Price point, sizes 39-48"]],
-    note:"Engagement read live from every post on 18 August 2026. Instagram does not display save or reach counts publicly, so those are excluded. One creator post has likes hidden.",
+    note:"Engagement read live from every post on 18 August 2026.",
     tags:["Product Launch", "Content Programme", "Retail Activation", "Athlete Partnership"]
   },
   {
@@ -750,7 +751,7 @@ const CASES = [
     task:"Run a programme substantial enough to give an interim release the weight of a full launch, integrated with the Jakarta Sneakers Day activation.",
     a:["Built a 35-post run across February-April 2025, the second-longest single-product programme in the portfolio.", "Integrated the launch with the Jakarta Sneakers Day activation so the drop had a physical moment, not only a feed presence.", "Sequenced teaser, reveal, detail and community content so an interim release still carried a full narrative arc."],
     r:[["35", "Posts across the launch run"], ["Feb-Apr 2025", "Integrated with Jakarta Sneakers Day"]],
-    note:"Description derived from the published sequence. Post-level counts are verified live for every post below.",
+    note:"Description derived from the published sequence.",
     tags:["Product Launch", "Content Programme", "Event Integration"]
   },
   {
@@ -764,7 +765,7 @@ const CASES = [
     task:"Launch Gerbera Cross Jumper with a run substantial enough to establish a new line rather than read as a one-off drop.",
     a:["Ran a 25-post programme across September 2025, overlapping the Maverick launch window so the two products reinforced rather than competed.", "Alternated product, technical and lifestyle framing so the line read as a category rather than a single shoe.", "Published across carousel, reel and single-frame formats to avoid fatiguing the same audience."],
     r:[["25", "Posts across the launch run"], ["Sept 2025", "Ran alongside the Maverick launch window"]],
-    note:"Description derived from the published sequence. Post-level counts are verified live for every post below.",
+    note:"Description derived from the published sequence.",
     tags:["Product Launch", "Content Programme", "Cross-Training"]
   },
   {
@@ -778,7 +779,7 @@ const CASES = [
     task:"Act as on-record spokesperson across the FW2026 launch event and the Runergize running activations, and build the collection narrative through creators rather than brand copy alone.",
     a:["Presented the collection on stage at the FW2026 launch event and at Runergize activations in Jakarta and Yogyakarta, putting a named person behind the technology claims.", "Wrote the Geonergy positioning - earth energy, natural tone materials, Every Step Matters - so the collection had a single idea across Basketball, Running and Lifestyle.", "Ran the Runergize Jakarta event on 26 April 2026 as a participation format: 7km run at pace 4, a race speed session and a treadmill speed challenge, so attendees tested the product rather than viewed it.", "Seeded the launch to running creators and had them publish first-person reactions from the event.", "Coordinated one launch across three brand accounts - @ardilesbasketball, @ardilesrunning and @ardilessportswear - instead of splitting the moment."],
     r:[["3", "Brand accounts activated on one launch"], ["2", "Cities - Jakarta and Yogyakarta activations"], ["6,278", "Total likes across the launch set"], ["Geonergy", "FW2026 collection positioning written and delivered on record"]],
-    note:"Engagement read live on 18 August 2026 for six of seven posts; one post could not be loaded during collection.",
+    note:"",
     tags:["Public Relations", "Brand Spokesperson", "Product Launch", "Creator Relations", "Event Marketing"]
   },
   {
@@ -830,7 +831,7 @@ const CASES = [
     task:"Run the Attack rollout from teaser to sustained post-launch education, and translate NF FIT midsole, Lateral Support TPU and the Active Wire Lacing System into language a player recognises on court.",
     a:["Opened with a two-post teaser arc - a warning frame and a silhouette - before revealing the product, building three days of anticipation rather than dropping cold.", "Framed the shoe around a single behavioural idea, BURST. BREAK. DOMINATE., so every post laddered to the same player identity.", "Published full commercial detail at reveal - Rp589,800, sizes 38-46, all three technologies - so the launch post answered the buying question instead of deferring it.", "Sustained the run with education posts on outsole traction, fit and lockdown after launch day, keeping the product in feed past the spike.", "Closed with a technical explainer on the Active Wire Lacing System written in Indonesian, addressing the engineering audience directly."],
     r:[["1,429", "Likes on the READY NOW launch post - the campaign peak"], ["3,903", "Total likes across the 10-post run"], ["390", "Average likes per post"], ["Rp589,800", "Price point carried in-post at reveal"]],
-    note:"Engagement figures read directly from the live posts on 18 August 2026. Instagram does not display save or reach counts publicly, so those are not included.",
+    note:"Engagement figures read directly from the live posts on 18 August 2026.",
     tags:["Product Launch", "Campaign Narrative", "Copywriting", "Social Rollout"]
   },
   {
@@ -854,10 +855,10 @@ const CASES = [
     s:"Ardiles needed e-commerce ads that converted at profitable cost, not just reach. Two SKUs were tested through Shopee CPAS with Meta creative.",
     task:"Align Meta creative assets with product-page conversion logic, athlete validation content, and the distributor promotional calendar.",
     a:[
-      "Built creative sets mapped to product page structure so ad promise and landing content matched.",
-      "Used athlete validation content as the proof layer inside the ad sequence.",
-      "Synchronised flight timing with distributor promotional calendars to avoid price conflict.",
-      "Held CPM below Rp2,000 while optimising toward purchase, not clicks."
+     "Built creative sets mapped to product page structure so ad promise and landing content matched.",
+     "Used athlete validation content as the proof layer inside the ad sequence.",
+     "Synchronised flight timing with distributor promotional calendars to avoid price conflict.",
+     "Held CPM below Rp2,000 while optimising toward purchase, not clicks."
     ],
     r:[["13x","ROAS - Sense Pro 2.0 pre-order, 3 days"],["Rp41,017","Cost per purchase, 26 pre-orders"],["5.8x","ROAS - Allegro, 7 days, 11 purchases"],["Rp87,881","Cost per purchase, Allegro"]],
     note:"Blended performance across the Rp600K line reached 10x ROAS.",
@@ -871,11 +872,11 @@ const CASES = [
     s:"Ardiles Running and Basketball needed a website conversion engine running alongside marketplace demand, tested on a controlled budget before any scale commitment. Three ad sets ran 1-18 August 2026 across Jawa-Bali: two prospecting (product bundling, single product) and one add-to-cart retargeting set.",
     task:"Prove that Meta can acquire website purchases profitably at a defensible cost per purchase, and identify which funnel stage deserves budget before scaling.",
     a:[
-      "Split the funnel deliberately: bundling prospecting to raise basket value, single-product prospecting for reach efficiency, and an ATC retargeting set to close warm traffic.",
-      "Ran all three under campaign budget so allocation could shift toward whichever structure returned best, rather than locking spend per ad set.",
-      "Tracked cost per landing page view alongside cost per purchase, so a set could be diagnosed as a traffic-quality problem or a conversion problem, not just a bad CPA.",
-      "Read frequency against audience size weekly to catch saturation before it showed up as rising CPM.",
-      "Held attribution consistent per funnel stage - 7-day click, 1-day view, 1-day engaged-view on prospecting; 7-day click or 1-day view on retargeting."
+     "Split the funnel deliberately: bundling prospecting to raise basket value, single-product prospecting for reach efficiency, and an ATC retargeting set to close warm traffic.",
+     "Ran all three under campaign budget so allocation could shift toward whichever structure returned best, rather than locking spend per ad set.",
+     "Tracked cost per landing page view alongside cost per purchase, so a set could be diagnosed as a traffic-quality problem or a conversion problem, not just a bad CPA.",
+     "Read frequency against audience size weekly to catch saturation before it showed up as rising CPM.",
+     "Held attribution consistent per funnel stage - 7-day click, 1-day view, 1-day engaged-view on prospecting; 7-day click or 1-day view on retargeting."
     ],
     r:[["22.9x","Blended ROAS - Rp21.5M revenue on Rp942K spend"],["30","Purchases in 18 days"],["Rp31,418","Blended cost per purchase"],["Rp718K","Average order value"]],
     note:"Diagnostic that mattered more than the headline: the retargeting set consumed 67% of spend (Rp632K) for the worst return (12.5x) at a frequency of 15.4 against an audience of only 1,833 - pushing CPM to Rp22,431, roughly 3.6× the best prospecting set, and CPC to Rp1,474. The bundling prospecting set returned 57.2x at a Rp12,579 cost per purchase on Rp176K. Action: cap retargeting frequency and widen the ATC pool before spending another rupiah there, and move budget to bundling prospecting. Caveat stated plainly - total spend was small and ad-set revenue can double-count purchases touched by more than one set, so 22.9x is an upper bound on a short test, not a scaled result.",
@@ -891,7 +892,7 @@ const CASES = [
     task:"Build a collaborative campaign with Indonesian Deaf Basketball promoting accessibility for deaf athletes, carrying a credible message of inclusion.",
     a:["Built the strategy around inclusion, empowerment and freedom, keeping IDB's role central rather than decorative.", "Integrated Ardiles and IDB values into one message so neither brand read as a sponsor logo.", "Produced content that led with athletes, not product."],
     r:[["Visibility", "Raised the profile of deaf athletes in Indonesian basketball"], ["Engagement", "Drove response to “Bola basket untuk semua orang”"], ["Perception", "Positioned Ardiles as inclusive and grassroots-relevant"]],
-    note:"Post-level counts are verified live for every post below.",
+    note:"",
     tags:["Content Writing", "Brand Marketing", "Social Impact"]
   },
   {
@@ -904,7 +905,7 @@ const CASES = [
     task:"Run full-funnel activations across booth, KOL content and paid amplification, and use the events as launch platforms rather than presence-only appearances.",
     a:["Designed the booth to generate content rather than only footfall, so each event produced a campaign's worth of assets.", "Used USS 2025 as the exclusive retail launch for Speedy Weeedy Retrodrive, which sold out its allocation on site.", "Briefed KOLs to produce on-site content feeding straight into paid amplification.", "Ran paid against the event window to extend reach beyond attendees.", "Activated across all three brand accounts so one event served Basketball, Running and Lifestyle."],
     r:[["10M+", "Mixed views in 30 days"], ["+100%", "Month-over-month brand engagement"], ["Sold out", "Retrodrive exclusive allocation at USS 2025"], ["22", "Posts across three activation years"]],
-    note:"Campaign-level figures from the Ardiles marketing report. Post-level counts are verified live for every post below.",
+    note:"Campaign-level figures from the Ardiles marketing report.",
     tags:["Event Marketing", "KOL Management", "Paid Social", "Retail"]
   },
   {
@@ -918,7 +919,7 @@ const CASES = [
     task:"Run on-ground activations in Surabaya and Malang combining product trials with technical education.",
     a:["Paired product wear-testing with technical education sessions rather than a giveaway format.", "Partnered with Team 530 so the invitation came from inside the community.", "Captured trial feedback to feed product and content."],
     r:[["30+", "Total attendance"], ["20+", "Products wear-tested"], ["4", "Posts from the activation"]],
-    note:"Post-level counts are verified live for every post below.",
+    note:"",
     tags:["Community Activation", "Partnerships", "Go-to-Market"]
   },
   {
@@ -983,9 +984,9 @@ const CASES = [
     s:"Motion Dignity commissioned event coverage for Salomon Trailcation &amp; Urbancation and the HOKA Ramadhan Active Night run.",
     task:"Capture the character of each event - trail versus urban for Salomon, low-light night running for HOKA - and deliver assets usable in future marketing.",
     a:[
-      "Covered pre-event setup, participant preparation, and the main activity for both clients.",
-      "For Salomon, split treatment between natural trail settings and dynamic urban cityscapes.",
-      "For HOKA, handled night sports photography in low light across fun run and challenge segments."
+     "Covered pre-event setup, participant preparation, and the main activity for both clients.",
+     "For Salomon, split treatment between natural trail settings and dynamic urban cityscapes.",
+     "For HOKA, handled night sports photography in low light across fun run and challenge segments."
     ],
     r:[["Assets","Delivered libraries now used to promote future events"],["Range","Proven across trail, urban and low-light night conditions"]],
     note:"",
@@ -1016,6 +1017,28 @@ function actionBar(url, base){
     <span class="iga-b iga-share" title="Share">${SVG_SHARE}</span>
     ${er?`<span class="iga-er" title="Estimated engagement rate: (likes + comments + reposts) / follower baseline">${er} ER</span>`:''}
   </div>`;
+}
+function agg(c){
+  let l=0,cm=0,rp=0,n=0,tot=0,top=0;
+  (c.proof||[]).forEach(p=>{ const k=code(p[1]); if(!k) return; tot++; const d=ENG[k]; if(!d) return;
+    cm+=d[1]||0; rp+=d[2]||0;
+    if(d[0]===null||d[0]===undefined) return;
+    n++; l+=d[0]; if(d[0]>top) top=d[0]; });
+  return {n:n, tot:tot, l:l, c:cm, r:rp, top:top};
+}
+function stdNumbers(c){
+  const a = agg(c);
+  if(!a.n) return null;
+  const base = BASE[c.base||'basket'];
+  const er = pct((a.l+a.c+a.r)/(base*a.n)*100);
+  return [
+    [String(a.tot), 'Posts published', 'hi'],
+    [nfmt(a.l), 'Total likes', ''],
+    [a.c.toLocaleString('en-US'), 'Comments', ''],
+    [a.r.toLocaleString('en-US'), 'Reposts', ''],
+    [nfmt(a.top), 'Top post likes', ''],
+    [er, 'Estimated engagement rate per post', 'hi']
+  ];
 }
 function campaignER(c){
   const base = BASE[c.base||'basket'];
@@ -1059,12 +1082,19 @@ CASES.forEach((c,i)=>{
     </div>
     <div class="case-body"><div class="case-inner">
       ${(()=>{
+        const std = stdNumbers(c);
         const ce = campaignER(c);
-        const extra = ce ? [[ce.er, 'Estimated engagement rate, campaign average per post', 'hi']] : [];
-        const list = (c.numbers||[]).concat(extra);
-        if(!list.length) return '';
-        return `<div class="nums-cap mono">Numbers</div><div class="nums">${list.map(n=>`<div class="num ${n[2]||''}"><b>${n[0]}</b><span>${n[1]}</span></div>`).join('')}</div>`
-          + (ce ? `<div class="er-note">Estimated engagement rate = (likes + comments + reposts) / follower baseline x 100. Baseline: ${ce.label}, applied per post. Campaign figure is the average across ${ce.n} of ${ce.tot} posts with public counts: ${ce.l.toLocaleString('en-US')} likes, ${ce.c.toLocaleString('en-US')} comments, ${ce.r.toLocaleString('en-US')} reposts. Instagram does not publish share or save counts, so those two inputs are not included.</div>` : '');
+        const drop = /posts published|total likes|^comments$|^reposts$|engagement rate|top post likes|likes across the set/i;
+        const extra = (c.numbers||[]).filter(n=>!drop.test(n[1]));
+        let html = '';
+        if(std){
+          html += `<div class="nums-cap mono">Performance</div><div class="nums">${std.map(n=>`<div class="num ${n[2]||''}"><b>${n[0]}</b><span>${n[1]}</span></div>`).join('')}</div>`;
+          html += `<div class="er-note">Engagement rate = (likes + comments + reposts) / follower baseline x 100, averaged per post. Baseline: ${ce.label}.</div>`;
+        }
+        if(extra.length){
+          html += `<div class="nums-cap mono">${std?'Campaign reported':'Numbers'}</div><div class="nums">${extra.map(n=>`<div class="num ${n[2]||''}"><b>${n[0]}</b><span>${n[1]}</span></div>`).join('')}</div>`;
+        }
+        return html;
       })()}
       <div class="star"><div class="k mono">Situation</div><p>${c.s}</p></div>
       <div class="star"><div class="k mono">Task</div><p>${c.task}</p></div>
