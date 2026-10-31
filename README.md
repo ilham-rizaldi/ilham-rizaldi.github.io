@@ -1,8 +1,9 @@
 # Ilham Rizaldi · Portfolio
 
-A responsive, buildless portfolio for brand strategy, go-to-market, and growth.
+A responsive, buildless portfolio for Ilham Rizaldi, Brand Strategist at Ardiles.
 
 - `index.html`: complete website, static content, styles, and optional interaction.
+- `assets/logos/`: transparent organization logos used with role labels.
 - `og.png`: 1200 × 630 social preview.
 - `social-card.html`: source layout used to render the social preview.
 - `CONTENT_REVIEW.md`: content sources, attribution decisions, and maintenance notes.
@@ -11,7 +12,7 @@ Open `index.html` in a browser, or serve this directory with any static HTTP ser
 
 ## Current iteration
 
-The visitor journey is positioning → achievements → selected work → approach → experience → personal context → contact. Six selected cases replace the previous unranked catalog. Further work remains accessible through public references and the complete visual portfolio.
+The page presents a short introduction, selected figures, projects, work experience, personal background, and contact details. Six selected cases replace the previous unranked catalog. Further work remains accessible through public references and the complete visual portfolio.
 
 Case studies and career content are present in the HTML. JavaScript adds project filters, deep-link opening, mobile-menu dismissal, reading progress, email copy, and printing. Important content remains accessible without JavaScript.
 
@@ -40,3 +41,8 @@ This working copy was imported from `main` at `cb67513f80f54595cf05546ecfd5f43b1
 - Native case disclosures show the correct View/Hide state and have concise accessible names.
 - JavaScript-only controls stay hidden until initialization succeeds; static content, links, and disclosures remain usable without JavaScript.
 - Existing skip navigation, reduced motion, focus visibility, print styles, and no-tracking behavior are preserved.
+
+
+## Plain-language copy update · 1 November 2026
+
+Headings, project summaries, role descriptions, and social previews use direct professional language based on the current CV and portfolio. Generic claims and the duplicated approach section were removed. Individual work, reported results, campaign periods, and category revenue context remain separate.

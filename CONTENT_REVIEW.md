@@ -43,3 +43,20 @@ Update dates, role scope, education, metrics, and image dependencies when new re
 ## Navigation release · 1 November 2026
 
 The publication pass changes navigation, typography, target sizes, keyboard focus, and disclosure accessibility. It preserves the source-backed content and metric scopes above. Project shortcuts, phone quick navigation, and a back-to-top link reduce the need to scan the whole page. All case summaries remain available without JavaScript.
+
+## Organization context and logos · 1 November 2026
+
+- The user supplied the Pajera Group and Rise/Harisenin logo references and identified the official Nuansa Studio and Harisenin Instagram accounts.
+- Exact public profiles were retrieved on 1 November 2026. Nuansa Studio (`https://www.instagram.com/nuansastudio.co/`) describes creative content services for businesses. Harisenin (`https://www.instagram.com/harisenin.official/`) describes career and job-ready skills education. These profiles clarify organization context; they do not verify the user's role dates or performance figures.
+- The supplied Rise mark is also used in official Harisenin materials: `https://cdn.harisenin.com/hms/portfolio/ac87f09bfb11c61424a96decaa2fef78.pdf`.
+- White transparent PNG adaptations are used for the supplied Pajera and Harisenin logos. Employment, entrepreneurship, and project-based mentoring are distinguished in the logo navigation and experience entries. Existing dates, roles, and results retain their previous source basis.
+
+## Plain-language copy · 1 November 2026
+
+The user requested minimal jargon, less promotional copy, and a closer match to the supplied CV. The current five-page CV, “Ilham Rizaldi - Marketing, Growth, and Communications (1).docx” (19 August 2026), was reread for this pass.
+
+- The main introduction uses Ilham's name, current role, and documented work areas. Section headings identify their contents directly.
+- The generic approach section and rhetorical claims about credibility, relevance, storytelling impact, and commercial discipline were removed.
+- Project summaries use organization/product names. Their details separate project overview, Ilham's work, and recorded results. Ardiles' cumulative figures are labeled as work scope across Ilham's Ardiles roles.
+- Existing campaign periods, metric definitions, role dates, and category revenue scope are preserved. The profiles supplied by the user clarify organization context without adding new performance claims.
+- The social preview and its source layout were updated to match the simpler introduction.
