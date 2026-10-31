@@ -60,3 +60,13 @@ The user requested minimal jargon, less promotional copy, and a closer match to 
 - Project summaries use organization/product names. Their details separate project overview, Ilham's work, and recorded results. Ardiles' cumulative figures are labeled as work scope across Ilham's Ardiles roles.
 - Existing campaign periods, metric definitions, role dates, and category revenue scope are preserved. The profiles supplied by the user clarify organization context without adding new performance claims.
 - The social preview and its source layout were updated to match the simpler introduction.
+
+## Complete project and reference restoration · 1 November 2026
+
+At the user's request, the original portfolio source at commit `cb67513f80f54595cf05546ecfd5f43b134e297c` was recovered. Its 28 project groups contain 494 related-link entries and 476 unique exact URLs. Every original link is restored in its original project group. Exact URL strings and associations are retained in `PROJECT_REFERENCES.json` for future maintenance.
+
+The full page now includes 32 cards: the six existing featured cases, the 24 remaining original groups, and the two original archive planning decks. Cleanstep and Polygon Helios are clearly labeled as proposal/concept work. The four original groups already represented by featured cases retain their existing reviewed content and gain their complete related-link collections.
+
+Additional project descriptions are condensed from the original project notes, with an overview, individual work, and published output. They do not reintroduce snapshot engagement totals, mismatched follower-based engagement rates, unsupported sell-through, unverified advertising results, or causal/comparative claims. New public references are presented as related work, without implying they independently prove each reported result. Photography links cover the original Salomon posts; no separate HOKA reference link was present in the recovered list.
+
+All projects appear in the default view and share category filters, search, keyboard-accessible disclosures, and deep links. Recovery validation compares every original per-project URL association, both planning deck URLs, card counts, internal links, and accessible labels against the implemented HTML.
