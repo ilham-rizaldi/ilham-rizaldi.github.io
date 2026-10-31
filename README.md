@@ -21,9 +21,7 @@ The print control uses the browser's print dialog and a dedicated career-profile
 
 ## Visual dependencies
 
-The work photography references stable, public media paths from Ilham's existing published Canva portfolio. These are source assets, not temporary signed thumbnail links. Images and Google Fonts need an internet connection; the font stack includes system fallbacks. No Instagram embeds, analytics trackers, or third-party scripts load on this site.
-
-For longer-term independence, download those original images into this repository and update their `src` values. Image transfer was unavailable in the editing environment; loading the published originals was verified in the browser.
+Project photography and thumbnails are stored locally in `assets/thumbnails/`. They use original project media, without relying on expiring Instagram image addresses. Google Fonts use an external connection; the font stack includes system fallbacks. No Instagram embeds, analytics trackers, or third-party scripts load on this site.
 
 ## Publishing
 
@@ -51,3 +49,7 @@ Headings, project summaries, role descriptions, and social previews use direct p
 ## Complete project restoration · 1 November 2026
 
 All 28 original project groups and their 494 per-project reference-link entries are restored from commit `cb67513f80f54595cf05546ecfd5f43b134e297c`. The source contains 476 unique exact URLs; links shared by projects retain their original associations. Cleanstep and Polygon Helios planning decks are also restored as concept work. The original six featured cases remain intact. All cards use the same accessible disclosures and category filters; a search field works across titles, descriptions, responsibilities, and references. No project is hidden behind a separate abbreviated reference list.
+
+## Project thumbnails · 1 November 2026
+
+All 32 projects have a numbered cover. Related post links include compact image previews on phone and desktop, with the complete source frame preserved. There are 490 Instagram preview entries from 459 unique public images, plus four document-reference previews. Two unavailable public post previews retain their exact links and an explicit fallback label. Images load lazily and use 48 local WebP files totaling approximately 2.45 MiB. `THUMBNAILS.json` records source associations and asset provenance. Project descriptions, categories, and all original reference associations are preserved.

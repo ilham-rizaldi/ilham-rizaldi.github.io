@@ -70,3 +70,13 @@ The full page now includes 32 cards: the six existing featured cases, the 24 rem
 Additional project descriptions are condensed from the original project notes, with an overview, individual work, and published output. They do not reintroduce snapshot engagement totals, mismatched follower-based engagement rates, unsupported sell-through, unverified advertising results, or causal/comparative claims. New public references are presented as related work, without implying they independently prove each reported result. Photography links cover the original Salomon posts; no separate HOKA reference link was present in the recovered list.
 
 All projects appear in the default view and share category filters, search, keyboard-accessible disclosures, and deep links. Recovery validation compares every original per-project URL association, both planning deck URLs, card counts, internal links, and accessible labels against the implemented HTML.
+
+## Project and reference previews · 1 November 2026
+
+The user requested visible project covers and small previews beside each numbered portfolio reference, sized for phone and desktop. All 32 cards now have numbered covers drawn from their related source media or clearly identified native brand/planning layouts. The original Canva project photos are localized. Each preview contains the full source frame rather than cropping potentially relevant text or product details.
+
+The recovered references contain 492 Instagram entries across 461 distinct posts. Public images were available for 459 posts, supplying 490 link-entry previews. The restricted posts `DRUPO0rib5R` and `DNrsQYTZu9U` retain their original links with an unavailable-preview label. The two original non-Instagram references and two concept decks have document previews, using a source cover where appropriate. Source associations and checksums are recorded in `THUMBNAILS.json`; temporary image delivery URLs are not published.
+
+Meta's cover is a native layout labeled “Campaign setup”; Cleanstep's cover is labeled “Planning proposal”. Neither is presented as a screenshot of a performance report or finished client result. A Cleanstep source cover containing a confidentiality/contact footer is not published as an image. No generated project photography, fabricated reporting, inferred results, or new performance claims are added.
+
+Validation confirms all 32 covers, 459 nonempty atlas cells, 490 post preview entries, and preservation of all 494 original per-project references and both concept-deck links. Browser checks at phone and narrow-desktop widths confirm contained layouts without horizontal overflow. Existing category, search, disclosure, keyboard, and deep-link behavior remains intact.
