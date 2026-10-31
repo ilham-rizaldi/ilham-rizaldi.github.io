@@ -38,3 +38,8 @@ These sources support professional portfolio claims. They are not an independent
 ## Maintenance
 
 Update dates, role scope, education, metrics, and image dependencies when new records are available. Preserve campaign windows and distinguish individual responsibilities from team outcomes. Keep the public website focused on evidence and the work, with this review record in repository documentation.
+
+
+## Navigation release · 1 November 2026
+
+The publication pass changes navigation, typography, target sizes, keyboard focus, and disclosure accessibility. It preserves the source-backed content and metric scopes above. Project shortcuts, phone quick navigation, and a back-to-top link reduce the need to scan the whole page. All case summaries remain available without JavaScript.
