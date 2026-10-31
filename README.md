@@ -29,4 +29,14 @@ Original repository: https://github.com/ilham-rizaldi/ilham-rizaldi.github.io
 
 Live address: https://ilham-rizaldi.github.io/
 
-This working copy was imported from `main` at `cb67513f80f54595cf05546ecfd5f43b134e297c`. The current iteration has not been merged or deployed. Publish the reviewed website files to the configured GitHub Pages source. Keep the existing canonical URL.
+This working copy was imported from `main` at `cb67513f80f54595cf05546ecfd5f43b134e297c`. The reviewed website is published through the existing GitHub Pages source on `main`. Keep the existing canonical URL when updating it.
+
+
+## Navigation and accessibility update · 1 November 2026
+
+- Direct project links reveal the chosen case and move keyboard focus to its summary.
+- Mobile Work, Career, and Contact shortcuts remain available while reading.
+- Reading text is 15–16px; primary touch controls have at least 44px hit areas.
+- Native case disclosures show the correct Read/Close state and have concise accessible names.
+- JavaScript-only controls stay hidden until initialization succeeds; static content, links, and disclosures remain usable without JavaScript.
+- Existing skip navigation, reduced motion, focus visibility, print styles, and no-tracking behavior are preserved.
