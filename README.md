@@ -11,7 +11,7 @@ Open `index.html` in a browser, or serve this directory with any static HTTP ser
 
 ## Current iteration
 
-The visitor journey is positioning → achievements → selected work → approach → experience → personal context → contact. Six selected cases replace the previous unranked catalogue. Further work remains accessible through public references and the complete visual portfolio.
+The visitor journey is positioning → achievements → selected work → approach → experience → personal context → contact. Six selected cases replace the previous unranked catalog. Further work remains accessible through public references and the complete visual portfolio.
 
 Case studies and career content are present in the HTML. JavaScript adds project filters, deep-link opening, mobile-menu dismissal, reading progress, email copy, and printing. Important content remains accessible without JavaScript.
 
@@ -37,6 +37,6 @@ This working copy was imported from `main` at `cb67513f80f54595cf05546ecfd5f43b1
 - Direct project links reveal the chosen case and move keyboard focus to its summary.
 - Mobile Work, Career, and Contact shortcuts remain available while reading.
 - Reading text is 15–16px; primary touch controls have at least 44px hit areas.
-- Native case disclosures show the correct Read/Close state and have concise accessible names.
+- Native case disclosures show the correct View/Hide state and have concise accessible names.
 - JavaScript-only controls stay hidden until initialization succeeds; static content, links, and disclosures remain usable without JavaScript.
 - Existing skip navigation, reduced motion, focus visibility, print styles, and no-tracking behavior are preserved.
