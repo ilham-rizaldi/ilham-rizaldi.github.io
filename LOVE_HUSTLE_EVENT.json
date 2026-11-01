@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "event": "Love & Hustle Streetball Showdown",
+  "event_date": "17 October 2026",
+  "venue": "KYZN Kuningan",
+  "athlete": "Widyanta Putra Teja",
+  "artist": "Kevinswork",
+  "line_up": [
+    "Zifora Mei",
+    "King Grace",
+    "Ferdy",
+    "Joker",
+    "MT",
+    "Kaisar",
+    "Coach Jojo",
+    "Max Sarlis",
+    "Josh Chosen One",
+    "Beruang Rakus",
+    "Jeni Bruce Le",
+    "The Squirrel",
+    "Pebasket Desa",
+    "Sindi Febrika",
+    "Edith Candy",
+    "D9rise"
+  ],
+  "line_up_source": {
+    "post": "Deg8TsKGMLe",
+    "carousel_index": 2,
+    "image": "assets/campaigns/love-hustle-kol-lineup.webp",
+    "width": 1050,
+    "height": 1400
+  },
+  "highlight_posts": [
+    {
+      "code": "DfEXxtLhkUB",
+      "title": "Streetball Showdown recap",
+      "url": "https://www.instagram.com/p/DfEXxtLhkUB/"
+    },
+    {
+      "code": "DetwBV_mBqC",
+      "title": "1-on-1 challenge",
+      "url": "https://www.instagram.com/p/DetwBV_mBqC/?img_index=1"
+    },
+    {
+      "code": "Deg8TsKGMLe",
+      "title": "Event invitation & KOL line-up",
+      "url": "https://www.instagram.com/p/Deg8TsKGMLe/?img_index=1"
+    },
+    {
+      "code": "DeZG2cRJN5C",
+      "title": "Style & performance",
+      "url": "https://www.instagram.com/p/DeZG2cRJN5C/"
+    }
+  ],
+  "verification": {
+    "run_id": "PBfgxyi4KoPGldkKe",
+    "dataset_id": "ndPPJNa5KS2ygDUOr",
+    "method": "Captions reviewed for all four supplied posts; the 16 displayed line-up names were transcribed from carousel image two of the invitation. Names are presented as the published event line-up, not independently verified attendance or ownership of commercial deals. All four posts already belong to the 38-post campaign archive; they are highlighted without adding them again to campaign totals."
+  }
+}

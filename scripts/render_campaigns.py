@@ -21,6 +21,7 @@ CSS = r"""
 
 
 def remove(source):
+    source = re.sub(r'<!-- portfolio-event-highlights:start -->.*?<!-- portfolio-event-highlights:end -->', '', source, flags=re.S)
     source = re.sub(r'<!-- portfolio-campaign-cases:start -->.*?<!-- portfolio-campaign-cases:end -->\s*', '', source, flags=re.S)
     source = re.sub(r'<!-- portfolio-campaign-update:start -->.*?<!-- portfolio-campaign-update:end -->', '', source, flags=re.S)
     return source
@@ -141,7 +142,8 @@ def render(source, data):
         source=source[:match.start()]+body+source[match.end():]
     total=32+len(new)
     source = re.sub(r'(<span class="project-count"[^>]*>)\d+ projects',lambda m:m.group(1)+f'{total} projects',source)
-    return source
+    from render_event_highlights import render as render_event_highlights
+    return render_event_highlights(source, data)
 
 
 if __name__=='__main__':
