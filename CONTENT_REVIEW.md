@@ -108,3 +108,8 @@ The user explicitly requested removal of the overlap note, account-context sente
 The current five-page CV, “Ilham Rizaldi - Marketing, Growth, and Communications (1).docx” (19 August 2026, Library ID `libfile_094e067caac88191b29e60034f27d3ad`), was reread. Page 3 reports helping grow Basketball and Running brand communities 3–5× during the 2023–2025 social media role; page 4 reports DBL Academy community growth of 50% within six months. The overview shows one joint Ardiles highlight and one DBL Academy highlight. No separate Instagram follower percentage, starting follower count, or account-specific Ardiles multiplier is inferred. Exact source statements are recorded in `ACCOUNT_METRICS.json`.
 
 The hero combines the supplied professional summary with existing supported experience, using three concise paragraphs. The current category list is Running, Basketball, Futsal, and Soccer, based on the user's explicit update. No project description, reported campaign result, role date, photo source, or reference association is changed.
+
+
+## Retail-footprint attribution correction · 1 November 2026
+
+The user clarified that the 150+ national retail touchpoints belong to the sales team and must not be presented as his personal achievement. The figure is removed from the achievements strip, Ardiles project preview, and Ardiles work-scope text. The achievements strip instead shows the documented 13× return on ad spend for the three-day Sense Pro 2.0 CPAS campaign (visual portfolio p. 18). The Ardiles preview retains the supported three-person team and 30+ product launches. This correction supersedes earlier references to retail touchpoints in this record. Other public post counts, project references, and role details are preserved.
