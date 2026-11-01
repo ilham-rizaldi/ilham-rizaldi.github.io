@@ -7916,6 +7916,42 @@
         "alt": "Run Into the Wild participant handing a relay baton to a teammate at the Surabaya activation",
         "title": "Run Into the Wild event activation"
       }
+    },
+    "case-allegro-meta": {
+      "title": "Allegro Meta: All Game. All Day.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DMPqWfepRmE.webp",
+        "width": 721,
+        "height": 960,
+        "alt": "Allegro Meta basketball shoes on the orange Ready Now launch artwork",
+        "title": "Allegro Meta: All Game. All Day."
+      }
+    },
+    "case-community-league": {
+      "title": "Ardiles Community League × Headshoes.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/Comok3ov2aB.webp",
+        "width": 960,
+        "height": 960,
+        "alt": "Ardiles Community League and Headshoes event announcement for 5 March 2023 at The Breeze BSD",
+        "title": "Ardiles Community League × Headshoes."
+      }
+    },
+    "case-spectra": {
+      "title": "Spectra: Lightspeed.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DPQqPvzCakD.webp",
+        "width": 721,
+        "height": 960,
+        "alt": "Spectra White Blue and Black Purple basketball shoes on the green Ready Now campaign artwork",
+        "title": "Spectra: Lightspeed."
+      }
     }
   },
   "imported_assets": {

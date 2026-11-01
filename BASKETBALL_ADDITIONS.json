@@ -1,0 +1,1842 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "collected_at": "2026-11-01T09:03:47.737Z",
+    "display_date": "1 Nov 2026, 16:03 WIB",
+    "timezone": "Asia/Jakarta",
+    "source": "apify/instagram-post-scraper",
+    "run_id": "pkZ3ShK2mtkwgDqRT",
+    "dataset_id": "1H6gNSKc2rtgDyB6r"
+  },
+  "discovery": {
+    "account": "ardilesbasketball",
+    "run_id": "t1p2pJmQeLQeuNicV",
+    "dataset_id": "rAWNUlgHoMQDjCibx",
+    "unique_posts_reviewed": 871,
+    "date_range": [
+      "2022-01-01",
+      "2026-10-29"
+    ],
+    "saved_profile_count": 878,
+    "unreconciled_posts": 7
+  },
+  "methodology": {
+    "approval": "User requested publication of the audit recommendations on 1 November 2026.",
+    "scope": "Three new cases and two additions to existing cases. Caption-matched product-content collections, including later follow-through; no inferred campaign reporting window.",
+    "attribution": "Descriptions are limited to documented campaign focus and published outputs. No new personal ownership of partnership deals, budgets, sales, attendance, or production is claimed.",
+    "preservation": "ACCOUNT_METRICS.json, INSTAGRAM_METRICS.json, INSTAGRAM_METRICS.csv, and the earlier CAMPAIGN_ARCHIVE.json remain unchanged.",
+    "metrics": "Top-level detailed counters. Negative and missing fields are null. Shared posts appear in each relevant project and must not be added across projects.",
+    "assets": "Locally stored source covers and square-cropped source previews; no generated photography. Unavailable images retain exact source links."
+  },
+  "campaigns": [
+    {
+      "id": "allegro_meta",
+      "audit_id": "allegro",
+      "case_id": "case-allegro-meta",
+      "display_number": 36,
+      "category": "brand",
+      "title": "Allegro Meta: All Game. All Day.",
+      "eyebrow": "Ardiles Basketball / Product campaign / 2025",
+      "description": "One pair for school, basketball, and time with friends. A product campaign built around the daily routine of student-athletes.",
+      "outcome": "Student-athlete positioning & launch content",
+      "cover_code": "DMPqWfepRmE",
+      "cover_alt": "Allegro Meta basketball shoes on the orange Ready Now launch artwork",
+      "details": [
+        [
+          "Project overview",
+          "Allegro Meta connects school, basketball, and everyday wear through the All Game. All Day message."
+        ],
+        [
+          "Campaign focus",
+          "A student-athlete routine: class in the morning, basketball after school, and time with friends in the same pair."
+        ],
+        [
+          "Published work",
+          "The sequence combines teasers, the July product release, everyday-use stories, 360° carousels, size guidance, store information, and creator tutorials."
+        ],
+        [
+          "Content results",
+          "The 23 linked posts span July–December 2025. Their counters include later creator content, so the figures below describe this product-content collection."
+        ]
+      ],
+      "post_codes": [
+        "DL4hxnxJu9H",
+        "DMAhsvapnEF",
+        "DMDCoowJsQW",
+        "DMFdg_Xpl0e",
+        "DMNSkb9prsS",
+        "DMPqWfepRmE",
+        "DMSWvO6JmBR",
+        "DMaFFABJbhW",
+        "DMemiSIxbgS",
+        "DMh1J_DJ4be",
+        "DMonLvjJLfZ",
+        "DMrjJqtyz0z",
+        "DMu65s1pbAy",
+        "DM2YTytJ336",
+        "DM93-x0paZJ",
+        "DM94wBOSilE",
+        "DNIb-havTbH",
+        "DNMieOPz3py",
+        "DNSZ5DFpOog",
+        "DNfEdB2p4gR",
+        "DNnTXzfpP6g",
+        "DPYoKhUDrjF",
+        "DSCemnHkqhl"
+      ],
+      "totals": {
+        "unique_posts": 23,
+        "available_posts": 23,
+        "unavailable_posts": 0,
+        "video_posts": 6,
+        "image_posts": 9,
+        "carousel_posts": 8,
+        "distinct_publishers": 6,
+        "metrics": {
+          "likes": {
+            "total": 52301,
+            "available": 22,
+            "eligible": 23
+          },
+          "comments": {
+            "total": 210,
+            "available": 23,
+            "eligible": 23
+          },
+          "plays": {
+            "total": 3059487,
+            "available": 6,
+            "eligible": 6
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 6
+          },
+          "interactions": {
+            "total": 52511,
+            "available": 23,
+            "eligible": 23,
+            "complete_posts": 22,
+            "partial_posts": 1
+          }
+        },
+        "post_codes": [
+          "DL4hxnxJu9H",
+          "DMAhsvapnEF",
+          "DMDCoowJsQW",
+          "DMFdg_Xpl0e",
+          "DMNSkb9prsS",
+          "DMPqWfepRmE",
+          "DMSWvO6JmBR",
+          "DMaFFABJbhW",
+          "DMemiSIxbgS",
+          "DMh1J_DJ4be",
+          "DMonLvjJLfZ",
+          "DMrjJqtyz0z",
+          "DMu65s1pbAy",
+          "DM2YTytJ336",
+          "DM93-x0paZJ",
+          "DM94wBOSilE",
+          "DNIb-havTbH",
+          "DNMieOPz3py",
+          "DNSZ5DFpOog",
+          "DNfEdB2p4gR",
+          "DNnTXzfpP6g",
+          "DPYoKhUDrjF",
+          "DSCemnHkqhl"
+        ]
+      },
+      "snapshot": {
+        "collected_at": "2026-11-01T09:03:47.737Z",
+        "display_date": "1 Nov 2026, 16:03 WIB",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_id": "pkZ3ShK2mtkwgDqRT",
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "published_from": "2025-07-09T10:12:38.000Z",
+      "published_to": "2025-12-09T10:08:13.000Z"
+    },
+    {
+      "id": "community_league",
+      "audit_id": "headshoes",
+      "case_id": "case-community-league",
+      "display_number": 37,
+      "category": "community",
+      "title": "Ardiles Community League × Headshoes.",
+      "eyebrow": "Ardiles Basketball / Community event / 2023",
+      "description": "A basketball gathering for communities, with Headshoes at The Breeze, BSD, on 5 March 2023.",
+      "outcome": "Community partnership & event communication",
+      "cover_code": "Comok3ov2aB",
+      "cover_alt": "Ardiles Community League and Headshoes event announcement for 5 March 2023 at The Breeze BSD",
+      "details": [
+        [
+          "Project overview",
+          "Ardiles Community League with Headshoes brought basketball communities together at The Breeze, BSD, on 5 March 2023."
+        ],
+        [
+          "Event focus",
+          "A place for emerging basketball communities to play and connect, as described in the event announcement."
+        ],
+        [
+          "Published work",
+          "The five linked posts cover the announcement, a preparatory pickup game, event photography, a video recap, and participant testimonials."
+        ]
+      ],
+      "post_codes": [
+        "Comok3ov2aB",
+        "CpXJyPlAAz9",
+        "CpfEB4DhETU",
+        "Cphk9X0hHdD",
+        "Cpl2VuqgFZq"
+      ],
+      "totals": {
+        "unique_posts": 5,
+        "available_posts": 5,
+        "unavailable_posts": 0,
+        "video_posts": 3,
+        "image_posts": 0,
+        "carousel_posts": 2,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 2036,
+            "available": 5,
+            "eligible": 5
+          },
+          "comments": {
+            "total": 66,
+            "available": 5,
+            "eligible": 5
+          },
+          "plays": {
+            "total": 33353,
+            "available": 3,
+            "eligible": 3
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 3
+          },
+          "interactions": {
+            "total": 2102,
+            "available": 5,
+            "eligible": 5,
+            "complete_posts": 5,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "Comok3ov2aB",
+          "CpXJyPlAAz9",
+          "CpfEB4DhETU",
+          "Cphk9X0hHdD",
+          "Cpl2VuqgFZq"
+        ]
+      },
+      "snapshot": {
+        "collected_at": "2026-11-01T09:03:47.737Z",
+        "display_date": "1 Nov 2026, 16:03 WIB",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_id": "pkZ3ShK2mtkwgDqRT",
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "published_from": "2023-02-13T13:06:56.000Z",
+      "published_to": "2023-03-10T02:20:58.000Z"
+    },
+    {
+      "id": "spectra",
+      "audit_id": "spectra",
+      "case_id": "case-spectra",
+      "display_number": 38,
+      "category": "brand",
+      "title": "Spectra: Lightspeed.",
+      "eyebrow": "Ardiles Basketball / Product campaign / 2025–2026",
+      "description": "A speed-led product story for Spectra, bringing together launch information, product details, and creator content.",
+      "outcome": "Lightspeed is a Mindset",
+      "cover_code": "DPQqPvzCakD",
+      "cover_alt": "Spectra White Blue and Black Purple basketball shoes on the green Ready Now campaign artwork",
+      "details": [
+        [
+          "Project overview",
+          "The Lightspeed idea connects Spectra with quick movement and lightweight performance."
+        ],
+        [
+          "Published work",
+          "The October 2025 release sequence includes launch copy, colorway information, product details, and creator content, followed by additional product posts in 2026."
+        ],
+        [
+          "Content results",
+          "Seven linked posts document this product-content sequence. One creator post also features Allegro Meta."
+        ]
+      ],
+      "post_codes": [
+        "DPQqPvzCakD",
+        "DPYoKhUDrjF",
+        "DPYtMI-CQ-j",
+        "DPgcOWFid0V",
+        "DPlp0LCCaC2",
+        "DWbd9vbiYnD",
+        "DaUuIyIpLaW"
+      ],
+      "totals": {
+        "unique_posts": 7,
+        "available_posts": 7,
+        "unavailable_posts": 0,
+        "video_posts": 3,
+        "image_posts": 2,
+        "carousel_posts": 2,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 4003,
+            "available": 7,
+            "eligible": 7
+          },
+          "comments": {
+            "total": 70,
+            "available": 7,
+            "eligible": 7
+          },
+          "plays": {
+            "total": 544032,
+            "available": 3,
+            "eligible": 3
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 3
+          },
+          "interactions": {
+            "total": 4073,
+            "available": 7,
+            "eligible": 7,
+            "complete_posts": 7,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DPQqPvzCakD",
+          "DPYoKhUDrjF",
+          "DPYtMI-CQ-j",
+          "DPgcOWFid0V",
+          "DPlp0LCCaC2",
+          "DWbd9vbiYnD",
+          "DaUuIyIpLaW"
+        ]
+      },
+      "snapshot": {
+        "collected_at": "2026-11-01T09:03:47.737Z",
+        "display_date": "1 Nov 2026, 16:03 WIB",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_id": "pkZ3ShK2mtkwgDqRT",
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "published_from": "2025-10-01T08:42:36.000Z",
+      "published_to": "2026-07-03T08:19:48.000Z"
+    },
+    {
+      "id": "skills_lab",
+      "audit_id": "skills",
+      "case_id": "case-hdp-ball-handling",
+      "existing_case": true,
+      "title": "Hustle! Hustle! Skills Lab",
+      "update_title": "Hustle! Hustle! Skills Lab with Coach Effendy",
+      "description": "Two October 2026 tutorials presented by Ardiles Basketball with Coach Effendy: low-post moves and off-ball movement. This is a separate coaching collaboration alongside the HDP series above.",
+      "post_codes": [
+        "Dd_r53_zSoR",
+        "DeHGWADp9X8"
+      ],
+      "totals": {
+        "unique_posts": 2,
+        "available_posts": 2,
+        "unavailable_posts": 0,
+        "video_posts": 2,
+        "image_posts": 0,
+        "carousel_posts": 0,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 214,
+            "available": 2,
+            "eligible": 2
+          },
+          "comments": {
+            "total": 12,
+            "available": 2,
+            "eligible": 2
+          },
+          "plays": {
+            "total": 14335,
+            "available": 2,
+            "eligible": 2
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 2
+          },
+          "interactions": {
+            "total": 226,
+            "available": 2,
+            "eligible": 2,
+            "complete_posts": 2,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "Dd_r53_zSoR",
+          "DeHGWADp9X8"
+        ]
+      },
+      "snapshot": {
+        "collected_at": "2026-11-01T09:03:47.737Z",
+        "display_date": "1 Nov 2026, 16:03 WIB",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_id": "pkZ3ShK2mtkwgDqRT",
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "published_from": "2026-10-02T14:22:33.000Z",
+      "published_to": "2026-10-05T11:28:49.000Z"
+    },
+    {
+      "id": "ibl_playground",
+      "audit_id": "playground",
+      "case_id": "case-uss-jsd",
+      "existing_case": true,
+      "title": "IBL Playground at USS 2024",
+      "update_title": "IBL Playground at USS 2024",
+      "description": "The USS 2024 program brought together 3×3 games, athlete challenges, a three-point contest, and the Invade the Floor dance competition. The posts below document the event across three days.",
+      "post_codes": [
+        "DBgL1sxzI8M",
+        "DBkpf3hS19X",
+        "DBmnQy7pGvy",
+        "DBncHbCAjgX",
+        "DBpqEpDvLce",
+        "DBqhKhEvWgD",
+        "DBsKGEcBbVV",
+        "DBseGnoSgRU",
+        "DB0rYCFSkof"
+      ],
+      "totals": {
+        "unique_posts": 9,
+        "available_posts": 9,
+        "unavailable_posts": 0,
+        "video_posts": 4,
+        "image_posts": 0,
+        "carousel_posts": 5,
+        "distinct_publishers": 4,
+        "metrics": {
+          "likes": {
+            "total": 12403,
+            "available": 7,
+            "eligible": 9
+          },
+          "comments": {
+            "total": 87,
+            "available": 9,
+            "eligible": 9
+          },
+          "plays": {
+            "total": 258046,
+            "available": 4,
+            "eligible": 4
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 4
+          },
+          "interactions": {
+            "total": 12490,
+            "available": 9,
+            "eligible": 9,
+            "complete_posts": 7,
+            "partial_posts": 2
+          }
+        },
+        "post_codes": [
+          "DBgL1sxzI8M",
+          "DBkpf3hS19X",
+          "DBmnQy7pGvy",
+          "DBncHbCAjgX",
+          "DBpqEpDvLce",
+          "DBqhKhEvWgD",
+          "DBsKGEcBbVV",
+          "DBseGnoSgRU",
+          "DB0rYCFSkof"
+        ]
+      },
+      "snapshot": {
+        "collected_at": "2026-11-01T09:11:46.351Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_id": "MNOgEIhcnPPMFtvzw",
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "published_from": "2024-10-24T10:05:14.000Z",
+      "published_to": "2024-11-01T09:17:29.000Z"
+    }
+  ],
+  "posts": {
+    "Comok3ov2aB": {
+      "shortcode": "Comok3ov2aB",
+      "id": "3037293454209017473",
+      "source_url": "https://www.instagram.com/p/Comok3ov2aB/",
+      "owner": "headshoes.id",
+      "published_at": "2023-02-13T13:06:56.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 814,
+        "comments": 37,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Community League by Headshoes Indonesia. Berangkat dari banyaknya komunitas basket baru yang bermunculan dan semangat memajukan bola basket di Indonesia",
+      "image": "assets/campaigns/Comok3ov2aB.webp",
+      "preview_atlas": {
+        "column": 0,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 960,
+      "height": 960,
+      "image_sha256": "56c8170b9998b6d67e95afc319c5042dce009ff6d6252901eb46ae9c9e22d7e5"
+    },
+    "CpXJyPlAAz9": {
+      "shortcode": "CpXJyPlAAz9",
+      "id": "3050950307686124797",
+      "source_url": "https://www.instagram.com/p/CpXJyPlAAz9/",
+      "owner": "headshoes.id",
+      "published_at": "2023-03-04T09:21:58.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 134,
+        "comments": 0,
+        "plays": 7370,
+        "views": null
+      },
+      "caption_excerpt": "Headshoes Pick Up Games. Persiapan menuju #ardilescommunityleague. . . Selamat @iqbalhermawan534 yang terpilih sebagai MVP dari @ardilesbasketball. . . #ardiles",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "CpfEB4DhETU": {
+      "shortcode": "CpfEB4DhETU",
+      "id": "3053176793474548948",
+      "source_url": "https://www.instagram.com/p/CpfEB4DhETU/",
+      "owner": "ardilesbasketball",
+      "published_at": "2023-03-07T11:04:18.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 481,
+        "comments": 21,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Susah banget mau cari kata yang bisa mendeskripsikan event kemaren selain “SERU BANGET” Thank you buat seluruh komunitas yang sudah mau ikut meramaikan Ardiles ",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "Cphk9X0hHdD": {
+      "shortcode": "Cphk9X0hHdD",
+      "id": "3053884569473546051",
+      "source_url": "https://www.instagram.com/p/Cphk9X0hHdD/",
+      "owner": "ardilesbasketball",
+      "published_at": "2023-03-08T10:36:45.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 485,
+        "comments": 7,
+        "plays": 14378,
+        "views": null
+      },
+      "caption_excerpt": "Recap keseruan event Ardiles Community League by @headshoes.id kemaren nih, jujur pengen bikin lagi hehehe 🥹 Kalau kalian gimana? Let’s go jangan? 😝 #ardilescom",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "Cpl2VuqgFZq": {
+      "shortcode": "Cpl2VuqgFZq",
+      "id": "3055086909966538346",
+      "source_url": "https://www.instagram.com/p/Cpl2VuqgFZq/",
+      "owner": "headshoes.id",
+      "published_at": "2023-03-10T02:20:58.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 122,
+        "comments": 1,
+        "plays": 11605,
+        "views": null
+      },
+      "caption_excerpt": "Masih belum bisa move on dari keseruan event #ardilescommunityleague. Berikut testimonial dan rangkuman keseruan acaranya. . . #ardilescommunityleague #ardilesb",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DB0rYCFSkof": {
+      "shortcode": "DB0rYCFSkof",
+      "id": "3491606378622634527",
+      "source_url": "https://www.instagram.com/p/DB0rYCFSkof/",
+      "owner": "ardilesbasketball",
+      "published_at": "2024-11-01T09:17:29.000Z",
+      "type": "Video",
+      "duration_seconds": 60.026611,
+      "status": "available",
+      "metrics": {
+        "likes": 1815,
+        "comments": 2,
+        "plays": 83453,
+        "views": null
+      },
+      "caption_excerpt": "What an incredible three days at the @urbansneakersociety IBL Playground with Ardiles! Thank you all for coming—we can’t wait to see even more of you at our nex",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-05.webp",
+        "column": 3,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 720,
+      "height": 900,
+      "preview_kind": "legacy"
+    },
+    "DBgL1sxzI8M": {
+      "shortcode": "DBgL1sxzI8M",
+      "id": "3485838180308782860",
+      "source_url": "https://www.instagram.com/p/DBgL1sxzI8M/",
+      "owner": "ibl",
+      "published_at": "2024-10-24T10:05:14.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Get ready for IBL Playground at Urban Sneaker Society supported by Ardiles, Molten, Stayhoops and IBLGoods🏀🔥 Join us for thrilling matches, excitement and unfor",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      }
+    },
+    "DBkpf3hS19X": {
+      "shortcode": "DBkpf3hS19X",
+      "id": "3487094521316728663",
+      "source_url": "https://www.instagram.com/p/DBkpf3hS19X/",
+      "owner": "ardilesbasketball",
+      "published_at": "2024-10-26T03:41:22.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 2576,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "IBL Playground at @urbansneakersociety Day 1 Recap! Selamat kepada tim-tim 3x3 yang telah lolos ke babak berikutnya dan selamat kepada para pemenang 3 Point Cha",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-03.webp",
+        "column": 4,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 1440,
+      "height": 1800,
+      "preview_kind": "legacy"
+    },
+    "DBmnQy7pGvy": {
+      "shortcode": "DBmnQy7pGvy",
+      "id": "3487647639458311154",
+      "source_url": "https://www.instagram.com/p/DBmnQy7pGvy/",
+      "owner": "ardilesbasketball",
+      "published_at": "2024-10-26T22:00:19.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1346,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "IBL Playground at @urbansneakersociety Day 2 Recap! Bukan cuma 3x3, hari kedua juga ada pertandingan 1-on-1 yang nggak kalah seru! Ditambah lagi, @stefandherman",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-03.webp",
+        "column": 0,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 1080,
+      "height": 1350,
+      "preview_kind": "legacy"
+    },
+    "DBncHbCAjgX": {
+      "shortcode": "DBncHbCAjgX",
+      "id": "3487880091785115671",
+      "source_url": "https://www.instagram.com/p/DBncHbCAjgX/",
+      "owner": "stefanhermanus_",
+      "published_at": "2024-10-27T05:52:37.000Z",
+      "type": "Video",
+      "duration_seconds": 96.599998,
+      "status": "available",
+      "metrics": {
+        "likes": 2462,
+        "comments": 17,
+        "plays": 66489,
+        "views": null
+      },
+      "caption_excerpt": "Jangan ya dek ya, dateng ke USS buat di ankle break. Sepatu Ardiles Hardcore ternyata gokil juga cocok buat gua pake gocek gocek @ardilesbasketball At @urbansne",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-09.webp",
+        "column": 1,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 720,
+      "height": 1280,
+      "preview_kind": "legacy"
+    },
+    "DBpqEpDvLce": {
+      "shortcode": "DBpqEpDvLce",
+      "id": "3488504423292647198",
+      "source_url": "https://www.instagram.com/p/DBpqEpDvLce/",
+      "owner": "ibl",
+      "published_at": "2024-10-28T02:23:22.000Z",
+      "type": "Video",
+      "duration_seconds": 60.233334,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 6,
+        "plays": 89498,
+        "views": null
+      },
+      "caption_excerpt": "@widyanta71 is hard to beat in 1-on-1, but someone made it happen at the IBL Playground @urbansneakersociety!😬👀 #IBL #IBLIndonesia #LigaKita #USS2024 #BasketInd",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-17.webp",
+        "column": 3,
+        "row": 1,
+        "columns": 7,
+        "rows": 2,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 720,
+      "height": 1280,
+      "preview_kind": "legacy"
+    },
+    "DBqhKhEvWgD": {
+      "shortcode": "DBqhKhEvWgD",
+      "id": "3488746719594506243",
+      "source_url": "https://www.instagram.com/p/DBqhKhEvWgD/",
+      "owner": "ardilesbasketball",
+      "published_at": "2024-10-28T10:23:59.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 3154,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "IBL Playground at @urbansneakersociety Final Day Recap! Hari paling lengkap di IBL Playground at @urbansneakersociety! Ada final 3x3 Men dan Women, 1-on-1 bersa",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-05.webp",
+        "column": 1,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 1080,
+      "height": 1350,
+      "preview_kind": "legacy"
+    },
+    "DBsKGEcBbVV": {
+      "shortcode": "DBsKGEcBbVV",
+      "id": "3489208208852366677",
+      "source_url": "https://www.instagram.com/p/DBsKGEcBbVV/",
+      "owner": "ferdybrainwash",
+      "published_at": "2024-10-29T01:55:50.000Z",
+      "type": "Video",
+      "duration_seconds": 59.001904,
+      "status": "available",
+      "metrics": {
+        "likes": 447,
+        "comments": 39,
+        "plays": 18606,
+        "views": null
+      },
+      "caption_excerpt": "Ferdy Brainwash dari Anak Basket Channel nantangin para pengunjung @urbansneakersociety 1 On 1 di IBL Playground, on feet Ardiles Hardcore. #AnakBasketChannel #",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-11.webp",
+        "column": 2,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 540,
+      "height": 960,
+      "preview_kind": "legacy"
+    },
+    "DBseGnoSgRU": {
+      "shortcode": "DBseGnoSgRU",
+      "id": "3489296207569355860",
+      "source_url": "https://www.instagram.com/p/DBseGnoSgRU/",
+      "owner": "ardilesbasketball",
+      "published_at": "2024-10-29T04:35:43.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 603,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Invade the Floor – Dance Competition at IBL Playground with Ardiles! Who’s your favorite dancer? Mention them in the comments! ✨ @urbansneakersociety #thisisthe",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-05.webp",
+        "column": 1,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "NNqwbBwVMtJVUSRkd"
+      },
+      "width": 1440,
+      "height": 1800,
+      "preview_kind": "legacy"
+    },
+    "DL4hxnxJu9H": {
+      "shortcode": "DL4hxnxJu9H",
+      "id": "3672834041610432327",
+      "source_url": "https://www.instagram.com/p/DL4hxnxJu9H/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-09T10:12:38.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 637,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "All Game. All Day. — Coming Soon. Be ready for something that’ll move with you — from first bell to buzzer beater. Ardiles Basketball | Fly For Your Dream #flyf",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DM2YTytJ336": {
+      "shortcode": "DM2YTytJ336",
+      "id": "3690243857907678714",
+      "source_url": "https://www.instagram.com/p/DM2YTytJ336/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-08-02T10:42:50.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 66,
+        "comments": 1,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Made for student-athlete! Allegro Meta - Black. Pilihan terbaik untuk menemani perjalananmu, sepanjang hari. From school to court? Nggak perlu ganti sepatu lagi",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DM93-x0paZJ": {
+      "shortcode": "DM93-x0paZJ",
+      "id": "3692353476175963721",
+      "source_url": "https://www.instagram.com/p/DM93-x0paZJ/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-08-05T08:34:16.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 514,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "You’re not always on the court. Sometimes it’s just chilling after class, walking around, or catching up with friends. Still the same pair. Still feels right. A",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DM94wBOSilE": {
+      "shortcode": "DM94wBOSilE",
+      "id": "3692356859966662980",
+      "source_url": "https://www.instagram.com/p/DM94wBOSilE/",
+      "owner": "praryatama",
+      "published_at": "2025-08-05T08:43:09.000Z",
+      "type": "Video",
+      "duration_seconds": 40.933334,
+      "status": "available",
+      "metrics": {
+        "likes": 1686,
+        "comments": 4,
+        "plays": 49069,
+        "views": null
+      },
+      "caption_excerpt": "Masih dikucilkan di komunitas basket⁉️ 👟 Shoes by Ardiles allegro meta @ardilesbasketball #ballislife🏀 #reelsinstagram #reels #bball #relatable #ballhandling #b",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 720,
+      "height": 1280
+    },
+    "DMAhsvapnEF": {
+      "shortcode": "DMAhsvapnEF",
+      "id": "3675085506039148805",
+      "source_url": "https://www.instagram.com/p/DMAhsvapnEF/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-12T12:45:53.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1730,
+        "comments": 21,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "From first bell ring to final play, Allegro Meta got your back the whole long day. School, court, or chill — no delay. Allegro Meta: All Game. All Day. Coming S",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 0,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DMDCoowJsQW": {
+      "shortcode": "DMDCoowJsQW",
+      "id": "3675793309494068246",
+      "source_url": "https://www.instagram.com/p/DMDCoowJsQW/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-13T12:12:10.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 2806,
+        "comments": 9,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "You don’t switch shoes for every part of your day. So we built one that fits it all. School. Court. Chill. Repeat. Allegro Meta: All Game. All Day. Coming Soon.",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DMFdg_Xpl0e": {
+      "shortcode": "DMFdg_Xpl0e",
+      "id": "3676474481232469278",
+      "source_url": "https://www.instagram.com/p/DMFdg_Xpl0e/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-14T10:45:00.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 2575,
+        "comments": 10,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Your day moves fast — school in the morning, hoops after class, and hangouts that last ‘til sunset. You just need something that works wherever you go. Allegro ",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DMNSkb9prsS": {
+      "shortcode": "DMNSkb9prsS",
+      "id": "3678678139395291922",
+      "source_url": "https://www.instagram.com/p/DMNSkb9prsS/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-17T11:43:49.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 196,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "ʏᴏᴜ ʟᴇᴀᴠᴇ ᴇᴀʀʟʏ, ʙᴏᴏᴋꜱ ɪɴ ʏᴏᴜʀ ʙᴀɢ ᴀɴᴅ ʏᴏᴜʀ ᴅᴀʏ ᴡɪᴅᴇ ᴏᴘᴇɴ. From the first bell to the last class, then straight to the court — you move through it all without m",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DMPqWfepRmE": {
+      "shortcode": "DMPqWfepRmE",
+      "id": "3679345684167072132",
+      "source_url": "https://www.instagram.com/p/DMPqWfepRmE/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-18T09:50:06.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 2979,
+        "comments": 47,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "𝐑𝐄𝐀𝐃𝐘 𝐍𝐎𝐖! Allegro Meta: All Game. All Day Price: IDR 499,800,- Sizes: 37-45 Available Colors: Brown, White, Black Featured Technology: 𝐍𝐞𝐨 𝐅𝐨𝐚𝐦 𝐌𝐢𝐝𝐬𝐨𝐥𝐞, a spec",
+      "image": "assets/campaigns/DMPqWfepRmE.webp",
+      "preview_atlas": {
+        "column": 2,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 721,
+      "height": 960,
+      "image_sha256": "85e4fc6e5df62f82a216540fcdd5acee72ec3702d459cf743168011037164f7b"
+    },
+    "DMSWvO6JmBR": {
+      "shortcode": "DMSWvO6JmBR",
+      "id": "3680103848361746513",
+      "source_url": "https://www.instagram.com/p/DMSWvO6JmBR/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-19T10:59:29.000Z",
+      "type": "Video",
+      "duration_seconds": 47.020409,
+      "status": "available",
+      "metrics": {
+        "likes": 863,
+        "comments": 3,
+        "plays": 1493501,
+        "views": null
+      },
+      "caption_excerpt": "You start early and keep going — school, court, hangout, all in one pair. Allegro Meta is made to stay with you through it all. All Game. All Day. ___ 𝐑𝐄𝐀𝐃𝐘 𝐍𝐎𝐖",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DMaFFABJbhW": {
+      "shortcode": "DMaFFABJbhW",
+      "id": "3682277979177990230",
+      "source_url": "https://www.instagram.com/p/DMaFFABJbhW/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-22T10:56:03.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 254,
+        "comments": 10,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Hold and Swipe! Bulatan biru buat lihat Allegro Meta — Brown in 360! Bagaimana menurutmu, keren nggak?😃 Ardiles Basketball | Fly For Your Dream #flyforyourdream",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DMemiSIxbgS": {
+      "shortcode": "DMemiSIxbgS",
+      "id": "3683551026939803666",
+      "source_url": "https://www.instagram.com/p/DMemiSIxbgS/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-24T05:05:00.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 159,
+        "comments": 5,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Hold and Swipe bulatan biru buat lihat Allegro Meta — Black in 360! Bagaimana menurutmu, keren nggak?😃 Ardiles Basketball | Fly For Your Dream #flyforyourdream ",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 1,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DMh1J_DJ4be": {
+      "shortcode": "DMh1J_DJ4be",
+      "id": "3684459752804812510",
+      "source_url": "https://www.instagram.com/p/DMh1J_DJ4be/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-25T11:10:00.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 155,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Hold and Swipe bulatan biru buat lihat Allegro Meta — White in 360! Bagaimana menurutmu, keren nggak?😃 Ardiles Basketball | Fly For Your Dream #flyforyourdream ",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DMonLvjJLfZ": {
+      "shortcode": "DMonLvjJLfZ",
+      "id": "3686368625786402777",
+      "source_url": "https://www.instagram.com/p/DMonLvjJLfZ/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-28T02:23:26.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 288,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Pengen cobain langsung Allegro Meta biar makin yakin dan nggak salah ukuran? Kalian bisa langsung datang ke toko yang tertera pada unggahan di atas ya guys! Ard",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DMrjJqtyz0z": {
+      "shortcode": "DMrjJqtyz0z",
+      "id": "3687195315901513011",
+      "source_url": "https://www.instagram.com/p/DMrjJqtyz0z/",
+      "owner": "praryatama",
+      "published_at": "2025-07-29T05:47:47.000Z",
+      "type": "Video",
+      "duration_seconds": 35.666668,
+      "status": "available",
+      "metrics": {
+        "likes": 543,
+        "comments": 18,
+        "plays": 24788,
+        "views": null
+      },
+      "caption_excerpt": "Tips & Trik buat small man🔥🏀 👟 Allegro Meta by @ardilesbasketball #ballislife🏀 #reelsinstagram #reels #bball #relatable #ballhandling #fyp #basketball #move #fy",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1170,
+      "height": 2080
+    },
+    "DMu65s1pbAy": {
+      "shortcode": "DMu65s1pbAy",
+      "id": "3688144196715524146",
+      "source_url": "https://www.instagram.com/p/DMu65s1pbAy/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-07-30T13:11:11.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 210,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Size Chart Allegro Meta! Biar nggak bingung pilih size yang ‘Pas!’ Ada pertanyaan? Langsung komentar atau DM ya! Mimin siap membantu! Ardiles Basketball | Fly F",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DNIb-havTbH": {
+      "shortcode": "DNIb-havTbH",
+      "id": "3695326538002937543",
+      "source_url": "https://www.instagram.com/p/DNIb-havTbH/",
+      "owner": "ferari_yu",
+      "published_at": "2025-08-09T11:01:12.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "All Game. All Day🏀 👟 Allegro Meta @ardilesbasketball . . . 📸 @haruskreative",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1057,
+      "height": 1139
+    },
+    "DNMieOPz3py": {
+      "shortcode": "DNMieOPz3py",
+      "id": "3696481004627655282",
+      "source_url": "https://www.instagram.com/p/DNMieOPz3py/",
+      "owner": "effendy.fnd",
+      "published_at": "2025-08-11T01:24:52.000Z",
+      "type": "Video",
+      "duration_seconds": 37.244808,
+      "status": "available",
+      "metrics": {
+        "likes": 2161,
+        "comments": 4,
+        "plays": 69145,
+        "views": null
+      },
+      "caption_excerpt": "Ternyata setiap gua temui beberapa murid masih banyak yang belum tau teknik-teknik dalam defense. Karena mereka selalu fokus memperkaya diri dengan skill offens",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DNSZ5DFpOog": {
+      "shortcode": "DNSZ5DFpOog",
+      "id": "3698132115513469472",
+      "source_url": "https://www.instagram.com/p/DNSZ5DFpOog/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-08-13T07:55:23.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 249,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "From classroom to court — Allegro Meta White keeps you fresh, all game, all day. Ardiles Basketball | Fly For Your Dream #flyforyourdream #ardilesbasketball #te",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DNfEdB2p4gR": {
+      "shortcode": "DNfEdB2p4gR",
+      "id": "3701697005763397649",
+      "source_url": "https://www.instagram.com/p/DNfEdB2p4gR/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-08-18T05:58:11.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 35,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "It’s sleek enough to fit your school dress code and tough enough for the court, so you can play hard and chill after class in one fresh pair. Allegro Meta — All",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 2,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DNnTXzfpP6g": {
+      "shortcode": "DNnTXzfpP6g",
+      "id": "3704014417258938016",
+      "source_url": "https://www.instagram.com/p/DNnTXzfpP6g/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-08-21T10:42:28.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 568,
+        "comments": 11,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "The Brown Allegro Meta is built for days that never slow down: steady, versatile, and always game-ready. Step in, stand out, and keep moving. All Game. All Day.",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DPQqPvzCakD": {
+      "shortcode": "DPQqPvzCakD",
+      "id": "3733669891157895427",
+      "source_url": "https://www.instagram.com/p/DPQqPvzCakD/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-10-01T08:42:36.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1069,
+        "comments": 19,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Lightspeed is a Mindset. It’s the spirit behind Spectra—a shoe crafted to match the fast pace of today’s athletes. Lightspeed represents the way you move: light",
+      "image": "assets/campaigns/DPQqPvzCakD.webp",
+      "preview_atlas": {
+        "column": 1,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 721,
+      "height": 960,
+      "image_sha256": "06b1462f67f06e6858f7e2007c4dbb1900e0229d45d5994814b43a2170009444"
+    },
+    "DPYoKhUDrjF": {
+      "shortcode": "DPYoKhUDrjF",
+      "id": "3735912535729027269",
+      "source_url": "https://www.instagram.com/p/DPYoKhUDrjF/",
+      "owner": "hildameiraa_",
+      "published_at": "2025-10-04T10:59:06.000Z",
+      "type": "Video",
+      "duration_seconds": 75.533333,
+      "status": "available",
+      "metrics": {
+        "likes": 441,
+        "comments": 12,
+        "plays": 15600,
+        "views": null
+      },
+      "caption_excerpt": "daripada salting berlebihan, mending aku kenalian sepatu yang lagi aku pakai😜. ⛹🏼‍♀️ ALLEGRO META - WHITE and SPECTRA - BLACK PURPLE by @ardilesbasketball. Chec",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 720,
+      "height": 1280
+    },
+    "DPYtMI-CQ-j": {
+      "shortcode": "DPYtMI-CQ-j",
+      "id": "3735934637261262755",
+      "source_url": "https://www.instagram.com/p/DPYtMI-CQ-j/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-10-04T11:43:15.000Z",
+      "type": "Video",
+      "duration_seconds": 21.012608,
+      "status": "available",
+      "metrics": {
+        "likes": 1195,
+        "comments": 16,
+        "plays": 215213,
+        "views": null
+      },
+      "caption_excerpt": "Spectra: Lightspeed. Lightspeed is a Mindset. It’s the spirit behind Spectra—a shoe crafted to match the fast pace of today’s athletes. Lightspeed represents th",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DPgcOWFid0V": {
+      "shortcode": "DPgcOWFid0V",
+      "id": "3738111821807738133",
+      "source_url": "https://www.instagram.com/p/DPgcOWFid0V/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-10-07T11:47:56.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 291,
+        "comments": 1,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Spectra: Lightspeed. Lightspeed is a Mindset. It’s the spirit behind Spectra—a shoe crafted to match the fast pace of today’s athletes. Lightspeed represents th",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DPlp0LCCaC2": {
+      "shortcode": "DPlp0LCCaC2",
+      "id": "3739578970766155958",
+      "source_url": "https://www.instagram.com/p/DPlp0LCCaC2/",
+      "owner": "ardilesbasketball",
+      "published_at": "2025-10-09T12:22:54.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 367,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Spectra: Lightspeed. Lightspeed is a Mindset. It’s the spirit behind Spectra—a shoe crafted to match the fast pace of today’s athletes. Lightspeed represents th",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DSCemnHkqhl": {
+      "shortcode": "DSCemnHkqhl",
+      "id": "3783721231683070053",
+      "source_url": "https://www.instagram.com/p/DSCemnHkqhl/",
+      "owner": "revel_kenneth",
+      "published_at": "2025-12-09T10:08:13.000Z",
+      "type": "Video",
+      "duration_seconds": 58.142765,
+      "status": "available",
+      "metrics": {
+        "likes": 33186,
+        "comments": 24,
+        "plays": 1407384,
+        "views": null
+      },
+      "caption_excerpt": "Shooting jangan polos! Pakai gerakan ini! 👟: Allegro Meta @ardilesbasketball #basketball #basket #basketindonesia",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "DWbd9vbiYnD": {
+      "shortcode": "DWbd9vbiYnD",
+      "id": "3862812891565099459",
+      "source_url": "https://www.instagram.com/p/DWbd9vbiYnD/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-03-28T13:07:00.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 132,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Spectra stays light and responsive, supporting every motion as you find your rhythm. There is no distraction, only focus. Each step feels precise and steady, ca",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 3,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 1440,
+      "height": 1918
+    },
+    "DaUuIyIpLaW": {
+      "shortcode": "DaUuIyIpLaW",
+      "id": "3932971288328713878",
+      "source_url": "https://www.instagram.com/p/DaUuIyIpLaW/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-07-03T08:19:48.000Z",
+      "type": "Video",
+      "duration_seconds": 7.566667,
+      "status": "available",
+      "metrics": {
+        "likes": 508,
+        "comments": 15,
+        "plays": 313219,
+        "views": null
+      },
+      "caption_excerpt": "Feels light. Plays fast. Time to ball in Spectra. Ardiles Basketball | Move Your Way #flyforyourdream #ardilesbasketball #teamardiles #MoveYourWay",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      }
+    },
+    "Dd_r53_zSoR": {
+      "shortcode": "Dd_r53_zSoR",
+      "id": "3999108087264651793",
+      "source_url": "https://www.instagram.com/p/Dd_r53_zSoR/",
+      "owner": "effendy.fnd",
+      "published_at": "2026-10-02T14:22:33.000Z",
+      "type": "Video",
+      "duration_seconds": 85.308662,
+      "status": "available",
+      "metrics": {
+        "likes": 144,
+        "comments": 10,
+        "plays": 9439,
+        "views": null
+      },
+      "caption_excerpt": "Siapa nih BIGMAN yang paling kesulitan main di bawah. Nih coach kasih 6 Gerakan Low-post yang wajib kamu tahu! Save dan Share video ini buat kamu praktekan di l",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 4,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 828,
+      "height": 1472
+    },
+    "DeHGWADp9X8": {
+      "shortcode": "DeHGWADp9X8",
+      "id": "4001194694110860796",
+      "source_url": "https://www.instagram.com/p/DeHGWADp9X8/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-05T11:28:49.000Z",
+      "type": "Video",
+      "duration_seconds": 47.576237,
+      "status": "available",
+      "metrics": {
+        "likes": 70,
+        "comments": 2,
+        "plays": 4896,
+        "views": null
+      },
+      "caption_excerpt": "Pelajari 5 off-ball moves ini buat cari space dan terima pass. Simpan videonya, coba di latihan berikutnya. Mau bahas apa di episode selanjutnya? Tulis saranmu ",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 4,
+        "columns": 6,
+        "rows": 5,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/basketball-posts.webp"
+      },
+      "selection_basis": "Explicit caption match in the 871-post public profile audit; shortcode deduplicated.",
+      "data_source": {
+        "dataset_id": "1H6gNSKc2rtgDyB6r"
+      },
+      "width": 720,
+      "height": 1280
+    }
+  }
+}

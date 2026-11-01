@@ -13,7 +13,7 @@ Open `index.html` in a browser, or serve this directory with any static HTTP ser
 
 ## Current iteration
 
-The page presents a short introduction, selected figures, the complete project catalog, work experience, personal background, and contact details. All 35 project cards appear by default. They include the six featured cases, every original project group, and two clearly labeled planning proposals. Category filters and search help visitors find specific work. Each project has an overview, individual responsibilities, documented results or published output, and related links.
+The page presents a short introduction, selected figures, the complete project catalog, work experience, personal background, and contact details. All 38 project cards appear by default. They include the six featured cases, every original project group, and two clearly labeled planning proposals. Category filters and search help visitors find specific work. Each project has an overview, individual responsibilities, documented results or published output, and related links.
 
 Case studies and career content are present in the HTML. JavaScript adds project filters, deep-link opening, mobile-menu dismissal, reading progress, email copy, and printing. Important content remains accessible without JavaScript.
 
@@ -105,3 +105,14 @@ scripts/build_campaign_archive.py builds the normalized archive from the reviewe
 ## Growth cross-check and four-column account table · 1 November 2026
 
 The user reconfirmed the starting counts and requested Account / Community / Content / Growth by numbers and percentage. The current overview now shows exact net additions and percentages rounded to one decimal: Basketball +33,590 (+419.9%), Running +69,491 (+1,737.3%), and DBL Academy +22,000 (+78.6%) to the user-supplied 50,000 milestone. TikTok +8,358 and YouTube +33,100 are gains from zero; percentage remains null and the visible label says From zero. The earlier joint 3–5× claim and DBL +50% summary are removed from current rendered experience copy. No start date or six-month window is inferred for these revised baselines. DBL's current public count remains separate from the specified 50,000 growth milestone. On phones the four columns stack into labeled account rows. This correction supersedes earlier overview-growth presentation notes in this document.
+
+
+## Approved Basketball portfolio additions · 1 November 2026
+
+Following the user-approved profile audit, the catalog now includes Allegro Meta: All Game. All Day (23 caption-matched posts), Ardiles Community League × Headshoes (5), and Spectra: Lightspeed (7). IBL Playground at USS 2024 expands the existing USS case (9 matched posts), while two Hustle! Hustle! Skills Lab tutorials with Coach Effendy appear as a separately attributed subsection in the existing coaching case. The catalog contains 38 cards, all with bottom Hide details controls. Existing descriptions, responsibilities, figures, source associations, and previous supplemental campaigns are retained.
+
+BASKETBALL_ADDITIONS.json independently records 45 unique posts, detailed counters, scope, source datasets, and the three new covers. One creator post belongs to both Allegro Meta and Spectra. The public profile audit retrieved 871 unique posts from January 2022–October 2026 against the saved profile counter of 878; the seven-post difference remains unexplained. The 2022 archive is not attributed to Ilham.
+
+The Allegro figures cover July–December 2025 product content, including later creator tutorials, rather than a July launch reporting window. Headshoes includes preparation and event follow-through; Spectra includes October 2025 launch content and later 2026 posts. No new individual ownership of deals, event budgets, production, attendance, sales, or unique audience is inferred. The established account totals, original Instagram snapshot and CSV, and earlier CAMPAIGN_ARCHIVE.json remain unchanged.
+
+Three local source covers and one square-cropped preview atlas add approximately 391 KiB. New and reused source atlases provide 34 previews for the 45 posts. The eleven unavailable image fetches retain exact post links and verified counters. The renderer supports per-campaign snapshot dates and distinct subsection titles. scripts/build_basketball_additions.py can rebuild the addition from the retained audit exports; no scraping credentials or expiring media URLs are published.

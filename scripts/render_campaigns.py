@@ -37,7 +37,8 @@ def post_links(campaign, posts, omitted=()):
         media = p.get('image')
         if p.get('preview_atlas'):
             a=p['preview_atlas']
-            preview=('<span class="post-preview campaign-post-atlas" aria-hidden="true">'
+            preview_class = 'post-preview-atlas' if p.get('preview_kind') == 'legacy' else 'campaign-post-atlas'
+            preview=(f'<span class="post-preview {preview_class}" aria-hidden="true">'
                      f'<img src="{a["sheet"]}" width="{a["columns"]*a["tileSize"]}" height="{a["rows"]*a["tileSize"]}" '
                      f'style="width:{a["columns"]*100}%;height:{a["rows"]*100}%;left:-{a["column"]*100}%;top:-{a["row"]*100}%" '
                      'alt="" loading="lazy" decoding="async" data-preview-image>'
@@ -98,13 +99,19 @@ def new_case(campaign, data):
         f'<div class="case-bottom"><span class="case-outcome">{escape(campaign["outcome"])}</span>'
         '<span class="case-toggle"><span class="read-label"><span class="when-closed">View details</span>'
         '<span class="when-open">Hide details</span></span><span class="plus" aria-hidden="true">+</span></span></div></div></summary>'
-        f'<div class="case-body">{metrics(campaign,data["snapshot"])}<dl>{dl}</dl>'
+        f'<div class="case-body">{metrics(campaign,campaign.get("snapshot",data["snapshot"]))}<dl>{dl}</dl>'
         f'<section class="related-work" aria-labelledby="{cid}-links-title"><h4 id="{cid}-links-title">Campaign posts <span>({count})</span></h4>{links}</section>'
         f'{close_button(cid,title)}</div></details>\n'
     )
 
 
 def render(source, data):
+    additions_path = ROOT/'BASKETBALL_ADDITIONS.json'
+    if additions_path.exists():
+        additions = json.loads(additions_path.read_text())
+        assert not (set(data['posts']) & set(additions['posts'])), 'Supplemental archives must have separate post keys'
+        data = {**data, 'campaigns':data['campaigns']+additions['campaigns'],
+                'posts':{**data['posts'], **additions['posts']}}
     source = remove(source)
     source = re.sub(r'/\* portfolio-campaigns:start \*/.*?/\* portfolio-campaigns:end \*/\s*','',source,flags=re.S)
     source = source.replace('</style>',CSS.strip()+'\n</style>',1)
@@ -124,8 +131,8 @@ def render(source, data):
         links,count = post_links(c,data['posts'],original_codes)
         update = ('<!-- portfolio-campaign-update:start --><section class="campaign-update" '
                   f'aria-labelledby="{c["case_id"]}-campaign-update-title">'
-                  f'<h4 id="{c["case_id"]}-campaign-update-title">Product launch to streetball activation</h4>'
-                  f'<p>{escape(c["description"])}</p>{metrics(c,data["snapshot"])}'
+                  f'<h4 id="{c["case_id"]}-campaign-update-title">{escape(c.get("update_title","Product launch to streetball activation"))}</h4>'
+                  f'<p>{escape(c["description"])}</p>{metrics(c,c.get("snapshot",data["snapshot"]))}'
                   f'<h4>Additional campaign posts <span>({count})</span></h4>{links}</section><!-- portfolio-campaign-update:end -->')
         anchor = '<div class="case-footer">'
         assert body.count(anchor)==1
