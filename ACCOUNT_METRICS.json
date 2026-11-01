@@ -27,6 +27,16 @@
           "audience": "followersCount",
           "content": "postsCount"
         }
+      },
+      "growth": {
+        "start": 8000,
+        "end": 41590,
+        "net_added": 33590,
+        "percent_change": 419.87500000000006,
+        "end_scope": "latest account snapshot",
+        "baseline_date": null,
+        "source": "User-provided starting figures and DBL milestone in the current portfolio conversation on 1 November 2026. Other endpoints retain the existing public account snapshot.",
+        "is_milestone": false
       }
     },
     {
@@ -49,6 +59,16 @@
           "audience": "followersCount",
           "content": "postsCount"
         }
+      },
+      "growth": {
+        "start": 4000,
+        "end": 73491,
+        "net_added": 69491,
+        "percent_change": 1737.275,
+        "end_scope": "latest account snapshot",
+        "baseline_date": null,
+        "source": "User-provided starting figures and DBL milestone in the current portfolio conversation on 1 November 2026. Other endpoints retain the existing public account snapshot.",
+        "is_milestone": false
       }
     },
     {
@@ -71,6 +91,16 @@
           "audience": "followersCount",
           "content": "postsCount"
         }
+      },
+      "growth": {
+        "start": 28000,
+        "end": 50000,
+        "net_added": 22000,
+        "percent_change": 78.57142857142857,
+        "end_scope": "user-specified milestone",
+        "baseline_date": null,
+        "source": "User-provided starting figures and DBL milestone in the current portfolio conversation on 1 November 2026. Other endpoints retain the existing public account snapshot.",
+        "is_milestone": true
       }
     },
     {
@@ -94,6 +124,16 @@
           "content": "authorMeta.video",
           "likes": "authorMeta.heart"
         }
+      },
+      "growth": {
+        "start": 0,
+        "end": 8358,
+        "net_added": 8358,
+        "percent_change": null,
+        "end_scope": "latest account snapshot",
+        "baseline_date": null,
+        "source": "User-provided starting figures and DBL milestone in the current portfolio conversation on 1 November 2026. Other endpoints retain the existing public account snapshot.",
+        "is_milestone": false
       }
     },
     {
@@ -117,6 +157,16 @@
           "content": "channelTotalVideos",
           "views": "channelTotalViews"
         }
+      },
+      "growth": {
+        "start": 0,
+        "end": 33100,
+        "net_added": 33100,
+        "percent_change": null,
+        "end_scope": "latest account snapshot",
+        "baseline_date": null,
+        "source": "User-provided starting figures and DBL milestone in the current portfolio conversation on 1 November 2026. Other endpoints retain the existing public account snapshot.",
+        "is_milestone": false
       }
     }
   ],
@@ -131,39 +181,5 @@
     "Instagram lifetime likes, views, comments, reach and impressions are not provided by public profile metadata and are unavailable here.",
     "TikTok total likes and YouTube channel views are profile-level totals, never extrapolated from the single video retrieved to access profile metadata.",
     "Project-level and per-post counters retain their existing independent snapshot and original project associations."
-  ],
-  "growth_highlights": [
-    {
-      "label": "Ardiles Running & Basketball",
-      "accounts": [
-        "ardilesrunning",
-        "ardilesbasketball"
-      ],
-      "display_value": "3–5×",
-      "metric_label": "Community growth",
-      "period_label": "Social media role · 2023–2025",
-      "scope": "Joint CV-reported community-growth range; not a separate Instagram follower-growth calculation for each profile.",
-      "source": {
-        "document": "Ilham Rizaldi - Marketing, Growth, and Communications (1).docx",
-        "library_file_id": "libfile_094e067caac88191b29e60034f27d3ad",
-        "page": 3,
-        "statement": "Helped grow Basketball and Running brand communities by 3–5x, strengthening brand affinity and campaign impact."
-      }
-    },
-    {
-      "label": "DBL Academy",
-      "accounts": [
-        "dblacademy"
-      ],
-      "display_value": "+50%",
-      "metric_label": "Community growth",
-      "period_label": "Within six months",
-      "source": {
-        "document": "Ilham Rizaldi - Marketing, Growth, and Communications (1).docx",
-        "library_file_id": "libfile_094e067caac88191b29e60034f27d3ad",
-        "page": 4,
-        "statement": "Increased community size by 50% within 6 months through structured content planning and aligned brand programs."
-      }
-    }
   ]
 }

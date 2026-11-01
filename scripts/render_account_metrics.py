@@ -28,13 +28,17 @@ CSS = r"""
 .instagram-method-body{font-size:13px;line-height:1.75;max-width:none;padding-bottom:16px}
 .instagram-method-body>p{max-width:95ch}
 .account-table-scroll{overflow-x:auto;margin:8px 0 18px}
-.account-table{border-collapse:collapse;width:100%;font-size:12px;text-align:left}
+.account-table{border-collapse:collapse;width:100%;font-size:12px;text-align:left;table-layout:fixed}
+.account-table th:first-child{width:40%}.account-table th:nth-child(2){width:25%}.account-table th:nth-child(3){width:35%}
 .account-table caption{text-align:left;color:var(--ink);font-size:13px;font-weight:500;margin-bottom:10px}
 .account-table th,.account-table td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 .account-table th{font-weight:400;font-size:11px;color:var(--muted)}
 .account-table th:first-child,.account-table td:first-child{padding-left:0}
 .account-table td{font-variant-numeric:tabular-nums}
 .account-table td:nth-child(2),.account-table td:nth-child(3){white-space:nowrap;color:var(--ink)}
+.account-table .account-growth-cell{white-space:normal;min-width:0}
+.account-growth-cell strong{font-size:18px;font-weight:500;letter-spacing:-.025em;line-height:1.4}
+.account-growth-cell small{white-space:nowrap}
 .account-table a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink)}
 .account-table a:hover{color:var(--lime)}
 .account-table small{display:block;font-size:11px;color:var(--muted);line-height:1.5}
@@ -61,6 +65,16 @@ def validate(data):
             assert a[key] is None or (type(a[key]) is int and a[key] >= 0)
         assert a["audience"] is not None and a["content"] is not None
         assert a["source"]["collected_at"] and a["source"]["fields"]
+        growth = a.get('growth')
+        if growth:
+            assert type(growth['start']) is int and growth['start'] >= 0
+            assert type(growth['end']) is int and growth['end'] >= growth['start']
+            assert growth['net_added'] == growth['end'] - growth['start']
+            if growth['start'] == 0:
+                assert growth['percent_change'] is None
+            else:
+                expected = growth['net_added'] / growth['start'] * 100
+                assert abs(growth['percent_change'] - expected) < 0.000001
     assert data["totals"] == {
         "accounts": 5, "audience": sum(a["audience"] for a in accounts),
         "content": sum(a["content"] for a in accounts),
@@ -95,16 +109,22 @@ def overview(data, projects):
                      f'<strong title="{exact}" aria-label="{exact}">{number}</strong><p>{escape(note)}</p></div>')
     rows = []
     for a in accounts:
+        growth = a.get('growth')
+        growth_html = ''
+        if growth:
+            if growth['start']:
+                change = f'+{growth["percent_change"]:,.0f}%'
+            else:
+                change = '+' + compact(growth['net_added'])
+            journey = f'{compact(growth["start"])} → {compact(growth["end"])}'
+            detail = 'Milestone' if growth.get('is_milestone') else ('Follower growth' if growth['start'] else ('Followers gained' if a['platform'] != 'YouTube' else 'Subscribers gained'))
+            growth_html = (f'<strong>{change}</strong><small>{journey}</small>'
+                           f'<small>{detail}</small>')
         rows.append('<tr><td><a target="_blank" rel="noopener noreferrer" '
                     f'href="{escape(a["url"], quote=True)}">@{escape(a["handle"])}</a>'
-                    f'<small class="account-platform">{escape(a["platform"])}</small></td>'
+                    f'<small class="account-platform">{escape(a["platform"])} · {a["content"]:,} {a["content_label"].lower()}</small></td>'
                     f'<td>{a["audience"]:,}<small>{escape(a["audience_label"])}</small></td>'
-                    f'<td>{a["content"]:,}<small>{escape(a["content_label"])}</small></td></tr>')
-    growth_cards = []
-    for g in data.get('growth_highlights', []):
-        growth_cards.append('<article class="account-growth">'
-                            f'<h3>{escape(g["label"])}</h3><strong>{escape(g["display_value"])}</strong>'
-                            f'<p>{escape(g["metric_label"])}<br>{escape(g["period_label"])}</p></article>')
+                    f'<td class="account-growth-cell">{growth_html}</td></tr>')
     return (
         '<!-- portfolio-instagram-overview:start -->\n'
         '<section class="instagram-overview" id="instagram-metrics" aria-labelledby="instagram-metrics-title"><div class="wrap">'
@@ -114,9 +134,9 @@ def overview(data, projects):
         f'<p class="instagram-snapshot">Snapshot<br><time datetime="{escape(data["snapshot"]["collected_at"], quote=True)}">{date}</time></p></div>'
         '<div class="instagram-totals">' + ''.join(cards) + '</div>'
         '<details class="instagram-method" id="instagram-metrics-method"><summary>Explore the communities behind the work</summary>'
-        '<div class="instagram-method-body"><div class="account-growth-grid">' + ''.join(growth_cards) + '</div>'
+        '<div class="instagram-method-body">'
         '<div class="account-table-scroll"><table class="account-table"><caption>A closer look at each account</caption>'
-        '<thead><tr><th scope="col">Account</th><th scope="col">Community</th><th scope="col">Content</th>'
+        '<thead><tr><th scope="col">Account</th><th scope="col">Community</th><th scope="col">Growth</th>'
         '</tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
         '</div></details></div></section>\n<!-- portfolio-instagram-overview:end -->\n'
     )

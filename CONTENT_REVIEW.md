@@ -113,3 +113,8 @@ The hero combines the supplied professional summary with existing supported expe
 ## Retail-footprint attribution correction · 1 November 2026
 
 The user clarified that the 150+ national retail touchpoints belong to the sales team and must not be presented as his personal achievement. The figure is removed from the achievements strip, Ardiles project preview, and Ardiles work-scope text. The achievements strip instead shows the documented 13× return on ad spend for the three-day Sense Pro 2.0 CPAS campaign (visual portfolio p. 18). The Ardiles preview retains the supported three-person team and 30+ product launches. This correction supersedes earlier references to retail touchpoints in this record. Other public post counts, project references, and role details are preserved.
+
+
+## User-supplied account starting points · 1 November 2026
+
+The user supplied account-specific baselines: Ardiles Basketball 8,000; Ardiles Running 4,000; DBL Academy 28,000 to a specified 50,000 milestone; TikTok Ardiles Performance zero; YouTube Ardiles Official zero. These replace the earlier joint CV growth highlights in the account overview. Other endpoints use the existing public snapshot: 41,590, 73,491, 8,358, and 33,100 respectively. Growth is (end − start) / start, shown rounded to a whole percentage: +420%, +1,737%, and +79%. Accounts starting at zero show net followers/subscribers gained, with percentage left null. No baseline dates or growth time window were supplied. DBL's 50,000 milestone is labeled separately from its current public count of 63,531. The compact account table combines current followers, growth journey, and content counts; source details remain in ACCOUNT_METRICS.json.
