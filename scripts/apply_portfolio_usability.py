@@ -97,7 +97,8 @@ def apply(source, manifest):
         return re.sub(r'(<span class="post-preview post-preview-atlas"[^>]*>)(<img\b[^>]*>)',
                       lambda m: m.group(1)+replace_img(m.group(2),style), body, count=1)
     source = re.sub(r'<a\b[^>]*>.*?</a>', post, source, flags=re.S)
-    return source
+    from render_product_programs import render as render_product_programs
+    return render_product_programs(source)
 
 
 if __name__ == '__main__':
