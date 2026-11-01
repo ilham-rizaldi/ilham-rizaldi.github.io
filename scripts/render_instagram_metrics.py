@@ -204,7 +204,7 @@ def project_metrics(project: dict, snapshot: dict) -> str:
         f'<p>{project["unique_posts"]:,} unique linked posts · Snapshot {escape(snapshot["display_date"])}</p>'
         '<div class="project-metric-grid">' + "".join(cells) + '</div>'
         '<p>Public counters on linked content. Project totals can overlap. '
-        '<a href="#instagram-metrics-method">Counting method ↗</a></p>'
+        '<a href="#instagram-metrics-method">Explore the accounts ↗</a></p>'
         '</section><!-- portfolio-instagram-project:end -->'
     )
 

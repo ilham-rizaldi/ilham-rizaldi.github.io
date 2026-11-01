@@ -17,7 +17,11 @@ CSS = r"""
 .instagram-total h3{font-size:12px;line-height:1.5}
 .instagram-total strong{font-size:25px;line-height:1.2;margin:6px 0 4px;letter-spacing:-.035em}
 .instagram-total p{font-size:11px;line-height:1.5;margin:0}
-.account-context{font-size:12px;line-height:1.65;color:var(--muted);margin-top:12px;max-width:95ch}
+.account-growth-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:5px 0 24px}
+.account-growth{padding:14px 0;border-block:1px solid var(--line)}
+.account-growth h3{font-size:12px;font-weight:500;line-height:1.5;letter-spacing:0;color:var(--ink)}
+.account-growth strong{display:block;font-size:24px;font-weight:500;letter-spacing:-.03em;line-height:1.3;margin:6px 0 4px;font-variant-numeric:tabular-nums;color:var(--ink)}
+.account-growth p{font-size:12px;line-height:1.6;color:var(--muted)}
 .instagram-method{margin-top:12px;border-top:0}
 .instagram-method>summary{font-size:12px;min-height:44px;padding:9px 0}
 .instagram-method>summary::after{font-size:18px}
@@ -37,7 +41,7 @@ CSS = r"""
 .account-table .account-platform{margin-top:-7px}
 .instagram-source-links{gap:4px 20px;margin-top:12px}
 .instagram-source-links a{font-size:12px}
-@media(max-width:760px){.instagram-overview-header{display:flex;flex-wrap:wrap;gap:10px}.instagram-overview-header .instagram-snapshot{white-space:normal}.instagram-totals{grid-template-columns:repeat(2,minmax(0,1fr))}.instagram-total{padding:12px 14px}.instagram-total:nth-child(odd){padding-left:0}.instagram-total:nth-child(even){border-right:0}.instagram-total:nth-child(-n+2){border-bottom:1px solid var(--line)}.instagram-total strong{font-size:24px}.account-table th,.account-table td{padding:9px 8px}.account-table th:last-child,.account-table td:last-child{display:none}.account-table a{overflow-wrap:anywhere;word-break:break-word}.account-table td:first-child{width:49%}}
+@media(max-width:760px){.instagram-overview-header{display:flex;flex-wrap:wrap;gap:10px}.instagram-overview-header .instagram-snapshot{white-space:normal}.instagram-totals{grid-template-columns:repeat(2,minmax(0,1fr))}.instagram-total{padding:12px 14px}.instagram-total:nth-child(odd){padding-left:0}.instagram-total:nth-child(even){border-right:0}.instagram-total:nth-child(-n+2){border-bottom:1px solid var(--line)}.instagram-total strong{font-size:24px}.account-table th,.account-table td{padding:9px 8px}.account-table a{overflow-wrap:anywhere;word-break:break-word}.account-table td:first-child{width:49%}.account-growth-grid{gap:12px}.account-growth h3{font-size:12px}.account-growth strong{font-size:23px}.account-growth p{font-size:11px}}
 @media(max-width:390px){.instagram-total h3{font-size:11px}.instagram-total strong{font-size:23px}.instagram-total p{font-size:11px}.instagram-overview h2{font-size:22px}.account-table{font-size:11px}}
 """
 
@@ -78,7 +82,7 @@ def overview(data, projects):
     stamp = datetime.fromisoformat(data["snapshot"]["collected_at"].replace("Z", "+00:00")).astimezone(ZoneInfo("Asia/Jakarta"))
     date = f"{stamp.day} {stamp.strftime('%b %Y, %H:%M')} WIB"
     metrics = [
-        ("Followers + subscribers", data["totals"]["audience"], "5 account counts · audiences may overlap"),
+        ("Followers + subscribers", data["totals"]["audience"], "Across 5 accounts"),
         ("Posts + videos", data["totals"]["content"], "Published content across 5 accounts"),
         ("TikTok · total likes", tt["likes"], "@ardilesperformance"),
         ("YouTube · total views", yt["views"], "Ardiles Official channel"),
@@ -91,18 +95,16 @@ def overview(data, projects):
                      f'<strong title="{exact}" aria-label="{exact}">{number}</strong><p>{escape(note)}</p></div>')
     rows = []
     for a in accounts:
-        other = []
-        if a["likes"] is not None:
-            other.append(f'{a["likes"]:,} total likes')
-        if a["views"] is not None:
-            other.append(f'{a["views"]:,} total views')
         rows.append('<tr><td><a target="_blank" rel="noopener noreferrer" '
                     f'href="{escape(a["url"], quote=True)}">@{escape(a["handle"])}</a>'
                     f'<small class="account-platform">{escape(a["platform"])}</small></td>'
                     f'<td>{a["audience"]:,}<small>{escape(a["audience_label"])}</small></td>'
-                    f'<td>{a["content"]:,}<small>{escape(a["content_label"])}</small></td>'
-                    f'<td>{" · ".join(other) if other else "Not publicly provided"}</td></tr>')
-    ps = projects["snapshot"]
+                    f'<td>{a["content"]:,}<small>{escape(a["content_label"])}</small></td></tr>')
+    growth_cards = []
+    for g in data.get('growth_highlights', []):
+        growth_cards.append('<article class="account-growth">'
+                            f'<h3>{escape(g["label"])}</h3><strong>{escape(g["display_value"])}</strong>'
+                            f'<p>{escape(g["metric_label"])}<br>{escape(g["period_label"])}</p></article>')
     return (
         '<!-- portfolio-instagram-overview:start -->\n'
         '<section class="instagram-overview" id="instagram-metrics" aria-labelledby="instagram-metrics-title"><div class="wrap">'
@@ -111,37 +113,10 @@ def overview(data, projects):
         '<p>Current public totals across Ardiles Basketball, Ardiles Running, DBL Academy, Ardiles Performance, and Ardiles Official.</p></div>'
         f'<p class="instagram-snapshot">Snapshot<br><time datetime="{escape(data["snapshot"]["collected_at"], quote=True)}">{date}</time></p></div>'
         '<div class="instagram-totals">' + ''.join(cards) + '</div>'
-        '<p class="account-context">Account context across all published activity, including periods outside my role. '
-        'Project-specific figures are shown within each project.</p>'
-        '<details class="instagram-method" id="instagram-metrics-method"><summary>Account breakdown, sources, and counting method</summary>'
-        '<div class="instagram-method-body"><div class="account-table-scroll">'
-        '<table class="account-table"><caption>Public profile totals · exact reported counts</caption>'
-        '<thead><tr><th scope="col">Account</th><th scope="col">Audience</th><th scope="col">Published</th>'
-        '<th scope="col">Other account totals</th></tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
-        '<p><strong>Account scope.</strong> Followers and subscribers are added across the five profiles. '
-        'People can follow several accounts, so this is not unique audience, reach, or follower growth. '
-        'Public figures may be rounded. Posts and videos use each platform’s profile counter.</p>'
-        f'<p><strong>Platform totals.</strong> TikTok reports {tt["likes"]:,} account likes; '
-        f'YouTube reports {yt["views"]:,} channel views. These are account-level counters, '
-        'not sums or projections from a sample of videos. They remain separate measures.</p>'
-        '<p><strong>Unavailable totals.</strong> Instagram profile metadata does not provide lifetime likes, comments, '
-        'video views, reach, or impressions. TikTok account-wide views and YouTube account-wide likes are also '
-        'unavailable in this profile snapshot. These values are excluded, rather than estimated or treated as zero.</p>'
-        '<p><strong>Attribution.</strong> Current account totals include team activity and may include periods before '
-        'or after my work. They do not establish my personal contribution, paid versus organic results, or sales impact.</p>'
-        f'<p><strong>Project and post figures.</strong> The existing linked-content snapshot '
-        f'({escape(ps["display_date"])}) remains unchanged inside each project. '
-        'Each project deduplicates its linked Instagram posts by shortcode; the same post may appear in several projects. '
-        'Likes and comments exclude unavailable values. Plays and views remain separate and are not unique viewers. '
-        'Campaign-report figures keep their original scope and are not added to the account totals.</p>'
-        '<nav class="instagram-source-links" aria-label="Metric data and definitions">'
-        '<a href="ACCOUNT_METRICS.json" download>Account data (JSON)</a>'
-        '<a href="INSTAGRAM_METRICS.csv" download>Project post data (CSV)</a>'
-        '<a href="INSTAGRAM_METRICS.json" download>Project source record (JSON)</a>'
-        '<a href="https://apify.com/apify/instagram-profile-scraper" target="_blank" rel="noopener noreferrer">Instagram source ↗</a>'
-        '<a href="https://apify.com/clockworks/tiktok-profile-scraper" target="_blank" rel="noopener noreferrer">TikTok source ↗</a>'
-        '<a href="https://apify.com/streamers/youtube-channel-scraper" target="_blank" rel="noopener noreferrer">YouTube source ↗</a>'
-        '<a href="https://apify.com/apify/instagram-scraper" target="_blank" rel="noopener noreferrer">Project collection source ↗</a>'
-        '<a href="https://about.fb.com/news/2023/11/new-ways-to-create-content-on-instagram/" target="_blank" rel="noopener noreferrer">About video plays ↗</a>'
-        '</nav></div></details></div></section>\n<!-- portfolio-instagram-overview:end -->\n'
+        '<details class="instagram-method" id="instagram-metrics-method"><summary>Explore the communities behind the work</summary>'
+        '<div class="instagram-method-body"><div class="account-growth-grid">' + ''.join(growth_cards) + '</div>'
+        '<div class="account-table-scroll"><table class="account-table"><caption>A closer look at each account</caption>'
+        '<thead><tr><th scope="col">Account</th><th scope="col">Community</th><th scope="col">Content</th>'
+        '</tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
+        '</div></details></div></section>\n<!-- portfolio-instagram-overview:end -->\n'
     )

@@ -56,7 +56,7 @@ All 32 projects have a numbered cover. Related post links include compact image 
 
 ## Public Instagram metrics · 1 November 2026
 
-Project summaries, project details, and individual related posts use the same dated public-data snapshot. `INSTAGRAM_METRICS.json` contains the normalized counters, coverage, definitions, and post-to-project mapping. `INSTAGRAM_METRICS.csv` provides one row per unique Instagram post. Both are available from the website's methodology disclosure. The main section now uses the separate account-level snapshot described below.
+Project summaries, project details, and individual related posts use the same dated public-data snapshot. `INSTAGRAM_METRICS.json` contains the normalized counters, coverage, definitions, and post-to-project mapping. `INSTAGRAM_METRICS.csv` provides one row per unique Instagram post. Both remain in the repository; their download links are removed from the public presentation. The main section uses the separate account-level snapshot described below.
 
 The snapshot collected on 1 November 2026 at 02:18 WIB covers 461 unique linked posts: 459 available and two restricted. It records 1,573,524 likes, 12,928 comments, 92,554,082 video plays, and 135,612 video views. Coverage differs by field and is displayed alongside each aggregate. Likes and comments are not total engagement; plays and views are separate counters and are never combined or labeled as reach. These are lifetime public counters across linked brand, creator, and media posts, not attributed individual results or a campaign reporting window. Existing campaign-report figures remain separate.
 
@@ -71,3 +71,11 @@ Instagram lifetime likes, comments, views, reach, and impressions are unavailabl
 The overview uses four compact 23–25px counters, reduced section spacing, and an expandable account/source table. `scripts/render_account_metrics.py` validates and renders the account totals; the Instagram renderer preserves them when refreshing project metrics.
 
 All 32 project disclosures have a bottom Hide details button. Closing restores focus to the project summary and scrolls it into view, respecting reduced-motion preferences. Buttons are hidden until JavaScript initializes. `scripts/apply_portfolio_usability.py` keeps this behavior and responsive thumbnail crops idempotent across re-renders. Photo/atlas crops use the recorded source dimensions and container-relative CSS units; brand/logo layouts retain their original treatment.
+
+## Introduction and community-growth copy · 1 November 2026
+
+The introduction combines the user-supplied 5+ years summary with Ardiles role progression, supervision of a three-person team, campaign/partner work, performance analysis, and Nuansa Studio's commercial responsibilities. Current Ardiles scope is Running, Basketball, Futsal, and Soccer, as explicitly supplied by the user.
+
+The overview uses “Explore the communities behind the work” and “A closer look at each account”. Requested explanatory paragraphs and source/download links are removed from the visible page; provenance remains in JSON and this review record. A three-column table presents account, community, and content without unavailable-total placeholders. Project links now say “Explore the accounts” rather than referring to a removed counting-method explanation.
+
+Two compact growth highlights use the CV reread for this revision: 3–5× community growth jointly across Ardiles Running and Basketball during the 2023–2025 social media role, and +50% community growth within six months for DBL Academy. These are CV-reported community results, not new follower calculations from current profile totals. The source does not split the Ardiles range by account. `ACCOUNT_METRICS.json` records the exact source statements and their scope. Existing account counters and project/post metrics remain unchanged.
