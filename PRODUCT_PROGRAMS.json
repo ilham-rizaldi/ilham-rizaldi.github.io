@@ -9,17 +9,41 @@
       "title": "Speedy Weeedy × Kevinswork",
       "subtitle": "Love & Hustle",
       "kind": "Integrated product campaign",
-      "summary": "A product collaboration extended through creator content and a live streetball activation.",
-      "strategy": "Connect the athlete–artist product story with creator communication and an event where the basketball community can experience the collaboration.",
+      "summary": "A product collaboration connected to creator content, basketball coaching, and a live streetball activation.",
+      "strategy": "Connect the athlete–artist product story with creator communication, practical basketball coaching, and an event where the community can experience the collaboration.",
       "cover_case": "case-love-hustle",
-      "touchpoints": ["Digital campaigns", "Athlete & artist collaboration", "KOL collaborations", "Live event"],
+      "touchpoints": [
+        "Digital campaigns",
+        "Athlete & artist collaboration",
+        "KOL collaborations",
+        "Coaching content",
+        "Live event"
+      ],
       "releases": [
-        {"label": "Speedy Weeedy × Kevinswork: Love & Hustle", "role": "Main product", "target": "case-love-hustle", "description": "Product collaboration, launch communication, and creator content."}
+        {
+          "label": "Speedy Weeedy × Kevinswork: Love & Hustle",
+          "role": "Main product",
+          "target": "case-love-hustle",
+          "description": "Product collaboration, launch communication, and creator content."
+        }
       ],
       "activations": [
-        {"label": "Love & Hustle Streetball Showdown", "role": "KOL collaboration & event activation", "target": "love-hustle-kol-title", "description": "On-court activation at KYZN Kuningan, with the published 16-person KOL line-up, invitation, challenge, and recap."}
+        {
+          "label": "Love & Hustle Streetball Showdown",
+          "role": "KOL collaboration & event activation",
+          "target": "love-hustle-kol-title",
+          "description": "On-court activation at KYZN Kuningan, with the published 16-person KOL line-up, invitation, challenge, and recap."
+        },
+        {
+          "label": "Hustle! Hustle! Skills Lab",
+          "role": "Coaching content series",
+          "target": "case-love-hustle-skills-lab",
+          "description": "With Coach @Effendy.fnd, presented by @ardilesbasketball. Two published tutorials covering low-post and off-ball moves."
+        }
       ],
-      "members": ["case-love-hustle"]
+      "members": [
+        "case-love-hustle"
+      ]
     },
     {
       "id": "program-hardcore",
@@ -29,14 +53,33 @@
       "summary": "A basketball product launch supported by an institutional partnership and skills-led content.",
       "strategy": "Build the product story through launch communication, the IBL partnership, athlete and creator content, and practical basketball education.",
       "cover_case": "case-hardcore",
-      "touchpoints": ["Digital campaigns", "Paid & organic content", "IBL partnership", "Athlete & KOL content", "Coaching collaboration"],
+      "touchpoints": [
+        "Digital campaigns",
+        "Paid & organic content",
+        "IBL partnership",
+        "Athlete & KOL content",
+        "Coaching collaboration"
+      ],
       "releases": [
-        {"label": "Ardiles Hardcore × IBL launch", "role": "Main product & institutional launch", "target": "case-hardcore", "description": "Teasers, product reveal, Double Act Technology education, and launch activities."}
+        {
+          "label": "Ardiles Hardcore × IBL launch",
+          "role": "Main product & institutional launch",
+          "target": "case-hardcore",
+          "description": "Teasers, product reveal, Double Act Technology education, and launch activities."
+        }
       ],
       "activations": [
-        {"label": "HDP Ball Handling × Ardiles", "role": "Coaching collaboration", "target": "case-hdp-ball-handling", "description": "Basketball skill tutorials, instructional captions, and collaboration posts with coaches."}
+        {
+          "label": "HDP Ball Handling × Ardiles",
+          "role": "Coaching collaboration",
+          "target": "case-hdp-ball-handling",
+          "description": "Basketball skill tutorials, instructional captions, and collaboration posts with coaches."
+        }
       ],
-      "members": ["case-hardcore", "case-hdp-ball-handling"]
+      "members": [
+        "case-hardcore",
+        "case-hdp-ball-handling"
+      ]
     },
     {
       "id": "program-gerbera",
@@ -46,15 +89,40 @@
       "summary": "Product storytelling connected to outdoor creator perspectives and community product trials.",
       "strategy": "Show the product through technical and lifestyle communication, creator-led outdoor stories, and community experiences with product education and trials.",
       "cover_case": "case-gerbera-cross-jumper",
-      "touchpoints": ["Digital campaigns", "Creator collaborations", "Community partnership", "Offline activation", "Product trials"],
+      "touchpoints": [
+        "Digital campaigns",
+        "Creator collaborations",
+        "Community partnership",
+        "Offline activation",
+        "Product trials"
+      ],
       "releases": [
-        {"label": "Ardiles Gerbera Cross Jumper", "role": "Main product", "target": "case-gerbera-cross-jumper", "description": "Product, technical, and lifestyle content across video, carousel, and image formats."}
+        {
+          "label": "Ardiles Gerbera Cross Jumper",
+          "role": "Main product",
+          "target": "case-gerbera-cross-jumper",
+          "description": "Product, technical, and lifestyle content across video, carousel, and image formats."
+        }
       ],
       "activations": [
-        {"label": "Gerbera Challenge: Creative Video", "role": "Creator program", "target": "case-gerbera-creators", "description": "Outdoor creator features, followed by the separately documented Dirty in Style Vol. 2 open call."},
-        {"label": "Short Escape with Team 530", "role": "Community partnership & product experience", "target": "case-community", "description": "Community event coordination, product education, and footwear trials."}
+        {
+          "label": "Gerbera Challenge: Creative Video",
+          "role": "Creator program",
+          "target": "case-gerbera-creators",
+          "description": "Outdoor creator features, followed by the separately documented Dirty in Style Vol. 2 open call."
+        },
+        {
+          "label": "Short Escape with Team 530",
+          "role": "Community partnership & product experience",
+          "target": "case-community",
+          "description": "Community event coordination, product education, and footwear trials."
+        }
       ],
-      "members": ["case-gerbera-cross-jumper", "case-gerbera-creators", "case-community"]
+      "members": [
+        "case-gerbera-cross-jumper",
+        "case-gerbera-creators",
+        "case-community"
+      ]
     },
     {
       "id": "program-runergize",
@@ -64,16 +132,46 @@
       "summary": "An initial launch and a second hero release, supported by product trials and community events.",
       "strategy": "Give each release a defined communication role, then connect the product story to athlete content, retail communication, trials, and community participation.",
       "cover_case": "case-runergize",
-      "touchpoints": ["Digital campaigns", "Athlete & creator content", "Retail communication", "Community activation", "Product trials"],
+      "touchpoints": [
+        "Digital campaigns",
+        "Athlete & creator content",
+        "Retail communication",
+        "Community activation",
+        "Product trials"
+      ],
       "releases": [
-        {"label": "Ardiles Runergize launch", "role": "Initial product release", "target": "case-runergize", "description": "Product information, online release, creator and retailer communication, and the GBK product trial."},
-        {"label": "Runergize Black White", "role": "Second hero release", "target": "case-runergize-black", "description": "A distinct Always Fast campaign with launch films, product details, athlete content, and release communication."}
+        {
+          "label": "Ardiles Runergize launch",
+          "role": "Initial product release",
+          "target": "case-runergize",
+          "description": "Product information, online release, creator and retailer communication, and the GBK product trial."
+        },
+        {
+          "label": "Runergize Black White",
+          "role": "Second hero release",
+          "target": "case-runergize-black",
+          "description": "A distinct Always Fast campaign with launch films, product details, athlete content, and release communication."
+        }
       ],
       "activations": [
-        {"label": "Stay Fast", "role": "Product-trial activations", "target": "case-runergize-campaign-update-title", "description": "City-based product trials and community running activities."},
-        {"label": "Run Into the Wild", "role": "Community & event activation", "target": "case-run-into-the-wild", "description": "Team-running challenges connecting city activations with the Banyuwangi running experience."}
+        {
+          "label": "Stay Fast",
+          "role": "Product-trial activations",
+          "target": "case-runergize-campaign-update-title",
+          "description": "City-based product trials and community running activities."
+        },
+        {
+          "label": "Run Into the Wild",
+          "role": "Community & event activation",
+          "target": "case-run-into-the-wild",
+          "description": "Team-running challenges connecting city activations with the Banyuwangi running experience."
+        }
       ],
-      "members": ["case-runergize", "case-runergize-black", "case-run-into-the-wild"]
+      "members": [
+        "case-runergize",
+        "case-runergize-black",
+        "case-run-into-the-wild"
+      ]
     },
     {
       "id": "program-speedy-weeedy",
@@ -83,19 +181,68 @@
       "summary": "Successive signature releases with Widyanta Putra Teja, supported by athlete, institutional, and cultural partnerships.",
       "strategy": "Carry a consistent athlete connection across successive products while giving each release its own launch story, content sequence, and relevant basketball setting.",
       "cover_case": "case-retrodrive",
-      "touchpoints": ["Successive product launches", "Athlete & KOL collaborations", "Institutional partnerships", "Community storytelling", "Sneaker events"],
+      "touchpoints": [
+        "Successive product launches",
+        "Athlete & KOL collaborations",
+        "Institutional partnerships",
+        "Community storytelling",
+        "Sneaker events"
+      ],
       "releases": [
-        {"label": "Speedy Weeedy signature shoe", "role": "Signature series release", "target": "case-speedy-weeedy-signature", "description": "Launch messaging, product copy, PR materials, audience research, and the teaser sequence."},
-        {"label": "Speedy Weeedy 1.5 Snake", "role": "Next series release", "target": "case-speedy-weeedy-snake", "description": "Teaser, reveal, product details, and community content connected with Jakarta Sneakers Day."},
-        {"label": "Speedy Weeedy Thunderspeed", "role": "Next series release", "target": "case-thunderspeed", "description": "Athlete-led communication, technical stories, and phased colorway content."},
-        {"label": "Speedy Weeedy Retrodrive", "role": "Fourth signature shoe", "target": "case-retrodrive", "description": "An event launch, phased colorway releases, athlete and creator content, and product education."}
+        {
+          "label": "Speedy Weeedy signature shoe",
+          "role": "Signature series release",
+          "target": "case-speedy-weeedy-signature",
+          "description": "Launch messaging, product copy, PR materials, audience research, and the teaser sequence."
+        },
+        {
+          "label": "Speedy Weeedy 1.5 Snake",
+          "role": "Next series release",
+          "target": "case-speedy-weeedy-snake",
+          "description": "Teaser, reveal, product details, and community content connected with Jakarta Sneakers Day."
+        },
+        {
+          "label": "Speedy Weeedy Thunderspeed",
+          "role": "Next series release",
+          "target": "case-thunderspeed",
+          "description": "Athlete-led communication, technical stories, and phased colorway content."
+        },
+        {
+          "label": "Speedy Weeedy Retrodrive",
+          "role": "Fourth signature shoe",
+          "target": "case-retrodrive",
+          "description": "An event launch, phased colorway releases, athlete and creator content, and product education."
+        }
       ],
       "activations": [
-        {"label": "Ardiles at IBL All-Star 2025", "role": "Institutional event & athlete activation", "target": "case-ibl-all-star", "description": "Thunderspeed prototype exposure, on-court athlete use, teasers, and player feedback."},
-        {"label": "Indonesian Deaf Basketball × Ardiles", "role": "Institutional & community collaboration", "target": "case-deaf-basketball", "description": "Athlete-led campaign messaging, scripts, and content production."},
-        {"label": "Urban Sneaker Society & Jakarta Sneakers Day", "role": "Event, creator & retail activation", "target": "case-uss-jsd", "description": "Booth and event content, product announcements, creator briefs, paid advertising, and retail communication."}
+        {
+          "label": "Ardiles at IBL All-Star 2025",
+          "role": "Institutional event & athlete activation",
+          "target": "case-ibl-all-star",
+          "description": "Thunderspeed prototype exposure, on-court athlete use, teasers, and player feedback."
+        },
+        {
+          "label": "Indonesian Deaf Basketball × Ardiles",
+          "role": "Institutional & community collaboration",
+          "target": "case-deaf-basketball",
+          "description": "Athlete-led campaign messaging, scripts, and content production."
+        },
+        {
+          "label": "Urban Sneaker Society & Jakarta Sneakers Day",
+          "role": "Event, creator & retail activation",
+          "target": "case-uss-jsd",
+          "description": "Booth and event content, product announcements, creator briefs, paid advertising, and retail communication."
+        }
       ],
-      "members": ["case-speedy-weeedy-signature", "case-speedy-weeedy-snake", "case-thunderspeed", "case-retrodrive", "case-ibl-all-star", "case-deaf-basketball", "case-uss-jsd"]
+      "members": [
+        "case-speedy-weeedy-signature",
+        "case-speedy-weeedy-snake",
+        "case-thunderspeed",
+        "case-retrodrive",
+        "case-ibl-all-star",
+        "case-deaf-basketball",
+        "case-uss-jsd"
+      ]
     }
   ]
 }

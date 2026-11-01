@@ -51,7 +51,8 @@ def post_links(campaign, posts, omitted=()):
                        '<span class="preview-unavailable" hidden>Preview unavailable</span></span>')
         else:
             preview = '<span class="post-preview post-preview-document" aria-hidden="true"><span class="document-symbol">↗</span></span>'
-        text = post_copy(f'<b>Campaign post {number:02d}</b>', p).replace('portfolio-instagram-post', 'portfolio-campaign-post')
+        title = campaign.get('post_titles', {}).get(code, f'Campaign post {number:02d}')
+        text = post_copy(f'<b>{escape(title)}</b>', p).replace('portfolio-instagram-post', 'portfolio-campaign-post')
         links.append('<li><a class="related-link-with-preview" '
                      f'href="{escape(p["source_url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
                      f'{preview}{text}<span class="related-external-arrow" aria-hidden="true">↗</span></a></li>')
@@ -131,10 +132,17 @@ def render(source, data):
         body = match.group()
         original_codes = set(re.findall(r'instagram.com/(?:p|reel|tv)/([A-Za-z0-9_-]+)',body))
         links,count = post_links(c,data['posts'],original_codes)
+        heading_id = c.get('section_id', c['case_id']+'-campaign-update-title')
+        credits = ''
+        if c.get('credits'):
+            credits = '<p class="campaign-credits">'+' · '.join(
+                escape(credit['role'])+' <a class="text-link" href="'+escape(credit['url'],quote=True)+
+                '" target="_blank" rel="noopener noreferrer">'+escape(credit['label'])+'</a>'
+                for credit in c['credits'])+'</p>'
         update = ('<!-- portfolio-campaign-update:start --><section class="campaign-update" '
-                  f'aria-labelledby="{c["case_id"]}-campaign-update-title">'
-                  f'<h4 id="{c["case_id"]}-campaign-update-title">{escape(c.get("update_title","Product launch to streetball activation"))}</h4>'
-                  f'<p>{escape(c["description"])}</p>{metrics(c,c.get("snapshot",data["snapshot"]))}'
+                  f'aria-labelledby="{escape(heading_id,quote=True)}">'
+                  f'<h4 id="{escape(heading_id,quote=True)}">{escape(c.get("update_title","Product launch to streetball activation"))}</h4>'
+                  f'<p>{escape(c["description"])}</p>{credits}{metrics(c,c.get("snapshot",data["snapshot"]))}'
                   f'<h4>Additional campaign posts <span>({count})</span></h4>{links}</section><!-- portfolio-campaign-update:end -->')
         anchor = '<div class="case-footer">'
         assert body.count(anchor)==1

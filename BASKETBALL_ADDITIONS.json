@@ -343,11 +343,11 @@
     {
       "id": "skills_lab",
       "audit_id": "skills",
-      "case_id": "case-hdp-ball-handling",
+      "case_id": "case-love-hustle",
       "existing_case": true,
       "title": "Hustle! Hustle! Skills Lab",
-      "update_title": "Hustle! Hustle! Skills Lab with Coach Effendy",
-      "description": "Two October 2026 tutorials presented by Ardiles Basketball with Coach Effendy: low-post moves and off-ball movement. This is a separate coaching collaboration alongside the HDP series above.",
+      "update_title": "Hustle! Hustle! Skills Lab",
+      "description": "A basketball coaching content series within Speedy Weeedy × Kevinswork: Love & Hustle. The two published tutorials cover low-post moves and off-ball movement.",
       "post_codes": [
         "Dd_r53_zSoR",
         "DeHGWADp9X8"
@@ -403,7 +403,25 @@
         "dataset_id": "1H6gNSKc2rtgDyB6r"
       },
       "published_from": "2026-10-02T14:22:33.000Z",
-      "published_to": "2026-10-05T11:28:49.000Z"
+      "published_to": "2026-10-05T11:28:49.000Z",
+      "section_id": "case-love-hustle-skills-lab",
+      "credits": [
+        {
+          "role": "With Coach",
+          "label": "@Effendy.fnd",
+          "url": "https://www.instagram.com/Effendy.fnd/"
+        },
+        {
+          "role": "Presented by",
+          "label": "@ardilesbasketball",
+          "url": "https://www.instagram.com/ardilesbasketball/"
+        }
+      ],
+      "post_titles": {
+        "Dd_r53_zSoR": "6 low-post moves",
+        "DeHGWADp9X8": "5 off-ball moves"
+      },
+      "association_source": "User confirmed that Skills Lab belongs to the Speedy Weeedy × Kevinswork campaign on 1 November 2026."
     },
     {
       "id": "ibl_playground",
