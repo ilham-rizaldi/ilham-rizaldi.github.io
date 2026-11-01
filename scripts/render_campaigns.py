@@ -106,12 +106,13 @@ def new_case(campaign, data):
 
 
 def render(source, data):
-    additions_path = ROOT/'BASKETBALL_ADDITIONS.json'
-    if additions_path.exists():
-        additions = json.loads(additions_path.read_text())
-        assert not (set(data['posts']) & set(additions['posts'])), 'Supplemental archives must have separate post keys'
-        data = {**data, 'campaigns':data['campaigns']+additions['campaigns'],
-                'posts':{**data['posts'], **additions['posts']}}
+    for name in ['BASKETBALL_ADDITIONS.json','RUNNING_ADDITIONS.json']:
+        additions_path = ROOT/name
+        if additions_path.exists():
+            additions = json.loads(additions_path.read_text())
+            assert not (set(data['posts']) & set(additions['posts'])), 'Supplemental archives must have separate post keys'
+            data = {**data, 'campaigns':data['campaigns']+additions['campaigns'],
+                    'posts':{**data['posts'], **additions['posts']}}
     source = remove(source)
     source = re.sub(r'/\* portfolio-campaigns:start \*/.*?/\* portfolio-campaigns:end \*/\s*','',source,flags=re.S)
     source = source.replace('</style>',CSS.strip()+'\n</style>',1)

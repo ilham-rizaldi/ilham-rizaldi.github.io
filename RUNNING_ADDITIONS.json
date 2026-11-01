@@ -1,0 +1,4113 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "collected_at": "2026-11-01T09:37:41.405Z",
+    "display_date": "1 Nov 2026",
+    "timezone": "Asia/Jakarta",
+    "source": "apify/instagram-post-scraper",
+    "run_ids": [
+      "shTxdZDf6G0OhmIu0",
+      "ckDcNS0N4RWFFFa2B"
+    ],
+    "dataset_ids": [
+      "bzMIiITVF8QQ9TqfH",
+      "ohdvsBYl3XvzQd15E"
+    ]
+  },
+  "discovery": {
+    "account": "ardilesrunning",
+    "run_id": "JAuEWMmJFKRMxYyWk",
+    "dataset_id": "NbDDmFOdn0AAJFotC",
+    "unique_posts_retrieved": 1114,
+    "saved_profile_count": 1118,
+    "unreconciled_posts": 4,
+    "date_range": [
+      "2022-09-01",
+      "2026-10-31"
+    ]
+  },
+  "methodology": {
+    "approval": "User requested that Basketball, Running, and the worth-considering audit items go live on 1 November 2026.",
+    "scope": "Seven new cards, one separate Gerbera Vol. 2 phase, and expansions to three existing cases. Supporting social runs, City Run with Urbeat, and challenges are grouped in the existing community case.",
+    "metrics": "Top-level public counters from two detailed datasets collected on the same day. Missing and negative fields are null. Counts remain scoped to each named post collection. Gerbera editions remain separate.",
+    "attribution": "Descriptions state documented campaign ideas and published work. No new personal ownership of sales, deals, attendance, production, or creative credits is asserted. Published partner and creator credits are preserved.",
+    "preservation": "Existing account totals, project snapshots, original source associations, and earlier supplemental archives are retained.",
+    "assets": "Original public source frames, locally stored as WebP covers and square-cropped previews. Full source posts remain linked. Unavailable image downloads use existing previews where available."
+  },
+  "campaigns": [
+    {
+      "id": "cleo",
+      "case_id": "case-drive-cleo",
+      "display_number": 39,
+      "category": "brand",
+      "title": "Drive 2.0 × Cleo.",
+      "eyebrow": "Ardiles Running / Product collaboration / 2026",
+      "description": "A product collaboration connecting a lightness-led running message with Cleo Smart Run, creator content, and an online release.",
+      "outcome": "Product collaboration & event activation",
+      "cover_code": "DbIpq9nTEmg",
+      "cover_alt": "Cleo and Ardiles collaboration reveal above a city skyline",
+      "details": [
+        [
+          "Project overview",
+          "Drive 2.0 × Cleo brings together running footwear and hydration through a message of lightness, freshness, and daily movement."
+        ],
+        [
+          "Published work",
+          "The July–August sequence covers the collaboration reveal, product details, launch at Cleo Smart Run in Bekasi, creator stories, online availability, and reviews."
+        ],
+        [
+          "Content results",
+          "The counters below cover 14 explicitly named Cleo posts from 22 July to 4 August 2026. Generic adjoining teasers are excluded."
+        ]
+      ],
+      "post_codes": [
+        "DbF60lsTnI5",
+        "DbIpq9nTEmg",
+        "DbI3Y_UzvJL",
+        "DbKWZsQkxP5",
+        "DbNBXCmy1eh",
+        "DbN4YSPEz9Z",
+        "DbSNWs9i5SW",
+        "DbS7aG-kx1p",
+        "DbVRPiqTBMQ",
+        "DbXI91HT4nR",
+        "DbXqfD1TovG",
+        "DbdTRl9T6zz",
+        "Dbk5v80zXse",
+        "DbnsAuYTvYi"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 14,
+        "available_posts": 14,
+        "unavailable_posts": 0,
+        "video_posts": 8,
+        "image_posts": 3,
+        "carousel_posts": 3,
+        "distinct_publishers": 4,
+        "metrics": {
+          "likes": {
+            "total": 31705,
+            "available": 14,
+            "eligible": 14
+          },
+          "comments": {
+            "total": 2685,
+            "available": 14,
+            "eligible": 14
+          },
+          "plays": {
+            "total": 2305807,
+            "available": 8,
+            "eligible": 8
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 8
+          },
+          "interactions": {
+            "total": 34390,
+            "available": 14,
+            "eligible": 14,
+            "complete_posts": 14,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DbF60lsTnI5",
+          "DbIpq9nTEmg",
+          "DbI3Y_UzvJL",
+          "DbKWZsQkxP5",
+          "DbNBXCmy1eh",
+          "DbN4YSPEz9Z",
+          "DbSNWs9i5SW",
+          "DbS7aG-kx1p",
+          "DbVRPiqTBMQ",
+          "DbXI91HT4nR",
+          "DbXqfD1TovG",
+          "DbdTRl9T6zz",
+          "Dbk5v80zXse",
+          "DbnsAuYTvYi"
+        ]
+      },
+      "published_from": "2026-07-22T10:54:21.000Z",
+      "published_to": "2026-08-04T13:44:24.000Z"
+    },
+    {
+      "id": "gerbera_creators",
+      "audit_id": "gerbera_challenge",
+      "phase": "features",
+      "case_id": "case-gerbera-creators",
+      "display_number": 40,
+      "category": "brand",
+      "title": "Gerbera Challenge: Creative Video.",
+      "eyebrow": "Ardiles Running / Creator program / 2025–2026",
+      "description": "A series of creator videos showing Gerbera in outdoor settings, followed by the Dirty in Style open call for a second edition.",
+      "outcome": "Creator content & trail-product stories",
+      "cover_code": "DSJblf9EkGz",
+      "cover_alt": "Gerbera trail footwear shown on an outdoor route in a featured creator video",
+      "details": [
+        [
+          "Project overview",
+          "The Gerbera creative-video series features different creators and outdoor perspectives, showing the product in use beyond studio photography."
+        ],
+        [
+          "Published work",
+          "Ten creator features ran from December 2025 to January 2026. The later Dirty in Style Vol. 2 announcement appears below as a separate phase."
+        ],
+        [
+          "Content results",
+          "The first set of counters covers the ten featured videos only. It is separate from the Vol. 2 recruitment posts and the earlier Gerbera Cross Jumper launch."
+        ]
+      ],
+      "post_codes": [
+        "DSFg-ZWEtPL",
+        "DSG743rEgDX",
+        "DSJblf9EkGz",
+        "DSO7v2zkuiP",
+        "DSPzmPTktOB",
+        "DSRq4a7EiNC",
+        "DSZXWBIkoql",
+        "DSpr7WMkszB",
+        "DS41F7Nkoii",
+        "DTCbT-XEgBW"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 10,
+        "available_posts": 10,
+        "unavailable_posts": 0,
+        "video_posts": 10,
+        "image_posts": 0,
+        "carousel_posts": 0,
+        "distinct_publishers": 1,
+        "metrics": {
+          "likes": {
+            "total": 5209,
+            "available": 10,
+            "eligible": 10
+          },
+          "comments": {
+            "total": 256,
+            "available": 10,
+            "eligible": 10
+          },
+          "plays": {
+            "total": 6802985,
+            "available": 10,
+            "eligible": 10
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 10
+          },
+          "interactions": {
+            "total": 5465,
+            "available": 10,
+            "eligible": 10,
+            "complete_posts": 10,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DSFg-ZWEtPL",
+          "DSG743rEgDX",
+          "DSJblf9EkGz",
+          "DSO7v2zkuiP",
+          "DSPzmPTktOB",
+          "DSRq4a7EiNC",
+          "DSZXWBIkoql",
+          "DSpr7WMkszB",
+          "DS41F7Nkoii",
+          "DTCbT-XEgBW"
+        ]
+      },
+      "published_from": "2025-12-10T14:31:04.000Z",
+      "published_to": "2026-01-03T06:14:49.000Z"
+    },
+    {
+      "id": "running_club",
+      "case_id": "case-running-club",
+      "display_number": 41,
+      "category": "community",
+      "title": "Ardiles Running Club.",
+      "eyebrow": "Ardiles Running / Community program / 2026",
+      "description": "A free, all-pace running club, introduced through coach profiles, registration, training updates, and race-related stories.",
+      "outcome": "Club kickoff & recurring communication",
+      "cover_code": "DZHbAk3ADBj",
+      "cover_alt": "Ardiles Running Club kickoff announcement for 6 June 2026 in Jakarta",
+      "details": [
+        [
+          "Project overview",
+          "Ardiles Running Club invites beginners and experienced runners to train at their own pace, with coaches and free public registration."
+        ],
+        [
+          "Kickoff",
+          "The published invitation names 6 June 2026 at Chatime–Soulfull Hub by F&B ID, Hang Tuah, Jakarta. Coach introductions include Harris, Ariefin, and Rayhan."
+        ],
+        [
+          "Published work",
+          "The seven linked posts document the kickoff invitation, coach introductions, registration, later training communication, and marathon-related club stories."
+        ]
+      ],
+      "post_codes": [
+        "DZHbAk3ADBj",
+        "DZNJ1hGTKUC",
+        "DZPXUkxmuGt",
+        "DZPjp9rmvbv",
+        "DZ-BlJwmvfs",
+        "Dcfnm62mtIi",
+        "DeGfQNBp8Sx"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 7,
+        "available_posts": 7,
+        "unavailable_posts": 0,
+        "video_posts": 2,
+        "image_posts": 1,
+        "carousel_posts": 4,
+        "distinct_publishers": 3,
+        "metrics": {
+          "likes": {
+            "total": 1625,
+            "available": 7,
+            "eligible": 7
+          },
+          "comments": {
+            "total": 266,
+            "available": 7,
+            "eligible": 7
+          },
+          "plays": {
+            "total": 12501,
+            "available": 2,
+            "eligible": 2
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 2
+          },
+          "interactions": {
+            "total": 1891,
+            "available": 7,
+            "eligible": 7,
+            "complete_posts": 7,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DZHbAk3ADBj",
+          "DZNJ1hGTKUC",
+          "DZPXUkxmuGt",
+          "DZPjp9rmvbv",
+          "DZ-BlJwmvfs",
+          "Dcfnm62mtIi",
+          "DeGfQNBp8Sx"
+        ]
+      },
+      "published_from": "2026-06-03T07:50:17.000Z",
+      "published_to": "2026-10-05T05:46:25.000Z"
+    },
+    {
+      "id": "recharge",
+      "case_id": "case-run-recharge",
+      "display_number": 42,
+      "category": "community",
+      "title": "Run & Recharge × EJ Sport.",
+      "eyebrow": "Ardiles Running / Partner activation / 2026",
+      "description": "A free 5K fun run in Surabaya, supported by nutrition, apparel, and running-community partners.",
+      "outcome": "EJ Sport · Kniel · Indorunners Surabaya",
+      "cover_code": "DUXqYLzktHy",
+      "cover_alt": "Run and Recharge 5K fun run invitation for 15 February 2026 at Fork Tunjungan",
+      "details": [
+        [
+          "Project overview",
+          "Run & Recharge connects a free 5K community run with partner communication around nutrition and apparel."
+        ],
+        [
+          "Event",
+          "The event invitation names 15 February 2026 at Fork Tunjungan, Surabaya. The published sequence features EJ Sport, Kniel, and Indorunners Surabaya."
+        ],
+        [
+          "Published work",
+          "Eight linked posts cover the invitation, partner announcements, participant preparation, and event recaps."
+        ]
+      ],
+      "post_codes": [
+        "DUXqYLzktHy",
+        "DUaonHKkl03",
+        "DUsZDdREmNN",
+        "DUuQN_YElNL",
+        "DU0K5qDEwsD",
+        "DU5ZXmeiXfw",
+        "DU91j_Skg10",
+        "DVBEQ9fEvT6"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 8,
+        "available_posts": 8,
+        "unavailable_posts": 0,
+        "video_posts": 3,
+        "image_posts": 1,
+        "carousel_posts": 4,
+        "distinct_publishers": 3,
+        "metrics": {
+          "likes": {
+            "total": 3163,
+            "available": 8,
+            "eligible": 8
+          },
+          "comments": {
+            "total": 209,
+            "available": 8,
+            "eligible": 8
+          },
+          "plays": {
+            "total": 22177,
+            "available": 3,
+            "eligible": 3
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 3
+          },
+          "interactions": {
+            "total": 3372,
+            "available": 8,
+            "eligible": 8,
+            "complete_posts": 8,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DUXqYLzktHy",
+          "DUaonHKkl03",
+          "DUsZDdREmNN",
+          "DUuQN_YElNL",
+          "DU0K5qDEwsD",
+          "DU5ZXmeiXfw",
+          "DU91j_Skg10",
+          "DVBEQ9fEvT6"
+        ]
+      },
+      "published_from": "2026-02-05T08:35:25.000Z",
+      "published_to": "2026-02-21T10:35:34.000Z"
+    },
+    {
+      "id": "metora",
+      "case_id": "case-metora-hybrid",
+      "display_number": 43,
+      "category": "brand",
+      "title": "Metora 3.0: Hybrid Training.",
+      "eyebrow": "Ardiles Running / Product communication / 2026",
+      "description": "Product stories connecting gym sessions, interval running, and hybrid training through Metora 3.0.",
+      "outcome": "Gym & running product communication",
+      "cover_code": "DU3HHTJkkeO",
+      "cover_alt": "Metora 3.0 training shoes in the launch product artwork",
+      "details": [
+        [
+          "Project overview",
+          "Metora 3.0 is presented for training that moves between the gym and running, giving the product a different use case from race-day footwear."
+        ],
+        [
+          "Published work",
+          "Eight linked posts cover product introduction, gym and interval stories, product details, and later hybrid-training content."
+        ],
+        [
+          "Content scope",
+          "The collection spans February–June 2026. Its counters describe published product content across that period."
+        ]
+      ],
+      "post_codes": [
+        "DUspDbbkoGG",
+        "DU3HHTJkkeO",
+        "DU74xZ0kuIr",
+        "DU7_9sxkqCG",
+        "DU-Zh9XEvK1",
+        "DU-29UjEpbH",
+        "DVGeelGEnN7",
+        "DZ92ORJk6Qr"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 8,
+        "available_posts": 8,
+        "unavailable_posts": 0,
+        "video_posts": 2,
+        "image_posts": 3,
+        "carousel_posts": 3,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 4667,
+            "available": 8,
+            "eligible": 8
+          },
+          "comments": {
+            "total": 50,
+            "available": 8,
+            "eligible": 8
+          },
+          "plays": {
+            "total": 482649,
+            "available": 2,
+            "eligible": 2
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 2
+          },
+          "interactions": {
+            "total": 4717,
+            "available": 8,
+            "eligible": 8,
+            "complete_posts": 8,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DUspDbbkoGG",
+          "DU3HHTJkkeO",
+          "DU74xZ0kuIr",
+          "DU7_9sxkqCG",
+          "DU-Zh9XEvK1",
+          "DU-29UjEpbH",
+          "DVGeelGEnN7",
+          "DZ92ORJk6Qr"
+        ]
+      },
+      "published_from": "2026-02-13T12:09:16.000Z",
+      "published_to": "2026-06-24T11:07:02.000Z"
+    },
+    {
+      "id": "brand_film",
+      "case_id": "case-we-are-all-runners",
+      "display_number": 44,
+      "category": "brand",
+      "title": "We Are All Runners.",
+      "eyebrow": "Ardiles Running / Brand film / 2025",
+      "description": "A brand message about everyday progress: running a little farther toward personal goals, one day at a time.",
+      "outcome": "Run For Your Dream",
+      "cover_code": "DKRivyoSmBn",
+      "cover_alt": "Faces from the We Are All Runners brand film",
+      "details": [
+        [
+          "Project overview",
+          "The film brings the Run For Your Dream message into everyday life through the line We Are All Runners."
+        ],
+        [
+          "Published idea",
+          "The caption connects running with making progress toward personal goals, rather than presenting life only as a race."
+        ],
+        [
+          "Published work",
+          "The original brand film was published on 30 May 2025. The public counters below belong to that one post."
+        ]
+      ],
+      "post_codes": [
+        "DKRivyoSmBn"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 1,
+        "available_posts": 1,
+        "unavailable_posts": 0,
+        "video_posts": 1,
+        "image_posts": 0,
+        "carousel_posts": 0,
+        "distinct_publishers": 1,
+        "metrics": {
+          "likes": {
+            "total": 28773,
+            "available": 1,
+            "eligible": 1
+          },
+          "comments": {
+            "total": 43,
+            "available": 1,
+            "eligible": 1
+          },
+          "plays": {
+            "total": 1993160,
+            "available": 1,
+            "eligible": 1
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 1
+          },
+          "interactions": {
+            "total": 28816,
+            "available": 1,
+            "eligible": 1,
+            "complete_posts": 1,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DKRivyoSmBn"
+        ]
+      },
+      "published_from": "2025-05-30T10:20:10.000Z",
+      "published_to": "2025-05-30T10:20:10.000Z"
+    },
+    {
+      "id": "pgl",
+      "case_id": "case-pgl-running-stories",
+      "display_number": 45,
+      "category": "brand",
+      "title": "Running Stories with PGL Films.",
+      "eyebrow": "Ardiles Running / Sponsored creator series / 2023",
+      "description": "Running-culture comedy and everyday observations from PGL Films, Pelari Galau, and their collaborators, sponsored by Ardiles.",
+      "outcome": "Creator partnership & running culture",
+      "cover_code": "CpzqyzlsKwr",
+      "cover_alt": "Hansaluft in an episode of the Ardiles-sponsored running comedy series",
+      "details": [
+        [
+          "Project overview",
+          "Four published posts use running-culture humor and familiar everyday experiences to connect with runners."
+        ],
+        [
+          "Creator credits",
+          "The original captions identify PGL Films as producer and Ardiles Running as sponsor. They credit Hansaluft, Pelari Galau, and Tika Tatum across story, script, talent, and video roles."
+        ],
+        [
+          "Published work",
+          "The collection spans March–April 2023, including two running-comedy episodes and the series holiday message. Original creator credits remain with the source posts."
+        ]
+      ],
+      "post_codes": [
+        "CphoBprtp0v",
+        "CpzqyzlsKwr",
+        "CqFrzGpPa2H",
+        "CrUpjMhN916"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 4,
+        "available_posts": 4,
+        "unavailable_posts": 0,
+        "video_posts": 4,
+        "image_posts": 0,
+        "carousel_posts": 0,
+        "distinct_publishers": 1,
+        "metrics": {
+          "likes": {
+            "total": 8751,
+            "available": 4,
+            "eligible": 4
+          },
+          "comments": {
+            "total": 473,
+            "available": 4,
+            "eligible": 4
+          },
+          "plays": {
+            "total": 217697,
+            "available": 4,
+            "eligible": 4
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 4
+          },
+          "interactions": {
+            "total": 9224,
+            "available": 4,
+            "eligible": 4,
+            "complete_posts": 4,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "CphoBprtp0v",
+          "CpzqyzlsKwr",
+          "CqFrzGpPa2H",
+          "CrUpjMhN916"
+        ]
+      },
+      "published_from": "2023-03-08T11:01:28.000Z",
+      "published_to": "2023-04-22T03:04:25.000Z"
+    },
+    {
+      "id": "gerbera_vol2",
+      "audit_id": "gerbera_challenge",
+      "phase": "vol2",
+      "case_id": "case-gerbera-creators",
+      "existing_case": true,
+      "title": "Gerbera Challenge Vol. 2",
+      "update_title": "Vol. 2: Dirty in Style",
+      "description": "Two May–June 2026 announcements introduce Dirty in Style: an open creator call, 30 creator slots, Gerbera footwear for selected creators, and three best-video prizes totaling Rp9 million. These are the published program mechanics; the counters below cover these two announcement posts separately.",
+      "post_codes": [
+        "DY1RBtfE3uF",
+        "DZZhs79zDSZ"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 2,
+        "available_posts": 2,
+        "unavailable_posts": 0,
+        "video_posts": 1,
+        "image_posts": 0,
+        "carousel_posts": 1,
+        "distinct_publishers": 1,
+        "metrics": {
+          "likes": {
+            "total": 1373,
+            "available": 2,
+            "eligible": 2
+          },
+          "comments": {
+            "total": 75,
+            "available": 2,
+            "eligible": 2
+          },
+          "plays": {
+            "total": 6661,
+            "available": 1,
+            "eligible": 1
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 1
+          },
+          "interactions": {
+            "total": 1448,
+            "available": 2,
+            "eligible": 2,
+            "complete_posts": 2,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DY1RBtfE3uF",
+          "DZZhs79zDSZ"
+        ]
+      },
+      "published_from": "2026-05-27T06:36:41.000Z",
+      "published_to": "2026-06-10T08:35:58.000Z"
+    },
+    {
+      "id": "sense_original",
+      "case_id": "case-sense-pro-launch",
+      "existing_case": true,
+      "title": "Original Sense Pro 2.0 launch",
+      "update_title": "The original 2025 launch",
+      "description": "Fifteen January–February 2025 posts document the original Sense Pro 2.0 release, product construction, and early creator tests. This launch phase has its own public-post counters, separate from the 2026 After Image update above and the paid CPAS case.",
+      "post_codes": [
+        "DFIBq3iy8mP",
+        "DFP4I3UPDUt",
+        "DFSmJC0yM0S",
+        "DFXhOK7Sd0h",
+        "DFb2DeOyTg1",
+        "DFc2kYhyFrs",
+        "DFpa_Z-SfI1",
+        "DFrlbIWSvGg",
+        "DFuFoZ9P5Lu",
+        "DFz0p0jyxfI",
+        "DF6-lJcTweT",
+        "DGIZdTgyJhz",
+        "DGIj-AHTdD5",
+        "DGfW-E4SkRP",
+        "DGh8bylyoKD"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 15,
+        "available_posts": 15,
+        "unavailable_posts": 0,
+        "video_posts": 8,
+        "image_posts": 5,
+        "carousel_posts": 2,
+        "distinct_publishers": 6,
+        "metrics": {
+          "likes": {
+            "total": 86475,
+            "available": 15,
+            "eligible": 15
+          },
+          "comments": {
+            "total": 709,
+            "available": 15,
+            "eligible": 15
+          },
+          "plays": {
+            "total": 890588,
+            "available": 8,
+            "eligible": 8
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 8
+          },
+          "interactions": {
+            "total": 87184,
+            "available": 15,
+            "eligible": 15,
+            "complete_posts": 15,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DFIBq3iy8mP",
+          "DFP4I3UPDUt",
+          "DFSmJC0yM0S",
+          "DFXhOK7Sd0h",
+          "DFb2DeOyTg1",
+          "DFc2kYhyFrs",
+          "DFpa_Z-SfI1",
+          "DFrlbIWSvGg",
+          "DFuFoZ9P5Lu",
+          "DFz0p0jyxfI",
+          "DF6-lJcTweT",
+          "DGIZdTgyJhz",
+          "DGIj-AHTdD5",
+          "DGfW-E4SkRP",
+          "DGh8bylyoKD"
+        ]
+      },
+      "published_from": "2025-01-22T11:00:00.000Z",
+      "published_to": "2025-02-26T09:20:39.000Z"
+    },
+    {
+      "id": "runergize_events",
+      "case_id": "case-runergize",
+      "existing_case": true,
+      "title": "Runergize Stay Fast activations",
+      "update_title": "Stay Fast: product-trial activations",
+      "description": "Nine explicitly named Stay Fast posts document product trials and city activations alongside Runergize communication. Eight source posts already appear in the original case; the additional link below completes this selected set. These counters describe this nine-post activation collection without replacing the original snapshot.",
+      "post_codes": [
+        "DX6uIKYzLOP",
+        "DYT3kxakpoZ",
+        "DYZyCNJy19C",
+        "DYbniNUkq4v",
+        "DYbyzCwyXWB",
+        "DYeHavrEYN7",
+        "DZMqNFDziHj",
+        "DZete_aTNsG",
+        "DZgtq_Vk2o_"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 9,
+        "available_posts": 9,
+        "unavailable_posts": 0,
+        "video_posts": 5,
+        "image_posts": 0,
+        "carousel_posts": 4,
+        "distinct_publishers": 4,
+        "metrics": {
+          "likes": {
+            "total": 2300,
+            "available": 9,
+            "eligible": 9
+          },
+          "comments": {
+            "total": 104,
+            "available": 9,
+            "eligible": 9
+          },
+          "plays": {
+            "total": 62127,
+            "available": 5,
+            "eligible": 5
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 5
+          },
+          "interactions": {
+            "total": 2404,
+            "available": 9,
+            "eligible": 9,
+            "complete_posts": 9,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DX6uIKYzLOP",
+          "DYT3kxakpoZ",
+          "DYZyCNJy19C",
+          "DYbniNUkq4v",
+          "DYbyzCwyXWB",
+          "DYeHavrEYN7",
+          "DZMqNFDziHj",
+          "DZete_aTNsG",
+          "DZgtq_Vk2o_"
+        ]
+      },
+      "published_from": "2026-05-04T12:57:28.000Z",
+      "published_to": "2026-06-13T03:34:20.000Z"
+    },
+    {
+      "id": "community_archive",
+      "audit_ids": [
+        "social_run",
+        "challenges",
+        "city_urbeat"
+      ],
+      "case_id": "case-community",
+      "existing_case": true,
+      "title": "Social runs and participation challenges",
+      "update_title": "More community programs: 2023–2026",
+      "description": "Additional published work includes the 2023 Ardiles Social Run series, City Run with Urbeat in 2024, and Mileage, Ramadan Active, and Run Your Limits challenges. Invitations, participation mechanics, winner announcements, and recaps remain linked here. The public-post counters cover this selected archive, separately from Short Escape above.",
+      "post_codes": [
+        "CpHJGfdvUoi",
+        "CpKAzP1DLLl",
+        "Cpg_LbrD7Vs",
+        "CphoBprtp0v",
+        "CqP4m7mDpDz",
+        "CquzoUquVQC",
+        "CrLbH2wg64g",
+        "CrS5pFhvUvZ",
+        "Cxxb3SuvpVy",
+        "CyQZaKDvPXi",
+        "C-7u6OBPr2J",
+        "C_NchyJPc1K",
+        "C_SwcSUvFna",
+        "DG28goryTWI",
+        "DNibKteScJR",
+        "DNihtPryc0x",
+        "DVY3-3dkuD8"
+      ],
+      "snapshot": {
+        "collected_at": "2026-11-01T09:37:41.405Z",
+        "display_date": "1 Nov 2026",
+        "timezone": "Asia/Jakarta",
+        "source": "apify/instagram-post-scraper",
+        "run_ids": [
+          "shTxdZDf6G0OhmIu0",
+          "ckDcNS0N4RWFFFa2B"
+        ],
+        "dataset_ids": [
+          "bzMIiITVF8QQ9TqfH",
+          "ohdvsBYl3XvzQd15E"
+        ]
+      },
+      "totals": {
+        "unique_posts": 17,
+        "available_posts": 17,
+        "unavailable_posts": 0,
+        "video_posts": 7,
+        "image_posts": 5,
+        "carousel_posts": 5,
+        "distinct_publishers": 3,
+        "metrics": {
+          "likes": {
+            "total": 77931,
+            "available": 17,
+            "eligible": 17
+          },
+          "comments": {
+            "total": 971,
+            "available": 17,
+            "eligible": 17
+          },
+          "plays": {
+            "total": 1078400,
+            "available": 7,
+            "eligible": 7
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 7
+          },
+          "interactions": {
+            "total": 78902,
+            "available": 17,
+            "eligible": 17,
+            "complete_posts": 17,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "CpHJGfdvUoi",
+          "CpKAzP1DLLl",
+          "Cpg_LbrD7Vs",
+          "CphoBprtp0v",
+          "CqP4m7mDpDz",
+          "CquzoUquVQC",
+          "CrLbH2wg64g",
+          "CrS5pFhvUvZ",
+          "Cxxb3SuvpVy",
+          "CyQZaKDvPXi",
+          "C-7u6OBPr2J",
+          "C_NchyJPc1K",
+          "C_SwcSUvFna",
+          "DG28goryTWI",
+          "DNibKteScJR",
+          "DNihtPryc0x",
+          "DVY3-3dkuD8"
+        ]
+      },
+      "published_from": "2023-02-26T04:06:51.000Z",
+      "published_to": "2026-03-02T16:24:55.000Z"
+    }
+  ],
+  "posts": {
+    "C-7u6OBPr2J": {
+      "shortcode": "C-7u6OBPr2J",
+      "id": "3439549051349941641",
+      "source_url": "https://www.instagram.com/p/C-7u6OBPr2J/",
+      "owner": "ardilesrunning",
+      "published_at": "2024-08-21T13:17:00.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 306,
+        "comments": 58,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "ARDILES CITY RUN WITH URBEAT💨 Sampai bertemu besok Minggu (25/8) ya, guys. Buat temen-temen yang kemarin belum daftar jangan khawatir, kalian langsung dateng aj",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1797
+    },
+    "C_NchyJPc1K": {
+      "shortcode": "C_NchyJPc1K",
+      "id": "3444534756895477066",
+      "source_url": "https://www.instagram.com/p/C_NchyJPc1K/",
+      "owner": "ardilesrunning",
+      "published_at": "2024-08-28T10:22:42.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 357,
+        "comments": 28,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Potret keseruan para pelari dalam meraih mimpi di event Ardiles City Run with Urbeat Terima kasih pada teman-teman komunitas ataupun non komunitas yang sudah ik",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "C_SwcSUvFna": {
+      "shortcode": "C_SwcSUvFna",
+      "id": "3446029714944973274",
+      "source_url": "https://www.instagram.com/p/C_SwcSUvFna/",
+      "owner": "ardilesrunning",
+      "published_at": "2024-08-30T11:57:53.000Z",
+      "type": "Video",
+      "duration_seconds": 71.199997,
+      "status": "available",
+      "metrics": {
+        "likes": 296,
+        "comments": 23,
+        "plays": 16953,
+        "views": null
+      },
+      "caption_excerpt": "Dari untaian mimpi-mimpi kecil yang ketika itu bisa dibilang masih dipandang sebelah mata. bersama kalian, kita bisa membuat event bersama dengan teman-teman ru",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 2664,
+      "height": 4732
+    },
+    "CpHJGfdvUoi": {
+      "shortcode": "CpHJGfdvUoi",
+      "id": "3046443701459831330",
+      "source_url": "https://www.instagram.com/p/CpHJGfdvUoi/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-02-26T04:06:51.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 481,
+        "comments": 37,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Terima kasih Jakarta! Terima kasih @thunderlight.jkt @freedomtrainingcamp @ceorunners @chibi.runners @kemendes.runners @ldrindonesia @mandirirunners @meta_runne",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 962
+    },
+    "CpKAzP1DLLl": {
+      "shortcode": "CpKAzP1DLLl",
+      "id": "3047251619559027429",
+      "source_url": "https://www.instagram.com/p/CpKAzP1DLLl/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-02-27T06:58:51.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 287,
+        "comments": 20,
+        "plays": 4446,
+        "views": null
+      },
+      "caption_excerpt": "Keseruan #ardilessocialrunjkt weekend kemarin. Usul dong kemana lagi kita setelah ini?",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 540,
+      "height": 304
+    },
+    "Cpg_LbrD7Vs": {
+      "shortcode": "Cpg_LbrD7Vs",
+      "id": "3053718409915118956",
+      "source_url": "https://www.instagram.com/p/Cpg_LbrD7Vs/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-03-08T05:06:10.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 318,
+        "comments": 15,
+        "plays": 5072,
+        "views": null
+      },
+      "caption_excerpt": "Keseruan Ardilessocialrun x @sibakulsportfest weekend kemarin? Jakarta dan Jogja sudah, kita lanjut setelah Lebaran ya. Atau kita mau Ngabuburun saat Ramadan?",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 0,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1280,
+      "height": 720
+    },
+    "CphoBprtp0v": {
+      "shortcode": "CphoBprtp0v",
+      "id": "3053898057670630703",
+      "source_url": "https://www.instagram.com/p/CphoBprtp0v/",
+      "owner": "hansaluft",
+      "published_at": "2023-03-08T11:01:28.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 5122,
+        "comments": 156,
+        "plays": 121791,
+        "views": null
+      },
+      "caption_excerpt": "Lari itu olahraga yang murah kalau sehari-hari cuma lari-pulang lari-pulang aja. Kalau ngikutin budaya dan gaya hidup anak-anak lari sekarang ya mahal. Mau ikut",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1920
+    },
+    "CpzqyzlsKwr": {
+      "shortcode": "CpzqyzlsKwr",
+      "id": "3058976781235170347",
+      "source_url": "https://www.instagram.com/p/CpzqyzlsKwr/",
+      "owner": "hansaluft",
+      "published_at": "2023-03-15T11:08:33.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1579,
+        "comments": 163,
+        "plays": 65451,
+        "views": null
+      },
+      "caption_excerpt": "Terbukti cepat di lintasan ❌ Terlihat cepat di postingan ✅ #benkoyokancane Produced by @pgl.films Sponsored by @ardilesrunning Talent: @hansaluft Ide cerita: @h",
+      "image": "assets/campaigns/CpzqyzlsKwr.webp",
+      "preview_atlas": {
+        "column": 1,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 540,
+      "height": 960,
+      "image_sha256": "f3e135e08b67a538b24686febacb3737d289c7e51832f7551e244a9b8df6ec47"
+    },
+    "CqFrzGpPa2H": {
+      "shortcode": "CqFrzGpPa2H",
+      "id": "3064047749323140487",
+      "source_url": "https://www.instagram.com/p/CqFrzGpPa2H/",
+      "owner": "hansaluft",
+      "published_at": "2023-03-22T11:08:00.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1466,
+        "comments": 102,
+        "plays": 22048,
+        "views": null
+      },
+      "caption_excerpt": "Daftar race paling ngebut, Budaya membaca masih mawut. Produced by @pgl.films Sponsored by @ardilesrunning Talent: @hansaluft Ide cerita: @pelarigalau Script: @",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1080,
+      "height": 1920
+    },
+    "CqP4m7mDpDz": {
+      "shortcode": "CqP4m7mDpDz",
+      "id": "3066918837196591347",
+      "source_url": "https://www.instagram.com/p/CqP4m7mDpDz/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-03-26T10:15:44.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 320,
+        "comments": 7,
+        "plays": 8023,
+        "views": null
+      },
+      "caption_excerpt": "ARDILESSOCIALRUN MALANG EDISI SPESIAL NGABUBURIT!! Seruu abiss! Terimakasih teman teman Malang! Sampai berjumpa lagi! Absen di kolom komentar dong siapa aja yan",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 2250,
+      "height": 4000
+    },
+    "CquzoUquVQC": {
+      "shortcode": "CquzoUquVQC",
+      "id": "3075622666883388418",
+      "source_url": "https://www.instagram.com/p/CquzoUquVQC/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-04-07T10:20:00.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 373,
+        "comments": 6,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "#Throwback Ardiles Social Run Edisi Spesial Ngabuburit! Masih inget banget keseruan Ngabuburun Malang bareng @sneakerzone.mlg minggu lalu, semoga kita bisa berj",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "CrLbH2wg64g": {
+      "shortcode": "CrLbH2wg64g",
+      "id": "3083677656953368096",
+      "source_url": "https://www.instagram.com/p/CrLbH2wg64g/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-04-18T13:04:04.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 357,
+        "comments": 15,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Jalanan Jadi Merah🥰 serunya ngabuburun kemarin tergambar dalam 10 slide foto! Terimakasih untuk #teamardiles yang sudah datang! sampai bertemu di kesempatan lai",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 1,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "CrS5pFhvUvZ": {
+      "shortcode": "CrS5pFhvUvZ",
+      "id": "3085782206786653145",
+      "source_url": "https://www.instagram.com/p/CrS5pFhvUvZ/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-04-21T10:45:00.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 184,
+        "comments": 1,
+        "plays": 3037,
+        "views": null
+      },
+      "caption_excerpt": "Sebentar lagi lebaran! berarti series Ngabuburun harus berakhir Tapii tenang..... Ardiles Social Run akan terus ada kok! Setelah lebaran akan ada lebih banyak k",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1920
+    },
+    "CrUpjMhN916": {
+      "shortcode": "CrUpjMhN916",
+      "id": "3086274383186484602",
+      "source_url": "https://www.instagram.com/p/CrUpjMhN916/",
+      "owner": "hansaluft",
+      "published_at": "2023-04-22T03:04:25.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 584,
+        "comments": 52,
+        "plays": 8407,
+        "views": null
+      },
+      "caption_excerpt": "Eid Mubarak, Selamat Idulfitri 1444H. Minal Aidin Wal Faidzin, Mohon Maaf Lahir & Batin. Sampai ketemu di Season 3 dengan konsep yang berbeda. 🎥 @pgl.films @pel",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      }
+    },
+    "Cxxb3SuvpVy": {
+      "shortcode": "Cxxb3SuvpVy",
+      "id": "3202463356975748466",
+      "source_url": "https://www.instagram.com/p/Cxxb3SuvpVy/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-09-29T10:30:03.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 198,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "For more information, join our Strava club Ardiles Running — Ardiles Running Run For Your Dream ___ #Ardiles #runforyourdream #ardilesrunning #ardilesrun #runwi",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1349,
+      "height": 1687
+    },
+    "CyQZaKDvPXi": {
+      "shortcode": "CyQZaKDvPXi",
+      "id": "3211178282984469986",
+      "source_url": "https://www.instagram.com/p/CyQZaKDvPXi/",
+      "owner": "ardilesrunning",
+      "published_at": "2023-10-11T11:05:03.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 269,
+        "comments": 15,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Selamat untuk pemenang seri pertama Ardiles Mileage Challenge Men—Muchsin Saputra 182,9KM Women—Melly Tjie 147,3KM - Selanjutnya challenge apa lagi ya? Elevatio",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1349,
+      "height": 1687
+    },
+    "DF6-lJcTweT": {
+      "shortcode": "DF6-lJcTweT",
+      "id": "3565437286660114323",
+      "source_url": "https://www.instagram.com/p/DF6-lJcTweT/",
+      "owner": "refaldofanther",
+      "published_at": "2025-02-11T06:12:52.000Z",
+      "type": "Video",
+      "duration_seconds": 43.266666,
+      "status": "available",
+      "metrics": {
+        "likes": 924,
+        "comments": 32,
+        "plays": 29440,
+        "views": null
+      },
+      "caption_excerpt": "Tes Interval Ardiles Sense Pro 2.0! Carbon Plated Shoes @ardilesrunning ini enak dipakai speed workout & race day! Cukup stabil, responsif, dan terasa karbonnya",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DFIBq3iy8mP": {
+      "shortcode": "DFIBq3iy8mP",
+      "id": "3551095650085751183",
+      "source_url": "https://www.instagram.com/p/DFIBq3iy8mP/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-22T11:00:00.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 6951,
+        "comments": 100,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Yang belakangan ini menghantui Ardimin… Ardiles Sense Pro 2.0 Coming soon, full speed ⚡️ — Ardiles Running Run For Your Dream — #Ardiles #runforyourdream #ardil",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DFP4I3UPDUt": {
+      "shortcode": "DFP4I3UPDUt",
+      "id": "3553305530774336813",
+      "source_url": "https://www.instagram.com/p/DFP4I3UPDUt/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-25T12:17:07.000Z",
+      "type": "Video",
+      "duration_seconds": 24.200001,
+      "status": "available",
+      "metrics": {
+        "likes": 6907,
+        "comments": 85,
+        "plays": 517719,
+        "views": null
+      },
+      "caption_excerpt": "Coming in no time… This upgraded version from our previous generation is designed for anyone willing to go fast and far from the limits. Ardiles Sense Pro 2.0, ",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DFSmJC0yM0S": {
+      "shortcode": "DFSmJC0yM0S",
+      "id": "3554070803224513810",
+      "source_url": "https://www.instagram.com/p/DFSmJC0yM0S/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-26T13:31:17.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 8598,
+        "comments": 127,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Spill dua warna dulu, biar yang satu lagi bikin penasaran 😜 Sudah siap belomm? Gajinya disisain dulu buat yang ini ya 😊✨ Ardiles Sense Pro 2.0, watch your limit",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 2,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "DFXhOK7Sd0h": {
+      "shortcode": "DFXhOK7Sd0h",
+      "id": "3555456540171951393",
+      "source_url": "https://www.instagram.com/p/DFXhOK7Sd0h/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-28T11:24:29.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 3763,
+        "comments": 126,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Konstruksi sepatu Ardiles Sense Pro 2.0 nih bos hehehe Bayangin aja dulu, karbon ketemu double layer sol responsif bakal gimana hehehe Yok, menerima segala pert",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DFb2DeOyTg1": {
+      "shortcode": "DFb2DeOyTg1",
+      "id": "3556674063869491253",
+      "source_url": "https://www.instagram.com/p/DFb2DeOyTg1/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-30T03:43:30.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 4608,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Siapa nih yang penasaran sama harga sepatu inceran kalian ini? Sini-sini kumpul dulu! Ardimin bisikin harganya. 😁 Dengan teknologi yang sudah di-upgrade dari se",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "DFc2kYhyFrs": {
+      "shortcode": "DFc2kYhyFrs",
+      "id": "3556957800465193708",
+      "source_url": "https://www.instagram.com/p/DFc2kYhyFrs/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-01-30T13:13:57.000Z",
+      "type": "Video",
+      "duration_seconds": 42.333332,
+      "status": "available",
+      "metrics": {
+        "likes": 4994,
+        "comments": 49,
+        "plays": 245539,
+        "views": null
+      },
+      "caption_excerpt": "It’s finally here! Sense Pro 2.0, fast responsive with power fly technology. ⚡️ Go get yours! ____ Ardiles Running Run Your Dream ____ #Ardiles #RunYourDream #A",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 360
+    },
+    "DFpa_Z-SfI1": {
+      "shortcode": "DFpa_Z-SfI1",
+      "id": "3560495686837989941",
+      "source_url": "https://www.instagram.com/p/DFpa_Z-SfI1/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-02-04T10:16:23.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 20963,
+        "comments": 22,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Petantang petenteng pake Sense, bikin lari makin kenceng Gimana nih? Udah cobain pake Nfinity Sense Pro 2.0 ini belum? Spill dong experience kalian ketika pakai",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DFrlbIWSvGg": {
+      "shortcode": "DFrlbIWSvGg",
+      "id": "3561104522477236640",
+      "source_url": "https://www.instagram.com/p/DFrlbIWSvGg/",
+      "owner": "badaimahendragiri",
+      "published_at": "2025-02-05T06:34:51.000Z",
+      "type": "Video",
+      "duration_seconds": 52.900002,
+      "status": "available",
+      "metrics": {
+        "likes": 1314,
+        "comments": 40,
+        "plays": 13570,
+        "views": null
+      },
+      "caption_excerpt": "Intervalan nyobain Sense Pro 2.0 @ardilesrunning 😎 Hari ini sesi pertama kali coba Sense Pro 2.0, besok kamis aku mau coba buat tempo run 8 km 🙌🏻 So far, feel s",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1920
+    },
+    "DFuFoZ9P5Lu": {
+      "shortcode": "DFuFoZ9P5Lu",
+      "id": "3561809122179388142",
+      "source_url": "https://www.instagram.com/p/DFuFoZ9P5Lu/",
+      "owner": "arief_march",
+      "published_at": "2025-02-06T05:50:12.000Z",
+      "type": "Video",
+      "duration_seconds": 31.350647,
+      "status": "available",
+      "metrics": {
+        "likes": 1000,
+        "comments": 12,
+        "plays": 7022,
+        "views": null
+      },
+      "caption_excerpt": "Sepatu Carbon 800an Rasa Premium Emang ada?? Yups ada di series Ardiles Nfinity Sense Pro 2.0 Power Fly Plate Technology 1. Upper : skymesh super Breathable Mes",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 3,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 720,
+      "height": 1280
+    },
+    "DFz0p0jyxfI": {
+      "shortcode": "DFz0p0jyxfI",
+      "id": "3563423302532405192",
+      "source_url": "https://www.instagram.com/p/DFz0p0jyxfI/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-02-08T11:13:01.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 21513,
+        "comments": 23,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Jadi anak lari tuh wajib pamer. Ya kan udah konsisten latihan masa ga dipamerin? 🤪 Jangan serius-serius amat pamer PB mulu 🤭 sekali kali pamerin nih, sepatu Sen",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DG28goryTWI": {
+      "shortcode": "DG28goryTWI",
+      "id": "3582316679118009736",
+      "source_url": "https://www.instagram.com/p/DG28goryTWI/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-03-06T12:50:47.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 700,
+        "comments": 81,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "STOP MAGER DI BULAN PUASA! ❌ Dari pada puasa tidur seharian mending kalian ikut Ramadan Active Challenge bareng Ardiles. Cukup dengan berlari dan upload secara ",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DGIZdTgyJhz": {
+      "shortcode": "DGIZdTgyJhz",
+      "id": "3569214669669832819",
+      "source_url": "https://www.instagram.com/p/DGIZdTgyJhz/",
+      "owner": "alfanarsyad",
+      "published_at": "2025-02-16T11:01:16.000Z",
+      "type": "Video",
+      "duration_seconds": 76.740501,
+      "status": "available",
+      "metrics": {
+        "likes": 416,
+        "comments": 16,
+        "plays": 18166,
+        "views": null
+      },
+      "caption_excerpt": "🏃‍♂️🔥 Sepatu Lari Terbaik Ada di Booth Ardiles - Jakarta Sneakers Day! 🔥🏃‍♂️ Lari makin gacor bareng Ardiles! Cek langsung 3 sepatu lari terbaik yang wajib lo p",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DGIj-AHTdD5": {
+      "shortcode": "DGIj-AHTdD5",
+      "id": "3569260897049104633",
+      "source_url": "https://www.instagram.com/p/DGIj-AHTdD5/",
+      "owner": "adlansyahmi",
+      "published_at": "2025-02-16T12:33:30.000Z",
+      "type": "Video",
+      "duration_seconds": 55.145943,
+      "status": "available",
+      "metrics": {
+        "likes": 1394,
+        "comments": 29,
+        "plays": 16432,
+        "views": null
+      },
+      "caption_excerpt": "“Datang ke Jakarta Sneakers Day 2025 di JICC karena penasaran sama sepatu lari terbaru dari Ardiles Indonesia—dan ternyata nggak kecewa! @jakartasneakerday ✨ Nf",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 760,
+      "height": 1350
+    },
+    "DGfW-E4SkRP": {
+      "shortcode": "DGfW-E4SkRP",
+      "id": "3575677652025623631",
+      "source_url": "https://www.instagram.com/p/DGfW-E4SkRP/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-02-25T09:00:14.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1665,
+        "comments": 24,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Sore-sore gini butuh yang seger-seger, nih, biar gak ngantuk. 👀 Biar tetep fresh, Ardimin kasih Sense Pro 2.0 orange/yellow, buat penyegaran timeline kamu.🍊 Per",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1350,
+      "height": 1687
+    },
+    "DGh8bylyoKD": {
+      "shortcode": "DGh8bylyoKD",
+      "id": "3576405371646542467",
+      "source_url": "https://www.instagram.com/p/DGh8bylyoKD/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-02-26T09:20:39.000Z",
+      "type": "Video",
+      "duration_seconds": 62.099998,
+      "status": "available",
+      "metrics": {
+        "likes": 1465,
+        "comments": 24,
+        "plays": 42700,
+        "views": null
+      },
+      "caption_excerpt": "Lihat foto produk, udah✅ Nonton konten wear test, udah✅ Nontonin reviewer sepatu juga udah✅ Tapi kamu masih belum punya Sense Pro 2.0 jugaa? Yaudah yaudah… Biar",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 4,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DKRivyoSmBn": {
+      "shortcode": "DKRivyoSmBn",
+      "id": "3643846391279280231",
+      "source_url": "https://www.instagram.com/p/DKRivyoSmBn/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-05-30T10:20:10.000Z",
+      "type": "Video",
+      "duration_seconds": 50.049965,
+      "status": "available",
+      "metrics": {
+        "likes": 28773,
+        "comments": 43,
+        "plays": 1993160,
+        "views": null
+      },
+      "caption_excerpt": "We may not see life as a race, but we do need to run a little bit farther towards our goals each and every day. I’m a runner. You’re a runner. We’re all runners",
+      "image": "assets/campaigns/DKRivyoSmBn.webp",
+      "preview_atlas": {
+        "column": 0,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 960,
+      "height": 540,
+      "image_sha256": "f6960ebf4bc06a372663ef36c1006374cc0c659b44518473db70d09380f3a301"
+    },
+    "DNibKteScJR": {
+      "shortcode": "DNibKteScJR",
+      "id": "3702641326929068625",
+      "source_url": "https://www.instagram.com/p/DNibKteScJR/",
+      "owner": "rolansihombing_",
+      "published_at": "2025-08-19T13:32:03.000Z",
+      "type": "Video",
+      "duration_seconds": 156.15274,
+      "status": "available",
+      "metrics": {
+        "likes": 58291,
+        "comments": 218,
+        "plays": 919078,
+        "views": null
+      },
+      "caption_excerpt": "Spesial 17 Agustus yang bisa lari 17 menit dapat sepatu!!! Teman-teman juga bisa ikutan challenge Membuat konten lari jarak paling jauh dengan waktu 20 menit. C",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DNihtPryc0x": {
+      "shortcode": "DNihtPryc0x",
+      "id": "3702670088404061489",
+      "source_url": "https://www.instagram.com/p/DNihtPryc0x/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-08-19T14:11:32.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1138,
+        "comments": 199,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Challenge is back! Kali ini Ardiles dan kak @rolansihombing_ mau natangin kalian untuk lari dengan jarak terjauh selama 20 menit. Ardimin akan membagika",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "DS41F7Nkoii": {
+      "shortcode": "DS41F7Nkoii",
+      "id": "3799019789327960226",
+      "source_url": "https://www.instagram.com/p/DS41F7Nkoii/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-30T12:44:59.000Z",
+      "type": "Video",
+      "duration_seconds": 43.799999,
+      "status": "available",
+      "metrics": {
+        "likes": 175,
+        "comments": 0,
+        "plays": 5890,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @nadiafebriya",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSFg-ZWEtPL": {
+      "shortcode": "DSFg-ZWEtPL",
+      "id": "3784576087184561099",
+      "source_url": "https://www.instagram.com/p/DSFg-ZWEtPL/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-10T14:31:04.000Z",
+      "type": "Video",
+      "duration_seconds": 60.070023,
+      "status": "available",
+      "metrics": {
+        "likes": 163,
+        "comments": 24,
+        "plays": 6242,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @azzaa.maulana",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSG743rEgDX": {
+      "shortcode": "DSG743rEgDX",
+      "id": "3784975929664733399",
+      "source_url": "https://www.instagram.com/p/DSG743rEgDX/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-11T03:39:54.000Z",
+      "type": "Video",
+      "duration_seconds": 60.033333,
+      "status": "available",
+      "metrics": {
+        "likes": 316,
+        "comments": 43,
+        "plays": 21484,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @mellyniapf_",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 5,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSJblf9EkGz": {
+      "shortcode": "DSJblf9EkGz",
+      "id": "3785678285968654771",
+      "source_url": "https://www.instagram.com/p/DSJblf9EkGz/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-12T02:55:32.000Z",
+      "type": "Video",
+      "duration_seconds": 59.966667,
+      "status": "available",
+      "metrics": {
+        "likes": 1011,
+        "comments": 26,
+        "plays": 97791,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @dhimasify",
+      "image": "assets/campaigns/DSJblf9EkGz.webp",
+      "preview_atlas": {
+        "column": 0,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 541,
+      "height": 960,
+      "image_sha256": "77078205df7db1278b653aa7c63736e181578396249fec7e199f9cdc948e4f0e"
+    },
+    "DSO7v2zkuiP": {
+      "shortcode": "DSO7v2zkuiP",
+      "id": "3787227110072051855",
+      "source_url": "https://www.instagram.com/p/DSO7v2zkuiP/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-14T06:13:07.000Z",
+      "type": "Video",
+      "duration_seconds": 60,
+      "status": "available",
+      "metrics": {
+        "likes": 189,
+        "comments": 38,
+        "plays": 6462,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @jefriaziz",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSPzmPTktOB": {
+      "shortcode": "DSPzmPTktOB",
+      "id": "3787472739788575617",
+      "source_url": "https://www.instagram.com/p/DSPzmPTktOB/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-14T14:20:27.000Z",
+      "type": "Video",
+      "duration_seconds": 60.060059,
+      "status": "available",
+      "metrics": {
+        "likes": 213,
+        "comments": 33,
+        "plays": 8631,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @varunaridho",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSRq4a7EiNC": {
+      "shortcode": "DSRq4a7EiNC",
+      "id": "3787997356747793218",
+      "source_url": "https://www.instagram.com/p/DSRq4a7EiNC/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-15T07:46:32.000Z",
+      "type": "Video",
+      "duration_seconds": 60,
+      "status": "available",
+      "metrics": {
+        "likes": 2706,
+        "comments": 32,
+        "plays": 6637404,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @arif.gunandaru",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSZXWBIkoql": {
+      "shortcode": "DSZXWBIkoql",
+      "id": "3790163229524789925",
+      "source_url": "https://www.instagram.com/p/DSZXWBIkoql/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-18T07:26:16.000Z",
+      "type": "Video",
+      "duration_seconds": 59.966667,
+      "status": "available",
+      "metrics": {
+        "likes": 159,
+        "comments": 10,
+        "plays": 6825,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @ilal.mencloo",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DSpr7WMkszB": {
+      "shortcode": "DSpr7WMkszB",
+      "id": "3794757355318725825",
+      "source_url": "https://www.instagram.com/p/DSpr7WMkszB/",
+      "owner": "ardilesrunning",
+      "published_at": "2025-12-24T15:33:42.000Z",
+      "type": "Video",
+      "duration_seconds": 44,
+      "status": "available",
+      "metrics": {
+        "likes": 80,
+        "comments": 1,
+        "plays": 5320,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @woksjourney",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 6,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DTCbT-XEgBW": {
+      "shortcode": "DTCbT-XEgBW",
+      "id": "3801721155339026518",
+      "source_url": "https://www.instagram.com/p/DTCbT-XEgBW/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-01-03T06:14:49.000Z",
+      "type": "Video",
+      "duration_seconds": 59.966667,
+      "status": "available",
+      "metrics": {
+        "likes": 197,
+        "comments": 49,
+        "plays": 6936,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Gerbera Cross Jumper Creative Video by @repratama",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DU-29UjEpbH": {
+      "shortcode": "DU-29UjEpbH",
+      "id": "3836745641029179079",
+      "source_url": "https://www.instagram.com/p/DU-29UjEpbH/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-20T13:55:49.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 127,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Buka puasa hari kedua gimana nih, guys? Pada kalap atau masih aman terkendali? 😁🍽️ Ardimin cuma mau ingetin… buka puasa boleh apa aja, tapi jangan lupa olahraga",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1350,
+      "height": 1688
+    },
+    "DU-Zh9XEvK1": {
+      "shortcode": "DU-Zh9XEvK1",
+      "id": "3836616217357120181",
+      "source_url": "https://www.instagram.com/p/DU-Zh9XEvK1/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-20T09:40:58.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 136,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Get to know NF FIT 👟🔥 A solid midsole technology designed to keep your footing balanced and reduce wobble with every move. More stability, better control, and g",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1350,
+      "height": 1688
+    },
+    "DU0K5qDEwsD": {
+      "shortcode": "DU0K5qDEwsD",
+      "id": "3833737125423155971",
+      "source_url": "https://www.instagram.com/p/DU0K5qDEwsD/",
+      "owner": "indorunnerssurabaya",
+      "published_at": "2026-02-16T10:21:10.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 194,
+        "comments": 4,
+        "plays": 6781,
+        "views": null
+      },
+      "caption_excerpt": ". Keseruan Ardiles Fun Run 5K & Recharge @ardilesrunning X @indorunnerssurabaya lari bareng, seru bareng, isi ulang energi positif bareng. Karena setiap langkah",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DU3HHTJkkeO": {
+      "shortcode": "DU3HHTJkkeO",
+      "id": "3834564895652857742",
+      "source_url": "https://www.instagram.com/p/DU3HHTJkkeO/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-17T13:44:43.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1856,
+        "comments": 22,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Available now, Ardiles Metora 3.0!🔥 Built for stability and made to elevate your performance. Designed to support every move—whether you’re powering through wor",
+      "image": "assets/campaigns/DU3HHTJkkeO.webp",
+      "preview_atlas": {
+        "column": 4,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 767,
+      "height": 960,
+      "image_sha256": "3a366eb9ed67bb7108f9e2a155c75baa3880f0fa47dbe76477b351c52b9787d1"
+    },
+    "DU5ZXmeiXfw": {
+      "shortcode": "DU5ZXmeiXfw",
+      "id": "3835208130707945456",
+      "source_url": "https://www.instagram.com/p/DU5ZXmeiXfw/",
+      "owner": "ejsport.official",
+      "published_at": "2026-02-18T11:00:00.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 234,
+        "comments": 19,
+        "plays": 8157,
+        "views": null
+      },
+      "caption_excerpt": "One step closer, one stride stronger. 🏃‍♂️🏃‍♀️🔥 ARDILES 5K FUN RUN & RECHARGE x EJ Sport bukan cuma soal finish line — ini tentang energi, kebersamaan, dan sema",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 7,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1286,
+      "height": 2280
+    },
+    "DU74xZ0kuIr": {
+      "shortcode": "DU74xZ0kuIr",
+      "id": "3835909193220678187",
+      "source_url": "https://www.instagram.com/p/DU74xZ0kuIr/",
+      "owner": "badaimahendragiri",
+      "published_at": "2026-02-19T10:13:51.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 566,
+        "comments": 12,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Metora 3.0 👟 Buat Hyrox cocok nih 😉 Cobain aaah besok 😌 @ardilesrunning",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DU7_9sxkqCG": {
+      "shortcode": "DU7_9sxkqCG",
+      "id": "3835940824530722950",
+      "source_url": "https://www.instagram.com/p/DU7_9sxkqCG/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-19T11:17:34.000Z",
+      "type": "Video",
+      "duration_seconds": 24.299999,
+      "status": "available",
+      "metrics": {
+        "likes": 1270,
+        "comments": 4,
+        "plays": 281944,
+        "views": null
+      },
+      "caption_excerpt": "Sambil nunggu buka puasa, mending cek dulu detail dari Metora 3.0 👀🔥 Dilengkapi dengan teknologi NF Fit yang memberikan stabilitas maksimal di setiap langkah, s",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DU91j_Skg10": {
+      "shortcode": "DU91j_Skg10",
+      "id": "3836458027193601396",
+      "source_url": "https://www.instagram.com/p/DU91j_Skg10/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-20T04:24:17.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 277,
+        "comments": 20,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Masih belum bisa move on dari keseruan Ardiles Run&Recharge 5K Fun Run powered by EJ Sports minggu lalu! 🏃‍♂️🏃‍♀️ Acaranya benar-benar pecah, penuh energi, seru",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DUXqYLzktHy": {
+      "shortcode": "DUXqYLzktHy",
+      "id": "3825712788371853810",
+      "source_url": "https://www.instagram.com/p/DUXqYLzktHy/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-05T08:35:25.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1582,
+        "comments": 119,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Get ready to feel the happy energy at Ardiles Run & Recharge powered by @ejsport.official ⚡️ Let’s move, sweat, laugh, and vibe together! No pace rules, no pres",
+      "image": "assets/campaigns/DUXqYLzktHy.webp",
+      "preview_atlas": {
+        "column": 3,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 720,
+      "height": 960,
+      "image_sha256": "0b7f89a92464eeaa0b072df1e0c94fb5ab6fdf104d974514f412d29d1704f2cb"
+    },
+    "DUaonHKkl03": {
+      "shortcode": "DUaonHKkl03",
+      "id": "3826549443018251575",
+      "source_url": "https://www.instagram.com/p/DUaonHKkl03/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-06T12:17:54.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 300,
+        "comments": 25,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Presenting Kniel as our official jersey at the 5K Run & Recharge Fun Run, powered by EJ Sports!✨ With breathable, lightweight, quick-dry fabric to keep your run",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1915
+    },
+    "DUsZDdREmNN": {
+      "shortcode": "DUsZDdREmNN",
+      "id": "3831547571731587917",
+      "source_url": "https://www.instagram.com/p/DUsZDdREmNN/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-13T09:48:05.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 76,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Proudly announcing EJ Sport as the Official Sport Nutrition Partner of Run&Recharge 5K Fun Run! ⚡🔥 Exclusively at Run&Recharge 5K Fun Run, purchase 2 packs of E",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 8,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1915
+    },
+    "DUspDbbkoGG": {
+      "shortcode": "DUspDbbkoGG",
+      "id": "3831617938504450438",
+      "source_url": "https://www.instagram.com/p/DUspDbbkoGG/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-13T12:09:16.000Z",
+      "type": "Video",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 340,
+        "comments": 2,
+        "plays": 200705,
+        "views": null
+      },
+      "caption_excerpt": "You don’t train in just one lane. One day it’s heavy lifts. The next, it’s intervals. Sometimes it’s both. Metora 3.0 was built for athletes who refuse to choos",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DUuQN_YElNL": {
+      "shortcode": "DUuQN_YElNL",
+      "id": "3832071663085835083",
+      "source_url": "https://www.instagram.com/p/DUuQN_YElNL/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-14T03:09:22.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 325,
+        "comments": 14,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "H-1 Ardiles Run&Recharge 5K Fun Run powered by EJ! 💛🔥 Get ready to run, have fun, and recharge your energy together! ✨🏃‍♀️🏃‍♂️ Here are the things you must know",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1915
+    },
+    "DVBEQ9fEvT6": {
+      "shortcode": "DVBEQ9fEvT6",
+      "id": "3837367115213632762",
+      "source_url": "https://www.instagram.com/p/DVBEQ9fEvT6/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-21T10:35:34.000Z",
+      "type": "Video",
+      "duration_seconds": 45,
+      "status": "available",
+      "metrics": {
+        "likes": 175,
+        "comments": 8,
+        "plays": 7239,
+        "views": null
+      },
+      "caption_excerpt": "1 kata untuk Run&Recharge 5K Fun Run Powered by EJ: PECAAAHHH! 🔥🔥 Event yang diadakan di Surabaya minggu lalu ini benar-benar full energi, full keseruan dan pas",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DVGeelGEnN7": {
+      "shortcode": "DVGeelGEnN7",
+      "id": "3838889775189881723",
+      "source_url": "https://www.instagram.com/p/DVGeelGEnN7/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-02-23T12:55:44.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 60,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Gimana puasanya sampai hari ini, guys? Masih full semangat atau mulai kerasa lemes? 😆 Yuk tetap on semangat! Bulan puasa bukan alasan buat mager. Dilarang keras",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DVY3-3dkuD8": {
+      "shortcode": "DVY3-3dkuD8",
+      "id": "3844068494678352124",
+      "source_url": "https://www.instagram.com/p/DVY3-3dkuD8/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-03-02T16:24:55.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 8934,
+        "comments": 84,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Ramadan Active Challenge is Back! Daripada bingung mengisi kegiatan di bulan Ramadan, yuk ikut challenge seru dari Ardiles! Cukup lari sejauh 14,47 KM d",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DX6uIKYzLOP": {
+      "shortcode": "DX6uIKYzLOP",
+      "id": "3889624099236656015",
+      "source_url": "https://www.instagram.com/p/DX6uIKYzLOP/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-05-04T12:57:28.000Z",
+      "type": "Video",
+      "duration_seconds": 35.119999,
+      "status": "available",
+      "metrics": {
+        "likes": 239,
+        "comments": 8,
+        "plays": 28444,
+        "views": null
+      },
+      "caption_excerpt": "Stay fast, stay fun ⚡🔥 Jakarta witnessed the energy explode at the Ardiles Runergize launch! From start to finish, the vibes were unstoppable. Full of sweat, sm",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 9,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 640,
+      "height": 480
+    },
+    "DY1RBtfE3uF": {
+      "shortcode": "DY1RBtfE3uF",
+      "id": "3906103136163691397",
+      "source_url": "https://www.instagram.com/p/DY1RBtfE3uF/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-05-27T06:36:41.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1156,
+        "comments": 63,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Here we go! Ardiles Gerbera Challenge Vol. 2 is coming! 🔥⛰️ Memanggil seluruh content creator Indonesia yang gemar membuat konten video menarik, terutama yang b",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1280,
+      "height": 1600
+    },
+    "DYT3kxakpoZ": {
+      "shortcode": "DYT3kxakpoZ",
+      "id": "3896702522124048921",
+      "source_url": "https://www.instagram.com/p/DYT3kxakpoZ/",
+      "owner": "raysportindo",
+      "published_at": "2026-05-14T07:19:20.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 621,
+        "comments": 41,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Siap kebut-kebutan bersama @ardilesrunning di event Stay Fast with Ardiles Runergize edisi Yogyakarta dan sharing session bersama Coach @badaimahendragiri⚡️⚡️ H",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DYZyCNJy19C": {
+      "shortcode": "DYZyCNJy19C",
+      "id": "3898367006353350466",
+      "source_url": "https://www.instagram.com/p/DYZyCNJy19C/",
+      "owner": "raysportindo",
+      "published_at": "2026-05-16T14:30:38.000Z",
+      "type": "Video",
+      "duration_seconds": 36.848618,
+      "status": "available",
+      "metrics": {
+        "likes": 171,
+        "comments": 14,
+        "plays": 14445,
+        "views": null
+      },
+      "caption_excerpt": "Stay Fast, Stay Run With Ardiles Runergize! 🔥⚡ Seru sekali fun run pace 4 bareng temen-temen komunitas lari dari kota Yogyakarta. Banyak hadiah dan doorprize me",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-08.webp",
+        "column": 0,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 720,
+      "height": 540,
+      "preview_kind": "legacy"
+    },
+    "DYbniNUkq4v": {
+      "shortcode": "DYbniNUkq4v",
+      "id": "3898883776999239215",
+      "source_url": "https://www.instagram.com/p/DYbniNUkq4v/",
+      "owner": "raysportindo",
+      "published_at": "2026-05-17T07:33:06.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 267,
+        "comments": 12,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Foto recap keseruan event Stay Fast With Ardiles Runergize! 🔥⚡ Fun run mengitari kota Yogyakarta dan sharing session bareng coach @badaimahendragiri Support by:",
+      "image": null,
+      "preview_atlas": {
+        "sheet": "assets/thumbnails/posts-02.webp",
+        "column": 1,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1080,
+      "height": 1350,
+      "preview_kind": "legacy"
+    },
+    "DYbyzCwyXWB": {
+      "shortcode": "DYbyzCwyXWB",
+      "id": "3898933312404157825",
+      "source_url": "https://www.instagram.com/p/DYbyzCwyXWB/",
+      "owner": "sneakerzone.malang",
+      "published_at": "2026-05-17T09:12:32.000Z",
+      "type": "Video",
+      "duration_seconds": 66.221863,
+      "status": "available",
+      "metrics": {
+        "likes": 125,
+        "comments": 8,
+        "plays": 7888,
+        "views": null
+      },
+      "caption_excerpt": "BE THE CHAMPION WITH RUNERGIZE!🔥 —Mengintip kecepatan dan keseruan pelari di event “Stay Fast With Ardiles X Sneakerzone”! Selamat buat yang udah jadi juara dan",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 640,
+      "height": 360
+    },
+    "DYeHavrEYN7": {
+      "shortcode": "DYeHavrEYN7",
+      "id": "3899586951569834875",
+      "source_url": "https://www.instagram.com/p/DYeHavrEYN7/",
+      "owner": "arfath_store",
+      "published_at": "2026-05-18T06:50:11.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 462,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Galeri keseruan fun run pace 4 bertajuk Stay Fast with Ardiles Runergize ⚡️⚡️ Special thanks : @ardilesrunning @tawangmlayu @fomo__runners @runrise.runningclub ",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1081,
+      "height": 1351
+    },
+    "DZ-BlJwmvfs": {
+      "shortcode": "DZ-BlJwmvfs",
+      "id": "3926582876259940332",
+      "source_url": "https://www.instagram.com/p/DZ-BlJwmvfs/",
+      "owner": "ardilesrunningclub",
+      "published_at": "2026-06-24T12:46:16.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 119,
+        "comments": 18,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Yuhuuu! registrasi untuk sesi latihan week 3 sudah dibuka! Segera daftar sebelum kehabisan slot! See you on friday 🙌🔥 Supported by @hypeupdrinks 🫶 #ardilesrunni",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 2835,
+      "height": 3546
+    },
+    "DZ92ORJk6Qr": {
+      "shortcode": "DZ92ORJk6Qr",
+      "id": "3926532925135496235",
+      "source_url": "https://www.instagram.com/p/DZ92ORJk6Qr/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-24T11:07:02.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 312,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Preparing for HYROX this week? Make sure your training gear is as ready as you are. Metora 3.0 is built for gym sessions and functional training, featuring NF F",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 10,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DZHbAk3ADBj": {
+      "shortcode": "DZHbAk3ADBj",
+      "id": "3911213588227829859",
+      "source_url": "https://www.instagram.com/p/DZHbAk3ADBj/",
+      "owner": "ardilesrunningclub",
+      "published_at": "2026-06-03T07:50:17.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 258,
+        "comments": 50,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Move with us! 🏃‍♀️ Ardiles Running Club kicks off for the first time this Saturday, June 6th, at 5 AM with Head Coach Harris Silaban! Join us at Chatime - Soulf",
+      "image": "assets/campaigns/DZHbAk3ADBj.webp",
+      "preview_atlas": {
+        "column": 0,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 720,
+      "height": 960,
+      "image_sha256": "277108343e6ae44f8a277c75c73c14f257a8183af4b8283e4b37f2c77f6028f2"
+    },
+    "DZMqNFDziHj": {
+      "shortcode": "DZMqNFDziHj",
+      "id": "3912687793017332195",
+      "source_url": "https://www.instagram.com/p/DZMqNFDziHj/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-05T08:41:22.000Z",
+      "type": "Video",
+      "duration_seconds": 23.314981,
+      "status": "available",
+      "metrics": {
+        "likes": 151,
+        "comments": 10,
+        "plays": 5885,
+        "views": null
+      },
+      "caption_excerpt": "Jakarta ✅ Yogyakarta ✅ Solo ✅ Malang ✅ We’ve shared the energy, the miles, and the excitement across the cities. Now, it’s time for Surabaya!🔥 Get ready to push",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1216,
+      "height": 2160
+    },
+    "DZNJ1hGTKUC": {
+      "shortcode": "DZNJ1hGTKUC",
+      "id": "3912826911344862466",
+      "source_url": "https://www.instagram.com/p/DZNJ1hGTKUC/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-05T13:20:25.000Z",
+      "type": "Video",
+      "duration_seconds": 120.138596,
+      "status": "available",
+      "metrics": {
+        "likes": 464,
+        "comments": 111,
+        "plays": 9319,
+        "views": null
+      },
+      "caption_excerpt": "Introducing Our New Brand Ambassadors: Coach Harris, Ariefin, and Rayhan — representing Ardiles Running Club! Lebih dari sekadar komunitas lari, Ardiles Running",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DZPXUkxmuGt": {
+      "shortcode": "DZPXUkxmuGt",
+      "id": "3913449170154480045",
+      "source_url": "https://www.instagram.com/p/DZPXUkxmuGt/",
+      "owner": "ardilesrunningclub",
+      "published_at": "2026-06-06T09:51:57.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 274,
+        "comments": 37,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Hari ini perjalanan Ardiles Running Club sah di mulai! Terima kasih untuk yang sudah hadir dan menjadi bagian dari acara Kick Off Ardiles Running Club! Buat tem",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1800
+    },
+    "DZPjp9rmvbv": {
+      "shortcode": "DZPjp9rmvbv",
+      "id": "3913503416564512495",
+      "source_url": "https://www.instagram.com/p/DZPjp9rmvbv/",
+      "owner": "ardilesrunningclub",
+      "published_at": "2026-06-06T11:39:43.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 229,
+        "comments": 17,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Not a runner? Perfect! Baru mulai lari? Fine! Udah lama lari dan mau lebih serius lagi? Gasss 🔥 Ardiles Running Club untuk semua, semua boleh ikut, semua bisa l",
+      "image": null,
+      "preview_atlas": {
+        "column": 4,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1080,
+      "height": 1350
+    },
+    "DZZhs79zDSZ": {
+      "shortcode": "DZZhs79zDSZ",
+      "id": "3916309574554760345",
+      "source_url": "https://www.instagram.com/p/DZZhs79zDSZ/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-10T08:35:58.000Z",
+      "type": "Video",
+      "duration_seconds": 38,
+      "status": "available",
+      "metrics": {
+        "likes": 217,
+        "comments": 12,
+        "plays": 6661,
+        "views": null
+      },
+      "caption_excerpt": "30 creators from different regions have already taken on the challenge and shown their creativity. 🔥 Now it’s your turn. Are you ready to step out, create somet",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 11,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 640,
+      "height": 1136
+    },
+    "DZete_aTNsG": {
+      "shortcode": "DZete_aTNsG",
+      "id": "3917768767623191302",
+      "source_url": "https://www.instagram.com/p/DZete_aTNsG/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-12T08:57:10.000Z",
+      "type": "Video",
+      "duration_seconds": 40.560001,
+      "status": "available",
+      "metrics": {
+        "likes": 114,
+        "comments": 2,
+        "plays": 5465,
+        "views": null
+      },
+      "caption_excerpt": "Menutup rangkaian Ardiles Runergize: Stay Fast di Surabaya! 🔥 Ramai, seru, dan penuh energi! Terima kasih untuk semua yang telah hadir, berlari, dan menjadi bag",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 720,
+      "height": 540
+    },
+    "DZgtq_Vk2o_": {
+      "shortcode": "DZgtq_Vk2o_",
+      "id": "3918332542131071551",
+      "source_url": "https://www.instagram.com/p/DZgtq_Vk2o_/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-06-13T03:34:20.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 150,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Fast, fun, and full of laughter⚡ That’s how we’d describe Ardiles Runergize: Stay Fast Surabaya. Thank you to everyone who joined, shared the energy, and made e",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "ckDcNS0N4RWFFFa2B",
+        "dataset_id": "ohdvsBYl3XvzQd15E"
+      },
+      "width": 1440,
+      "height": 1920
+    },
+    "DbF60lsTnI5": {
+      "shortcode": "DbF60lsTnI5",
+      "id": "3946819349042328121",
+      "source_url": "https://www.instagram.com/p/DbF60lsTnI5/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-22T10:54:21.000Z",
+      "type": "Video",
+      "duration_seconds": 11.5,
+      "status": "available",
+      "metrics": {
+        "likes": 3038,
+        "comments": 20,
+        "plays": 223495,
+        "views": null
+      },
+      "caption_excerpt": "Something special is coming to make your day lighter. And this time, we’re not coming alone. We’re bringing Cleo as our collaborator. So,see you really soon. 👀 ",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 720,
+      "height": 1280
+    },
+    "DbI3Y_UzvJL": {
+      "shortcode": "DbI3Y_UzvJL",
+      "id": "3947648683210633803",
+      "source_url": "https://www.instagram.com/p/DbI3Y_UzvJL/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-23T14:23:48.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1801,
+        "comments": 55,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Wohooo! Drive 2.0 Special Collaboration Ardiles × Cleo is finally out now! You can get the limited pairs of Drive 2.0 Ardiles × Cleo at Cleo Smart Run Bekasi. G",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1916
+    },
+    "DbIpq9nTEmg": {
+      "shortcode": "DbIpq9nTEmg",
+      "id": "3947588345672780192",
+      "source_url": "https://www.instagram.com/p/DbIpq9nTEmg/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-23T12:22:38.000Z",
+      "type": "Video",
+      "duration_seconds": 61.916668,
+      "status": "available",
+      "metrics": {
+        "likes": 5987,
+        "comments": 60,
+        "plays": 751888,
+        "views": null
+      },
+      "caption_excerpt": "The wait is over! Introducing the new collaboration between Ardiles Running and Cleo. Meet the Drive 2.0 Ardiles × Cleo a collaboration inspired by lightness, d",
+      "image": "assets/campaigns/DbIpq9nTEmg.webp",
+      "preview_atlas": {
+        "column": 4,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 960,
+      "height": 541,
+      "image_sha256": "d2198d0e58e632c185ccfc3dffacf24b3ae1f27548ba74ec13ce3279f393301b"
+    },
+    "DbKWZsQkxP5": {
+      "shortcode": "DbKWZsQkxP5",
+      "id": "3948066545876538361",
+      "source_url": "https://www.instagram.com/p/DbKWZsQkxP5/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-24T04:10:29.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 721,
+        "comments": 24,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Closer to Drive 2.0 Ardiles × Cleo! Meet the refreshing new Drive 2.0 Ardiles × Cleo. Designed with NF Boom Technology for a soft, bouncy ride and equipped with",
+      "image": null,
+      "preview_atlas": {
+        "column": 5,
+        "row": 12,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1440,
+      "height": 1916
+    },
+    "DbN4YSPEz9Z": {
+      "shortcode": "DbN4YSPEz9Z",
+      "id": "3949060407726128985",
+      "source_url": "https://www.instagram.com/p/DbN4YSPEz9Z/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-25T13:05:07.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 363,
+        "comments": 15,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Antusiasme peserta Cleo Smart Run saat menukarkan race pack sekaligus berburu Drive 2.0 Special Collaboration Ardiles x Cleo benar-benar luar biasa! Terima kasi",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbNBXCmy1eh": {
+      "shortcode": "DbNBXCmy1eh",
+      "id": "3948818429666613153",
+      "source_url": "https://www.instagram.com/p/DbNBXCmy1eh/",
+      "owner": "mtanoko",
+      "published_at": "2026-07-25T05:08:33.000Z",
+      "type": "Video",
+      "duration_seconds": 50.900002,
+      "status": "available",
+      "metrics": {
+        "likes": 4570,
+        "comments": 2334,
+        "plays": 162491,
+        "views": null
+      },
+      "caption_excerpt": "OFFICIAL LAUNCHING: CLEO X ARDILES DRIVE 2.0! 👟🧡 Perpaduan sempurna antara teknologi NF Boom dari Ardiles dan kemurnian Cleo yang #BeneranRingan untuk dukung la",
+      "image": null,
+      "preview_atlas": {
+        "column": 0,
+        "row": 13,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1215,
+      "height": 2160
+    },
+    "DbS7aG-kx1p": {
+      "shortcode": "DbS7aG-kx1p",
+      "id": "3950481102100176233",
+      "source_url": "https://www.instagram.com/p/DbS7aG-kx1p/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-27T12:07:47.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 850,
+        "comments": 34,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Pecaaaahh! 🔥 Launching of Drive 2.0 Ardiles x Cleo at Cleo Smart Run was sooo much fun! Lari 5K bareng Nikita Willy&Nona Willy, ketemu ratusan runners dengan en",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbSNWs9i5SW": {
+      "shortcode": "DbSNWs9i5SW",
+      "id": "3950278557867676822",
+      "source_url": "https://www.instagram.com/p/DbSNWs9i5SW/",
+      "owner": "sallytanudjaja",
+      "published_at": "2026-07-27T05:32:25.000Z",
+      "type": "Video",
+      "duration_seconds": 87.444901,
+      "status": "available",
+      "metrics": {
+        "likes": 432,
+        "comments": 12,
+        "plays": 20639,
+        "views": null
+      },
+      "caption_excerpt": "Seru banget bisa ikut Cleo Smart Run sambil nyobain langsung Ardiles Drive 2.0 x Cleo! 👟💧 Lari makin nyaman dengan gear yang tepat, jangan lupa juga tetap jaga ",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbVRPiqTBMQ": {
+      "shortcode": "DbVRPiqTBMQ",
+      "id": "3951140082887168784",
+      "source_url": "https://www.instagram.com/p/DbVRPiqTBMQ/",
+      "owner": "storyoki",
+      "published_at": "2026-07-28T09:58:55.000Z",
+      "type": "Video",
+      "duration_seconds": 60.579411,
+      "status": "available",
+      "metrics": {
+        "likes": 2171,
+        "comments": 57,
+        "plays": 53233,
+        "views": null
+      },
+      "caption_excerpt": "HARI INI NYOBAIN LANGSUNG EVENT CLEO SMART RUN 2026 DI BEKASI BARENG ARDILES‼️ Lari makin mantap pakai Ardiles Drive 2.0 Collab Edition — empuk banget berkat NF",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbXI91HT4nR": {
+      "shortcode": "DbXI91HT4nR",
+      "id": "3951666631332039121",
+      "source_url": "https://www.instagram.com/p/DbXI91HT4nR/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-29T03:26:06.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1107,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Drive 2.0 Ardiles x Cleo is finally available now on our official website! 💙✨ So, for those of you who missed the chance to get yours in Bekasi, now’s the perfe",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbXqfD1TovG": {
+      "shortcode": "DbXqfD1TovG",
+      "id": "3951814050413710278",
+      "source_url": "https://www.instagram.com/p/DbXqfD1TovG/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-29T08:20:58.000Z",
+      "type": "Video",
+      "duration_seconds": 13.625,
+      "status": "available",
+      "metrics": {
+        "likes": 6266,
+        "comments": 38,
+        "plays": 702435,
+        "views": null
+      },
+      "caption_excerpt": "The Details of Drive 2.0 Ardiles x Cleo Designed to keep every step feeling fresh. Featuring a refreshing colourway, responsive NF Boom cushioning, and a practi",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbdTRl9T6zz": {
+      "shortcode": "DbdTRl9T6zz",
+      "id": "3953400819773058291",
+      "source_url": "https://www.instagram.com/p/DbdTRl9T6zz/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-07-31T12:52:34.000Z",
+      "type": "Video",
+      "duration_seconds": 32.166668,
+      "status": "available",
+      "metrics": {
+        "likes": 58,
+        "comments": 2,
+        "plays": 7262,
+        "views": null
+      },
+      "caption_excerpt": "Keseruan 5K Run di Cleo Smart Run, GOKIIL! 🔥 Seru, rame, dan penuh energi dari start sampai finish. Apalagi bisa lari bareng Nikita Willy dan Nona Willy, bikin ",
+      "image": null,
+      "preview_atlas": {
+        "column": 1,
+        "row": 13,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1170,
+      "height": 2080
+    },
+    "Dbk5v80zXse": {
+      "shortcode": "Dbk5v80zXse",
+      "id": "3955540356515068702",
+      "source_url": "https://www.instagram.com/p/Dbk5v80zXse/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-03T11:41:56.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 717,
+        "comments": 16,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Feeling like your day has lost its spark? You just need a fresh start! Sometimes, all it takes is a moment to recharge. Take a deep breath, enjoy a refreshing s",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "DbnsAuYTvYi": {
+      "shortcode": "DbnsAuYTvYi",
+      "id": "3956324361514710562",
+      "source_url": "https://www.instagram.com/p/DbnsAuYTvYi/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-04T13:44:24.000Z",
+      "type": "Video",
+      "duration_seconds": 89.5,
+      "status": "available",
+      "metrics": {
+        "likes": 3624,
+        "comments": 14,
+        "plays": 384364,
+        "views": null
+      },
+      "caption_excerpt": "Ini kata mereka tentang Drive 2.0 Ardiles x Cleo! 👀 Fresh color, super ringan, nyaman dipakai, dan pastinya bikin setiap langkah terasa lebih fun. ✨ Kalau kamu ",
+      "image": null,
+      "preview_atlas": null,
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      }
+    },
+    "Dcfnm62mtIi": {
+      "shortcode": "Dcfnm62mtIi",
+      "id": "3972067594711257634",
+      "source_url": "https://www.instagram.com/p/Dcfnm62mtIi/",
+      "owner": "ardilesrunningclub",
+      "published_at": "2026-08-26T06:56:17.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 154,
+        "comments": 22,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Masih belum move on dari Bali 🌞 Ardiles Running Club wearing Runergize for Maybank Marathon 2026 @maybankmarathon ⚡️ #ardilesrunning #ardilesrunningclub #ardile",
+      "image": null,
+      "preview_atlas": {
+        "column": 2,
+        "row": 13,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1536,
+      "height": 2048
+    },
+    "DeGfQNBp8Sx": {
+      "shortcode": "DeGfQNBp8Sx",
+      "id": "4001022771905152177",
+      "source_url": "https://www.instagram.com/p/DeGfQNBp8Sx/",
+      "owner": "harris_silaban",
+      "published_at": "2026-10-05T05:46:25.000Z",
+      "type": "Video",
+      "duration_seconds": 79.108932,
+      "status": "available",
+      "metrics": {
+        "likes": 127,
+        "comments": 11,
+        "plays": 3182,
+        "views": null
+      },
+      "caption_excerpt": "Sehari sebelum Berlin Marathon, kota dipenuhi pelari dari berbagai negara. Salah satu tradisi sebelum race day adalah Shake Out Run, yaitu lari santai untuk mel",
+      "image": null,
+      "preview_atlas": {
+        "column": 3,
+        "row": 13,
+        "columns": 6,
+        "rows": 14,
+        "tileSize": 160,
+        "sheet": "assets/campaigns/running-posts.webp"
+      },
+      "selection_basis": "Explicit caption and date-window match in the retained 1,114-post Running profile audit; shortcode deduplicated.",
+      "data_source": {
+        "run_id": "shTxdZDf6G0OhmIu0",
+        "dataset_id": "bzMIiITVF8QQ9TqfH"
+      },
+      "width": 1170,
+      "height": 2080
+    }
+  }
+}

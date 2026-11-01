@@ -7952,6 +7952,90 @@
         "alt": "Spectra White Blue and Black Purple basketball shoes on the green Ready Now campaign artwork",
         "title": "Spectra: Lightspeed."
       }
+    },
+    "case-drive-cleo": {
+      "title": "Drive 2.0 × Cleo.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DbIpq9nTEmg.webp",
+        "width": 960,
+        "height": 541,
+        "alt": "Cleo and Ardiles collaboration reveal above a city skyline",
+        "title": "Drive 2.0 × Cleo."
+      }
+    },
+    "case-gerbera-creators": {
+      "title": "Gerbera Challenge: Creative Video.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DSJblf9EkGz.webp",
+        "width": 541,
+        "height": 960,
+        "alt": "Gerbera trail footwear shown on an outdoor route in a featured creator video",
+        "title": "Gerbera Challenge: Creative Video."
+      }
+    },
+    "case-running-club": {
+      "title": "Ardiles Running Club.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DZHbAk3ADBj.webp",
+        "width": 720,
+        "height": 960,
+        "alt": "Ardiles Running Club kickoff announcement for 6 June 2026 in Jakarta",
+        "title": "Ardiles Running Club."
+      }
+    },
+    "case-run-recharge": {
+      "title": "Run & Recharge × EJ Sport.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DUXqYLzktHy.webp",
+        "width": 720,
+        "height": 960,
+        "alt": "Run and Recharge 5K fun run invitation for 15 February 2026 at Fork Tunjungan",
+        "title": "Run & Recharge × EJ Sport."
+      }
+    },
+    "case-metora-hybrid": {
+      "title": "Metora 3.0: Hybrid Training.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DU3HHTJkkeO.webp",
+        "width": 767,
+        "height": 960,
+        "alt": "Metora 3.0 training shoes in the launch product artwork",
+        "title": "Metora 3.0: Hybrid Training."
+      }
+    },
+    "case-we-are-all-runners": {
+      "title": "We Are All Runners.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DKRivyoSmBn.webp",
+        "width": 960,
+        "height": 540,
+        "alt": "Faces from the We Are All Runners brand film",
+        "title": "We Are All Runners."
+      }
+    },
+    "case-pgl-running-stories": {
+      "title": "Running Stories with PGL Films.",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/CpzqyzlsKwr.webp",
+        "width": 540,
+        "height": 960,
+        "alt": "Hansaluft in an episode of the Ardiles-sponsored running comedy series",
+        "title": "Running Stories with PGL Films."
+      }
     }
   },
   "imported_assets": {
