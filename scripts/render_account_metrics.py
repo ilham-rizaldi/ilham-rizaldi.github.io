@@ -29,7 +29,7 @@ CSS = r"""
 .instagram-method-body>p{max-width:95ch}
 .account-table-scroll{overflow-x:auto;margin:8px 0 18px}
 .account-table{border-collapse:collapse;width:100%;font-size:12px;text-align:left;table-layout:fixed}
-.account-table th:first-child{width:40%}.account-table th:nth-child(2){width:25%}.account-table th:nth-child(3){width:35%}
+.account-table th:first-child{width:30%}.account-table th:nth-child(2){width:18%}.account-table th:nth-child(3){width:15%}.account-table th:nth-child(4){width:37%}
 .account-table caption{text-align:left;color:var(--ink);font-size:13px;font-weight:500;margin-bottom:10px}
 .account-table th,.account-table td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
 .account-table th{font-weight:400;font-size:11px;color:var(--muted)}
@@ -37,8 +37,10 @@ CSS = r"""
 .account-table td{font-variant-numeric:tabular-nums}
 .account-table td:nth-child(2),.account-table td:nth-child(3){white-space:nowrap;color:var(--ink)}
 .account-table .account-growth-cell{white-space:normal;min-width:0}
-.account-growth-cell strong{font-size:18px;font-weight:500;letter-spacing:-.025em;line-height:1.4}
-.account-growth-cell small{white-space:nowrap}
+.account-growth-cell strong{font-size:16px;font-weight:500;letter-spacing:-.025em;line-height:1.5}
+.account-growth-cell .growth-percentage{display:inline-block;font-size:12px;color:var(--muted);margin-left:7px;white-space:nowrap}
+.account-growth-cell small{white-space:normal;overflow-wrap:anywhere}
+.account-growth-cell .growth-baseline{margin-top:3px}
 .account-table a{display:inline-flex;align-items:center;min-height:44px;color:var(--ink)}
 .account-table a:hover{color:var(--lime)}
 .account-table small{display:block;font-size:11px;color:var(--muted);line-height:1.5}
@@ -47,6 +49,7 @@ CSS = r"""
 .instagram-source-links a{font-size:12px}
 @media(max-width:760px){.instagram-overview-header{display:flex;flex-wrap:wrap;gap:10px}.instagram-overview-header .instagram-snapshot{white-space:normal}.instagram-totals{grid-template-columns:repeat(2,minmax(0,1fr))}.instagram-total{padding:12px 14px}.instagram-total:nth-child(odd){padding-left:0}.instagram-total:nth-child(even){border-right:0}.instagram-total:nth-child(-n+2){border-bottom:1px solid var(--line)}.instagram-total strong{font-size:24px}.account-table th,.account-table td{padding:9px 8px}.account-table a{overflow-wrap:anywhere;word-break:break-word}.account-table td:first-child{width:49%}.account-growth-grid{gap:12px}.account-growth h3{font-size:12px}.account-growth strong{font-size:23px}.account-growth p{font-size:11px}}
 @media(max-width:390px){.instagram-total h3{font-size:11px}.instagram-total strong{font-size:23px}.instagram-total p{font-size:11px}.instagram-overview h2{font-size:22px}.account-table{font-size:11px}}
+@media(max-width:600px){.account-table thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.account-table,.account-table tbody{display:block;width:100%}.account-table tr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px;padding:12px 0;border-bottom:1px solid var(--line)}.account-table td{display:block;border:0;padding:4px 0;min-width:0}.account-table td:first-child{grid-column:1/-1;width:auto;padding:0 0 6px}.account-table .account-growth-cell{grid-column:1/-1;border-top:1px solid var(--line);margin-top:9px;padding-top:10px}.account-table td[data-label]::before{content:attr(data-label);display:block;color:var(--muted);font-size:10px;line-height:1.5;margin-bottom:4px}.account-table a{min-height:36px}.account-growth-cell strong{font-size:15px}.account-growth-cell .growth-percentage{font-size:12px}}
 """
 
 EXPECTED = {
@@ -113,18 +116,21 @@ def overview(data, projects):
         growth_html = ''
         if growth:
             if growth['start']:
-                change = f'+{growth["percent_change"]:,.0f}%'
+                percentage = f'+{growth["percent_change"]:,.1f}%'
             else:
-                change = '+' + compact(growth['net_added'])
-            journey = f'{compact(growth["start"])} → {compact(growth["end"])}'
-            detail = 'Milestone' if growth.get('is_milestone') else ('Follower growth' if growth['start'] else ('Followers gained' if a['platform'] != 'YouTube' else 'Subscribers gained'))
-            growth_html = (f'<strong>{change}</strong><small>{journey}</small>'
-                           f'<small>{detail}</small>')
+                percentage = 'From zero'
+            change = f'+{growth["net_added"]:,}'
+            journey = f'{growth["start"]:,} → {growth["end"]:,}'
+            if growth.get('is_milestone'):
+                journey += ' milestone'
+            growth_html = (f'<strong>{change}</strong><span class="growth-percentage">{percentage}</span>'
+                           f'<small class="growth-baseline">{journey}</small>')
         rows.append('<tr><td><a target="_blank" rel="noopener noreferrer" '
                     f'href="{escape(a["url"], quote=True)}">@{escape(a["handle"])}</a>'
-                    f'<small class="account-platform">{escape(a["platform"])} · {a["content"]:,} {a["content_label"].lower()}</small></td>'
-                    f'<td>{a["audience"]:,}<small>{escape(a["audience_label"])}</small></td>'
-                    f'<td class="account-growth-cell">{growth_html}</td></tr>')
+                    f'<small class="account-platform">{escape(a["platform"])}</small></td>'
+                    f'<td data-label="Community">{a["audience"]:,}<small>{escape(a["audience_label"])}</small></td>'
+                    f'<td data-label="Content">{a["content"]:,}<small>{escape(a["content_label"])}</small></td>'
+                    f'<td class="account-growth-cell" data-label="Growth by numbers and percentage">{growth_html}</td></tr>')
     return (
         '<!-- portfolio-instagram-overview:start -->\n'
         '<section class="instagram-overview" id="instagram-metrics" aria-labelledby="instagram-metrics-title"><div class="wrap">'
@@ -135,8 +141,8 @@ def overview(data, projects):
         '<div class="instagram-totals">' + ''.join(cards) + '</div>'
         '<details class="instagram-method" id="instagram-metrics-method"><summary>Explore the communities behind the work</summary>'
         '<div class="instagram-method-body">'
-        '<div class="account-table-scroll"><table class="account-table"><caption>A closer look at each account</caption>'
-        '<thead><tr><th scope="col">Account</th><th scope="col">Community</th><th scope="col">Growth</th>'
+        '<div class="account-table-scroll"><table class="account-table" role="table"><caption>A closer look at each account</caption>'
+        '<thead><tr><th scope="col">Account</th><th scope="col">Community</th><th scope="col">Content</th><th scope="col">Growth by numbers and percentage</th>'
         '</tr></thead><tbody>' + ''.join(rows) + '</tbody></table></div>'
         '</div></details></div></section>\n<!-- portfolio-instagram-overview:end -->\n'
     )
