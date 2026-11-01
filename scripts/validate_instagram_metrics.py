@@ -15,6 +15,8 @@ def main():
     parser.add_argument("--snapshot", type=Path)
     args = parser.parse_args()
     source = (ROOT / "index.html").read_text()
+    from render_campaigns import remove as remove_campaigns
+    legacy_source = remove_campaigns(source)
     data = json.loads((ROOT / "INSTAGRAM_METRICS.json").read_text())
     references = json.loads((ROOT / "PROJECT_REFERENCES.json").read_text())
     cases, original = extract_cases(source)
@@ -30,15 +32,15 @@ def main():
     for cid, case in cases.items():
         assert aggregate(case["post_codes"], data["posts"]) == data["projects"][cid], cid
     assert sum(len(p["post_codes"]) for p in cases.values()) == 492
-    assert source.count('class="post-link-copy"') == 492
-    assert source.count('class="project-public-teaser"') == sum(bool(p["unique_posts"]) for p in data["projects"].values())
+    assert legacy_source.count('class="post-link-copy"') == 492
+    assert legacy_source.count('class="project-public-teaser"') == sum(bool(p["unique_posts"]) for p in data["projects"].values())
     assert source.count('class="instagram-total"') == 4
     from render_account_metrics import validate as validate_accounts
     accounts = json.loads((ROOT / "ACCOUNT_METRICS.json").read_text())
     validate_accounts(accounts)
-    assert source.count('data-close-case=') == 32
-    assert source.count('class="case-footer"') == 32
-    assert len(re.findall(r'class="[^"]*\bproject-cover\b', source)) == 32
+    assert legacy_source.count('data-close-case=') == 32
+    assert legacy_source.count('class="case-footer"') == 32
+    assert len(re.findall(r'class="[^"]*\bproject-cover\b', legacy_source)) == 32
     assert render(source, data) == source, "Rendering must be idempotent"
     for code, post in data["posts"].items():
         assert post["shortcode"] == code

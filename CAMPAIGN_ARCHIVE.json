@@ -1,0 +1,2884 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "collected_at": "2026-11-01T08:24:02.111Z",
+    "display_date": "1 Nov 2026, 15:24 WIB",
+    "timezone": "Asia/Jakarta",
+    "source": "apify/instagram-post-scraper",
+    "run_id": "2edpxSg25fUjJTHbn",
+    "dataset_id": "G1vrLsHULLbIy087w"
+  },
+  "discovery": {
+    "run_id": "VPkZxCgXemva4KeEX",
+    "dataset_id": "KSnHV9eaSxSOZPVAx",
+    "actor": "apify/instagram-post-scraper",
+    "requested_since": "2026-01-01",
+    "records_reviewed": 300
+  },
+  "methodology": {
+    "scope": "Reviewed posts associated with the four named campaigns on the two requested public profile feeds. Not an exhaustive hashtag or web-wide campaign census.",
+    "metrics": "Top-level counters only. Hidden/missing values are null. Plays and views remain separate. Carousel children are not extra posts.",
+    "legacy": "The previous 32-project snapshot and original reference associations are preserved. The Love & Hustle follow-through section has its own current scan, rather than rewriting the earlier case counters.",
+    "assets": "Source frames resized proportionally to at most 960 pixels and encoded as WebP for website delivery; no generated photography or fabricated reporting.",
+    "role_scope": "New role summaries use the user-requested campaign association and the established Ardiles brand/campaign coordination responsibilities; no new ownership of sales, production, budget, or attendance is inferred."
+  },
+  "campaigns": [
+    {
+      "id": "love_hustle",
+      "case_id": "case-love-hustle",
+      "existing_case": true,
+      "title": "Speedy Weeedy × Kevinswork: Love & Hustle",
+      "description": "The collaboration continued from the August product release into creator styling, product storytelling, and the Love & Hustle Streetball Showdown at KYZN Kuningan on 17 October 2026.",
+      "cover_code": "Dbx4XKQpMcD",
+      "post_codes": [
+        "DbkRx3XpSok",
+        "Dbp2Gv9iSq2",
+        "Dbso9ePJOsN",
+        "Dbu5agnhicr",
+        "DbvBPsOCdk9",
+        "DbwpqHkGOGC",
+        "Dbx4XKQpMcD",
+        "Db2QhqMxt1r",
+        "Db2luSLpVXO",
+        "Db4SZQ4TtqJ",
+        "Db5Y6F-vIEh",
+        "Db5kn-cCYQ5",
+        "Db-s0c2pfLZ",
+        "DcBH97EpqoC",
+        "DcBp4RlTHPQ",
+        "DcD0tPEJKb0",
+        "DcGLsoapTlu",
+        "DcIKdiOp8pC",
+        "DcLdZSMj9c4",
+        "DcQiTgFCQBw",
+        "DcV0BrCp7Qe",
+        "Dca9WQlCZLE",
+        "DclNTfmJFI5",
+        "DclS5dzTFRY",
+        "DcvmPnKifkB",
+        "DcyFpf2JMk-",
+        "Dc3M5NSiTxE",
+        "Dc8RT82gaAY",
+        "Dc-80TqNTKE",
+        "DdL95gHJSWc",
+        "DdbcOwsJ6uj",
+        "Ddn-pOApVl2",
+        "DeOsLLKpTmM",
+        "DeRfo6vp3l0",
+        "DeZG2cRJN5C",
+        "Deg8TsKGMLe",
+        "DetwBV_mBqC",
+        "DfEXxtLhkUB"
+      ],
+      "totals": {
+        "unique_posts": 38,
+        "available_posts": 38,
+        "unavailable_posts": 0,
+        "video_posts": 18,
+        "image_posts": 11,
+        "carousel_posts": 9,
+        "distinct_publishers": 11,
+        "metrics": {
+          "likes": {
+            "total": 68587,
+            "available": 36,
+            "eligible": 38
+          },
+          "comments": {
+            "total": 491,
+            "available": 38,
+            "eligible": 38
+          },
+          "plays": {
+            "total": 4143603,
+            "available": 18,
+            "eligible": 18
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 18
+          },
+          "interactions": {
+            "total": 69078,
+            "available": 38,
+            "eligible": 38,
+            "complete_posts": 36,
+            "partial_posts": 2
+          }
+        },
+        "post_codes": [
+          "DbkRx3XpSok",
+          "Dbp2Gv9iSq2",
+          "Dbso9ePJOsN",
+          "Dbu5agnhicr",
+          "DbvBPsOCdk9",
+          "DbwpqHkGOGC",
+          "Dbx4XKQpMcD",
+          "Db2QhqMxt1r",
+          "Db2luSLpVXO",
+          "Db4SZQ4TtqJ",
+          "Db5Y6F-vIEh",
+          "Db5kn-cCYQ5",
+          "Db-s0c2pfLZ",
+          "DcBH97EpqoC",
+          "DcBp4RlTHPQ",
+          "DcD0tPEJKb0",
+          "DcGLsoapTlu",
+          "DcIKdiOp8pC",
+          "DcLdZSMj9c4",
+          "DcQiTgFCQBw",
+          "DcV0BrCp7Qe",
+          "Dca9WQlCZLE",
+          "DclNTfmJFI5",
+          "DclS5dzTFRY",
+          "DcvmPnKifkB",
+          "DcyFpf2JMk-",
+          "Dc3M5NSiTxE",
+          "Dc8RT82gaAY",
+          "Dc-80TqNTKE",
+          "DdL95gHJSWc",
+          "DdbcOwsJ6uj",
+          "Ddn-pOApVl2",
+          "DeOsLLKpTmM",
+          "DeRfo6vp3l0",
+          "DeZG2cRJN5C",
+          "Deg8TsKGMLe",
+          "DetwBV_mBqC",
+          "DfEXxtLhkUB"
+        ]
+      },
+      "published_from": "2026-08-03T05:52:42.000Z",
+      "published_to": "2026-10-29T06:34:35.000Z"
+    },
+    {
+      "id": "runergize_black",
+      "case_id": "case-runergize-black",
+      "category": "brand",
+      "display_number": 33,
+      "title": "Runergize Black White campaign",
+      "eyebrow": "Ardiles Running / Product campaign / 2026",
+      "description": "A campaign for the Runergize Black White colorway, connecting performance storytelling, athlete content, and the August product release.",
+      "outcome": "Product launch & campaign content",
+      "cover_code": "DcSXOmUTSwP",
+      "cover_alt": "Runergize campaign film frame featuring an athlete and the Runergize wordmark",
+      "details": [
+        [
+          "Project overview",
+          "A product campaign for the Black White edition of Runergize, using the Always Fast message across launch films, product details, athlete content, and partner communication."
+        ],
+        [
+          "My work",
+          "Brand communication and campaign-content coordination within the Ardiles Running team."
+        ],
+        [
+          "Published work",
+          "The public posts show teasers for the 25 August exclusive web release, product and technology content, the 31 August marketplace release, and the Runergize Showdown retailer-content competition in September."
+        ]
+      ],
+      "post_codes": [
+        "DcGHygbzaLp",
+        "DcI-W1kTM-7",
+        "DcLpiU8zZLe",
+        "DcOBZNRTIfP",
+        "DcSXOmUTSwP",
+        "DcU4R0Ezc0U",
+        "DcbTog2kzlA",
+        "DcbruTyTkOA",
+        "DccyfuVzeWY",
+        "Dcc-gLjE76f",
+        "DcgHgv4EzWh",
+        "DciqAFLTFK0",
+        "DcoERduE_AW",
+        "Dcqr5rozzFu",
+        "DctTj4tzoKo",
+        "DcummCCSkof",
+        "Dcvz7naEzFD",
+        "DcyLvw4vZtv",
+        "DdDi-BLPXP6",
+        "DdJN8LhP2E2",
+        "DdJoNEuHxUa",
+        "DdZCbDunzzd",
+        "DdbqwVCH5Gz",
+        "DdyMNURHzkU"
+      ],
+      "totals": {
+        "unique_posts": 24,
+        "available_posts": 24,
+        "unavailable_posts": 0,
+        "video_posts": 7,
+        "image_posts": 8,
+        "carousel_posts": 9,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 114129,
+            "available": 24,
+            "eligible": 24
+          },
+          "comments": {
+            "total": 547,
+            "available": 24,
+            "eligible": 24
+          },
+          "plays": {
+            "total": 4839909,
+            "available": 7,
+            "eligible": 7
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 7
+          },
+          "interactions": {
+            "total": 114676,
+            "available": 24,
+            "eligible": 24,
+            "complete_posts": 24,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DcGHygbzaLp",
+          "DcI-W1kTM-7",
+          "DcLpiU8zZLe",
+          "DcOBZNRTIfP",
+          "DcSXOmUTSwP",
+          "DcU4R0Ezc0U",
+          "DcbTog2kzlA",
+          "DcbruTyTkOA",
+          "DccyfuVzeWY",
+          "Dcc-gLjE76f",
+          "DcgHgv4EzWh",
+          "DciqAFLTFK0",
+          "DcoERduE_AW",
+          "Dcqr5rozzFu",
+          "DctTj4tzoKo",
+          "DcummCCSkof",
+          "Dcvz7naEzFD",
+          "DcyLvw4vZtv",
+          "DdDi-BLPXP6",
+          "DdJN8LhP2E2",
+          "DdJoNEuHxUa",
+          "DdZCbDunzzd",
+          "DdbqwVCH5Gz",
+          "DdyMNURHzkU"
+        ]
+      },
+      "published_from": "2026-08-16T09:18:50.000Z",
+      "published_to": "2026-09-27T08:33:50.000Z"
+    },
+    {
+      "id": "drive_daywalker",
+      "case_id": "case-drive-daywalker",
+      "category": "brand",
+      "display_number": 34,
+      "title": "Drive Day Walker campaign",
+      "eyebrow": "Ardiles Running / Product campaign / 2026",
+      "description": "Everyday movement, from work to an easy run, brought together in the Drive Day Walker product campaign.",
+      "outcome": "Comfort to walk. Easy to run.",
+      "cover_code": "DeoNoaxvKgc",
+      "cover_alt": "Drive Day Walker campaign film showing work and everyday movement in a split-screen scene",
+      "details": [
+        [
+          "Project overview",
+          "A campaign presenting Drive Day Walker as a shoe for daily movement, work, casual outfits, and easy running."
+        ],
+        [
+          "My work",
+          "Product messaging and campaign-content coordination within the Ardiles Running team."
+        ],
+        [
+          "Published work",
+          "The October content sequence combines a product introduction, work-to-hangout styling, everyday-use stories, and creator posts around the Comfort to walk, easy to run message."
+        ]
+      ],
+      "post_codes": [
+        "DelpzL1vJ6v",
+        "DeoNoaxvKgc",
+        "Dev9gCtv4fX",
+        "DewgH9sH0Y2",
+        "DezTl23vkUy",
+        "De37fhznwOS",
+        "De6IJ72Or9D",
+        "De9Cl7qBhV0"
+      ],
+      "totals": {
+        "unique_posts": 8,
+        "available_posts": 8,
+        "unavailable_posts": 0,
+        "video_posts": 5,
+        "image_posts": 1,
+        "carousel_posts": 2,
+        "distinct_publishers": 3,
+        "metrics": {
+          "likes": {
+            "total": 802,
+            "available": 7,
+            "eligible": 8
+          },
+          "comments": {
+            "total": 110,
+            "available": 8,
+            "eligible": 8
+          },
+          "plays": {
+            "total": 30755,
+            "available": 5,
+            "eligible": 5
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 5
+          },
+          "interactions": {
+            "total": 912,
+            "available": 8,
+            "eligible": 8,
+            "complete_posts": 7,
+            "partial_posts": 1
+          }
+        },
+        "post_codes": [
+          "DelpzL1vJ6v",
+          "DeoNoaxvKgc",
+          "Dev9gCtv4fX",
+          "DewgH9sH0Y2",
+          "DezTl23vkUy",
+          "De37fhznwOS",
+          "De6IJ72Or9D",
+          "De9Cl7qBhV0"
+        ]
+      },
+      "published_from": "2026-10-17T08:15:49.000Z",
+      "published_to": "2026-10-26T10:14:24.000Z"
+    },
+    {
+      "id": "run_into_wild",
+      "case_id": "case-run-into-the-wild",
+      "category": "community",
+      "display_number": 35,
+      "title": "Run Into the Wild event activation",
+      "eyebrow": "Ardiles Running / Community activation / 2026",
+      "description": "A team-running challenge connecting city activations with a savanna running experience in Banyuwangi.",
+      "outcome": "Malang · Surabaya · Banyuwangi",
+      "cover_code": "DeW0gLHnx1a",
+      "cover_alt": "Run Into the Wild participant handing a relay baton to a teammate at the Surabaya activation",
+      "details": [
+        [
+          "Project overview",
+          "A community activation built around team racing and the opportunity for winning teams to join a running experience in the Banyuwangi savanna."
+        ],
+        [
+          "My work",
+          "Event communication and campaign-content coordination within the Ardiles Running team."
+        ],
+        [
+          "Published work",
+          "The posts document the 27 September Malang invitation, the 10 October Surabaya activation, participant stories and winner recaps, and the Banyuwangi experience shared at the end of October."
+        ]
+      ],
+      "post_codes": [
+        "DdtlQ_hn68s",
+        "Dd3zyNASA1s",
+        "DeO6ohoPMya",
+        "DeR7skkn6TN",
+        "DeW0gLHnx1a",
+        "DeekGwSPqaH",
+        "DehTsXqv2ZO",
+        "DfGqdSXPA6O",
+        "DfHkeiVv3c7"
+      ],
+      "totals": {
+        "unique_posts": 9,
+        "available_posts": 9,
+        "unavailable_posts": 0,
+        "video_posts": 5,
+        "image_posts": 1,
+        "carousel_posts": 3,
+        "distinct_publishers": 2,
+        "metrics": {
+          "likes": {
+            "total": 1823,
+            "available": 9,
+            "eligible": 9
+          },
+          "comments": {
+            "total": 74,
+            "available": 9,
+            "eligible": 9
+          },
+          "plays": {
+            "total": 26964,
+            "available": 5,
+            "eligible": 5
+          },
+          "views": {
+            "total": 0,
+            "available": 0,
+            "eligible": 5
+          },
+          "interactions": {
+            "total": 1897,
+            "available": 9,
+            "eligible": 9,
+            "complete_posts": 9,
+            "partial_posts": 0
+          }
+        },
+        "post_codes": [
+          "DdtlQ_hn68s",
+          "Dd3zyNASA1s",
+          "DeO6ohoPMya",
+          "DeR7skkn6TN",
+          "DeW0gLHnx1a",
+          "DeekGwSPqaH",
+          "DehTsXqv2ZO",
+          "DfGqdSXPA6O",
+          "DfHkeiVv3c7"
+        ]
+      },
+      "published_from": "2026-09-25T13:36:35.000Z",
+      "published_to": "2026-10-30T12:26:17.000Z"
+    }
+  ],
+  "posts": {
+    "Db-s0c2pfLZ": {
+      "shortcode": "Db-s0c2pfLZ",
+      "id": "3962801840573510361",
+      "source_url": "https://www.instagram.com/p/Db-s0c2pfLZ/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-13T12:08:37.000Z",
+      "type": "Video",
+      "duration_seconds": 16.4,
+      "status": "available",
+      "metrics": {
+        "likes": 169,
+        "comments": 1,
+        "plays": 14543,
+        "views": null
+      },
+      "caption_excerpt": "Every detail carries the story 🫶 Love & Hustle, in one shoe. General release this August 2026 Ardiles Speedy Weeedy x Kevinswork: Love $ Hus",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 1,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "05b96fe649edd335cda3f3ca944ff94cf708619cf486aa3cb690d13c051e217b",
+      "source_image_sha256": "c1bbe738597023d61515ee417d43ee7f60ded6925a069c75f1221e4f9cfa6909",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Db2QhqMxt1r": {
+      "shortcode": "Db2QhqMxt1r",
+      "id": "3960425604117355883",
+      "source_url": "https://www.instagram.com/p/Db2QhqMxt1r/",
+      "owner": "krsnptby",
+      "published_at": "2026-08-10T05:28:52.000Z",
+      "type": "Video",
+      "duration_seconds": 49.108753,
+      "status": "available",
+      "metrics": {
+        "likes": 172,
+        "comments": 8,
+        "plays": 13197,
+        "views": null
+      },
+      "caption_excerpt": "Menurut saya, ini kolaborasi sepatu basket lokal paling menarik di 2026. @ardilesbasketball @kevinswork @widyanta71 Bukan cuma karena perfor",
+      "image": null,
+      "width": 541,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 4,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "61b0a1e04ff70b362c7cf90f5032c7a4627ce85af6c95d26a49463f4bcf9b537",
+      "source_image_sha256": "a464dda735a2847a713cb4f7f0081f297482f6ffe7fabc4071f12250cecc4139",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Db2luSLpVXO": {
+      "shortcode": "Db2luSLpVXO",
+      "id": "3960518830658508238",
+      "source_url": "https://www.instagram.com/p/Db2luSLpVXO/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-10T08:32:58.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 13308,
+        "comments": 9,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Meet Cloud, created by @kevinswork. He’s on the tee. On the tongue patch. And right here next to @widyanta71. Love & Hustle — the shoe, the ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 5,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "5d50be5d51a7d3573641ab81280d89f3055ff8709aea16cd4d5893a05dffe4ac",
+      "source_image_sha256": "c947a6c780a39cd4fae09e3376562d87173064d19791989e23ddd2bd5b22362e",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Db4SZQ4TtqJ": {
+      "shortcode": "Db4SZQ4TtqJ",
+      "id": "3960996773221030537",
+      "source_url": "https://www.instagram.com/p/Db4SZQ4TtqJ/",
+      "owner": "chris_csb",
+      "published_at": "2026-08-11T00:23:06.000Z",
+      "type": "Video",
+      "duration_seconds": 104.187935,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 36,
+        "plays": 15180,
+        "views": null
+      },
+      "caption_excerpt": "Kacao nih design nya @kevinswork x @ardilessportswear \"PETJAH ABIZ\" 🔥🔥🔥 Kev!! U DID IT AGAIN! What a Speedy Weedy 🎊 CSB OOTD 👕 @o2essentials",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 2,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "739f4be57fd6d07133a1d5475075bdde2caca6cf9e4d3e639dfd30a01b4a9245",
+      "source_image_sha256": "d6932b3969cc95ccd47911dc5226fc65d676479131b278eef4fce200e7c784c1",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Db5Y6F-vIEh": {
+      "shortcode": "Db5Y6F-vIEh",
+      "id": "3961306892516229409",
+      "source_url": "https://www.instagram.com/p/Db5Y6F-vIEh/",
+      "owner": "nicolollypop",
+      "published_at": "2026-08-11T10:39:04.000Z",
+      "type": "Video",
+      "duration_seconds": 37.405895,
+      "status": "available",
+      "metrics": {
+        "likes": 133,
+        "comments": 30,
+        "plays": 7516,
+        "views": null
+      },
+      "caption_excerpt": "— Speedy Weeedy 🐆🐆🐆 Kevinswork, by @ardilesbasketball 🎯 @widyanta71 @kevinswork thank you @richardchangay 🥂 #ardilessportswear #ardilesbaske",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 3,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "59ff65478b3694cdc717445fe50a2910e90736342d9d01aa68b2d96f737bcf5e",
+      "source_image_sha256": "35b42ad346374ffab5fd2ed296f4cd82a4ba40de9bd6ac544b7e0c56fda7216f",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Db5kn-cCYQ5": {
+      "shortcode": "Db5kn-cCYQ5",
+      "id": "3961358424025433145",
+      "source_url": "https://www.instagram.com/p/Db5kn-cCYQ5/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-11T12:19:05.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 203,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Nobody sees this part. The empty court. The same move, a hundred times. The nights where nothing feels like progress. That’s the hustle. It ",
+      "image": null,
+      "width": 722,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 6,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "e756238126c370aa915d048cd7c2f39508d44398c809f06f178c853dbb71ef0e",
+      "source_image_sha256": "2d501a19c400397232ed8f6a13054791dde7e4b621715edcccdcc76950d2b613",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DbkRx3XpSok": {
+      "shortcode": "DbkRx3XpSok",
+      "id": "3955364566235687460",
+      "source_url": "https://www.instagram.com/p/DbkRx3XpSok/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-03T05:52:42.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 27335,
+        "comments": 13,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Presents: Speedy Weedy x @kevinswork: Love & Hustle Ardiles Basketball | Move Your Way #MoveYourWay #flyforyourdream #ardilesbasketball #tea",
+      "image": null,
+      "width": 721,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 6,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "67d4d3441a1ce54c214764ac7aa9fc684412d7d9fc4b9786342be199f0ff166b",
+      "source_image_sha256": "8055004e2dd2acd1255b75c9b32c72f2617597ddb1f5a22f4bfc542af4696a31",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dbp2Gv9iSq2": {
+      "shortcode": "Dbp2Gv9iSq2",
+      "id": "3956931705948416694",
+      "source_url": "https://www.instagram.com/p/Dbp2Gv9iSq2/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-05T09:43:59.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 375,
+        "comments": 6,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "FW2026 launch: the first look at the prototype. The idea started earlier, at USS @kevinswork on how the three-way collab came together 🫶🏻 Ta",
+      "image": null,
+      "width": 722,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 4,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "419a399ce5447a7c52e981c750caa684b0310dec61efa47548f743b1a3f9ecdf",
+      "source_image_sha256": "3c85f0e4facf058021d8ca891c945e79cd7cfca79b5d859b9afc017f0b3c68e0",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dbso9ePJOsN": {
+      "shortcode": "Dbso9ePJOsN",
+      "id": "3957718318766680845",
+      "source_url": "https://www.instagram.com/p/Dbso9ePJOsN/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-06T11:49:22.000Z",
+      "type": "Video",
+      "duration_seconds": 6.1,
+      "status": "available",
+      "metrics": {
+        "likes": 2611,
+        "comments": 19,
+        "plays": 2091995,
+        "views": null
+      },
+      "caption_excerpt": "Some of it was love. Most of it was hustle. Details coming👀 Ardiles Speedy Weeedy x Kevinswork— @ardilesbasketball x @widyanta71 x @kevinswo",
+      "image": null,
+      "width": 720,
+      "height": 540,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 2,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "a872d8edd6f7f821fb5c8e5c9643d401ec1a5bb90e2fdcea6917d48d01396494",
+      "source_image_sha256": "fba60fa062f9eb60b41279b20abe03edd2d0a31ab750a762a876385bac87c7a5",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dbu5agnhicr": {
+      "shortcode": "Dbu5agnhicr",
+      "id": "3958353632885614379",
+      "source_url": "https://www.instagram.com/p/Dbu5agnhicr/",
+      "owner": "dahliabintangg",
+      "published_at": "2026-08-07T09:04:08.000Z",
+      "type": "Video",
+      "duration_seconds": 39.533333,
+      "status": "available",
+      "metrics": {
+        "likes": 146,
+        "comments": 18,
+        "plays": 5434,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Speedy Weeedy bakal rilis 8.8 nanti!🦒 @ardilesbasketball x @widyanta71 x @kevinswork jangan kelewatan, karna limited to 200 pairs & ",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 3,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "2a7d34b975420faff09d68fbd8140a137dca3f1754dd303007c45954d6fd0b8a",
+      "source_image_sha256": "53cf9e1bcd8c49d352e12e59e295f3a6c3942c9dc3e9650707d4cd362dd9f7da",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DbvBPsOCdk9": {
+      "shortcode": "DbvBPsOCdk9",
+      "id": "3958388073800784189",
+      "source_url": "https://www.instagram.com/p/DbvBPsOCdk9/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-07T09:57:31.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1228,
+        "comments": 13,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "🦒TOMORROW! SURPRISE DROP — 8.8 🔥 Rp 679.800 | Size 39–48 Early access: 200 pairs only. Every pair comes with a free collab tee. How to order",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 5,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "68ba2f40832c61032a15d3323f6eb8da3fcf1da7de795a91a411d27a2a5dbba5",
+      "source_image_sha256": "f27a12f1deaa9f07d3253298bba9bb6d6cf58f0b6ad5da2794189b8a0ec95388",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DbwpqHkGOGC": {
+      "shortcode": "DbwpqHkGOGC",
+      "id": "3958847286705447298",
+      "source_url": "https://www.instagram.com/p/DbwpqHkGOGC/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-08T01:09:54.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 539,
+        "comments": 15,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Take a closer look, then take it home.🦒💖🦒💖🦒💖 Order at www.ardiles.co.id Ardiles Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesbasketba",
+      "image": null,
+      "width": 722,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 1,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "4eca5747587689d16c3f804ed13806291c19dfe5980f6a3bd473b73f3d92dfd6",
+      "source_image_sha256": "a5a7a0c9e507932529a44d2f491f01f77d2945596eb28584f676b0d7611ea10b",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dbx4XKQpMcD": {
+      "shortcode": "Dbx4XKQpMcD",
+      "id": "3959193429604615939",
+      "source_url": "https://www.instagram.com/p/Dbx4XKQpMcD/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-08T12:39:01.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1241,
+        "comments": 14,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "SOLD OUT. 🦒💖 200 pairs, gone. Thank you for showing up 🫶 Missed it? General release is coming. Turn on notifications so you don’t miss the d",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 0,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "b1764f48d554a9e6261b2bc30e105772c9b7f27149ce2af75b778885f84a84bd",
+      "source_image_sha256": "fb2925c59bd380567e7c39ca6e0f8ac93e31234413ed8c3bd2dc25c9e116ec91",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dc-80TqNTKE": {
+      "shortcode": "Dc-80TqNTKE",
+      "id": "3980886597954777732",
+      "source_url": "https://www.instagram.com/p/Dc-80TqNTKE/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-07T10:58:30.000Z",
+      "type": "Video",
+      "duration_seconds": 12.004717,
+      "status": "available",
+      "metrics": {
+        "likes": 269,
+        "comments": 0,
+        "plays": 15577,
+        "views": null
+      },
+      "caption_excerpt": "Made to play. Made to move. Made to live in. From indoor courts to outdoor concrete, from game time to everyday life, Speedy Weeedy × Kevins",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 1,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "6395459ba6a0a20a8f3655a491653726d2de5761d7ed68f2b1adc7d4cc6a8dc2",
+      "source_image_sha256": "9d2a9701eda2e59744891b2b91e39201633826ff3447d702b9eb9349391c456a",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dc3M5NSiTxE": {
+      "shortcode": "Dc3M5NSiTxE",
+      "id": "3978705503643057220",
+      "source_url": "https://www.instagram.com/p/Dc3M5NSiTxE/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-04T10:44:38.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 104,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Two creative minds, connected by one shared love for basketball. For @widyanta71, basketball is expressed through movement, energy, and the ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 2,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "14e0a05a9403cb565a06b431f77efe42302e767a86d467f8f9390341acfe0362",
+      "source_image_sha256": "97ecb39e6e2bb93b22e2653d41f1bf52071ffb5588f27c13608d198e7eca66ce",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dc8RT82gaAY": {
+      "shortcode": "Dc8RT82gaAY",
+      "id": "3980132308488396824",
+      "source_url": "https://www.instagram.com/p/Dc8RT82gaAY/",
+      "owner": "aldy_reynaldy182",
+      "published_at": "2026-09-06T10:02:16.000Z",
+      "type": "Video",
+      "duration_seconds": 15.533334,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 76,
+        "plays": 38993,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Speedy weedy x Kevinswork @ardilesbasketball @ardilessportswear @kevinswork #ardiles #shoes #ootd #style #explorer",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 6,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "63da0c56051f2b28670c791890c57fcb5fe912293bb7db15d7ca64b276cb4ef4",
+      "source_image_sha256": "94a728c8bae4090eb3a974cbcdbec54964951bf90d5104f9f6152e5d467a6938",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcBH97EpqoC": {
+      "shortcode": "DcBH97EpqoC",
+      "id": "3963484188705204738",
+      "source_url": "https://www.instagram.com/p/DcBH97EpqoC/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-14T10:44:16.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 737,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Speed looks effortless from the stands. Up close it is repetition. Same court, same hour, the same movement until the body stops thinking ab",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 6,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "fb8c365afaec9b0fe65a3c3442e0fe14345e96cd3fface5f2d191f60a0320ca7",
+      "source_image_sha256": "d1e81e697e72be6a3881173ec77169bffe96b3c0c6be2f044e139d5f49f4db94",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcBp4RlTHPQ": {
+      "shortcode": "DcBp4RlTHPQ",
+      "id": "3963633334139778000",
+      "source_url": "https://www.instagram.com/p/DcBp4RlTHPQ/",
+      "owner": "kevinswork",
+      "published_at": "2026-08-14T15:46:59.000Z",
+      "type": "Video",
+      "duration_seconds": 147.933334,
+      "status": "available",
+      "metrics": {
+        "likes": 578,
+        "comments": 27,
+        "plays": 21130,
+        "views": null
+      },
+      "caption_excerpt": "Siapa yang udah nungguin sepatu kolaborasi ini rilis? Akhirnya 17 Agustus ini rilis. Bertepatan dengan hari kemerdekaan, bisa rilis sepatu s",
+      "image": null,
+      "width": 541,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 5,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "f84ea13a900e8fc819ba384e4447e5d5436e7de43171bf455ccf31749d6401ec",
+      "source_image_sha256": "290d9c0d3720a3c6cef8347d1f61a89e400a79dd533363fdb200c7a0e9dcebd1",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcD0tPEJKb0": {
+      "shortcode": "DcD0tPEJKb0",
+      "id": "3964243903986837236",
+      "source_url": "https://www.instagram.com/p/DcD0tPEJKb0/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-15T11:54:37.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 458,
+        "comments": 1,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Before anyone was watching, there was just the game. The court after school. Playing until you couldn’t see the rim. No pressure, no plan. J",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 0,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "a0678657f2edcafb7b837aff90dcc224bb02052723355ceeac920baf155ed39c",
+      "source_image_sha256": "46a5a253565017cf209a58dd8df6f1132e75c53f5748bcf56de3a2099b85dc2a",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcGHygbzaLp": {
+      "shortcode": "DcGHygbzaLp",
+      "id": "3964890779071914729",
+      "source_url": "https://www.instagram.com/p/DcGHygbzaLp/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-16T09:18:50.000Z",
+      "type": "Video",
+      "duration_seconds": 6.4,
+      "status": "available",
+      "metrics": {
+        "likes": 20996,
+        "comments": 69,
+        "plays": 2111584,
+        "views": null
+      },
+      "caption_excerpt": "Bold and powerful. Coming soon 25.08.26 #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 1,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "20745523cd9f1ad983bc5eefc1b1a1c487cee986869aaa4fceddbbef239ac166",
+      "source_image_sha256": "0868d00fb05c1ded471d0424cf3d32edead3dbd0cfe3d95fa53db45963815fdf",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcGLsoapTlu": {
+      "shortcode": "DcGLsoapTlu",
+      "id": "3964907967511607662",
+      "source_url": "https://www.instagram.com/p/DcGLsoapTlu/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-16T09:55:08.000Z",
+      "type": "Video",
+      "duration_seconds": 55.916668,
+      "status": "available",
+      "metrics": {
+        "likes": 2136,
+        "comments": 21,
+        "plays": 330873,
+        "views": null
+      },
+      "caption_excerpt": "Love is why you started. Hustle is why you’re still here. Ardiles Basketball presents: Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesb",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 3,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "ed68d0c428fa9dc1907a74b927227e30a8b1d3b66776e0f7751ee62ab8d61cab",
+      "source_image_sha256": "a5fe9810e76229a8b08cd3a5f3eace1385f394325b5fc7578c4d3cf33763babb",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcI-W1kTM-7": {
+      "shortcode": "DcI-W1kTM-7",
+      "id": "3965693720129228731",
+      "source_url": "https://www.instagram.com/p/DcI-W1kTM-7/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-17T11:54:19.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 27644,
+        "comments": 75,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Something faster 25.08.26 #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 4,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "2c457c10bfa76bf6dd093cdce0e41a2b56d3d258e5c2eae0a5463e20791bc3e1",
+      "source_image_sha256": "f0e8dd68f4c1975f911f46246301f27add30cf4d69a4ad28413d06105e7aa6a4",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcIKdiOp8pC": {
+      "shortcode": "DcIKdiOp8pC",
+      "id": "3965465481982757442",
+      "source_url": "https://www.instagram.com/p/DcIKdiOp8pC/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-17T04:21:08.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 463,
+        "comments": 9,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Basketball presents: Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesbasketball x @widyanta71 x @kevinswork Available Now! 17 Ag",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 2,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "2c1ad53a8cc10b77e8aa5cc07fc661a16de7c4b254f4cfceac691f72b3f8c449",
+      "source_image_sha256": "d9fa486e81caf7efb6a350b1f00637affba64978718ffcc88e9a52fd7b39ba4e",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcLdZSMj9c4": {
+      "shortcode": "DcLdZSMj9c4",
+      "id": "3966393177703700280",
+      "source_url": "https://www.instagram.com/p/DcLdZSMj9c4/",
+      "owner": "jsd",
+      "published_at": "2026-08-18T11:02:14.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 338,
+        "comments": 5,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ardiles Basketball (@ardilesbasketball) resmi menutup penjualan kolaborasinya bareng Kevinswork (@kevinswork) lewat proyek \"Speedy Weeedy\" p",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 4,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "eb7595de57ebfdb85ae9e5c91c071e0ca75fe7aeb51d11a20ae2894d016f3252",
+      "source_image_sha256": "fa1b9b5f2e9d00c7fc8ff4718582d585d31932cabfa534dc178c6f62e5bc0ad7",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcLpiU8zZLe": {
+      "shortcode": "DcLpiU8zZLe",
+      "id": "3966446575693959902",
+      "source_url": "https://www.instagram.com/p/DcLpiU8zZLe/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-18T12:49:41.000Z",
+      "type": "Video",
+      "duration_seconds": 8.808809,
+      "status": "available",
+      "metrics": {
+        "likes": 1917,
+        "comments": 46,
+        "plays": 489634,
+        "views": null
+      },
+      "caption_excerpt": "Can you see it? The silhouette says it all. 👀 25.08.26 #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 2,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "820c14d5b70688933c2c773037661bba447c1c3c905d7aa8c89cd0cfad04ef98",
+      "source_image_sha256": "dd34e236c3db307faf674fff55db76d5c84d25e8419e971b763f4f39904f1fbb",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcOBZNRTIfP": {
+      "shortcode": "DcOBZNRTIfP",
+      "id": "3967114452042287055",
+      "source_url": "https://www.instagram.com/p/DcOBZNRTIfP/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-19T10:57:05.000Z",
+      "type": "Video",
+      "duration_seconds": 13.36,
+      "status": "available",
+      "metrics": {
+        "likes": 837,
+        "comments": 16,
+        "plays": 329740,
+        "views": null
+      },
+      "caption_excerpt": "Run harder. Run faster. Always fast. 25.08.26 #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 6,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "089cf3f156fb577bb087981215cfa39cb2ea3e6d2fa47d939f4d607e186d197f",
+      "source_image_sha256": "8210f3fb2152b1ae0cbdd73dd604b58d1389e19c3d282c9c51d3eb7c1cc7c013",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcQiTgFCQBw": {
+      "shortcode": "DcQiTgFCQBw",
+      "id": "3967822145409056880",
+      "source_url": "https://www.instagram.com/p/DcQiTgFCQBw/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-20T10:21:20.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 361,
+        "comments": 10,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "A basketball shoe that doesn’t clock out after the game. Pair it with denim, shorts, whatever you already own. It holds its own. Ardiles Spe",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 1,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "666aebda94e286e615545fffbedccfe6cbfbfbdb3f14674dab19bb4e56ffbf23",
+      "source_image_sha256": "b7718d7b336349f6fc0008dfb915d869675b53377acf209164b9f3d304d18592",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcSXOmUTSwP": {
+      "shortcode": "DcSXOmUTSwP",
+      "id": "3968336379952049167",
+      "source_url": "https://www.instagram.com/p/DcSXOmUTSwP/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-21T03:25:08.000Z",
+      "type": "Video",
+      "duration_seconds": 57,
+      "status": "available",
+      "metrics": {
+        "likes": 1242,
+        "comments": 45,
+        "plays": 837483,
+        "views": null
+      },
+      "caption_excerpt": "Proudly presenting Ardiles Runergize Black White. Bold in design. Made to move fast. Find your rhythm. Build your momentum. Run harder. Run ",
+      "image": "assets/campaigns/DcSXOmUTSwP.webp",
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 0,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "968d463f0029adf6365630811bc33786fba554ed236419a38545b82fbf83a81f",
+      "source_image_sha256": "14703f2c54b4213d515ca4c4af3036c386bbd72a7459ef1fc5f8d915d4296590",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcU4R0Ezc0U": {
+      "shortcode": "DcU4R0Ezc0U",
+      "id": "3969044686371147028",
+      "source_url": "https://www.instagram.com/p/DcU4R0Ezc0U/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-22T02:52:24.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 525,
+        "comments": 19,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "ARDILES RUNERGIZE EXCLUSIVE SELLING! ⚡️ It’s your chance to get the Ardiles Runergize Black White with Arctic Frost Jersey for only IDR 1.69",
+      "image": null,
+      "width": 721,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 3,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "33dc8d7d000e806c3f6180c55fb8daadac28ef272d3110dc3e3bfbbb11c45daf",
+      "source_image_sha256": "949c77d21d6e53f34676c3e46f65196f39e70cbecbcd906c7c14486894ac9162",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcV0BrCp7Qe": {
+      "shortcode": "DcV0BrCp7Qe",
+      "id": "3969307459950457886",
+      "source_url": "https://www.instagram.com/p/DcV0BrCp7Qe/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-22T11:35:09.000Z",
+      "type": "Video",
+      "duration_seconds": 12.166667,
+      "status": "available",
+      "metrics": {
+        "likes": 12265,
+        "comments": 59,
+        "plays": 1352164,
+        "views": null
+      },
+      "caption_excerpt": "Love the hairy finish, love the leathery finish, love the texture, and everything in between🫶 Love & Hustle, in one shoe. Sudah checkout? Ar",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 6,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "342692f53c96f04817d763c0c4fd277afcfd6067e17039519bfea2d52a83ef4a",
+      "source_image_sha256": "e2b6853fd83050359873efcac59fdc1de0c3e60e854e6050d3e2166d02bae389",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dca9WQlCZLE": {
+      "shortcode": "Dca9WQlCZLE",
+      "id": "3970755831947432644",
+      "source_url": "https://www.instagram.com/p/Dca9WQlCZLE/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-24T11:30:03.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 204,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Tee to toe. How would you style it? Ardiles Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesbasketball x @widyanta71 x @kevinswork #Move",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 5,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "875d184992b61366e1defe4ab03427f6387543326e4bb7a1aabb744e045593c6",
+      "source_image_sha256": "af64523484a1a42d702bc7d0958b4950c85d09cfc548a9c694a707bebcace87d",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcbTog2kzlA": {
+      "shortcode": "DcbTog2kzlA",
+      "id": "3970853843395361088",
+      "source_url": "https://www.instagram.com/p/DcbTog2kzlA/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-24T14:44:47.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1628,
+        "comments": 18,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "HERE IT IS ARDILES ARCTIC FROST JERSEY BLACK WHITE. The perfect pairing for your Ardiles Runergize Black to complete your race day look. Cle",
+      "image": null,
+      "width": 722,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 1,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "e907a756043bbcf55d10bbef3537f6c88b10eec584b579602f0c0a8d68b42755",
+      "source_image_sha256": "6be011ed5cab790663b5c5fae2423310698effac1ee3ffafb342310df401b2e7",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcbruTyTkOA": {
+      "shortcode": "DcbruTyTkOA",
+      "id": "3970959794798216064",
+      "source_url": "https://www.instagram.com/p/DcbruTyTkOA/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-25T03:00:06.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 199,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "EXCLUSIVE SELLING: ARDILES RUNERGIZE BLACK WHITE IS FINALLY HERE! It’s finally time to get your hands on the Ardiles Runergize Black White! ",
+      "image": null,
+      "width": 721,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 4,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "108a38558058ba61220159e3ccc8369853091d5db48fffc72e16809c5c15145c",
+      "source_image_sha256": "c091d481a945647ae040adf4c863f0a990b12382d84064d0d203ffc178b9ae00",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dcc-gLjE76f": {
+      "shortcode": "Dcc-gLjE76f",
+      "id": "3971323861740535455",
+      "source_url": "https://www.instagram.com/p/Dcc-gLjE76f/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-25T06:18:37.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 733,
+        "comments": 6,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Look at the details of Ardiles Runergize Built to keep you moving, made to push you further. Ardiles Runergize comes with an NF Elite midsol",
+      "image": null,
+      "width": 722,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 5,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "76ac5965398671f90665ce78ac0cc104ef13e2ca50ab6d85e654047dd9cac6d0",
+      "source_image_sha256": "c7ec52efc2cce4724018166ae8f6a851dcc6224319634877da4176ddeb415fb2",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DccyfuVzeWY": {
+      "shortcode": "DccyfuVzeWY",
+      "id": "3971271053821207960",
+      "source_url": "https://www.instagram.com/p/DccyfuVzeWY/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-25T04:37:06.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 390,
+        "comments": 14,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Exclusive Selling Ardiles Runergize SOLD OUT! Thank you so much for the amazing response and for making this exclusive selling a SOLD OUT! S",
+      "image": null,
+      "width": 721,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 2,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "c47f0cda7360240771335757200f31014e2063d60fb27c6a436994ae9a4a5555",
+      "source_image_sha256": "55b27a653fdabdbd6b202c38792ce5e91a0ccd308733878082ad5bb7e96187db",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcgHgv4EzWh": {
+      "shortcode": "DcgHgv4EzWh",
+      "id": "3972207908096259489",
+      "source_url": "https://www.instagram.com/p/DcgHgv4EzWh/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-26T11:35:04.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1664,
+        "comments": 14,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Bold. Sharp. Made to run fast. For the ones who want their pace fast and their look even faster. Ardiles Runergize Black keeps it sleek, edg",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 0,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "bd4e58ee8f03c6d3e6f0e280d5de52a6e806c0d890320943d48025d159bbb224",
+      "source_image_sha256": "a8cbc23dd89f2238790702b56be7da649d3e796beea4608e523b4159a140e6c2",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DciqAFLTFK0": {
+      "shortcode": "DciqAFLTFK0",
+      "id": "3972922544805925556",
+      "source_url": "https://www.instagram.com/p/DciqAFLTFK0/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-27T11:16:31.000Z",
+      "type": "Video",
+      "duration_seconds": 42,
+      "status": "available",
+      "metrics": {
+        "likes": 786,
+        "comments": 17,
+        "plays": 210444,
+        "views": null
+      },
+      "caption_excerpt": "Every detail has a reason. Every stride has a purpose. This Ardiles Runergize Black White!⚡ Featuring Hyperskin upper mesh technology made f",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 3,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "86687cb0f3d7eece6c230bcd7237fc159dd83a2320334e2ca95a4b859d6805f8",
+      "source_image_sha256": "f4e790d7d3d32a8de007515012894a10d49688adf1920ed9bf9894df73eafdc7",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DclNTfmJFI5": {
+      "shortcode": "DclNTfmJFI5",
+      "id": "3973640760424944185",
+      "source_url": "https://www.instagram.com/p/DclNTfmJFI5/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-08-28T11:03:16.000Z",
+      "type": "Video",
+      "duration_seconds": 16.089977,
+      "status": "available",
+      "metrics": {
+        "likes": 111,
+        "comments": 2,
+        "plays": 7400,
+        "views": null
+      },
+      "caption_excerpt": "Cute, isn’t it?🦒 Ardiles Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesbasketball x @widyanta71 x @kevinswork #MoveYourWay #ardilesbas",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 3,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "fdaef5f6c60439396941b965f7abecd547673ba9cd69d928ffb246a9a373a09e",
+      "source_image_sha256": "faf4b518c75ff72d73506a9bf5adbe4ae634cf5a97d467ec211040e791cb2434",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DclS5dzTFRY": {
+      "shortcode": "DclS5dzTFRY",
+      "id": "3973665360070857816",
+      "source_url": "https://www.instagram.com/p/DclS5dzTFRY/",
+      "owner": "ziforamei",
+      "published_at": "2026-08-28T11:58:18.000Z",
+      "type": "Video",
+      "duration_seconds": 43.210884,
+      "status": "available",
+      "metrics": {
+        "likes": 426,
+        "comments": 20,
+        "plays": 33805,
+        "views": null
+      },
+      "caption_excerpt": "Love & Hustle✨ Ardiles Speedy Weedy x Kevinswork @ardilesbasketball @widyanta71 @kevinswork 📍@theforum.bintaro . #spingirl #basketball #free",
+      "image": null,
+      "width": 541,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 4,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "ea7713966e4150e71a9fbd94dcc345d38d52edde0932238ea9ab8fd044bca190",
+      "source_image_sha256": "c033fc016220b8f8dd8f8ed8cc7bf829109fff0c05293611b5b923440a77e6ac",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcoERduE_AW": {
+      "shortcode": "DcoERduE_AW",
+      "id": "3974445463483183126",
+      "source_url": "https://www.instagram.com/p/DcoERduE_AW/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-29T13:40:41.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 122,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "When the road gets wet, your pace stays fast. Responsive cushioning. Secure grip. Everything you need to stay stable, push harder, and run f",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 4,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "6547d939395b8efbe0867c01af83f861dc27eab50dec47c054f90ecec08e1d87",
+      "source_image_sha256": "bb178fcbd0b52219a9eaead76160e5c36c83c78e0e55c6a8cda886e9a73bd039",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dcqr5rozzFu": {
+      "shortcode": "Dcqr5rozzFu",
+      "id": "3975182700973601134",
+      "source_url": "https://www.instagram.com/p/Dcqr5rozzFu/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-30T14:11:41.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 621,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Ini dia Ardiles Runergize Black White kalau dibedah. 👀 Mulai dari Hyperskin Upper dengan micro pores untuk airflow dan quick drying, lanjut ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 5,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "4c07bc5b5a2aaaa5663283b2b02701d309a77a6c523f6635310bd48085a6a656",
+      "source_image_sha256": "f2f063e355f464d520731c24c29fcba9c3c6ae8045daf10c45dc30270e7f5380",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DctTj4tzoKo": {
+      "shortcode": "DctTj4tzoKo",
+      "id": "3975920075001463464",
+      "source_url": "https://www.instagram.com/p/DctTj4tzoKo/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-08-31T14:32:27.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 241,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "FINALLY, ARDILES RUNERGIZE BLACK WHITE IS HERE! Buat kalian yang kemarin belum kebagian di exclusive selling, sekarang waktunya! 👀 Ardiles R",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 6,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "652b87212dbe10859afb556aee1822fb5e3e8b3d2548c87f87477094eb89907c",
+      "source_image_sha256": "4ed03c4c29e6e574ae5d2541b5bc1a2ae1b90297788682e4b03af7dd89b78d39",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcummCCSkof": {
+      "shortcode": "DcummCCSkof",
+      "id": "3976285260308171295",
+      "source_url": "https://www.instagram.com/p/DcummCCSkof/",
+      "owner": "keishaazizii",
+      "published_at": "2026-09-01T02:43:04.000Z",
+      "type": "Video",
+      "duration_seconds": 22.533333,
+      "status": "available",
+      "metrics": {
+        "likes": 47335,
+        "comments": 59,
+        "plays": 827952,
+        "views": null
+      },
+      "caption_excerpt": "Warming up session with Ardiles Runergize Black n White by @ardilesrunning 🙌🏾 Ardiles Runergize available now at www.ardiles.co.id",
+      "image": null,
+      "width": null,
+      "height": null,
+      "preview_atlas": null,
+      "image_sha256": null,
+      "source_image_sha256": null,
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcvmPnKifkB": {
+      "shortcode": "DcvmPnKifkB",
+      "id": "3976565194603755777",
+      "source_url": "https://www.instagram.com/p/DcvmPnKifkB/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-01T11:52:13.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 67,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Love starts the game. Hustle keeps it moving. From imagination to the court, Cloud and @widyanta71 bring two worlds together through one sha",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-03.webp",
+        "column": 0,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "2615829e15442101415daf3179a9aebc9dc25673f27aa9a1a33656ca83f76072",
+      "source_image_sha256": "9a1e8f36f851185ad23ab5cbd17766f2e9603137babc3768dffb69d1551fb69d",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dcvz7naEzFD": {
+      "shortcode": "Dcvz7naEzFD",
+      "id": "3976625393126027587",
+      "source_url": "https://www.instagram.com/p/Dcvz7naEzFD/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-01T13:51:49.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 540,
+        "comments": 12,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Throwback to that Maybank Bali Marathon race feeling. The heat, the elevation, the crowd, and that feeling of pushing through every kilomete",
+      "image": null,
+      "width": 720,
+      "height": 540,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 2,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "226d58f4d7ef3361cb29011e9d2fec753dfc1f6fa6aed9a12b942577e8bb03be",
+      "source_image_sha256": "8917e0f33f52ed691b66c5194742a1b86ed02587daa8c2309bfbcc909f8f82fb",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcyFpf2JMk-": {
+      "shortcode": "DcyFpf2JMk-",
+      "id": "3977266262847047998",
+      "source_url": "https://www.instagram.com/p/DcyFpf2JMk-/",
+      "owner": "daniel.salamena",
+      "published_at": "2026-09-02T11:06:33.000Z",
+      "type": "Video",
+      "duration_seconds": 13.5,
+      "status": "available",
+      "metrics": {
+        "likes": 509,
+        "comments": 1,
+        "plays": 168225,
+        "views": null
+      },
+      "caption_excerpt": "@ardilesbasketball X @kevinswork 👟",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 4,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "3b8c1e0188322b41ac5061002da71a3614bff9d4ef722f4e2221fc2036663331",
+      "source_image_sha256": "348177c034b4d26e3f2498740466f00d90f3f4fc113159e66053e792aba0f76c",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DcyLvw4vZtv": {
+      "shortcode": "DcyLvw4vZtv",
+      "id": "3977293081740155759",
+      "source_url": "https://www.instagram.com/p/DcyLvw4vZtv/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-02T12:00:55.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 2690,
+        "comments": 33,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Siapa nih yang pengen beli Ardiles Runergize tapi masih pengen cobain langsung dulu? 👀 NOW’S THE TIME! 🔥 Ardiles Runergize Black White sekar",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 1,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "9ac625dc4b1ec28ab905c30123eb6a13e9146cc143fb5e4c21afc743be497ffa",
+      "source_image_sha256": "8bef08a5d8689de06356c8f67fcc87a722cd37cd9aa7a2e56aa241af0692b442",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dd3zyNASA1s": {
+      "shortcode": "Dd3zyNASA1s",
+      "id": "3996890944623873388",
+      "source_url": "https://www.instagram.com/p/Dd3zyNASA1s/",
+      "owner": "sneakerzone.malang",
+      "published_at": "2026-09-29T13:00:22.000Z",
+      "type": "Video",
+      "duration_seconds": 44.67374,
+      "status": "available",
+      "metrics": {
+        "likes": 200,
+        "comments": 5,
+        "plays": 8851,
+        "views": null
+      },
+      "caption_excerpt": "RUN TO BE CHAMPIONS!🏆 Umak mbois ilakes! Terima kasih sudah berjuang melawati batas! Bukan sekedar pace tapi ini soal strategi dan endurance",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 6,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "6481b686943fa6416c1b8ca2315c9cf687eeec5ca42ba0e99c4acb71a9204358",
+      "source_image_sha256": "e945183526c2a538da89276c3ebac5859d340035fa95979eaad6a2567d2482c4",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdDi-BLPXP6": {
+      "shortcode": "DdDi-BLPXP6",
+      "id": "3982180290976904186",
+      "source_url": "https://www.instagram.com/p/DdDi-BLPXP6/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-09T05:53:19.000Z",
+      "type": "Video",
+      "duration_seconds": 58,
+      "status": "available",
+      "metrics": {
+        "likes": 1194,
+        "comments": 44,
+        "plays": 33072,
+        "views": null
+      },
+      "caption_excerpt": "Rute Maybank dikenal dengan tanjakan dan turunan yang menantang. Setiap elevation menguji power. Setiap descent menguji control. Setiap lang",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 6,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "74f12029ebbba6e8e06b7ed051a4d3f86bc2d502ed4cd1153e5e14bce4f83aa6",
+      "source_image_sha256": "8d8f19e320a282910f0225c8fd0a02871d9ddc13d1da5688498d8bcbffd1d267",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdJN8LhP2E2": {
+      "shortcode": "DdJN8LhP2E2",
+      "id": "3983776655528124726",
+      "source_url": "https://www.instagram.com/p/DdJN8LhP2E2/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-11T10:41:34.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 192,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "RUNERGIZE SHOWDOWN IS ON. Calling all Ardiles Retail Partners to put your creativity to the test. Create and post your best video featuring ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 0,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "80da570fcfef4ba85c0e4e94c545863516bc7daabc9f013887572c50bd2c6420",
+      "source_image_sha256": "1e19b2c4a10341d020283a10e936afa89367aee6f0737a46fa099be69dd31abf",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdJoNEuHxUa": {
+      "shortcode": "DdJoNEuHxUa",
+      "id": "3983892165668312346",
+      "source_url": "https://www.instagram.com/p/DdJoNEuHxUa/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-11T14:29:36.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 320,
+        "comments": 17,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Siapa nih yang besok lari di weekend? Jangan lupa siapin energi dan starter pack lari kamu, ya! Mulai dari sepatu sampai jersey, pastikan se",
+      "image": null,
+      "width": null,
+      "height": null,
+      "preview_atlas": null,
+      "image_sha256": null,
+      "source_image_sha256": null,
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdL95gHJSWc": {
+      "shortcode": "DdL95gHJSWc",
+      "id": "3984550527666300316",
+      "source_url": "https://www.instagram.com/p/DdL95gHJSWc/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-12T12:18:00.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 49,
+        "comments": 1,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Basketball has always been more than game time. It lives in the way we move, what we wear, the people we meet, and how we express ourselves ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 0,
+        "row": 3,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "252b3bddb7ce41668ea53efb865dcc76d00690d852e6910fda1134945e750a71",
+      "source_image_sha256": "97268834c866469e192371c5fe559433cdddaf21171cf9f3c81331f9817c1a04",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdZCbDunzzd": {
+      "shortcode": "DdZCbDunzzd",
+      "id": "3988229600535592157",
+      "source_url": "https://www.instagram.com/p/DdZCbDunzzd/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-17T14:07:18.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 270,
+        "comments": 7,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "When speed is the priority, choose Runergize. ⚡️ Powered by a full-length carbon fiber plate and responsive NF Elite supercritical foam, Run",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 5,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "1818b65e468f58bb994018e0f48a6548a72b465da88552f55c6000ea8f3dbb23",
+      "source_image_sha256": "863c22bfe426dd57e150926af0e2993864d21f1372a79f7b02b672d71c9d6591",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdbcOwsJ6uj": {
+      "shortcode": "DdbcOwsJ6uj",
+      "id": "3988906054622096291",
+      "source_url": "https://www.instagram.com/p/DdbcOwsJ6uj/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-18T12:31:55.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 400,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Every detail of Speedy Weeedy × Kevinswork is part of the expression. Layered materials, contrasting textures, bold patterns, and unexpected",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 5,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "7feccdf9a8e12b4923fb48018c383081783eb1bfcd5f013cf49c0fc5a9efa0c2",
+      "source_image_sha256": "ef567d7f19a70ba33425e7f72f47d136d749ee4548e4e7ed3e62d62829608fb2",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdbqwVCH5Gz": {
+      "shortcode": "DdbqwVCH5Gz",
+      "id": "3988969934039257523",
+      "source_url": "https://www.instagram.com/p/DdbqwVCH5Gz/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-18T14:38:13.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 1954,
+        "comments": 9,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "The mood is dark. The focus is locked. And once the Runergize is on, there’s only one thing left to do, run your way through it. Ready to lo",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 4,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "797ec1a7bf56cc0543a3de0ecc1c7e2414a75b34433bd2b454271246edd538b2",
+      "source_image_sha256": "c95c3e04997c7f4b2321a7cb22e87d4f3ea344ae12e6d80acfd8eee5748e35e0",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Ddn-pOApVl2": {
+      "shortcode": "Ddn-pOApVl2",
+      "id": "3992435106112690550",
+      "source_url": "https://www.instagram.com/p/Ddn-pOApVl2/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-09-23T09:23:42.000Z",
+      "type": "Video",
+      "duration_seconds": 25.470839,
+      "status": "available",
+      "metrics": {
+        "likes": 95,
+        "comments": 2,
+        "plays": 4968,
+        "views": null
+      },
+      "caption_excerpt": "Unboxing the Speedy Weeedy × Kevinswork collaboration. 🏀🎨 A closer look at the details. Available now at ardiles.co.id. #Ardiles #ArdilesBas",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 5,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "bd049329c09aa4cfcb66192bb25a24c11d9c1f5a2c8f00594819745ba29a818e",
+      "source_image_sha256": "7fb292163d941355c4ce34cf24e9c63ac23b94b24c836788701c522dd54f081a",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdtlQ_hn68s": {
+      "shortcode": "DdtlQ_hn68s",
+      "id": "3994012339989884716",
+      "source_url": "https://www.instagram.com/p/DdtlQ_hn68s/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-25T13:36:35.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 340,
+        "comments": 17,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "ARE YOU READY TO RUN INTO THE WILD? Malang , 27 September 2026. Lapangan Gajayana | 05.00 AM – Finish INVITATION ONLY This isn’t just a run.",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 5,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "688d62ef427493cf500dc993338064993b689507bd2db9f938c4b3ad3d1ce17c",
+      "source_image_sha256": "60334b871e286d5009e62102bfaa69cd245dc9774f0f7538501dbd282e2962c3",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DdyMNURHzkU": {
+      "shortcode": "DdyMNURHzkU",
+      "id": "3995309511104477460",
+      "source_url": "https://www.instagram.com/p/DdyMNURHzkU/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-09-27T08:33:50.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 89,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Speed in motion. Power in every stride. No wasted movement. No holding back. Just you, the pace, and the need to go faster. Ardiles Runergiz",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 1,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "5710a5f707d66fa119981271b4d26a7bbf72547cad8eb37a6fccea3c206f6238",
+      "source_image_sha256": "a4773ec9bb5b85f575cffd66665624a73058e8b7f4a188d25cf29a63630c62d1",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "De37fhznwOS": {
+      "shortcode": "De37fhznwOS",
+      "id": "4014939244171559826",
+      "source_url": "https://www.instagram.com/p/De37fhznwOS/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-24T10:34:36.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 39,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Angkat tangan buat kalian yang masih kerja di hari Sabtu! 🙋‍♂️🙋‍♀️ Pulang kerja langsung nongkrong malam mingguan? Gas aja! Nggak perlu ribe",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 2,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "57460f7a9f007eef8bd9740bab98944e5a008b4efcc7720fdcf637f198f8d339",
+      "source_image_sha256": "d9126e00f35b44e41947fbfb74c6d2285da4681eb8562c2728ee21ae780b27cc",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "De6IJ72Or9D": {
+      "shortcode": "De6IJ72Or9D",
+      "id": "4015557884862185283",
+      "source_url": "https://www.instagram.com/p/De6IJ72Or9D/",
+      "owner": "vhikyloliwu",
+      "published_at": "2026-10-25T07:10:42.000Z",
+      "type": "Video",
+      "duration_seconds": 60,
+      "status": "available",
+      "metrics": {
+        "likes": null,
+        "comments": 67,
+        "plays": 3791,
+        "views": null
+      },
+      "caption_excerpt": "Halo buddies Kalau kalian cari rekomendasi sepatu running tapi bisa dipakai juga buat daily activity lainnya percayakan aja sama sepatu Ardi",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 3,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "ac3893fef201d225d9addb43791c9c636c885b28b4b780d0819af2673018f602",
+      "source_image_sha256": "92809df68c7fd0b1d9e112ae55edc4f6258234c21a1f5bae05c228deb2a85894",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "De9Cl7qBhV0": {
+      "shortcode": "De9Cl7qBhV0",
+      "id": "4016377845453821300",
+      "source_url": "https://www.instagram.com/p/De9Cl7qBhV0/",
+      "owner": "michaelmarchh",
+      "published_at": "2026-10-26T10:14:24.000Z",
+      "type": "Video",
+      "duration_seconds": 10.6,
+      "status": "available",
+      "metrics": {
+        "likes": 280,
+        "comments": 23,
+        "plays": 13207,
+        "views": null
+      },
+      "caption_excerpt": "video boleh jamet, tapi sepatu tetep harus kalcer 👀🔥 👟 Ardiles Daywalker @ardilesrunning #pelarikonten #lari #run #running #surabaya",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 4,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "1f154bb741c170b00cbd77a82bce9e9c602a4e4bac47764fcda1ec428c18bb18",
+      "source_image_sha256": "652d096286771a20c036f3a221edcf707f982289868452bbc7893fd11d967367",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeO6ohoPMya": {
+      "shortcode": "DeO6ohoPMya",
+      "id": "4003394990364216474",
+      "source_url": "https://www.instagram.com/p/DeO6ohoPMya/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-08T12:19:18.000Z",
+      "type": "Video",
+      "duration_seconds": 28.033333,
+      "status": "available",
+      "metrics": {
+        "likes": 192,
+        "comments": 8,
+        "plays": 6876,
+        "views": null
+      },
+      "caption_excerpt": "Surabaya, are you ready Run Into The Wild? 10.10.26 #ArdilesRunning #Runergize #RunIntoTheWild #MoveYourWay",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 3,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "e4bff3180d4c4b4aea34106bf3941a76445e44c9db082efedf79c75f870bd581",
+      "source_image_sha256": "26dfb2f3abd8bb7d6c67b273ec54c92746eab735654a9246e3e850e057b807b7",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeOsLLKpTmM": {
+      "shortcode": "DeOsLLKpTmM",
+      "id": "4003331400729442700",
+      "source_url": "https://www.instagram.com/p/DeOsLLKpTmM/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-08T10:11:58.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 159,
+        "comments": 0,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Court fit hari ini: Speedy Weeedy x Kevinswork dipadukan dengan baggy jeans dan white tank. Kalau kamu, bakal styling pakai apa? Ardiles Spe",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 3,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "4f17f9dc046e77af231e621ea89bda07aeb9e9b9e0219e436cccf7fc8b427ef5",
+      "source_image_sha256": "09feefe1fcf38cf9ede279698c9d44671c855efd48824980656398706b9d4959",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeR7skkn6TN": {
+      "shortcode": "DeR7skkn6TN",
+      "id": "4004244091379360973",
+      "source_url": "https://www.instagram.com/p/DeR7skkn6TN/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-09T16:25:15.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 219,
+        "comments": 3,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Surabaya, let’s Run Into The Wild!!! 10 October 2026. at Surabaya Urban Creative Hub | 04.00PM – Finish INVITATION ONLY Push your pace. Run ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 2,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "dba0e3e82cb615ffdcc992febdf8d9afdeb316930c4e96837204959629ae7431",
+      "source_image_sha256": "a4f73f3e1a91d8161d0c08a3313dbd2a388870226a82aeb408d3d62414f9a56b",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeRfo6vp3l0": {
+      "shortcode": "DeRfo6vp3l0",
+      "id": "4004120695006525812",
+      "source_url": "https://www.instagram.com/p/DeRfo6vp3l0/",
+      "owner": "dhikalana_",
+      "published_at": "2026-10-09T12:21:50.000Z",
+      "type": "Video",
+      "duration_seconds": 130.935867,
+      "status": "available",
+      "metrics": {
+        "likes": 140,
+        "comments": 2,
+        "plays": 12529,
+        "views": null
+      },
+      "caption_excerpt": "Maenn ini collab-nya @ardilesbasketball x @widyanta71 x @kevinswork 🔥🔥👌",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 0,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "34669952e2f20a18d014873170a56cab24304e9fa180163aeb01aaa9c8c62447",
+      "source_image_sha256": "74b8db78c09d3773affc6ec970fda50bf3d98dd4e33a48c026a050d9a6e21fd6",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeW0gLHnx1a": {
+      "shortcode": "DeW0gLHnx1a",
+      "id": "4005619827973496154",
+      "source_url": "https://www.instagram.com/p/DeW0gLHnx1a/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-11T13:58:35.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 252,
+        "comments": 20,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Writing SURABAYA, YOU WENT WILD! 🏁🔥 The speed was real, the competition was fierce, and every handover brought a new level of intensity. Eve",
+      "image": "assets/campaigns/DeW0gLHnx1a.webp",
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 0,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "ab94ff034b353e3b0ac6743e5a5ad32f35c114bae314aa2708c4cc6385f32e2a",
+      "source_image_sha256": "9c7f37deab16004265845829448272af3d774ecf1709fae10b764c21f952269d",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeZG2cRJN5C": {
+      "shortcode": "DeZG2cRJN5C",
+      "id": "4006263473005977154",
+      "source_url": "https://www.instagram.com/p/DeZG2cRJN5C/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-12T11:18:46.000Z",
+      "type": "Video",
+      "duration_seconds": 14.333333,
+      "status": "available",
+      "metrics": {
+        "likes": 86,
+        "comments": 0,
+        "plays": 7195,
+        "views": null
+      },
+      "caption_excerpt": "Style and Performance, in balance🦒 Ardiles Speedy Weeedy x Kevinswork: Love & Hustle — @ardilesbasketball x @widyanta71 x @kevinswork #MoveY",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 6,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "4fb3cc12a1829796633f1fd8fb2024025f1c4075b6f4c059ae54a95c31d821c5",
+      "source_image_sha256": "cf8200b26dcf98929d4ceda3d0e749c8fa4aad7d16ee3493c4b5f43bb20ec435",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeekGwSPqaH": {
+      "shortcode": "DeekGwSPqaH",
+      "id": "4007799512243283591",
+      "source_url": "https://www.instagram.com/p/DeekGwSPqaH/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-14T14:10:32.000Z",
+      "type": "Video",
+      "duration_seconds": 68.291664,
+      "status": "available",
+      "metrics": {
+        "likes": 213,
+        "comments": 9,
+        "plays": 6057,
+        "views": null
+      },
+      "caption_excerpt": "THE RACE WAS WILD! THE BATTLE WAS REAL! 🏁 Surabaya brought the speed, the teamwork, and the heat. Congratulations to our winners. See you in",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 2,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "c66ba98754a8697dde08ceaf0caff101b80052da7923b2ce97cf8d635ad53d1f",
+      "source_image_sha256": "406cec63a9344672888773b8c7c92ffb341114f62577c475bd45a871c1f605ad",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Deg8TsKGMLe": {
+      "shortcode": "Deg8TsKGMLe",
+      "id": "4008468904234500830",
+      "source_url": "https://www.instagram.com/p/Deg8TsKGMLe/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-15T12:19:12.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 988,
+        "comments": 49,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Love the game. Bring the hustle. Join Widyanta Putra Teja and the Kevinsworks teams for the Love & Hustle Streetball Showdown at KYZN Kuning",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 1,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "c67fc35f69dd8f5ffead1212aecc616e2f4b50134929ef81210a8c87fd5addf2",
+      "source_image_sha256": "684acf460db946935daaf1835c216b537f9562bacc801256c8c681ebc5bf9aab",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DehTsXqv2ZO": {
+      "shortcode": "DehTsXqv2ZO",
+      "id": "4008571755290388046",
+      "source_url": "https://www.instagram.com/p/DehTsXqv2ZO/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-15T15:44:57.000Z",
+      "type": "Video",
+      "duration_seconds": 82.243629,
+      "status": "available",
+      "metrics": {
+        "likes": 94,
+        "comments": 1,
+        "plays": 2426,
+        "views": null
+      },
+      "caption_excerpt": "Keseruan Run Into The Wild Surabaya dari sudut pandang mereka! 🏁🔥 Mulai dari rute yang seru, elevasi yang menantang, sampai keseruan adu cep",
+      "image": null,
+      "width": 541,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 0,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "62a23914fcfa043b3580bd75aaa1d6b2486d93d72ac48f374b510a74e08f6a5d",
+      "source_image_sha256": "8e5dc64758170d1d61a318d1daf004c8c201b1b73e2281d697879c89c685eca5",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DelpzL1vJ6v": {
+      "shortcode": "DelpzL1vJ6v",
+      "id": "4009794880556277423",
+      "source_url": "https://www.instagram.com/p/DelpzL1vJ6v/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-17T08:15:49.000Z",
+      "type": "Video",
+      "duration_seconds": 10,
+      "status": "available",
+      "metrics": {
+        "likes": 61,
+        "comments": 5,
+        "plays": 3243,
+        "views": null
+      },
+      "caption_excerpt": "For you every day move. Coming soon. #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 540,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 3,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "63d0b9aa53660f358e9c0dfa401bfd7f57f94e552d0786069f380df0225b354c",
+      "source_image_sha256": "597e05984e720460acb2c6be585fabe05fedb67c653388a3f6fd716142f868d9",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DeoNoaxvKgc": {
+      "shortcode": "DeoNoaxvKgc",
+      "id": "4010515420308875292",
+      "source_url": "https://www.instagram.com/p/DeoNoaxvKgc/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-18T08:06:07.000Z",
+      "type": "Video",
+      "duration_seconds": 39.583332,
+      "status": "available",
+      "metrics": {
+        "likes": 181,
+        "comments": 1,
+        "plays": 6935,
+        "views": null
+      },
+      "caption_excerpt": "One pair for all day! From daily walks to an easy run, Ardiles Day Walker keeps you moving in comfort. Comfort to walk, easy to run. Ready f",
+      "image": "assets/campaigns/DeoNoaxvKgc.webp",
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 1,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "35d8f6d3789a74cbde8af7ae98fba7f70e5f28d0dfc3701211e8cd83c9a3dc3b",
+      "source_image_sha256": "3136c5c1c6a5b19a63e494037a9b3c7f7c6d59443acb72151b0ffd47382fa19e",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DetwBV_mBqC": {
+      "shortcode": "DetwBV_mBqC",
+      "id": "4012074041624500866",
+      "source_url": "https://www.instagram.com/p/DetwBV_mBqC/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-20T11:41:57.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 115,
+        "comments": 4,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "1-on-1 Challenge di Love & Hustle Streetball Showdown. Adu handles, cari space, tunjukin game masing-masing. Kompetitif, seru, tetap respect",
+      "image": null,
+      "width": 727,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 2,
+        "row": 2,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "4d4c208afc53417731423159bf795e3694be2390354c3b9b41c5843b30dbda84",
+      "source_image_sha256": "e832134cb874633e0c9ac9235e5019a0c56a7ba0b42e8c9691c223b7ff90ae22",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "Dev9gCtv4fX": {
+      "shortcode": "Dev9gCtv4fX",
+      "id": "4012696275785844695",
+      "source_url": "https://www.instagram.com/p/Dev9gCtv4fX/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-21T08:18:54.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 64,
+        "comments": 2,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "YOUR EVERYDAY MOVES JUST GOT BETTER! ✨ More steps, more moves, more comfort! Ardiles Day Walker is ready to tag along, from your daily walk ",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 4,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "f82d1e39100241c75ea22129aa56d5ed7da3aa22ca87dec4149991034378ca3a",
+      "source_image_sha256": "5395434a99b1f555b36f703bad8b7dbab38186da20fd727a0bf39a0bdbdeee2e",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DewgH9sH0Y2": {
+      "shortcode": "DewgH9sH0Y2",
+      "id": "4012848552750302774",
+      "source_url": "https://www.instagram.com/p/DewgH9sH0Y2/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-21T13:20:46.000Z",
+      "type": "Sidecar",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 109,
+        "comments": 8,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "Introducing Ardiles Day Walker! Dipakai kerja? Bisa bangeeet! ✅ Tuh lihat, desainnya versatile. Cocok untuk segala outfit dan activitasmu. B",
+      "image": null,
+      "width": 720,
+      "height": 540,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 6,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "3f0b7708f3af154229fd9312ec1239a4afab35f55af66cd99378290caea37e2b",
+      "source_image_sha256": "057ff41d9836cedf81434d1f5b573539b69c2b1640eae428b5bb6072bb7f10e7",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DezTl23vkUy": {
+      "shortcode": "DezTl23vkUy",
+      "id": "4013637857338869042",
+      "source_url": "https://www.instagram.com/p/DezTl23vkUy/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-22T15:33:00.000Z",
+      "type": "Video",
+      "duration_seconds": 14,
+      "status": "available",
+      "metrics": {
+        "likes": 68,
+        "comments": 4,
+        "plays": 3579,
+        "views": null
+      },
+      "caption_excerpt": "Pulang kerja langsung gas lari? Santai… Gak perlu ganti-ganti! Cukup bawa Ardiles Day Walker yang bisa kalian bawa kerja, lari ataupun hango",
+      "image": null,
+      "width": 720,
+      "height": 540,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 1,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "48fca4e07f310df6d1626d47dcfb6833804229350c66fb3c68714b54848b0231",
+      "source_image_sha256": "69eec42bb12db78d121fb9b5332866655e6d293707523facc82a3041daed5899",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DfEXxtLhkUB": {
+      "shortcode": "DfEXxtLhkUB",
+      "id": "4018441338357171457",
+      "source_url": "https://www.instagram.com/p/DfEXxtLhkUB/",
+      "owner": "ardilesbasketball",
+      "published_at": "2026-10-29T06:34:35.000Z",
+      "type": "Video",
+      "duration_seconds": 129.612335,
+      "status": "available",
+      "metrics": {
+        "likes": 69,
+        "comments": 7,
+        "plays": 2879,
+        "views": null
+      },
+      "caption_excerpt": "Love & Hustle Streetball Showdown recap, let’s go for another round?🙆🏻‍♂️✌🏻🦒🦒💕 #ArdilesBasketball #Ardiles #MoveYourWay",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-02.webp",
+        "column": 3,
+        "row": 1,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "737e347152f62abb5920ab6af57beb1e9e2b09f31d2926aafb54eec0dc6ba41c",
+      "source_image_sha256": "3ad87c24d6aa9dc82edf6c171ee4ba72c782d86672ec50bd8fea917565c3aa42",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DfGqdSXPA6O": {
+      "shortcode": "DfGqdSXPA6O",
+      "id": "4019086448010202766",
+      "source_url": "https://www.instagram.com/p/DfGqdSXPA6O/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-30T04:04:17.000Z",
+      "type": "Video",
+      "duration_seconds": 20.291666,
+      "status": "available",
+      "metrics": {
+        "likes": 92,
+        "comments": 6,
+        "plays": 2754,
+        "views": null
+      },
+      "caption_excerpt": "Are you ready Run Into The Wild at Savana? #ArdilesRunning #RunForYourDream #MoveYourWay",
+      "image": null,
+      "width": 720,
+      "height": 405,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 0,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "91fac3239edc15d28eac27c8672fcc44509f5f64b67cfb240727648882f3c366",
+      "source_image_sha256": "afe033bfe22ea90f8b344eba21c52ac26a9d41a2910bf24453bb058e000b99c0",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    },
+    "DfHkeiVv3c7": {
+      "shortcode": "DfHkeiVv3c7",
+      "id": "4019341620582250299",
+      "source_url": "https://www.instagram.com/p/DfHkeiVv3c7/",
+      "owner": "ardilesrunning",
+      "published_at": "2026-10-30T12:26:17.000Z",
+      "type": "Image",
+      "duration_seconds": null,
+      "status": "available",
+      "metrics": {
+        "likes": 221,
+        "comments": 5,
+        "plays": null,
+        "views": null
+      },
+      "caption_excerpt": "FROM THE CHALLENGE TO THE WILD! Winners from different running communities and cities came together for something beyond the competition. Af",
+      "image": null,
+      "width": 720,
+      "height": 960,
+      "preview_atlas": {
+        "sheet": "assets/campaigns/campaign-posts-01.webp",
+        "column": 5,
+        "row": 0,
+        "columns": 7,
+        "rows": 4,
+        "tileSize": 192
+      },
+      "image_sha256": "364215ced8990949d949ae509771d71f902342f7bad19169fc6a238382497889",
+      "source_image_sha256": "419bf85c60ff47a997d4f6a4a40c747f90499833f66f0eeaf4bd8809b366b467",
+      "selection_basis": "Caption match to the named campaign, or reviewed adjoining teaser/recap in its dated campaign sequence."
+    }
+  }
+}

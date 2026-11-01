@@ -72,7 +72,7 @@ def apply(source, manifest):
             iw, ih = cover['width'], cover['height']
             cw, ch = iw, ih
         style = crop_style(iw, cw, ch)
-        if cid == 'case-uss-jsd':
+        if cid in ('case-uss-jsd', 'case-run-into-the-wild'):
             style += ';--crop-position:0%;--crop-y:0%'
         # Only direct cover images use these crops; existing multi-image layouts use object-fit.
         pattern = r'(<div class="case-media project-cover"[^>]*>)(<img\b[^>]*>)'

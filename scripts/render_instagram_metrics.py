@@ -297,6 +297,8 @@ def render(source_html: str, data: dict) -> str:
     def add_project(match: re.Match) -> str:
         nonlocal case_count
         body = match.group(0)
+        if 'data-campaign-id=' in body:
+            return body
         case_id = re.search(r'\bid="([^"]+)"', body).group(1)
         if case_id not in data['projects']:
             raise ValueError(f'Missing project metrics: {case_id}')
@@ -347,6 +349,10 @@ def render(source_html: str, data: dict) -> str:
     html = re.sub(r'<a\b([^>]*)>(.*?)</a>', add_post, html, flags=re.S)
     if post_count != 492:
         raise ValueError(f'Expected 492 Instagram reference entries, found {post_count}')
+    campaign_path = Path(__file__).resolve().parent.parent / 'CAMPAIGN_ARCHIVE.json'
+    if campaign_path.exists():
+        from render_campaigns import render as render_campaigns
+        html = render_campaigns(html, json.loads(campaign_path.read_text()))
     manifest = Path(__file__).resolve().parent.parent / 'THUMBNAILS.json'
     if manifest.exists():
         from apply_portfolio_usability import apply

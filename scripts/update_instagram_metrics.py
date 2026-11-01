@@ -47,6 +47,8 @@ def extract_cases(source):
     original_indices = {}
     for match in CASE_RE.finditer(source):
         block = match.group()
+        if 'data-campaign-id=' in block:
+            continue
         case_id = re.search(r'\bid="([^\"]+)"', block).group(1)
         if case_id in cases:
             raise ValueError(f"Duplicate case id: {case_id}")

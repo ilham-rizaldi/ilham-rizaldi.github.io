@@ -7352,6 +7352,30 @@
         1280
       ],
       "preview_sheet_sha256": "5d0710982587c655673361dc97fda99311aff6b5674067afb3aff1a72db6d935"
+    },
+    "DcSXOmUTSwP": {
+      "source_url": "https://www.instagram.com/p/DcSXOmUTSwP/",
+      "source_dimensions": [
+        720,
+        405
+      ],
+      "type": "Video"
+    },
+    "DeoNoaxvKgc": {
+      "source_url": "https://www.instagram.com/p/DeoNoaxvKgc/",
+      "source_dimensions": [
+        720,
+        405
+      ],
+      "type": "Video"
+    },
+    "DeW0gLHnx1a": {
+      "source_url": "https://www.instagram.com/p/DeW0gLHnx1a/",
+      "source_dimensions": [
+        720,
+        960
+      ],
+      "type": "Sidecar"
     }
   },
   "projects": {
@@ -7855,6 +7879,42 @@
         "width": 720,
         "height": 450,
         "title": "Polygon Helios"
+      }
+    },
+    "case-runergize-black": {
+      "title": "Runergize Black White campaign",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DcSXOmUTSwP.webp",
+        "width": 720,
+        "height": 405,
+        "alt": "Runergize campaign film frame featuring an athlete and the Runergize wordmark",
+        "title": "Runergize Black White campaign"
+      }
+    },
+    "case-drive-daywalker": {
+      "title": "Drive Day Walker campaign",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DeoNoaxvKgc.webp",
+        "width": 720,
+        "height": 405,
+        "alt": "Drive Day Walker campaign film showing work and everyday movement in a split-screen scene",
+        "title": "Drive Day Walker campaign"
+      }
+    },
+    "case-run-into-the-wild": {
+      "title": "Run Into the Wild event activation",
+      "source_kind": "Reviewed public campaign post",
+      "cover": {
+        "kind": "image",
+        "src": "assets/campaigns/DeW0gLHnx1a.webp",
+        "width": 720,
+        "height": 960,
+        "alt": "Run Into the Wild participant handing a relay baton to a teammate at the Surabaya activation",
+        "title": "Run Into the Wild event activation"
       }
     }
   },

@@ -13,7 +13,7 @@ Open `index.html` in a browser, or serve this directory with any static HTTP ser
 
 ## Current iteration
 
-The page presents a short introduction, selected figures, the complete project catalog, work experience, personal background, and contact details. All 32 project cards appear by default. They include the six featured cases, every original project group, and two clearly labeled planning proposals. Category filters and search help visitors find specific work. Each project has an overview, individual responsibilities, documented results or published output, and related links.
+The page presents a short introduction, selected figures, the complete project catalog, work experience, personal background, and contact details. All 35 project cards appear by default. They include the six featured cases, every original project group, and two clearly labeled planning proposals. Category filters and search help visitors find specific work. Each project has an overview, individual responsibilities, documented results or published output, and related links.
 
 Case studies and career content are present in the HTML. JavaScript adds project filters, deep-link opening, mobile-menu dismissal, reading progress, email copy, and printing. Important content remains accessible without JavaScript.
 
@@ -89,3 +89,14 @@ The user clarified that the 150+ national retail touchpoints belong to the sales
 ## User-supplied account starting points · 1 November 2026
 
 The user supplied account-specific baselines: Ardiles Basketball 8,000; Ardiles Running 4,000; DBL Academy 28,000 to a specified 50,000 milestone; TikTok Ardiles Performance zero; YouTube Ardiles Official zero. These replace the earlier joint CV growth highlights in the account overview. Other endpoints use the existing public snapshot: 41,590, 73,491, 8,358, and 33,100 respectively. Growth is (end − start) / start, shown rounded to a whole percentage: +420%, +1,737%, and +79%. Accounts starting at zero show net followers/subscribers gained, with percentage left null. No baseline dates or growth time window were supplied. DBL's 50,000 milestone is labeled separately from its current public count of 63,531. The compact account table combines current followers, growth journey, and content counts; source details remain in ACCOUNT_METRICS.json.
+
+
+## Current role and recent campaign archive · 1 November 2026
+
+The current-role signature reads Ardiles Performance · Running, Basketball, Futsal, and Soccer. The role title is Lead Brand Strategist · Sports Marketing & Marcomm. Cyclist and Runner are removed from the professional descriptor. These changes follow the user’s explicit wording; unrelated project history is preserved.
+
+Four requested campaign groups were matched against recent public profile-feed posts: Love & Hustle (38 posts), Runergize Black White (24), Drive Day Walker (8), and Run Into the Wild (9). The Love & Hustle case is expanded with a follow-through section; three new campaign cards bring the catalog to 35. The archive contains 79 unique source posts and 77 source-image previews. The existing 32-project snapshot, original 494 link associations, and its CSV remain unchanged. New counters use a separate dated snapshot in CAMPAIGN_ARCHIVE.json.
+
+Campaign discovery uses the first 300 reviewed feed records, which extend before the August–October campaign windows for both requested accounts. Caption matches and reviewed adjoining teasers/recaps determine inclusion; this is not a web-wide or hashtag-wide census. Source media is compressed proportionally for covers and arranged in three thumbnail atlases for efficient delivery. Two unavailable image downloads retain source links and post counters. No attendance, new sales result, reach, attribution percentage, or ownership of sales-team work is inferred.
+
+scripts/build_campaign_archive.py builds the normalized archive from the reviewed local selections, detailed snapshot, and media manifest. scripts/render_campaigns.py renders the supplemental case section and three cards. The existing renderer calls it when CAMPAIGN_ARCHIVE.json exists; legacy extraction deliberately excludes the supplemental cards, preserving the original snapshot’s scope. Raw discovery exports and temporary media URLs are not published.
