@@ -7913,5 +7913,12 @@
   "unavailable_post_codes": [
     "DRUPO0rib5R",
     "DNrsQYTZu9U"
-  ]
+  ],
+  "presentation": {
+    "updated_on": "2026-11-01",
+    "mode": "Responsive CSS crop to fill",
+    "source_files_modified": false,
+    "script": "scripts/apply_portfolio_usability.py",
+    "notes": "Recorded source dimensions remove padding from displayed photo covers and atlas cells. Original sources remain unchanged; edge content may be cropped."
+  }
 }

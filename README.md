@@ -21,7 +21,7 @@ The print control uses the browser's print dialog and a dedicated career-profile
 
 ## Visual dependencies
 
-Project photography and thumbnails are stored locally in `assets/thumbnails/`. They use original project media, without relying on expiring Instagram image addresses. Google Fonts use an external connection; the font stack includes system fallbacks. No Instagram embeds, analytics trackers, or third-party scripts load on this site.
+Project photography and thumbnails are stored locally in `assets/thumbnails/`. They use original project media, without relying on expiring Instagram image addresses. Responsive CSS crops photographs and atlas cells to fill their frames without displaying the letterbox padding in the original assets. Original media files and source links are preserved. Google Fonts use an external connection; the font stack includes system fallbacks. No Instagram embeds, analytics trackers, or third-party scripts load on this site.
 
 ## Publishing
 
@@ -56,8 +56,18 @@ All 32 projects have a numbered cover. Related post links include compact image 
 
 ## Public Instagram metrics · 1 November 2026
 
-The main metrics section, project summaries, project details, and individual related posts use the same dated public-data snapshot. `INSTAGRAM_METRICS.json` contains the normalized counters, coverage, definitions, and post-to-project mapping. `INSTAGRAM_METRICS.csv` provides one row per unique Instagram post. Both are available from the website's methodology disclosure.
+Project summaries, project details, and individual related posts use the same dated public-data snapshot. `INSTAGRAM_METRICS.json` contains the normalized counters, coverage, definitions, and post-to-project mapping. `INSTAGRAM_METRICS.csv` provides one row per unique Instagram post. Both are available from the website's methodology disclosure. The main section now uses the separate account-level snapshot described below.
 
 The snapshot collected on 1 November 2026 at 02:18 WIB covers 461 unique linked posts: 459 available and two restricted. It records 1,573,524 likes, 12,928 comments, 92,554,082 video plays, and 135,612 video views. Coverage differs by field and is displayed alongside each aggregate. Likes and comments are not total engagement; plays and views are separate counters and are never combined or labeled as reach. These are lifetime public counters across linked brand, creator, and media posts, not attributed individual results or a campaign reporting window. Existing campaign-report figures remain separate.
 
 To refresh, export the top-level Apify post records into a JSON object with `started_at`, `finished_at`, `actor`, and `items`, then run `python3 scripts/update_instagram_metrics.py /path/to/snapshot.json`. The script validates original project links, normalizes hidden/missing values, deduplicates by shortcode, rebuilds JSON/CSV, and renders the static page. It does not fetch credentials, schedule runs, or place API keys in the browser. `--data-only` updates exports without rendering. Keep any raw input export outside the published repository. `scripts/validate_instagram_metrics.py` checks source preservation and metric invariants.
+
+## Account totals and compact presentation · 1 November 2026
+
+The main section uses `ACCOUNT_METRICS.json`, covering Instagram @ardilesbasketball, @ardilesrunning, and @dblacademy; TikTok @ardilesperformance; and YouTube channel `UCRIhtf9Q5K-jK2UyqYpmSPA` (@ardilesofficial). The snapshot records 220,070 followers/subscribers summed across profiles, 6,294 profile-counted posts/videos, 187,000 TikTok account likes, and 13,958,907 YouTube channel views. Audience counts can overlap and public counters may be rounded. These current account totals include activity outside Ilham's role and are not personally attributed results.
+
+Instagram lifetime likes, comments, views, reach, and impressions are unavailable in public profile metadata; these are excluded rather than extrapolated from recent posts. TikTok likes and YouTube views come from profile/channel totals, not the single videos retrieved to access that metadata. Exact source fields, collection times, runs, and dataset IDs are in the account JSON. Account data and linked-project data are independent snapshots.
+
+The overview uses four compact 23–25px counters, reduced section spacing, and an expandable account/source table. `scripts/render_account_metrics.py` validates and renders the account totals; the Instagram renderer preserves them when refreshing project metrics.
+
+All 32 project disclosures have a bottom Hide details button. Closing restores focus to the project summary and scrolls it into view, respecting reduced-motion preferences. Buttons are hidden until JavaScript initializes. `scripts/apply_portfolio_usability.py` keeps this behavior and responsive thumbnail crops idempotent across re-renders. Photo/atlas crops use the recorded source dimensions and container-relative CSS units; brand/logo layouts retain their original treatment.

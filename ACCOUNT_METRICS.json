@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "snapshot": {
+    "collected_at": "2026-11-01T06:31:37.699Z",
+    "timezone": "Asia/Jakarta",
+    "display_date": "1 Nov 2026, 13:31 WIB"
+  },
+  "scope": "Current public account-level totals for the five profiles selected by Ilham Rizaldi. Not portfolio-linked post totals or personally attributed results.",
+  "accounts": [
+    {
+      "platform": "Instagram",
+      "handle": "ardilesbasketball",
+      "name": "Ardiles Basketball",
+      "url": "https://www.instagram.com/ardilesbasketball/",
+      "audience": 41590,
+      "audience_label": "Followers",
+      "content": 878,
+      "content_label": "Posts",
+      "likes": null,
+      "views": null,
+      "source": {
+        "actor": "apify/instagram-profile-scraper",
+        "run_id": "FRMk04TjPn0ZhIc5q",
+        "dataset_id": "vwdIvxAI5uT1tRNxI",
+        "collected_at": "2026-11-01T06:30:21.536Z",
+        "fields": {
+          "audience": "followersCount",
+          "content": "postsCount"
+        }
+      }
+    },
+    {
+      "platform": "Instagram",
+      "handle": "ardilesrunning",
+      "name": "Ardiles Running",
+      "url": "https://www.instagram.com/ardilesrunning/",
+      "audience": 73491,
+      "audience_label": "Followers",
+      "content": 1118,
+      "content_label": "Posts",
+      "likes": null,
+      "views": null,
+      "source": {
+        "actor": "apify/instagram-profile-scraper",
+        "run_id": "FRMk04TjPn0ZhIc5q",
+        "dataset_id": "vwdIvxAI5uT1tRNxI",
+        "collected_at": "2026-11-01T06:30:21.536Z",
+        "fields": {
+          "audience": "followersCount",
+          "content": "postsCount"
+        }
+      }
+    },
+    {
+      "platform": "Instagram",
+      "handle": "dblacademy",
+      "name": "DBL Academy",
+      "url": "https://www.instagram.com/dblacademy/",
+      "audience": 63531,
+      "audience_label": "Followers",
+      "content": 3714,
+      "content_label": "Posts",
+      "likes": null,
+      "views": null,
+      "source": {
+        "actor": "apify/instagram-profile-scraper",
+        "run_id": "FRMk04TjPn0ZhIc5q",
+        "dataset_id": "vwdIvxAI5uT1tRNxI",
+        "collected_at": "2026-11-01T06:30:21.536Z",
+        "fields": {
+          "audience": "followersCount",
+          "content": "postsCount"
+        }
+      }
+    },
+    {
+      "platform": "TikTok",
+      "handle": "ardilesperformance",
+      "name": "ardiles performance",
+      "url": "https://www.tiktok.com/@ardilesperformance",
+      "audience": 8358,
+      "audience_label": "Followers",
+      "content": 283,
+      "content_label": "Videos",
+      "likes": 187000,
+      "views": null,
+      "source": {
+        "actor": "clockworks/tiktok-profile-scraper",
+        "run_id": "Zg5aYrHldnrNfYjjN",
+        "dataset_id": "hw9A7YRn4WUQT5Ymd",
+        "collected_at": "2026-11-01T06:31:37.699Z",
+        "fields": {
+          "audience": "authorMeta.fans",
+          "content": "authorMeta.video",
+          "likes": "authorMeta.heart"
+        }
+      }
+    },
+    {
+      "platform": "YouTube",
+      "handle": "ardilesofficial",
+      "name": "ARDILES OFFICIAL",
+      "url": "https://www.youtube.com/channel/UCRIhtf9Q5K-jK2UyqYpmSPA",
+      "audience": 33100,
+      "audience_label": "Subscribers",
+      "content": 301,
+      "content_label": "Videos",
+      "likes": null,
+      "views": 13958907,
+      "source": {
+        "actor": "streamers/youtube-channel-scraper",
+        "run_id": "jMRTdBAeoRrhGH5T8",
+        "dataset_id": "Wlj4y04JjVDgFvvfx",
+        "collected_at": "2026-11-01T06:30:59.791Z",
+        "fields": {
+          "audience": "numberOfSubscribers",
+          "content": "channelTotalVideos",
+          "views": "channelTotalViews"
+        }
+      }
+    }
+  ],
+  "totals": {
+    "accounts": 5,
+    "audience": 220070,
+    "content": 6294
+  },
+  "limitations": [
+    "Audience is the sum of follower and subscriber counts, not unique people; public counts may be rounded.",
+    "Profile content counters have platform-specific definitions and may include activity outside Ilham's role.",
+    "Instagram lifetime likes, views, comments, reach and impressions are not provided by public profile metadata and are unavailable here.",
+    "TikTok total likes and YouTube channel views are profile-level totals, never extrapolated from the single video retrieved to access profile metadata.",
+    "Project-level and per-post counters retain their existing independent snapshot and original project associations."
+  ]
+}

@@ -32,7 +32,12 @@ def main():
     assert sum(len(p["post_codes"]) for p in cases.values()) == 492
     assert source.count('class="post-link-copy"') == 492
     assert source.count('class="project-public-teaser"') == sum(bool(p["unique_posts"]) for p in data["projects"].values())
-    assert source.count('class="instagram-total"') == 6
+    assert source.count('class="instagram-total"') == 4
+    from render_account_metrics import validate as validate_accounts
+    accounts = json.loads((ROOT / "ACCOUNT_METRICS.json").read_text())
+    validate_accounts(accounts)
+    assert source.count('data-close-case=') == 32
+    assert source.count('class="case-footer"') == 32
     assert len(re.findall(r'class="[^"]*\bproject-cover\b', source)) == 32
     assert render(source, data) == source, "Rendering must be idempotent"
     for code, post in data["posts"].items():
@@ -54,8 +59,13 @@ def main():
         old_links = Counter(re.findall(r'\bhref="([^"]+)"', baseline))
         new_links = Counter(re.findall(r'\bhref="([^"]+)"', source))
         assert not (old_links - new_links), "An original hyperlink was removed"
-        assert re.findall(r'<img\b[^>]*>', source) == re.findall(r'<img\b[^>]*>', baseline), "Image attributes changed"
-        assert re.findall(r'<script>.*?</script>', source, re.S) == re.findall(r'<script>.*?</script>', baseline, re.S), "Application JavaScript changed"
+        def image_sources(text):
+            return [re.sub(r'\sstyle="[^"]*"|\sdata-content-crop(?:="[^"]*")?', '', tag) for tag in re.findall(r'<img\b[^>]*>', text)]
+        assert image_sources(source) == image_sources(baseline), "Image source or accessible description changed"
+        previous_script = re.findall(r'<script>.*?</script>', baseline, re.S)
+        current_script = re.findall(r'<script>.*?</script>', source, re.S)
+        current_script = [re.sub(r'/\* portfolio-close-details:start \*/.*?/\* portfolio-close-details:end \*/\s*', '', s, flags=re.S) for s in current_script]
+        assert current_script == previous_script, "Existing application JavaScript changed"
         for kind in ("case-description",):
             pattern = r'<p class="' + kind + r'"[^>]*>.*?</p>'
             assert re.findall(pattern, source, re.S) == re.findall(pattern, baseline, re.S), f"{kind} changed"

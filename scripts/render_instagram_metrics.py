@@ -13,6 +13,7 @@ import json
 from pathlib import Path
 import re
 from zoneinfo import ZoneInfo
+from render_account_metrics import CSS as ACCOUNT_CSS, overview as account_overview
 
 METRIC_LABELS = {
     "likes": "Likes",
@@ -126,7 +127,7 @@ def total_card(label: str, value: int | None, note: str) -> str:
     )
 
 
-def overview(data: dict) -> str:
+def linked_overview(data: dict) -> str:
     totals = data["totals"]
     snapshot = data["snapshot"]
     metrics = totals["metrics"]
@@ -262,6 +263,13 @@ def post_copy(label_html: str, post: dict) -> str:
             + label_html + "".join(lines) + '</span><!-- portfolio-instagram-post:end -->')
 
 
+def overview(data: dict) -> str:
+    account_path = Path(__file__).resolve().parent.parent / 'ACCOUNT_METRICS.json'
+    if account_path.exists():
+        return account_overview(json.loads(account_path.read_text()), data)
+    return linked_overview(data)
+
+
 def render(source_html: str, data: dict) -> str:
     """Return HTML with metrics added, preserving existing project material."""
     html = re.sub(r'/\* portfolio-instagram-metrics:start \*/.*?/\* portfolio-instagram-metrics:end \*/\s*', '', source_html, flags=re.S)
@@ -278,7 +286,8 @@ def render(source_html: str, data: dict) -> str:
 
     if html.count('</style>') != 1:
         raise ValueError('Expected one stylesheet')
-    html = html.replace('</style>', CSS.strip() + '\n</style>', 1)
+    combined_css = CSS.replace('/* portfolio-instagram-metrics:end */', ACCOUNT_CSS + '\n/* portfolio-instagram-metrics:end */')
+    html = html.replace('</style>', combined_css.strip() + '\n</style>', 1)
     work_anchor = '<section class="section work-section"'
     if html.count(work_anchor) != 1:
         raise ValueError('Expected one portfolio section')
@@ -305,6 +314,15 @@ def render(source_html: str, data: dict) -> str:
             if not after:
                 raise ValueError(f'Expected a case preview description: {case_id}')
             body = body[:after.end()] + teaser + body[after.end():]
+        if 'data-close-case=' not in body:
+            title = re.search(r'<h3[^>]*>(.*?)</h3>', body, re.S)
+            name = unescape(re.sub('<[^>]*>', '', title.group(1))) if title else 'project'
+            footer = ('<div class="case-footer"><button class="case-close" type="button" '
+                      f'data-close-case="{case_id}" aria-controls="{case_id}" '
+                      f'aria-label="{escape("Hide details: " + name, quote=True)}" data-js-only hidden>'
+                      'Hide details<span class="close-diamond" aria-hidden="true"><span>×</span></span>'
+                      '</button></div>')
+            body = re.sub(r'</div></details>$', footer + '</div></details>', body)
         return body
     html = re.sub(r'<details\b[^>]*class="case(?:\s[^"]*)?"[^>]*>.*?</details>', add_project, html, flags=re.S)
     if case_count != 32:
@@ -329,6 +347,10 @@ def render(source_html: str, data: dict) -> str:
     html = re.sub(r'<a\b([^>]*)>(.*?)</a>', add_post, html, flags=re.S)
     if post_count != 492:
         raise ValueError(f'Expected 492 Instagram reference entries, found {post_count}')
+    manifest = Path(__file__).resolve().parent.parent / 'THUMBNAILS.json'
+    if manifest.exists():
+        from apply_portfolio_usability import apply
+        html = apply(html, json.loads(manifest.read_text()))
     return html
 
 
