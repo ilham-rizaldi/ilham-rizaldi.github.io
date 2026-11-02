@@ -86,31 +86,21 @@ document.querySelectorAll('[data-close-strategy]').forEach(button=>button.addEve
 
 
 def proof(item):
-    p=item['proof']
-    extra=''
-    if p['kind']=='copy':
-        extra=('<div class="strategy-word-comparison" aria-label="Word count before and after the copy revision">'
-               f'<span><b>{p["before"]:,}</b><small>words before</small></span><span aria-hidden="true">→</span>'
-               f'<span><b>{p["after"]:,}</b><small>words after</small></span></div>'
-               f'<p class="strategy-copy-reduction">Approximately {escape(p["reduction"])} less text</p>')
-    if p.get('secondary'):
-        extra+=f'<p class="strategy-proof-secondary">{escape(p["secondary"])}</p>'
-    return ('<aside class="strategy-proof" aria-label="Documented work scope">'
-            f'<strong>{escape(p["value"])}</strong><span>{escape(p["label"])}</span>'+extra+
-            f'<p class="strategy-proof-note">{escape(p["note"])}</p></aside>')
+    # Internal figures and source-record details do not belong in the public portfolio.
+    return ''
 
 
 def case_html(item,index):
     cid=item['id']
     modules=[]
     for module in item['modules']:
-        link=module.get('link')
+        link=None  # Internal working documents and reports are never linked here.
         more=(f'<a href="{escape(link["url"],quote=True)}" target="_blank" rel="noopener noreferrer">{escape(link["label"])}<span aria-hidden="true">↗</span></a>' if link else '')
         modules.append('<article class="strategy-module">'+f'<h5>{escape(module["title"])}</h5>'
                        f'<p class="strategy-module-status">{escape(module["status"])}</p><p>{escape(module["text"])}</p>'+more+'</article>')
     related=''.join(f'<a href="#{escape(r["target"],quote=True)}">{escape(r["label"])}<span aria-hidden="true">↗</span></a>' for r in item['related'])
     return (
-        f'<details class="strategy-case" id="{cid}" name="portfolio-strategy"'+(' open' if index==0 else '')+'>'
+        f'<details class="strategy-case" id="{cid}" name="portfolio-strategy"'+''+'>'
         f'<summary aria-labelledby="{cid}-category {cid}-title" aria-describedby="{cid}-summary">'
         f'<span class="strategy-number" aria-hidden="true">{escape(item["number"])}</span><div class="strategy-summary">'
         f'<p class="strategy-category" id="{cid}-category">{escape(item["category"])}</p><h4 id="{cid}-title">{escape(item["title"])}</h4>'
@@ -130,6 +120,11 @@ def render(source):
     if not data_path.exists():
         return source
     data=json.loads(data_path.read_text())
+    if data.get('visibility') != 'public_summary':
+        raise ValueError('Strategy portfolio data must contain public summaries only')
+    for item in data['cases']:
+        if item.get('proof') or any(module.get('link') for module in item['modules']):
+            raise ValueError('Internal figures and document links must not be published')
     source=re.sub(r'<!-- portfolio-strategy-work:start -->.*?<!-- portfolio-strategy-work:end -->\s*','',source,flags=re.S)
     source=re.sub(r'<!-- portfolio-strategy-connection:start -->.*?<!-- portfolio-strategy-connection:end -->','',source,flags=re.S)
     source=re.sub(r'/\* portfolio-strategy-work:start \*/.*?/\* portfolio-strategy-work:end \*/\s*','',source,flags=re.S)

@@ -1,75 +1,166 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
+  "visibility": "public_summary",
   "title": "The strategy behind the work.",
-  "intro": "Selected Ardiles work in consumer insight, category positioning, product communication, launch preparation, and marketing operations.",
+  "intro": "Work in consumer insight, category positioning, product communication, launch planning, and marketing operations.",
+  "publication_policy": "Professional summaries only. Exclude internal source records, business data, research findings, working documents, and report links.",
   "cases": [
     {
       "id": "strategy-research",
       "number": "01",
       "category": "Consumer insight & brand strategy",
       "title": "Consumer insight & brand direction",
-      "summary": "Connecting consumer needs with a clear Performance brand direction and distinct Running and Basketball communication.",
-      "status": "Research & strategy deliverables",
-      "challenge": "Build a shared brand direction while giving Running and Basketball clear roles for different consumers, use cases, and sporting contexts.",
-      "role": "Worked on research interpretation, category positioning, audience frameworks, and communication direction within the Ardiles brand team.",
-      "proof": {"kind": "research", "value": "100", "label": "respondents in the directional JAKPAT study", "note": "A non-probability panel sample. Findings describe the reviewed sample; the later questionnaire is a separate piece of work."},
+      "summary": "Using consumer research to inform category positioning, audience frameworks, and communication priorities.",
+      "status": "Research & strategy responsibilities",
+      "challenge": "Connect consumer understanding with product and category communication.",
+      "role": "Worked on research interpretation, audience frameworks, category positioning, and communication direction within the Ardiles brand team.",
       "modules": [
-        {"title": "Consumer research & quality checks", "status": "Analysis completed", "text": "Reviewed purchase priorities, barriers among aware non-buyers, response quality, and question denominators. Fit and feel formed the leading pair of purchase priorities; awareness, design relevance, and brand loyalty were important barriers in the non-buyer group."},
-        {"title": "One brand, two sport contexts", "status": "Strategy framework", "text": "Developed category communication around progress, training, and learning for Running, and expression, play, style, and crew culture for Basketball. Kept the shared brand foundation distinct from seasonal campaign treatments."},
-        {"title": "Questionnaire design", "status": "Instrument developed", "text": "Refined purchase-and-usage questions, separated wearer, chooser, and payer roles, and developed relevant Running and Basketball paths. The questionnaire starts with actual needs and purchases before hypothetical preferences."}
+        {
+          "title": "Consumer research",
+          "status": "Research interpretation",
+          "text": "Reviewed consumer research and translated relevant themes into marketing considerations."
+        },
+        {
+          "title": "Category positioning",
+          "status": "Strategy development",
+          "text": "Worked on category roles, audience frameworks, and communication principles for Running and Basketball."
+        },
+        {
+          "title": "Questionnaire development",
+          "status": "Research planning",
+          "text": "Developed and refined customer questions to support product and communication research."
+        }
       ],
-      "deliverable": "Research readouts, category positioning and audience frameworks, communication principles, and a branching customer questionnaire.",
-      "related": [{"label": "Explore the connected product programs", "target": "campaign-programs"}]
+      "deliverable": "Research summaries, audience frameworks, category positioning, communication principles, and questionnaire development.",
+      "related": [
+        {
+          "label": "Explore the connected product programs",
+          "target": "campaign-programs"
+        }
+      ]
     },
     {
       "id": "strategy-product-launch",
       "number": "02",
       "category": "Product marketing & launch communications",
-      "title": "Product messaging & SS27 launch preparation",
-      "summary": "Making product roles and technical information easier to explain across customer, retailer, media, and event communication.",
-      "status": "Saved copy updates & working materials",
-      "challenge": "Connect product information, consumer relevance, and launch storytelling without treating a technology name as proof of a benefit.",
-      "role": "Translated supplied product and research material into marketing copy, developed launch narratives and editor guidance, and prepared retailer and media communication.",
-      "proof": {"kind": "copy", "value": "51", "label": "technology-description cells revised", "before": 1158, "after": 753, "reduction": "35%", "note": "Saved revision in the Running 2027 copy sheet, 25 October 2026. Word counts include technology headings. This measures the copy revision, not sales or comprehension improvement."},
+      "title": "Product messaging & launch communications",
+      "summary": "Turning product information into clear messages for consumers, retailers, media, and launch events.",
+      "status": "Copy development & launch planning",
+      "challenge": "Connect product roles, technical information, and intended use with clear marketing communication.",
+      "role": "Worked on product copy, launch narratives, creative briefs, retailer communication, and media and event materials.",
       "modules": [
-        {"title": "Product roles & differentiation", "status": "Positioning work", "text": "Refined Daywalker’s walking-led message, with easy running as the secondary context, and reviewed the distinct reasons to choose products in the Drive range. Shared technology names were kept separate from meaningful product differentiation."},
-        {"title": "Product communication standards", "status": "Copy revision saved", "text": "Simplified and aligned upper, insole, plate, midsole, outsole, and Gerbera upgrade descriptions while retaining names, component details, and intended use. Reduced the reviewed text from 1,158 to 753 words."},
-        {"title": "SS27 narrative & creative direction", "status": "Working launch materials", "text": "Developed brand-story and Performance-film materials, storyboards, scene mapping, footage references, and editor explanations. Prepared presentation narratives, media Q&A, and MC talking points for the collection launch."},
-        {"title": "Retailer experience & enablement", "status": "Experience concepts", "text": "Proposed guided fitting and product-understanding experiences for different retail audiences, connecting model selection and fit/feel with assortment and ordering conversations."},
-        {"title": "Research communication", "status": "Draft materials", "text": "Prepared communication around the Drive Revounce pilot with UNESA, keeping product, comparison, sample, and measurement context explicit. This work concerns research interpretation and messaging."},
-        {"title": "Futsal & Soccer communication", "status": "Draft materials", "text": "Prepared category-entry messaging and product-use-case descriptions from supplied engineering material, including construction, component roles, and intended playing context."}
+        {
+          "title": "Product roles & messaging",
+          "status": "Positioning work",
+          "text": "Worked on use-case descriptions and product differentiation to support campaign communication."
+        },
+        {
+          "title": "Product copy",
+          "status": "Copy development",
+          "text": "Simplified supplied product information while retaining technology names, component details, and intended use."
+        },
+        {
+          "title": "Launch narratives & creative briefs",
+          "status": "Working launch materials",
+          "text": "Prepared narrative direction, creative briefs, presentation materials, and media and event copy."
+        },
+        {
+          "title": "Retail communication",
+          "status": "Planning & support",
+          "text": "Prepared product communication and experience concepts for retail audiences."
+        }
       ],
-      "deliverable": "A saved product-copy revision, product-role work, launch narratives, creative briefs, retailer-experience concepts, presentation materials, and media and event copy. Planning and draft materials are identified above.",
-      "related": [{"label": "Drive Day Walker campaign", "target": "case-drive-daywalker"}, {"label": "Love & Hustle program", "target": "program-love-hustle"}, {"label": "Runergize program", "target": "program-runergize"}]
+      "deliverable": "Product messaging, copy revisions, creative briefs, launch narratives, presentation materials, and retailer, media, and event communication.",
+      "related": [
+        {
+          "label": "Drive Day Walker campaign",
+          "target": "case-drive-daywalker"
+        },
+        {
+          "label": "Love & Hustle program",
+          "target": "program-love-hustle"
+        },
+        {
+          "label": "Runergize program",
+          "target": "program-runergize"
+        }
+      ]
     },
     {
       "id": "strategy-operations",
       "number": "03",
       "category": "Marketing operations & partner programs",
       "title": "Budgets, sponsorships & partner programs",
-      "summary": "Giving marketing investments and partnerships a clearer scope, review structure, and set of deliverables.",
-      "status": "Analysis, frameworks & program design",
-      "challenge": "Make spending, partner responsibilities, content delivery, and the value of support clear enough to review before and during campaigns.",
-      "role": "Worked on budget reconciliation, sponsorship criteria, market and audience reporting, retailer participation, content planning, and affiliate-program materials.",
-      "proof": {"kind": "operations", "value": "185", "label": "transaction records in the Q3 budget reconciliation", "secondary": "7 cost categories · Running & Basketball", "note": "The count describes workbook-review scope. Cut-off and source differences were identified for follow-up; no cost-saving amount is claimed."},
+      "summary": "Coordinating marketing resources, partner responsibilities, and reporting across campaigns.",
+      "status": "Operations & program-planning responsibilities",
+      "challenge": "Give marketing activity clear priorities, responsibilities, and a structure for review.",
+      "role": "Worked on budget planning, sponsorship evaluation, market and audience analysis, partner-program materials, and campaign reporting.",
       "modules": [
-        {"title": "Budget review & variance tracking", "status": "Reconciled workbook", "text": "Reviewed transaction dates, amounts, category mappings, monthly usage, and remaining budgets across Running and Basketball. Kept KOL and Seeding separate and identified differences between reporting sources and cut-off dates."},
-        {"title": "Market & audience intelligence", "status": "Published analysis", "text": "Prepared a regional review of online commercial signals and social audiences for Jabodetabek, with explicit periods, denominators, regional comparisons, and coverage limits.", "link": {"label": "Read the regional report", "url": "https://ardiles-jabodetabek-online-social-review.ilhamngeprint.chatgpt.site/?view=1"}},
-        {"title": "Sponsorship evaluation framework", "status": "Framework drafted", "text": "Developed a coded assessment and agreement format covering product trials, feedback, prizes, asset delivery, deadlines, and usage permissions, with Continue, Negotiate, and Reject review states."},
-        {"title": "Retail-partner marketing", "status": "Campaign design", "text": "Developed Runergize Showdown participation mechanics and content briefs for partner stores, connecting a product campaign with retailer-created communication and defined content-use terms."},
-        {"title": "Event-to-content planning", "status": "Playbook developed", "text": "Planned participant experience content, primary interviews, later reviews, deliverables, and reuse requirements for Run Into the Wild. The playbook’s planned output is separate from completed delivery."},
-        {"title": "Affiliate-program design", "status": "Draft program", "text": "Prepared recruitment presentations, reward structures, sample rules, and benefit summaries for review with the commercial terms owner."},
-        {"title": "Digital-commerce diagnostics", "status": "Audits & recommendations", "text": "Reviewed TikTok purchase-information gaps and website SEO foundations, then outlined measurement and testing priorities. These diagnostic outputs do not establish subsequent traffic or sales uplift."}
+        {
+          "title": "Budget planning & review",
+          "status": "Marketing operations",
+          "text": "Supported marketing budget planning, spending review, and reporting across campaigns."
+        },
+        {
+          "title": "Market & audience analysis",
+          "status": "Analysis & reporting",
+          "text": "Prepared analysis to support marketing discussions and planning."
+        },
+        {
+          "title": "Sponsorship evaluation",
+          "status": "Draft framework",
+          "text": "Developed an assessment framework to review partnership fit and responsibilities."
+        },
+        {
+          "title": "Partner-program coordination",
+          "status": "Program planning",
+          "text": "Prepared partner briefs, content plans, and program materials to support coordination and delivery."
+        }
       ],
-      "deliverable": "Budget-review workbooks, a published regional report, a sponsorship assessment draft, retailer challenge briefs, an event-content playbook, affiliate-program drafts, and diagnostic recommendations.",
-      "related": [{"label": "Runergize Black White campaign", "target": "case-runergize-black"}, {"label": "Run Into the Wild activation", "target": "case-run-into-the-wild"}]
+      "deliverable": "Marketing planning, reporting, partnership frameworks, partner briefs, and program materials.",
+      "related": [
+        {
+          "label": "Runergize Black White campaign",
+          "target": "case-runergize-black"
+        },
+        {
+          "label": "Run Into the Wild activation",
+          "target": "case-run-into-the-wild"
+        }
+      ]
     }
   ],
   "connections": [
-    {"case_id": "case-ardiles", "title": "Research, product marketing & operations", "text": "Consumer research, category positioning, product messaging, and operating frameworks form part of the strategic work behind these campaigns.", "target": "strategy-research"},
-    {"case_id": "case-love-hustle", "title": "Launch planning & communication", "text": "The wider campaign work included phased communication, creator briefs, PR drafts, educational content, and event-documentation requirements.", "target": "strategy-product-launch"},
-    {"case_id": "case-drive-daywalker", "title": "Product-role thinking", "text": "The creative direction prioritised walking and everyday use, with easy running as a secondary context. Product-role work separated the intended use case from shared technology names.", "target": "strategy-product-launch"},
-    {"case_id": "case-runergize-black", "id": "case-runergize-retailer-activation", "title": "Runergize Showdown: retail-partner marketing", "text": "The campaign design included a structured content challenge for partner stores, with participation requirements, posting mechanics, timing, and content-use terms.", "target": "strategy-operations"},
-    {"case_id": "case-run-into-the-wild", "title": "Event-to-content planning", "text": "A participant-content playbook planned experience posts, interviews, follow-up reviews, deliverables, and asset reuse alongside the event communication.", "target": "strategy-operations"}
+    {
+      "case_id": "case-ardiles",
+      "title": "Research, product marketing & operations",
+      "text": "Consumer research, category positioning, product messaging, and operating frameworks form part of the strategic work behind these campaigns.",
+      "target": "strategy-research"
+    },
+    {
+      "case_id": "case-love-hustle",
+      "title": "Launch planning & communication",
+      "text": "The wider campaign work included phased communication, creator briefs, PR drafts, educational content, and event-documentation requirements.",
+      "target": "strategy-product-launch"
+    },
+    {
+      "case_id": "case-drive-daywalker",
+      "title": "Product-role thinking",
+      "text": "The creative direction prioritised walking and everyday use, with easy running as a secondary context. Product-role work separated the intended use case from shared technology names.",
+      "target": "strategy-product-launch"
+    },
+    {
+      "case_id": "case-runergize-black",
+      "id": "case-runergize-retailer-activation",
+      "title": "Runergize Showdown: retail-partner marketing",
+      "text": "The campaign included planning for a partner-store content challenge and related communication.",
+      "target": "strategy-operations"
+    },
+    {
+      "case_id": "case-run-into-the-wild",
+      "title": "Event-to-content planning",
+      "text": "A participant-content playbook planned experience posts, interviews, follow-up reviews, deliverables, and asset reuse alongside the event communication.",
+      "target": "strategy-operations"
+    }
   ]
 }
