@@ -137,7 +137,8 @@
         "Athlete & creator content",
         "Retail communication",
         "Community activation",
-        "Product trials"
+        "Product trials",
+        "Retail-partner participation"
       ],
       "releases": [
         {
@@ -165,6 +166,12 @@
           "role": "Community & event activation",
           "target": "case-run-into-the-wild",
           "description": "Team-running challenges connecting city activations with the Banyuwangi running experience."
+        },
+        {
+          "label": "Runergize Showdown",
+          "role": "Retail-partner content challenge",
+          "target": "case-runergize-retailer-activation",
+          "description": "Participation mechanics and content briefs connecting Runergize Black with retailer-created communication."
         }
       ],
       "members": [

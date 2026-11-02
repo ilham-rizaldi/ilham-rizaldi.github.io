@@ -98,7 +98,9 @@ def apply(source, manifest):
                       lambda m: m.group(1)+replace_img(m.group(2),style), body, count=1)
     source = re.sub(r'<a\b[^>]*>.*?</a>', post, source, flags=re.S)
     from render_product_programs import render as render_product_programs
-    return render_product_programs(source)
+    source = render_product_programs(source)
+    from render_strategy_work import render as render_strategy_work
+    return render_strategy_work(source)
 
 
 if __name__ == '__main__':
