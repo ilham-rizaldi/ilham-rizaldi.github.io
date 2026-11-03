@@ -68,3 +68,21 @@ body { color-scheme:light; background:var(--bg); }
   .selected-grid { gap:14px; }
   .folio-index { box-shadow:3px 3px 0 var(--line); }
 }
+
+/* Muted graphite palette */
+:root {
+  --bg:#30312f; --panel:#373935; --panel2:#40413e;
+  --ink:#deddd6; --muted:#c3c2b9; --dim:#b2b1a9;
+  --line:#777970; --lime:#c5c8ba; --paper:#babbb2;
+}
+body { color-scheme:dark; }
+.topbar,.mobile-shortcuts,.mobile-menu nav { background:var(--bg); color:var(--ink); }
+.monogram,.btn-primary { background:#494b45; color:var(--ink); border-color:var(--line); }
+.btn-primary:hover,.nav-cta:hover,.contact .btn:hover { background:#55574f; color:var(--ink)!important; border-color:var(--line); }
+.folio-index a:hover,.folio-index a:focus-visible,.folio-index a:active { background:#494b45; color:var(--ink); }
+.brand-logo img,.role-logo { filter:none; }
+.contact,.approach,.selected-card-media { background:var(--panel); color:var(--ink); }
+.approach .kicker,.approach .section-header p,.approach-footer,.approach-footer strong,.principle .step,.principle p { color:var(--muted); }
+.type-art.dark,.type-art.performance-art,.type-art.hardcore-art { background:#454741; color:var(--ink); }
+:focus-visible,.contact :focus-visible { outline-color:var(--lime); }
+@media print { :root { --bg:white; --ink:#111; --muted:#333; } }
