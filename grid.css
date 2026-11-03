@@ -1,0 +1,70 @@
+:root {
+  --bg:#f7f7f4; --panel:#fff; --panel2:#efefeb; --ink:#171717;
+  --muted:#494949; --dim:#595959; --line:#a1a19d; --lime:#191919;
+  --paper:#f7f7f4; --pad:clamp(16px,3vw,46px);
+}
+body { color-scheme:light; background:var(--bg); }
+.topbar { background:var(--bg); backdrop-filter:none; }
+.nav-in { min-height:62px; gap:0; }
+.desktop-nav { align-self:stretch; gap:0; }
+.desktop-nav a { display:grid; place-items:center; border-left:1px solid var(--line); padding:0 18px; text-transform:uppercase; }
+.desktop-nav .nav-cta { border-block:0; border-right:1px solid var(--line); display:flex; gap:8px; }
+.monogram,.btn-primary { color:white; background:#171717; border-color:#171717; }
+.btn-primary:hover,.nav-cta:hover,.contact .btn:hover { background:#353535; color:white!important; }
+.hero { max-width:var(--max); padding-block:0 28px; }
+.hero-top,.hero-grid,.folio-index { border-inline:1px solid var(--line); }
+.hero-top { padding:16px 20px; margin:0; align-items:start; }
+.hero-grid { display:block; padding:clamp(48px,9vw,128px) 20px 26px; }
+.hero h1 { font-size:clamp(54px,10vw,142px); line-height:.94; font-weight:550; letter-spacing:-.085em; }
+.hero h1 span { display:inline; }
+.hero h1 span+span::before { content:" "; }
+.hero-copy { max-width:59ch; font-size:16px; line-height:1.6; }
+.hero-signature { margin-top:17px; }
+.hero-actions { display:none; }
+.folio-index { display:grid; border-bottom:1px solid var(--line); }
+.folio-index a { display:grid; grid-template-columns:clamp(52px,10vw,140px) 1fr 24px; align-items:center; min-height:45px; padding:6px 20px; border-top:1px solid var(--line); }
+.folio-index strong { font-size:13px; text-transform:uppercase; font-weight:550; }
+.folio-index a span { font:13px ui-monospace,monospace; }
+.folio-index a:hover,.folio-index a:focus-visible { background:#171717; color:white; }
+.hero-bottom { margin-top:25px; }
+.brand-logo img,.role-logo { filter:invert(1); }
+.section-header h2,.selected-intro h3,.contact h2 { letter-spacing:-.065em; }
+.selected-grid { gap:0; border-left:1px solid var(--line); border-top:1px solid var(--line); }
+.selected-card { border:0; border-right:1px solid var(--line); border-bottom:1px solid var(--line); background:transparent; }
+.selected-card-media { background:#eaeae6; }
+.work-section .spotlight { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); max-width:none; transform:none; margin:32px 0; }
+.work-section .spotlight-head { grid-column:1/-1; }
+.work-section .spotlight-body { align-self:center; }
+.contact { background:#171717; color:#fff; }
+.contact .kicker,.contact .footer,.contact .copy-status,.contact .copy { color:#ddd; }
+.contact .btn { color:#fff; border-color:#aaa; }
+.contact .contact-links,.contact .footer { border-color:#777; }
+.mobile-shortcuts { background:#f7f7f4; color:#171717; }
+:focus-visible { outline-color:#171717; }
+.contact :focus-visible { outline-color:white; }
+@media(max-width:760px) {
+  .hero-grid { padding:52px 14px 22px; }
+  .hero-top { padding-inline:14px; }
+  .folio-index a { padding-inline:14px; }
+  .hero h1 { font-size:clamp(48px,12vw,78px); }
+  .work-section .spotlight { display:block; }
+  .mobile-menu nav { background:var(--bg); }
+}
+
+/* Tactile surfaces and pressed states */
+:root { --bg:#f4f2eb; --panel:#fffdf7; --line:#242424; }
+.topbar { border-bottom:2px solid var(--line); }
+.hero-top,.hero-grid,.folio-index { border-inline-width:2px; }
+.folio-index { border-bottom:2px solid var(--line); box-shadow:5px 5px 0 var(--line); background:var(--panel); }
+.folio-index a { min-height:46px; }
+.folio-index a span:last-child { justify-self:end; }
+.folio-index a:active { background:#e1ddd1; color:var(--ink); }
+.selected-grid { gap:16px; border:0; }
+.selected-card,.work-section .spotlight { border:2px solid var(--line); box-shadow:4px 4px 0 var(--line); background:var(--panel); }
+.btn,.filter,.mobile-menu>summary { box-shadow:3px 3px 0 currentColor; }
+.btn-primary { box-shadow:3px 3px 0 #777; }
+.btn:active,.filter:active,.mobile-menu>summary:active { translate:2px 2px; box-shadow:1px 1px 0 currentColor; }
+@media(max-width:760px) {
+  .selected-grid { gap:14px; }
+  .folio-index { box-shadow:3px 3px 0 var(--line); }
+}
