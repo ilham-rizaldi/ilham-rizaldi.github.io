@@ -98,6 +98,19 @@ body:has(dialog[open]){overflow:hidden}
  .viewer-image{height:min(59dvh,570px)}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important}}
+
+/* Hide embedded white frames at every display size. */
+.photo-window{display:block;position:relative;overflow:hidden}
+.photo-window img{position:absolute;max-width:none;aspect-ratio:auto}
+.hero-image .photo-window{width:100%;height:clamp(440px,43vw,690px)}
+.album-preview .photo-window{width:100%;aspect-ratio:4/3}
+.album[data-wide] .photo-window,.album[data-narrow] .photo-window{aspect-ratio:auto;height:clamp(270px,33vw,510px)}
+.viewer-photo-window{width:100%;height:min(68vh,720px);background:#111}
+@media(max-width:760px){
+.hero-image .photo-window{height:clamp(320px,105vw,560px)}
+.album[data-wide] .photo-window,.album[data-narrow] .photo-window{height:auto;aspect-ratio:4/3}
+}
+@media(max-width:480px){.viewer-photo-window{height:min(59dvh,570px)}}
 </style>
 </head>
 <body>
@@ -115,7 +128,7 @@ body:has(dialog[open]){overflow:hidden}
 <a class="under" href="#work">Explore the photo series <span aria-hidden="true">↓</span></a>
 </div>
 <figure class="hero-image">
-<img src="images/DSCi3ZQD7em-0.webp" width="1200" height="1600" fetchpriority="high" alt="Two runners framed against the volcanic landscape in Bromo">
+<div class="photo-window"><img src="images/DSCi3ZQD7em-0.webp" width="1200" height="1600" fetchpriority="high" alt="Two runners framed against the volcanic landscape in Bromo"></div>
 <figcaption class="label"><span>Gerbera Cross Jumper</span><span>Bromo</span></figcaption>
 </figure>
 </section>
@@ -131,91 +144,91 @@ body:has(dialog[open]){overflow:hidden}
 <div class="gallery">
 <article class="album" data-category="campaign" data-wide>
 <a class="album-preview" href="https://www.instagram.com/p/DSCi3ZQD7em/" data-album="DSCi3ZQD7em" aria-label="View Gerbera Cross Jumper photo series">
-<img src="images/DSCi3ZQD7em-0.webp" alt="Two runners moving through a volcanic landscape for the Gerbera project" width="1200" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DSCi3ZQD7em-0.webp" alt="Two runners moving through a volcanic landscape for the Gerbera project" width="1200" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Gerbera Cross Jumper</h3><p class="category">Campaigns &amp; teams</p></div><span class="number" aria-hidden="true">01</span></div>
 </article>
 <article class="album" data-category="basketball" data-narrow>
 <a class="album-preview" href="https://www.instagram.com/p/DXOCt44FF7a/" data-album="DXOCt44FF7a" aria-label="View IBL All Indonesian 2025 Final photo series">
-<img src="images/DXOCt44FF7a-0.webp" alt="A player rising toward the basket in the IBL All Indonesian final" width="1080" height="1440" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DXOCt44FF7a-0.webp" alt="A player rising toward the basket in the IBL All Indonesian final" width="1080" height="1440" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>IBL All Indonesian 2025 Final</h3><p class="category">Basketball</p></div><span class="number" aria-hidden="true">02</span></div>
 </article>
 <article class="album" data-category="running">
 <a class="album-preview" href="https://www.instagram.com/p/C9eZycbP3wK/" data-album="C9eZycbP3wK" aria-label="View Salomon Urbancation photo series">
-<img src="images/C9eZycbP3wK-1.webp" alt="Participants running together at Salomon Urbancation" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/C9eZycbP3wK-1.webp" alt="Participants running together at Salomon Urbancation" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Salomon Urbancation</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">03</span></div>
 </article>
 <article class="album" data-category="cycling">
 <a class="album-preview" href="https://www.instagram.com/p/DVAmKudD_JQ/" data-album="DVAmKudD_JQ" aria-label="View Cyclist portraits photo series">
-<img src="images/DVAmKudD_JQ-0.webp" alt="Cyclist with a bicycle in a shadowed underpass" width="1200" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DVAmKudD_JQ-0.webp" alt="Cyclist with a bicycle in a shadowed underpass" width="1200" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Cyclist portraits</h3><p class="category">Cycling</p></div><span class="number" aria-hidden="true">04</span></div>
 </article>
 <article class="album" data-category="campaign" data-narrow>
 <a class="album-preview" href="https://www.instagram.com/p/DFIEiW8vddb/" data-album="DFIEiW8vddb" aria-label="View Nfinity Drive 1.5 photo series">
-<img src="images/DFIEiW8vddb-0.webp" alt="Two athletes in running outfits in an urban architectural setting" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DFIEiW8vddb-0.webp" alt="Two athletes in running outfits in an urban architectural setting" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Nfinity Drive 1.5</h3><p class="category">Campaigns &amp; teams</p></div><span class="number" aria-hidden="true">05</span></div>
 </article>
 <article class="album" data-category="basketball" data-wide>
 <a class="album-preview" href="https://www.instagram.com/p/DX8y1WglA66/" data-album="DX8y1WglA66" aria-label="View Pacific Caesar × RANS Simba Bogor photo series">
-<img src="images/DX8y1WglA66-0.webp" alt="Basketball player attacking the basket during Pacific Caesar versus RANS Simba Bogor" width="1200" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DX8y1WglA66-0.webp" alt="Basketball player attacking the basket during Pacific Caesar versus RANS Simba Bogor" width="1200" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Pacific Caesar × RANS Simba Bogor</h3><p class="category">Basketball</p></div><span class="number" aria-hidden="true">06</span></div>
 </article>
 <article class="album" data-category="campaign">
 <a class="album-preview" href="https://www.instagram.com/p/DTUbdcXDwth/" data-album="DTUbdcXDwth" aria-label="View Team Ardiles presentation photo series">
-<img src="images/DTUbdcXDwth-1.webp" alt="Team Ardiles athletes arranged in a studio group portrait" width="1440" height="1152" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DTUbdcXDwth-1.webp" alt="Team Ardiles athletes arranged in a studio group portrait" width="1440" height="1152" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Team Ardiles presentation</h3><p class="category">Campaigns &amp; teams</p></div><span class="number" aria-hidden="true">07</span></div>
 </article>
 <article class="album" data-category="running">
 <a class="album-preview" href="https://www.instagram.com/p/DSAIjuvjxuE/" data-album="DSAIjuvjxuE" aria-label="View Trail running studies photo series">
-<img src="images/DSAIjuvjxuE-0.webp" alt="Two runners moving across a rocky open landscape" width="1200" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DSAIjuvjxuE-0.webp" alt="Two runners moving across a rocky open landscape" width="1200" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Trail running studies</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">08</span></div>
 </article>
 <article class="album" data-category="running" data-wide>
 <a class="album-preview" href="https://www.instagram.com/p/C9J8FRlvbjv/" data-album="C9J8FRlvbjv" aria-label="View Salomon Trailcation photo series">
-<img src="images/C9J8FRlvbjv-1.webp" alt="Runners gathering on a road for Salomon Trailcation Surabaya" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/C9J8FRlvbjv-1.webp" alt="Runners gathering on a road for Salomon Trailcation Surabaya" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Salomon Trailcation</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">09</span></div>
 </article>
 <article class="album" data-category="running" data-narrow>
 <a class="album-preview" href="https://www.instagram.com/p/C9MrSRMvmDO/" data-album="C9MrSRMvmDO" aria-label="View HOKA Ramadan Active Night photo series">
-<img src="images/C9MrSRMvmDO-1.webp" alt="HOKA running shoes photographed at the night event" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/C9MrSRMvmDO-1.webp" alt="HOKA running shoes photographed at the night event" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>HOKA Ramadan Active Night</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">10</span></div>
 </article>
 <article class="album" data-category="cycling">
 <a class="album-preview" href="https://www.instagram.com/p/DFFZkFfvGoy/" data-album="DFFZkFfvGoy" aria-label="View Bike Baik: Bromo launch ride photo series">
-<img src="images/DFFZkFfvGoy-0.webp" alt="Cyclists on a tree-lined road during the Bike Baik jersey launch ride" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DFFZkFfvGoy-0.webp" alt="Cyclists on a tree-lined road during the Bike Baik jersey launch ride" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Bike Baik: Bromo launch ride</h3><p class="category">Cycling</p></div><span class="number" aria-hidden="true">11</span></div>
 </article>
 <article class="album" data-category="running">
 <a class="album-preview" href="https://www.instagram.com/p/C9zBamyPpzh/" data-album="C9zBamyPpzh" aria-label="View Urbancation: people &amp; moments photo series">
-<img src="images/C9zBamyPpzh-1.webp" alt="Smiling event participants posing closely together" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/C9zBamyPpzh-1.webp" alt="Smiling event participants posing closely together" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Urbancation: people &amp; moments</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">12</span></div>
 </article>
 <article class="album" data-category="cycling" data-narrow>
 <a class="album-preview" href="https://www.instagram.com/p/DFJ3N2tPQql/" data-album="DFJ3N2tPQql" aria-label="View In the middle of the ride photo series">
-<img src="images/DFJ3N2tPQql-0.webp" alt="A cycling group passing through an urban street, photographed from within the ride" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DFJ3N2tPQql-0.webp" alt="A cycling group passing through an urban street, photographed from within the ride" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>In the middle of the ride</h3><p class="category">Cycling</p></div><span class="number" aria-hidden="true">13</span></div>
 </article>
 <article class="album" data-category="running" data-wide>
 <a class="album-preview" href="https://www.instagram.com/p/C6WOBdrPQtJ/" data-album="C6WOBdrPQtJ" aria-label="View HOKA Run Club photo series">
-<img src="images/C6WOBdrPQtJ-1.webp" alt="Runners gathering beneath bright lights at a HOKA event" width="1440" height="1440" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/C6WOBdrPQtJ-1.webp" alt="Runners gathering beneath bright lights at a HOKA event" width="1440" height="1440" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>HOKA Run Club</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">14</span></div>
 </article>
 <article class="album" data-category="running">
 <a class="album-preview" href="https://www.instagram.com/p/DC6Erb8Ph08/" data-album="DC6Erb8Ph08" aria-label="View Through the night photo series">
-<img src="images/DC6Erb8Ph08-0.webp" alt="Close participant moment from an ultrarunning event photographed into the night" width="1280" height="1600" loading="lazy" decoding="async">
+<div class="photo-window"><img src="images/DC6Erb8Ph08-0.webp" alt="Close participant moment from an ultrarunning event photographed into the night" width="1280" height="1600" loading="lazy" decoding="async"></div>
 <span aria-hidden="true">View series ↗</span></a>
 <div class="album-meta"><div><h3>Through the night</h3><p class="category">Running &amp; events</p></div><span class="number" aria-hidden="true">15</span></div>
 </article>
@@ -230,7 +243,7 @@ body:has(dialog[open]){overflow:hidden}
 </main>
 <dialog aria-labelledby="viewer-title">
 <div class="viewer-top"><div><h2 id="viewer-title"></h2><p id="viewer-description"></p></div><button class="close" type="button" aria-label="Close gallery" autofocus>✕</button></div>
-<img class="viewer-image" alt="">
+<div class="photo-window viewer-photo-window"><img class="viewer-image" alt=""></div>
 <div class="viewer-bottom"><div class="viewer-controls"><button id="previous" type="button" aria-label="Previous photo">←</button><span class="label" id="frame-count" aria-live="polite"></span><button id="next" type="button" aria-label="Next photo">→</button></div><a id="original" href="https://www.instagram.com/rie.actn/" target="_blank" rel="noopener noreferrer">View original post ↗</a></div>
 </dialog>
 <script type="application/json" id="photo-series">{"DSCi3ZQD7em": {"title": "Gerbera Cross Jumper", "description": "Ardiles Running project in Bromo.", "frames": [{"src": "images/DSCi3ZQD7em-0.webp", "alt": "Two runners moving through a volcanic landscape for the Gerbera project"}, {"src": "images/DSCi3ZQD7em-1.webp", "alt": "Close-up of Gerbera footwear against volcanic terrain"}]}, "DXOCt44FF7a": {"title": "IBL All Indonesian 2025 Final", "description": "Satria Muda × Dewa United.", "frames": [{"src": "images/DXOCt44FF7a-0.webp", "alt": "A player rising toward the basket in the IBL All Indonesian final"}, {"src": "images/DXOCt44FF7a-1.webp", "alt": "Basketball player celebrating with spectators behind him"}]}, "C9eZycbP3wK": {"title": "Salomon Urbancation", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9eZycbP3wK-1.webp", "alt": "Participants running together at Salomon Urbancation"}, {"src": "images/C9eZycbP3wK-2.webp", "alt": "Smiling runner photographed during the Salomon event"}]}, "DVAmKudD_JQ": {"title": "Cyclist portraits", "description": "Portrait session with @dikavianz.", "frames": [{"src": "images/DVAmKudD_JQ-0.webp", "alt": "Cyclist with a bicycle in a shadowed underpass"}, {"src": "images/DVAmKudD_JQ-2.webp", "alt": "Environmental portrait of a cyclist against a graffiti wall"}]}, "DFIEiW8vddb": {"title": "Nfinity Drive 1.5", "description": "With @athandrf and @aprillenemaharani; assisted by @haikal.jpeg and @af.aulady.", "frames": [{"src": "images/DFIEiW8vddb-0.webp", "alt": "Two athletes in running outfits in an urban architectural setting"}, {"src": "images/DFIEiW8vddb-2.webp", "alt": "Runner posing near angular concrete architecture"}]}, "DX8y1WglA66": {"title": "Pacific Caesar × RANS Simba Bogor", "description": "Daniel Salamena in action.", "frames": [{"src": "images/DX8y1WglA66-0.webp", "alt": "Basketball player attacking the basket during Pacific Caesar versus RANS Simba Bogor"}, {"src": "images/DX8y1WglA66-2.webp", "alt": "Close-up of a basketball shoe and lower-body movement on court"}]}, "DTUbdcXDwth": {"title": "Team Ardiles presentation", "description": "Team presentation photoshoot.", "frames": [{"src": "images/DTUbdcXDwth-1.webp", "alt": "Team Ardiles athletes arranged in a studio group portrait"}, {"src": "images/DTUbdcXDwth-2.webp", "alt": "Wide-angle studio portrait of Team Ardiles athletes"}]}, "DSAIjuvjxuE": {"title": "Trail running studies", "description": "Movement, landscape, and product details.", "frames": [{"src": "images/DSAIjuvjxuE-0.webp", "alt": "Two runners moving across a rocky open landscape"}, {"src": "images/DSAIjuvjxuE-2.webp", "alt": "Runners and footwear photographed from a low angle on a trail"}]}, "C9J8FRlvbjv": {"title": "Salomon Trailcation", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9J8FRlvbjv-1.webp", "alt": "Runners gathering on a road for Salomon Trailcation Surabaya"}]}, "C9MrSRMvmDO": {"title": "HOKA Ramadan Active Night", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9MrSRMvmDO-1.webp", "alt": "HOKA running shoes photographed at the night event"}, {"src": "images/C9MrSRMvmDO-2.webp", "alt": "Smiling participant holding HOKA shoes at the event"}]}, "DFFZkFfvGoy": {"title": "Bike Baik: Bromo launch ride", "description": "2025 jersey launch ride to Bromo.", "frames": [{"src": "images/DFFZkFfvGoy-0.webp", "alt": "Cyclists on a tree-lined road during the Bike Baik jersey launch ride"}]}, "C9zBamyPpzh": {"title": "Urbancation: people & moments", "description": "Participant portraits from Salomon Urbancation.", "frames": [{"src": "images/C9zBamyPpzh-1.webp", "alt": "Smiling event participants posing closely together"}, {"src": "images/C9zBamyPpzh-2.webp", "alt": "Participant portrait during the Salomon running event"}]}, "DFJ3N2tPQql": {"title": "In the middle of the ride", "description": "A cycling photo essay on context and moments.", "frames": [{"src": "images/DFJ3N2tPQql-0.webp", "alt": "A cycling group passing through an urban street, photographed from within the ride"}]}, "C6WOBdrPQtJ": {"title": "HOKA Run Club", "description": "Photo project through Motion Dignity.", "frames": [{"src": "images/C6WOBdrPQtJ-1.webp", "alt": "Runners gathering beneath bright lights at a HOKA event"}, {"src": "images/C6WOBdrPQtJ-2.webp", "alt": "Wide view of a night running event and participants"}]}, "DC6Erb8Ph08": {"title": "Through the night", "description": "An ultrarunning photo assignment.", "frames": [{"src": "images/DC6Erb8Ph08-0.webp", "alt": "Close participant moment from an ultrarunning event photographed into the night"}]}}</script>
@@ -266,12 +279,55 @@ filters.addEventListener('click', event => {
   document.querySelector('#series-count').textContent = visible + ' series'
 })
 
+
+const photoBounds = {"DX8y1WglA66-0.webp":{"width":1200,"height":1600,"insets":[0,0,0,0]},"DX8y1WglA66-2.webp":{"width":1200,"height":1600,"insets":[0,0,0,0]},"DXOCt44FF7a-0.webp":{"width":1080,"height":1440,"insets":[0,0,0,0]},"DXOCt44FF7a-1.webp":{"width":1080,"height":1440,"insets":[0,0,0,0]},"DSCi3ZQD7em-0.webp":{"width":1200,"height":1600,"insets":[22,21,20,23]},"DSCi3ZQD7em-1.webp":{"width":1200,"height":1600,"insets":[21,20,21,23]},"DTUbdcXDwth-1.webp":{"width":1440,"height":1152,"insets":[0,0,0,0]},"DTUbdcXDwth-2.webp":{"width":1440,"height":1152,"insets":[0,0,0,0]},"DFIEiW8vddb-0.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"DFIEiW8vddb-2.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"DVAmKudD_JQ-0.webp":{"width":1200,"height":1600,"insets":[0,0,0,0]},"DVAmKudD_JQ-2.webp":{"width":1200,"height":1600,"insets":[0,0,0,0]},"DFFZkFfvGoy-0.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"DFJ3N2tPQql-0.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9J8FRlvbjv-1.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9eZycbP3wK-1.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9eZycbP3wK-2.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9zBamyPpzh-1.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9zBamyPpzh-2.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9MrSRMvmDO-1.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C9MrSRMvmDO-2.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"C6WOBdrPQtJ-1.webp":{"width":1440,"height":1440,"insets":[34,36,36,36]},"C6WOBdrPQtJ-2.webp":{"width":1440,"height":1440,"insets":[34,36,34,34]},"DC6Erb8Ph08-0.webp":{"width":1280,"height":1600,"insets":[0,0,0,0]},"DSAIjuvjxuE-0.webp":{"width":1200,"height":1600,"insets":[22,22,22,22]},"DSAIjuvjxuE-2.webp":{"width":1201,"height":1600,"insets":[22,22,22,22]}}
+function fitPhotograph(image) {
+  const filename = image.getAttribute('src')?.split('/').pop()
+  const bounds = photoBounds[filename]
+  if (!bounds && !image.naturalWidth) return
+  const width = bounds?.width || image.naturalWidth
+  const height = bounds?.height || image.naturalHeight
+  const [left, top, right, bottom] = bounds?.insets || [0, 0, 0, 0]
+  const cropWidth = width - left - right
+  const cropHeight = height - top - bottom
+  const window = image.parentElement
+  const windowWidth = window.clientWidth
+  const windowHeight = window.clientHeight
+  if (!windowWidth || !windowHeight) return
+  const scale = image.classList.contains('viewer-image')
+    ? Math.min(windowWidth / cropWidth, windowHeight / cropHeight)
+    : Math.max(windowWidth / cropWidth, windowHeight / cropHeight)
+  image.style.width = width * scale + 'px'
+  image.style.height = height * scale + 'px'
+  image.style.left = ((windowWidth - cropWidth * scale) / 2 - left * scale) + 'px'
+  image.style.top = ((windowHeight - cropHeight * scale) / 2 - top * scale) + 'px'
+  // Clip the source border even when the viewer leaves space around a portrait.
+  image.style.clipPath = 'inset(' + [top, right, bottom, left].map(value => value * scale + 'px').join(' ') + ')'
+}
+const photographWindows = [...document.querySelectorAll('.photo-window')]
+for (const window of photographWindows) {
+  const image = window.querySelector('img')
+  image.addEventListener('load', () => fitPhotograph(image))
+  fitPhotograph(image)
+}
+if ('ResizeObserver' in window) {
+  const photoObserver = new ResizeObserver(entries => {
+    for (const entry of entries) fitPhotograph(entry.target.querySelector('img'))
+  })
+  for (const window of photographWindows) photoObserver.observe(window)
+} else {
+  window.addEventListener('resize', () => {
+    for (const window of photographWindows) fitPhotograph(window.querySelector('img'))
+  })
+}
+
 function showFrame(index) {
   if (index < 0 || index >= activeAlbum.frames.length) return
   frame = index
   const image = activeAlbum.frames[frame]
   photo.alt = image.alt
   photo.src = image.src
+  fitPhotograph(photo)
   count.textContent = (frame + 1) + ' / ' + activeAlbum.frames.length
   previous.disabled = frame === 0
   next.disabled = frame === activeAlbum.frames.length - 1
@@ -288,6 +344,7 @@ for (const item of series) {
     original.href = link.href
     showFrame(0)
     dialog.showModal()
+    fitPhotograph(photo)
   })
 }
 dialog.querySelector('.close').addEventListener('click', () => dialog.close())
