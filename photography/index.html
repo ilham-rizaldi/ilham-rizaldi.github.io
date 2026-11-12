@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rie Actn | Photography by Ilham Rizaldi</title>
-<meta name="description" content="Sports, events, architecture, interiors, products, and food photography by Ilham Rizaldi.">
+<meta name="description" content="Sports and events, architecture and interiors, portraits, products, and food photography by Ilham Rizaldi.">
 <meta name="theme-color" content="#191919">
 <link rel="canonical" href="https://ilham-rizaldi.github.io/photography/">
 <meta property="og:title" content="Rie Actn | Photography by Ilham Rizaldi">
-<meta property="og:description" content="Sports, events, architecture, interiors, products, and food photography by Ilham Rizaldi.">
+<meta property="og:description" content="Sports and events, architecture and interiors, portraits, products, and food photography by Ilham Rizaldi.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://ilham-rizaldi.github.io/photography/">
 <meta property="og:image" content="https://ilham-rizaldi.github.io/photography/images/DSCi3ZQD7em-0.webp">
@@ -34,7 +34,7 @@ img{display:block;max-width:100%}
 .masthead a,.footer a{display:inline-flex;align-items:center;min-height:44px}
 .masthead a:hover,.footer a:hover,.under:hover{color:var(--accent)}
 .hero{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);align-items:center;gap:clamp(26px,4vw,68px);padding-block:clamp(24px,4vw,68px)}
-.hero h1{font:400 clamp(56px,8vw,134px)/.87 var(--display);letter-spacing:-.073em;margin-block:26px}
+.hero h1{font:400 clamp(46px,6.65vw,105px)/.9 var(--display);letter-spacing:-.073em;margin-block:26px}
 .hero h1 em{font-weight:400}
 .intro{max-width:32ch;color:var(--mute);font-size:clamp(14px,1.25vw,18px)}
 .under{display:inline-flex;align-items:center;gap:18px;min-height:44px;border-bottom:1px solid var(--line);font-size:14px}
@@ -69,19 +69,24 @@ dialog{width:min(100% - 24px,1200px);max-width:none;max-height:calc(100% - 24px)
 dialog::backdrop{background:#080808dc}
 body:has(dialog[open]){overflow:hidden}
 .viewer-top,.viewer-bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px clamp(12px,2.5vw,30px)}
-.viewer-top{border-bottom:1px solid var(--line)}
+.viewer-top{position:sticky;top:0;z-index:1;background:#202020;border-bottom:1px solid var(--line)}
 .viewer-top h2{font:600 clamp(15px,2.3vw,24px)/1.2 system-ui,sans-serif;letter-spacing:-.03em}
 .viewer-top p{color:var(--mute);font-size:13px;margin-top:4px}
+.album-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(5px,1vw,12px);padding:clamp(8px,1.5vw,18px)}
+.album-grid .photo-window{width:100%;aspect-ratio:1;border:0;padding:0;background:#111}
+.album-grid .photo-window:focus-visible{outline-offset:-2px}
+.album-grid img{inset:0;width:100%;height:100%;object-fit:contain}
 .viewer-image{width:100%;height:min(68vh,720px);object-fit:contain;background:#111}
 .viewer-bottom{flex-wrap:wrap;border-top:1px solid var(--line)}
 .viewer-controls{display:flex;align-items:center;gap:8px}
 .viewer-controls button,.close{min-height:44px;min-width:44px;background:transparent;border:1px solid var(--line)}
+.viewer-controls .back-to-grid{padding-inline:10px;font-size:13px}
 .viewer-controls button:disabled{opacity:.45;cursor:default}
 .viewer-bottom a{font-size:13px;text-decoration:underline;text-underline-offset:4px;padding-block:10px}
 @media(max-width:760px){
  .masthead{min-height:62px}
  .hero{grid-template-columns:1fr}
- .hero h1{font-size:clamp(55px,13vw,88px);margin-block:16px}
+ .hero h1{font-size:clamp(44px,11vw,78px);margin-block:16px}
  .hero h1 br{display:none}
  .hero-image img{height:clamp(320px,105vw,560px)}
  .hero-image figcaption{font-size:10px}
@@ -113,9 +118,9 @@ body:has(dialog[open]){overflow:hidden}
 <main class="wrap">
 <section class="hero" aria-labelledby="page-title">
 <div>
-<p class="label">Photography by Ilham Rizaldi</p>
-<h1 id="page-title">Sport in<br> <em>motion.</em></h1>
-<p class="intro">Sports, events, architecture, interiors, products, and food photography.</p>
+<p class="label">Ilham Rizaldi</p>
+<h1 id="page-title">Photography<br> <em>portfolio</em></h1>
+<p class="intro">Sports and events, architecture and interiors, portraits, products, and food.</p>
 <a class="under" href="#work">Explore the photo series <span aria-hidden="true">↓</span></a>
 </div>
 <figure class="hero-image">
@@ -124,7 +129,7 @@ body:has(dialog[open]){overflow:hidden}
 </figure>
 </section>
 <section class="collection" id="work" aria-labelledby="work-title">
-<div class="section-head"><div><p class="label">Rie Actn / Photography</p><h2 id="work-title">Photo series</h2></div><p class="label" id="series-count" role="status">27 series</p></div>
+<div class="section-head"><div><p class="label">Rie Actn / Photography</p><h2 id="work-title">Photo series</h2></div><p class="label" id="series-count" role="status">26 series</p></div>
 <div class="filters" aria-label="Filter photo series" hidden>
 <button type="button" aria-pressed="true" data-filter="all">All work</button>
 <button type="button" aria-pressed="false" data-filter="campaign">Campaigns &amp; teams</button>
@@ -191,16 +196,10 @@ body:has(dialog[open]){overflow:hidden}
 <div class="album-meta"><div><h3>HOKA Ramadan Active Night</h3><p class="category">Running &amp; events</p></div><span class="album-arrow" aria-hidden="true">↗</span></div>
 </a>
 </article>
-<article class="album" data-category="cycling">
+<article class="album" id="bike-baik-bromo-launch-ride" data-category="cycling">
 <a class="album-preview" href="https://www.instagram.com/p/DFFZkFfvGoy/" data-album="DFFZkFfvGoy" aria-label="View Bike Baik: Bromo launch ride photo series">
 <img src="thumbs/DFFZkFfvGoy.webp" width="720" height="720" alt="Cyclists on a tree-lined road during the Bike Baik jersey launch ride" loading="lazy" decoding="async">
 <div class="album-meta"><div><h3>Bike Baik: Bromo launch ride</h3><p class="category">Cycling</p></div><span class="album-arrow" aria-hidden="true">↗</span></div>
-</a>
-</article>
-<article class="album" data-category="cycling">
-<a class="album-preview" href="https://www.instagram.com/p/DFJ3N2tPQql/" data-album="DFJ3N2tPQql" aria-label="View In the middle of the ride photo series">
-<img src="thumbs/DFJ3N2tPQql.webp" width="720" height="720" alt="A cycling group passing through an urban street, photographed from within the ride" loading="lazy" decoding="async">
-<div class="album-meta"><div><h3>In the middle of the ride</h3><p class="category">Cycling</p></div><span class="album-arrow" aria-hidden="true">↗</span></div>
 </a>
 </article>
 <article class="album" data-category="running">
@@ -310,10 +309,11 @@ body:has(dialog[open]){overflow:hidden}
 </main>
 <dialog aria-labelledby="viewer-title">
 <div class="viewer-top"><div><h2 id="viewer-title"></h2><p id="viewer-description"></p></div><button class="close" type="button" aria-label="Close gallery" autofocus>✕</button></div>
-<div class="photo-window viewer-photo-window"><img class="viewer-image" alt=""></div>
-<div class="viewer-bottom"><div class="viewer-controls"><button id="previous" type="button" aria-label="Previous photo">←</button><span class="label" id="frame-count" aria-live="polite"></span><button id="next" type="button" aria-label="Next photo">→</button></div><a id="original" href="https://www.instagram.com/rie.actn/" target="_blank" rel="noopener noreferrer">View original post ↗</a></div>
+<div class="album-grid" role="group" aria-label="Photos in this series"></div>
+<div class="photo-window viewer-photo-window" hidden><img class="viewer-image" alt=""></div>
+<div class="viewer-bottom"><div class="viewer-controls" hidden><button class="back-to-grid" type="button">Back to grid</button><button id="previous" type="button" aria-label="Previous photo">←</button><span class="label" id="frame-count" aria-live="polite"></span><button id="next" type="button" aria-label="Next photo">→</button></div><a id="original" href="https://www.instagram.com/rie.actn/" target="_blank" rel="noopener noreferrer">View original post ↗</a></div>
 </dialog>
-<script type="application/json" id="photo-series">{"DSCi3ZQD7em": {"title": "Gerbera Cross Jumper", "description": "Trail running and footwear photography for Ardiles Running’s Gerbera Cross Jumper campaign in Bromo.", "frames": [{"src": "images/DSCi3ZQD7em-0.webp", "alt": "Two runners moving through a volcanic landscape for the Gerbera project"}, {"src": "images/DSCi3ZQD7em-1.webp", "alt": "Close-up of Gerbera footwear against volcanic terrain"}, {"src": "images/DSAIjuvjxuE-0.webp", "alt": "Two runners moving across a rocky open landscape", "post": "https://www.instagram.com/p/DSAIjuvjxuE/"}, {"src": "images/DSAIjuvjxuE-2.webp", "alt": "Runners and footwear photographed from a low angle on a trail", "post": "https://www.instagram.com/p/DSAIjuvjxuE/"}]}, "DXOCt44FF7a": {"title": "IBL All Indonesian 2025 Final", "description": "Satria Muda × Dewa United.", "frames": [{"src": "images/DXOCt44FF7a-0.webp", "alt": "A player rising toward the basket in the IBL All Indonesian final"}, {"src": "images/DXOCt44FF7a-1.webp", "alt": "Basketball player celebrating with spectators behind him"}]}, "C9eZycbP3wK": {"title": "Salomon Urbancation", "description": "Running coverage and participant portraits from Salomon Urbancation, a Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9eZycbP3wK-1.webp", "alt": "Participants running together at Salomon Urbancation"}, {"src": "images/C9eZycbP3wK-2.webp", "alt": "Smiling runner photographed during the Salomon event"}, {"src": "images/C9zBamyPpzh-1.webp", "alt": "Smiling event participants posing closely together", "post": "https://www.instagram.com/p/C9zBamyPpzh/"}, {"src": "images/C9zBamyPpzh-2.webp", "alt": "Participant portrait during the Salomon running event", "post": "https://www.instagram.com/p/C9zBamyPpzh/"}]}, "DVAmKudD_JQ": {"title": "Cyclist portraits", "description": "Portrait session with @dikavianz.", "frames": [{"src": "images/DVAmKudD_JQ-0.webp", "alt": "Cyclist with a bicycle in a shadowed underpass"}, {"src": "images/DVAmKudD_JQ-2.webp", "alt": "Environmental portrait of a cyclist against a graffiti wall"}]}, "DFIEiW8vddb": {"title": "Nfinity Drive 1.5", "description": "With @athandrf and @aprillenemaharani; assisted by @haikal.jpeg and @af.aulady.", "frames": [{"src": "images/DFIEiW8vddb-0.webp", "alt": "Two athletes in running outfits in an urban architectural setting"}, {"src": "images/DFIEiW8vddb-2.webp", "alt": "Runner posing near angular concrete architecture"}]}, "DX8y1WglA66": {"title": "Pacific Caesar × RANS Simba Bogor", "description": "Daniel Salamena in action.", "frames": [{"src": "images/DX8y1WglA66-0.webp", "alt": "Basketball player attacking the basket during Pacific Caesar versus RANS Simba Bogor"}, {"src": "images/DX8y1WglA66-2.webp", "alt": "Close-up of a basketball shoe and lower-body movement on court"}]}, "DTUbdcXDwth": {"title": "Team Ardiles presentation", "description": "Team presentation photoshoot.", "frames": [{"src": "images/DTUbdcXDwth-1.webp", "alt": "Team Ardiles athletes arranged in a studio group portrait"}, {"src": "images/DTUbdcXDwth-2.webp", "alt": "Wide-angle studio portrait of Team Ardiles athletes"}]}, "C9J8FRlvbjv": {"title": "Salomon Trailcation", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9J8FRlvbjv-1.webp", "alt": "Runners gathering on a road for Salomon Trailcation Surabaya"}]}, "C9MrSRMvmDO": {"title": "HOKA Ramadan Active Night", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9MrSRMvmDO-1.webp", "alt": "HOKA running shoes photographed at the night event"}, {"src": "images/C9MrSRMvmDO-2.webp", "alt": "Smiling participant holding HOKA shoes at the event"}]}, "DFFZkFfvGoy": {"title": "Bike Baik: Bromo launch ride", "description": "2025 jersey launch ride to Bromo.", "frames": [{"src": "images/DFFZkFfvGoy-0.webp", "alt": "Cyclists on a tree-lined road during the Bike Baik jersey launch ride"}]}, "DFJ3N2tPQql": {"title": "In the middle of the ride", "description": "A cycling photo essay on context and moments.", "frames": [{"src": "images/DFJ3N2tPQql-0.webp", "alt": "A cycling group passing through an urban street, photographed from within the ride"}]}, "C6WOBdrPQtJ": {"title": "HOKA Run Club", "description": "Photo project through Motion Dignity.", "frames": [{"src": "images/C6WOBdrPQtJ-1.webp", "alt": "Runners gathering beneath bright lights at a HOKA event"}, {"src": "images/C6WOBdrPQtJ-2.webp", "alt": "Wide view of a night running event and participants"}]}, "DC6Erb8Ph08": {"title": "Airlangga Ultra 2024", "description": "Nighttime race photography from Airlangga Ultra 2024.", "frames": [{"src": "images/DC6Erb8Ph08-0.webp", "alt": "Runner wearing a medal at Airlangga Ultra 2024 after dark"}]}, "taco-retro-summer-run": {"title": "TACO Retro Summer Run 2026", "description": "Surabaya. Event photography by Ilham Rizaldi / Rie Actn.", "frames": [{"src": "images/taco-retro-summer-run-01.webp", "alt": "A group of runners and a wheeled DJ setup on a tree-lined city road"}, {"src": "images/taco-retro-summer-run-02.webp", "alt": "A participant in glasses stretches an arm across their chest"}, {"src": "images/taco-retro-summer-run-03.webp", "alt": "Runners pass a portable DJ setup and Retro Summer Run flags"}, {"src": "images/taco-retro-summer-run-04.webp", "alt": "Two participants in dark running shirts outside an orange storefront"}, {"src": "images/taco-retro-summer-run-05.webp", "alt": "Cyclists and runners move together beneath a pedestrian bridge"}, {"src": "images/taco-retro-summer-run-06.webp", "alt": "Participants in orange and black gather on the street"}, {"src": "images/taco-retro-summer-run-07.webp", "alt": "Retro Summer Run participants pose together across a broad city road"}, {"src": "images/taco-retro-summer-run-08.webp", "alt": "Two runners flash peace signs in front of a TACO Retro Summer Run flag"}, {"src": "images/taco-retro-summer-run-09.webp", "alt": "A DJ plays beside a lit display counter inside the venue"}, {"src": "images/taco-retro-summer-run-10.webp", "alt": "Two runners in black carry water bottles along the route"}, {"src": "images/taco-retro-summer-run-11.webp", "alt": "Two participants laugh together inside the venue"}, {"src": "images/taco-retro-summer-run-12.webp", "alt": "Close-up of a hand adjusting the mixer on the mobile DJ setup"}, {"src": "images/taco-retro-summer-run-13.webp", "alt": "Two runners in black stride beneath a pedestrian bridge"}, {"src": "images/taco-retro-summer-run-14.webp", "alt": "A DJ works at the mobile mixer in front of a graffiti-covered wall"}, {"src": "images/taco-retro-summer-run-15.webp", "alt": "A participant gestures with both hands as runners follow behind"}]}, "majestic-rooms-by-jhenaka": {"title": "Majestic Rooms by Jhenaka", "description": "Interior photography for a stay in Yogyakarta, covering room layouts, lighting, and in-room amenities.", "frames": [{"src": "images/majestic-rooms-by-jhenaka-01.webp", "alt": "Guest room with a blue-lit headboard and white bedding"}, {"src": "images/majestic-rooms-by-jhenaka-02.webp", "alt": "White bed beside a large window in a guest room"}, {"src": "images/majestic-rooms-by-jhenaka-03.webp", "alt": "Laptop on a desk in a dimly lit room"}, {"src": "images/majestic-rooms-by-jhenaka-04.webp", "alt": "Wall-mounted television against white paneling"}, {"src": "images/majestic-rooms-by-jhenaka-05.webp", "alt": "Laptop and seating area beside a window"}, {"src": "images/majestic-rooms-by-jhenaka-06.webp", "alt": "Wall-mounted screen and a small countertop with refreshments"}], "source": "https://www.behance.net/gallery/151827403/Majestic-Rooms-by-Jhenaka-Interior-Photography"}, "he-ji": {"title": "He-ji", "description": "Art direction and photography for He-ji skincare. Product still lifes and portraits share a pink backdrop.", "frames": [{"src": "images/he-ji-01.webp", "alt": "He-ji skincare jar and dropper bottle on a pink surface with leaf shadows"}, {"src": "images/he-ji-02.webp", "alt": "Skincare jars and dropper bottles arranged diagonally on pink"}, {"src": "images/he-ji-03.webp", "alt": "White He-ji jars and red-labeled bottles arranged on pink"}, {"src": "images/he-ji-04.webp", "alt": "Close-up of He-ji product packaging and a dropper bottle"}, {"src": "images/he-ji-05.webp", "alt": "Model in a pink jacket holding up a skincare jar"}, {"src": "images/he-ji-06.webp", "alt": "Model in a pink jacket examining a skincare jar"}, {"src": "images/he-ji-07.webp", "alt": "Model holding a skincare jar beside the product lineup"}], "source": "https://www.behance.net/gallery/158835495/He-ji-Beauty-Products-Product-Photography"}, "merah-rempah-ramadhan-special-menu": {"title": "Merah Rempah Ramadhan Special Menu", "description": "Art direction and food photography for Merah Rempah’s 2022 Ramadhan special menu, using warm side lighting.", "frames": [{"src": "images/merah-rempah-ramadhan-special-menu-01.webp", "alt": "Chopsticks lifting a bite above a warmly lit Merah Rempah bowl"}, {"src": "images/merah-rempah-ramadhan-special-menu-02.webp", "alt": "Overhead view of a rice bowl topped with a fried egg"}, {"src": "images/merah-rempah-ramadhan-special-menu-03.webp", "alt": "Fried egg and rice in a Merah Rempah bowl against a dark background"}, {"src": "images/merah-rempah-ramadhan-special-menu-04.webp", "alt": "Side view of a Merah Rempah bowl under warm light"}], "source": "https://www.behance.net/gallery/159524057/Merah-Rempah-Ramadhan-2022-Special-Menu-Menu-Catalog"}, "easton-candles": {"title": "Easton Candles", "description": "Product photography for Easton Candles’ marketplace catalog and packaging campaign.", "frames": [{"src": "images/easton-candles-01.webp", "alt": "Easton candle jar surrounded by dried botanicals"}, {"src": "images/easton-candles-02.webp", "alt": "Close-up of a candle and wick in a textured setting"}, {"src": "images/easton-candles-03.webp", "alt": "Two Easton candle jars with dried flowers"}, {"src": "images/easton-candles-04.webp", "alt": "Wrapped Easton candle resting on dried plant material"}, {"src": "images/easton-candles-05.webp", "alt": "Candle jar nestled in shredded packaging"}], "source": null}, "aa-leather": {"title": "AA Leather", "description": "Product preview for AA Leather, showing the shoes alongside close-ups of their leather and stitching.", "frames": [{"src": "images/aa-leather-01.webp", "alt": "Brown leather lace-up shoes on dry leaves"}, {"src": "images/aa-leather-02.webp", "alt": "Close-up of the perforated toe of a brown leather shoe"}, {"src": "images/aa-leather-03.webp", "alt": "Dark leather shoes nestled in dry leaves"}, {"src": "images/aa-leather-04.webp", "alt": "Heel and layered sole of a brown leather shoe"}, {"src": "images/aa-leather-05.webp", "alt": "Side detail of dark leather, stitching, and a layered sole"}], "source": null}, "shimano-s-phyre-rc901": {"title": "Shimano S-Phyre RC901", "description": "Tabletop study of the Shimano S-Phyre RC901 cycling shoe, photographed using focus stacking.", "frames": [{"src": "images/shimano-s-phyre-rc901-01.webp", "alt": "Black Shimano cycling shoe against a dark, smoky background"}, {"src": "images/shimano-s-phyre-rc901-02.webp", "alt": "Side detail of the cycling shoe and its closure dial"}, {"src": "images/shimano-s-phyre-rc901-03.webp", "alt": "Close view of the black cycling shoe with smoke around it"}], "source": null}, "garmin-edge-530": {"title": "Garmin Edge 530", "description": "Tabletop study of the Garmin Edge 530 cycling computer, photographed using focus stacking.", "frames": [{"src": "images/garmin-edge-530-01.webp", "alt": "Angled view of the Garmin Edge 530 cycling computer"}, {"src": "images/garmin-edge-530-02.webp", "alt": "Side view of the Garmin Edge 530 with its logo visible"}, {"src": "images/garmin-edge-530-03.webp", "alt": "Close-up of the Garmin Edge 530’s edge and buttons"}], "source": null}, "ranu-manduro": {"title": "Ranu Manduro", "description": "A cycling photo series at Ranu Manduro, following a rider from a roadside camp through rocky fields and past grazing cattle.", "frames": [{"src": "images/ranu-manduro-01.webp", "alt": "Cyclist in a pink shirt riding a red bicycle past grazing cattle with mountains behind"}, {"src": "images/ranu-manduro-02.webp", "alt": "Cyclist standing beside bicycles and a silver car with a rooftop tent"}, {"src": "images/ranu-manduro-03.webp", "alt": "Cyclist riding across a field toward a camp beneath a hazy mountain"}, {"src": "images/ranu-manduro-04.webp", "alt": "Cyclist paused beside a pale grazing animal in a scrubby field"}, {"src": "images/ranu-manduro-05.webp", "alt": "Cyclist and red bicycle beside boulders under a tree"}, {"src": "images/ranu-manduro-06.webp", "alt": "Seated cyclist looking toward a goat standing on a rock"}, {"src": "images/ranu-manduro-07.webp", "alt": "Close-up of a gray pannier mounted on the bicycle beside the rider’s shoe"}, {"src": "images/ranu-manduro-08.webp", "alt": "Cyclist riding between cattle below a steep rocky slope"}, {"src": "images/ranu-manduro-09.webp", "alt": "Cyclist standing behind a red bicycle with cattle and a mountain in the background"}, {"src": "images/ranu-manduro-10.webp", "alt": "Silver car carrying bicycles beside a line of trees"}], "source": null}, "iconnect-sunrise-mall-mojokerto": {"title": "iConnect Sunrise Mall Mojokerto", "description": "Retail interior photography of iConnect at Sunrise Mall Mojokerto, from the timber storefront to the display tables and seating area. Interior design by Bold Design.", "frames": [{"src": "images/iconnect-sunrise-mall-mojokerto-01.webp", "alt": "Front-on view of the iConnect storefront framed in timber, with display tables visible through the entrance"}, {"src": "images/iconnect-sunrise-mall-mojokerto-02.webp", "alt": "Wide view into iConnect beneath the slatted timber entrance ceiling"}, {"src": "images/iconnect-sunrise-mall-mojokerto-03.webp", "alt": "Central display table, accessory wall, and bright rear window inside iConnect"}, {"src": "images/iconnect-sunrise-mall-mojokerto-04.webp", "alt": "Seating and planters beside the timber display area inside iConnect"}, {"src": "images/iconnect-sunrise-mall-mojokerto-05.webp", "alt": "Seating area and planters in front of a large display screen"}, {"src": "images/iconnect-sunrise-mall-mojokerto-06.webp", "alt": "Timber-lined corner with a phone display and shelving"}]}, "eische": {"title": "EISCHE", "description": "Retail interior photography for EISCHE, featuring burgundy walls, a lit display arch, and custom fixtures. Interior design by Bold Design.", "frames": [{"src": "images/eische-01.webp", "alt": "EISCHE shop interior with a green display table, illuminated arch, and burgundy walls"}, {"src": "images/eische-02.webp", "alt": "Clothing inside the illuminated display arch beside a green tiled table"}, {"src": "images/eische-03.webp", "alt": "Rows of brightly colored clothes against a burgundy display wall"}, {"src": "images/eische-04.webp", "alt": "Curved bench and clothes rail beside tall sheer curtains"}, {"src": "images/eische-05.webp", "alt": "Two chairs and hanging clothes beside the fitting-room curtains"}]}, "rumah-tenggilis": {"title": "Rumah Tenggilis", "description": "Residential architecture and interiors, from the street-facing facade to the sunken living room and adjoining kitchen. Project by ARA Studio and Bold Design.", "frames": [{"src": "images/rumah-tenggilis-01.webp", "alt": "Daylit sunken living room with yellow cushions, timber steps, and the kitchen beyond"}, {"src": "images/rumah-tenggilis-02.webp", "alt": "Street-facing facade of Rumah Tenggilis behind a pale gate under a clear blue sky"}, {"src": "images/rumah-tenggilis-03.webp", "alt": "Timber living-room wall, low seating, and a wide window"}, {"src": "images/rumah-tenggilis-04.webp", "alt": "Timber kitchen cabinetry and curved counter beneath small pendant lights"}, {"src": "images/rumah-tenggilis-05.webp", "alt": "A blurred figure on the stairs beside a tall patterned window"}, {"src": "images/rumah-tenggilis-06.webp", "alt": "Bedroom with a white bed and a muted green built-in vanity"}]}, "zams-intro": {"title": "Zam’s Intro", "description": "Cycling portraits and equipment details, from a roadside stop to close-ups of the bicycle and its riding setup.", "frames": [{"src": "images/zams-intro-01.webp", "alt": "Cyclist in a green jersey standing behind his bicycle under a tree"}, {"src": "images/zams-intro-02.webp", "alt": "Cyclist eating beside his bicycle at a roadside stop"}, {"src": "images/zams-intro-03.webp", "alt": "Portrait of the cyclist in a helmet and red glasses"}, {"src": "images/zams-intro-04.webp", "alt": "Bicycle chainring, crank, and bottle on the frame"}, {"src": "images/zams-intro-05.webp", "alt": "Close-up of the frame bag and water bottle inside the bicycle frame"}, {"src": "images/zams-intro-06.webp", "alt": "Black saddle pack fastened beneath the bicycle seat"}, {"src": "images/zams-intro-07.webp", "alt": "Handlebars and a mounted cycling computer"}], "source": null}, "novam-erina": {"title": "Novam Erina", "description": "Couple portraits, family photographs, and candid moments from a celebration.", "frames": [{"src": "images/novam-erina-01.webp", "alt": "The couple in white seated in front of tall red curtains"}, {"src": "images/novam-erina-02.webp", "alt": "The couple looking up beside a wall of timber shelves"}, {"src": "images/novam-erina-03.webp", "alt": "Guests around a table in a room with framed art"}, {"src": "images/novam-erina-04.webp", "alt": "The couple smiling among guests at the celebration"}, {"src": "images/novam-erina-05.webp", "alt": "Guests seated around a table beside a large window"}, {"src": "images/novam-erina-06.webp", "alt": "Three guests posing with hand hearts by the entrance"}, {"src": "images/novam-erina-07.webp", "alt": "Family and friends gathered for a group portrait outside the venue"}], "source": null}}</script>
+<script type="application/json" id="photo-series">{"DSCi3ZQD7em": {"title": "Gerbera Cross Jumper", "description": "Trail running and footwear photography for Ardiles Running’s Gerbera Cross Jumper campaign in Bromo.", "frames": [{"src": "images/DSCi3ZQD7em-0.webp", "alt": "Two runners moving through a volcanic landscape for the Gerbera project"}, {"src": "images/DSCi3ZQD7em-1.webp", "alt": "Close-up of Gerbera footwear against volcanic terrain"}, {"src": "images/DSAIjuvjxuE-0.webp", "alt": "Two runners moving across a rocky open landscape", "post": "https://www.instagram.com/p/DSAIjuvjxuE/"}, {"src": "images/DSAIjuvjxuE-2.webp", "alt": "Runners and footwear photographed from a low angle on a trail", "post": "https://www.instagram.com/p/DSAIjuvjxuE/"}]}, "DXOCt44FF7a": {"title": "IBL All Indonesian 2025 Final", "description": "Satria Muda × Dewa United.", "frames": [{"src": "images/DXOCt44FF7a-0.webp", "alt": "A player rising toward the basket in the IBL All Indonesian final"}, {"src": "images/DXOCt44FF7a-1.webp", "alt": "Basketball player celebrating with spectators behind him"}]}, "C9eZycbP3wK": {"title": "Salomon Urbancation", "description": "Running coverage and participant portraits from Salomon Urbancation, a Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9eZycbP3wK-1.webp", "alt": "Participants running together at Salomon Urbancation"}, {"src": "images/C9eZycbP3wK-2.webp", "alt": "Smiling runner photographed during the Salomon event"}, {"src": "images/C9zBamyPpzh-1.webp", "alt": "Smiling event participants posing closely together", "post": "https://www.instagram.com/p/C9zBamyPpzh/"}, {"src": "images/C9zBamyPpzh-2.webp", "alt": "Participant portrait during the Salomon running event", "post": "https://www.instagram.com/p/C9zBamyPpzh/"}]}, "DVAmKudD_JQ": {"title": "Cyclist portraits", "description": "Portrait session with @dikavianz.", "frames": [{"src": "images/DVAmKudD_JQ-0.webp", "alt": "Cyclist with a bicycle in a shadowed underpass"}, {"src": "images/DVAmKudD_JQ-2.webp", "alt": "Environmental portrait of a cyclist against a graffiti wall"}]}, "DFIEiW8vddb": {"title": "Nfinity Drive 1.5", "description": "With @athandrf and @aprillenemaharani; assisted by @haikal.jpeg and @af.aulady.", "frames": [{"src": "images/DFIEiW8vddb-0.webp", "alt": "Two athletes in running outfits in an urban architectural setting"}, {"src": "images/DFIEiW8vddb-2.webp", "alt": "Runner posing near angular concrete architecture"}]}, "DX8y1WglA66": {"title": "Pacific Caesar × RANS Simba Bogor", "description": "Daniel Salamena in action.", "frames": [{"src": "images/DX8y1WglA66-0.webp", "alt": "Basketball player attacking the basket during Pacific Caesar versus RANS Simba Bogor"}, {"src": "images/DX8y1WglA66-2.webp", "alt": "Close-up of a basketball shoe and lower-body movement on court"}]}, "DTUbdcXDwth": {"title": "Team Ardiles presentation", "description": "Team presentation photoshoot.", "frames": [{"src": "images/DTUbdcXDwth-1.webp", "alt": "Team Ardiles athletes arranged in a studio group portrait"}, {"src": "images/DTUbdcXDwth-2.webp", "alt": "Wide-angle studio portrait of Team Ardiles athletes"}]}, "C9J8FRlvbjv": {"title": "Salomon Trailcation", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9J8FRlvbjv-1.webp", "alt": "Runners gathering on a road for Salomon Trailcation Surabaya"}]}, "C9MrSRMvmDO": {"title": "HOKA Ramadan Active Night", "description": "Surabaya event organized by Motion Dignity.", "frames": [{"src": "images/C9MrSRMvmDO-1.webp", "alt": "HOKA running shoes photographed at the night event"}, {"src": "images/C9MrSRMvmDO-2.webp", "alt": "Smiling participant holding HOKA shoes at the event"}]}, "DFFZkFfvGoy": {"title": "Bike Baik: Bromo launch ride", "description": "Photos from Bike Baik’s 2025 Bromo jersey launch ride, including views from within the group.", "frames": [{"src": "images/DFFZkFfvGoy-0.webp", "alt": "Cyclists on a tree-lined road during the Bike Baik jersey launch ride"}, {"src": "images/DFJ3N2tPQql-0.webp", "alt": "A cycling group passing through an urban street, photographed from within the ride", "post": "https://www.instagram.com/p/DFJ3N2tPQql/"}]}, "C6WOBdrPQtJ": {"title": "HOKA Run Club", "description": "Photo project through Motion Dignity.", "frames": [{"src": "images/C6WOBdrPQtJ-1.webp", "alt": "Runners gathering beneath bright lights at a HOKA event"}, {"src": "images/C6WOBdrPQtJ-2.webp", "alt": "Wide view of a night running event and participants"}]}, "DC6Erb8Ph08": {"title": "Airlangga Ultra 2024", "description": "Nighttime race photography from Airlangga Ultra 2024.", "frames": [{"src": "images/DC6Erb8Ph08-0.webp", "alt": "Runner wearing a medal at Airlangga Ultra 2024 after dark"}]}, "taco-retro-summer-run": {"title": "TACO Retro Summer Run 2026", "description": "Surabaya. Event photography by Ilham Rizaldi / Rie Actn.", "frames": [{"src": "images/taco-retro-summer-run-01.webp", "alt": "A group of runners and a wheeled DJ setup on a tree-lined city road"}, {"src": "images/taco-retro-summer-run-02.webp", "alt": "A participant in glasses stretches an arm across their chest"}, {"src": "images/taco-retro-summer-run-03.webp", "alt": "Runners pass a portable DJ setup and Retro Summer Run flags"}, {"src": "images/taco-retro-summer-run-04.webp", "alt": "Two participants in dark running shirts outside an orange storefront"}, {"src": "images/taco-retro-summer-run-05.webp", "alt": "Cyclists and runners move together beneath a pedestrian bridge"}, {"src": "images/taco-retro-summer-run-06.webp", "alt": "Participants in orange and black gather on the street"}, {"src": "images/taco-retro-summer-run-07.webp", "alt": "Retro Summer Run participants pose together across a broad city road"}, {"src": "images/taco-retro-summer-run-08.webp", "alt": "Two runners flash peace signs in front of a TACO Retro Summer Run flag"}, {"src": "images/taco-retro-summer-run-09.webp", "alt": "A DJ plays beside a lit display counter inside the venue"}, {"src": "images/taco-retro-summer-run-10.webp", "alt": "Two runners in black carry water bottles along the route"}, {"src": "images/taco-retro-summer-run-11.webp", "alt": "Two participants laugh together inside the venue"}, {"src": "images/taco-retro-summer-run-12.webp", "alt": "Close-up of a hand adjusting the mixer on the mobile DJ setup"}, {"src": "images/taco-retro-summer-run-13.webp", "alt": "Two runners in black stride beneath a pedestrian bridge"}, {"src": "images/taco-retro-summer-run-14.webp", "alt": "A DJ works at the mobile mixer in front of a graffiti-covered wall"}, {"src": "images/taco-retro-summer-run-15.webp", "alt": "A participant gestures with both hands as runners follow behind"}]}, "majestic-rooms-by-jhenaka": {"title": "Majestic Rooms by Jhenaka", "description": "Interior photography for a stay in Yogyakarta, covering room layouts, lighting, and in-room amenities.", "frames": [{"src": "images/majestic-rooms-by-jhenaka-01.webp", "alt": "Guest room with a blue-lit headboard and white bedding"}, {"src": "images/majestic-rooms-by-jhenaka-02.webp", "alt": "White bed beside a large window in a guest room"}, {"src": "images/majestic-rooms-by-jhenaka-03.webp", "alt": "Laptop on a desk in a dimly lit room"}, {"src": "images/majestic-rooms-by-jhenaka-04.webp", "alt": "Wall-mounted television against white paneling"}, {"src": "images/majestic-rooms-by-jhenaka-05.webp", "alt": "Laptop and seating area beside a window"}, {"src": "images/majestic-rooms-by-jhenaka-06.webp", "alt": "Wall-mounted screen and a small countertop with refreshments"}], "source": "https://www.behance.net/gallery/151827403/Majestic-Rooms-by-Jhenaka-Interior-Photography"}, "he-ji": {"title": "He-ji", "description": "Art direction and photography for He-ji skincare. Product still lifes and portraits share a pink backdrop.", "frames": [{"src": "images/he-ji-01.webp", "alt": "He-ji skincare jar and dropper bottle on a pink surface with leaf shadows"}, {"src": "images/he-ji-02.webp", "alt": "Skincare jars and dropper bottles arranged diagonally on pink"}, {"src": "images/he-ji-03.webp", "alt": "White He-ji jars and red-labeled bottles arranged on pink"}, {"src": "images/he-ji-04.webp", "alt": "Close-up of He-ji product packaging and a dropper bottle"}, {"src": "images/he-ji-05.webp", "alt": "Model in a pink jacket holding up a skincare jar"}, {"src": "images/he-ji-06.webp", "alt": "Model in a pink jacket examining a skincare jar"}, {"src": "images/he-ji-07.webp", "alt": "Model holding a skincare jar beside the product lineup"}], "source": "https://www.behance.net/gallery/158835495/He-ji-Beauty-Products-Product-Photography"}, "merah-rempah-ramadhan-special-menu": {"title": "Merah Rempah Ramadhan Special Menu", "description": "Art direction and food photography for Merah Rempah’s 2022 Ramadhan special menu, using warm side lighting.", "frames": [{"src": "images/merah-rempah-ramadhan-special-menu-01.webp", "alt": "Chopsticks lifting a bite above a warmly lit Merah Rempah bowl"}, {"src": "images/merah-rempah-ramadhan-special-menu-02.webp", "alt": "Overhead view of a rice bowl topped with a fried egg"}, {"src": "images/merah-rempah-ramadhan-special-menu-03.webp", "alt": "Fried egg and rice in a Merah Rempah bowl against a dark background"}, {"src": "images/merah-rempah-ramadhan-special-menu-04.webp", "alt": "Side view of a Merah Rempah bowl under warm light"}], "source": "https://www.behance.net/gallery/159524057/Merah-Rempah-Ramadhan-2022-Special-Menu-Menu-Catalog"}, "easton-candles": {"title": "Easton Candles", "description": "Product photography for Easton Candles’ marketplace catalog and packaging campaign.", "frames": [{"src": "images/easton-candles-01.webp", "alt": "Easton candle jar surrounded by dried botanicals"}, {"src": "images/easton-candles-02.webp", "alt": "Close-up of a candle and wick in a textured setting"}, {"src": "images/easton-candles-03.webp", "alt": "Two Easton candle jars with dried flowers"}, {"src": "images/easton-candles-04.webp", "alt": "Wrapped Easton candle resting on dried plant material"}, {"src": "images/easton-candles-05.webp", "alt": "Candle jar nestled in shredded packaging"}], "source": null}, "aa-leather": {"title": "AA Leather", "description": "Product preview for AA Leather, showing the shoes alongside close-ups of their leather and stitching.", "frames": [{"src": "images/aa-leather-01.webp", "alt": "Brown leather lace-up shoes on dry leaves"}, {"src": "images/aa-leather-02.webp", "alt": "Close-up of the perforated toe of a brown leather shoe"}, {"src": "images/aa-leather-03.webp", "alt": "Dark leather shoes nestled in dry leaves"}, {"src": "images/aa-leather-04.webp", "alt": "Heel and layered sole of a brown leather shoe"}, {"src": "images/aa-leather-05.webp", "alt": "Side detail of dark leather, stitching, and a layered sole"}], "source": null}, "shimano-s-phyre-rc901": {"title": "Shimano S-Phyre RC901", "description": "Tabletop study of the Shimano S-Phyre RC901 cycling shoe, photographed using focus stacking.", "frames": [{"src": "images/shimano-s-phyre-rc901-01.webp", "alt": "Black Shimano cycling shoe against a dark, smoky background"}, {"src": "images/shimano-s-phyre-rc901-02.webp", "alt": "Side detail of the cycling shoe and its closure dial"}, {"src": "images/shimano-s-phyre-rc901-03.webp", "alt": "Close view of the black cycling shoe with smoke around it"}], "source": null}, "garmin-edge-530": {"title": "Garmin Edge 530", "description": "Tabletop study of the Garmin Edge 530 cycling computer, photographed using focus stacking.", "frames": [{"src": "images/garmin-edge-530-01.webp", "alt": "Angled view of the Garmin Edge 530 cycling computer"}, {"src": "images/garmin-edge-530-02.webp", "alt": "Side view of the Garmin Edge 530 with its logo visible"}, {"src": "images/garmin-edge-530-03.webp", "alt": "Close-up of the Garmin Edge 530’s edge and buttons"}], "source": null}, "ranu-manduro": {"title": "Ranu Manduro", "description": "A cycling photo series at Ranu Manduro, following a rider from a roadside camp through rocky fields and past grazing cattle.", "frames": [{"src": "images/ranu-manduro-01.webp", "alt": "Cyclist in a pink shirt riding a red bicycle past grazing cattle with mountains behind"}, {"src": "images/ranu-manduro-02.webp", "alt": "Cyclist standing beside bicycles and a silver car with a rooftop tent"}, {"src": "images/ranu-manduro-03.webp", "alt": "Cyclist riding across a field toward a camp beneath a hazy mountain"}, {"src": "images/ranu-manduro-04.webp", "alt": "Cyclist paused beside a pale grazing animal in a scrubby field"}, {"src": "images/ranu-manduro-05.webp", "alt": "Cyclist and red bicycle beside boulders under a tree"}, {"src": "images/ranu-manduro-06.webp", "alt": "Seated cyclist looking toward a goat standing on a rock"}, {"src": "images/ranu-manduro-07.webp", "alt": "Close-up of a gray pannier mounted on the bicycle beside the rider’s shoe"}, {"src": "images/ranu-manduro-08.webp", "alt": "Cyclist riding between cattle below a steep rocky slope"}, {"src": "images/ranu-manduro-09.webp", "alt": "Cyclist standing behind a red bicycle with cattle and a mountain in the background"}, {"src": "images/ranu-manduro-10.webp", "alt": "Silver car carrying bicycles beside a line of trees"}], "source": null}, "iconnect-sunrise-mall-mojokerto": {"title": "iConnect Sunrise Mall Mojokerto", "description": "Retail interior photography of iConnect at Sunrise Mall Mojokerto, from the timber storefront to the display tables and seating area. Interior design by Bold Design.", "frames": [{"src": "images/iconnect-sunrise-mall-mojokerto-01.webp", "alt": "Front-on view of the iConnect storefront framed in timber, with display tables visible through the entrance"}, {"src": "images/iconnect-sunrise-mall-mojokerto-02.webp", "alt": "Wide view into iConnect beneath the slatted timber entrance ceiling"}, {"src": "images/iconnect-sunrise-mall-mojokerto-03.webp", "alt": "Central display table, accessory wall, and bright rear window inside iConnect"}, {"src": "images/iconnect-sunrise-mall-mojokerto-04.webp", "alt": "Seating and planters beside the timber display area inside iConnect"}, {"src": "images/iconnect-sunrise-mall-mojokerto-05.webp", "alt": "Seating area and planters in front of a large display screen"}, {"src": "images/iconnect-sunrise-mall-mojokerto-06.webp", "alt": "Timber-lined corner with a phone display and shelving"}]}, "eische": {"title": "EISCHE", "description": "Retail interior photography for EISCHE, featuring burgundy walls, a lit display arch, and custom fixtures. Interior design by Bold Design.", "frames": [{"src": "images/eische-01.webp", "alt": "EISCHE shop interior with a green display table, illuminated arch, and burgundy walls"}, {"src": "images/eische-02.webp", "alt": "Clothing inside the illuminated display arch beside a green tiled table"}, {"src": "images/eische-03.webp", "alt": "Rows of brightly colored clothes against a burgundy display wall"}, {"src": "images/eische-04.webp", "alt": "Curved bench and clothes rail beside tall sheer curtains"}, {"src": "images/eische-05.webp", "alt": "Two chairs and hanging clothes beside the fitting-room curtains"}]}, "rumah-tenggilis": {"title": "Rumah Tenggilis", "description": "Residential architecture and interiors, from the street-facing facade to the sunken living room and adjoining kitchen. Project by ARA Studio and Bold Design.", "frames": [{"src": "images/rumah-tenggilis-01.webp", "alt": "Daylit sunken living room with yellow cushions, timber steps, and the kitchen beyond"}, {"src": "images/rumah-tenggilis-02.webp", "alt": "Street-facing facade of Rumah Tenggilis behind a pale gate under a clear blue sky"}, {"src": "images/rumah-tenggilis-03.webp", "alt": "Timber living-room wall, low seating, and a wide window"}, {"src": "images/rumah-tenggilis-04.webp", "alt": "Timber kitchen cabinetry and curved counter beneath small pendant lights"}, {"src": "images/rumah-tenggilis-05.webp", "alt": "A blurred figure on the stairs beside a tall patterned window"}, {"src": "images/rumah-tenggilis-06.webp", "alt": "Bedroom with a white bed and a muted green built-in vanity"}]}, "zams-intro": {"title": "Zam’s Intro", "description": "Cycling portraits and equipment details, from a roadside stop to close-ups of the bicycle and its riding setup.", "frames": [{"src": "images/zams-intro-01.webp", "alt": "Cyclist in a green jersey standing behind his bicycle under a tree"}, {"src": "images/zams-intro-02.webp", "alt": "Cyclist eating beside his bicycle at a roadside stop"}, {"src": "images/zams-intro-03.webp", "alt": "Portrait of the cyclist in a helmet and red glasses"}, {"src": "images/zams-intro-04.webp", "alt": "Bicycle chainring, crank, and bottle on the frame"}, {"src": "images/zams-intro-05.webp", "alt": "Close-up of the frame bag and water bottle inside the bicycle frame"}, {"src": "images/zams-intro-06.webp", "alt": "Black saddle pack fastened beneath the bicycle seat"}, {"src": "images/zams-intro-07.webp", "alt": "Handlebars and a mounted cycling computer"}], "source": null}, "novam-erina": {"title": "Novam Erina", "description": "Couple portraits, family photographs, and candid moments from a celebration.", "frames": [{"src": "images/novam-erina-01.webp", "alt": "The couple in white seated in front of tall red curtains"}, {"src": "images/novam-erina-02.webp", "alt": "The couple looking up beside a wall of timber shelves"}, {"src": "images/novam-erina-03.webp", "alt": "Guests around a table in a room with framed art"}, {"src": "images/novam-erina-04.webp", "alt": "The couple smiling among guests at the celebration"}, {"src": "images/novam-erina-05.webp", "alt": "Guests seated around a table beside a large window"}, {"src": "images/novam-erina-06.webp", "alt": "Three guests posing with hand hearts by the entrance"}, {"src": "images/novam-erina-07.webp", "alt": "Family and friends gathered for a group portrait outside the venue"}], "source": null}}</script>
 <script>
 const albums = JSON.parse(document.querySelector('#photo-series').textContent)
 const series = [...document.querySelectorAll('.album')]
@@ -321,6 +321,11 @@ const filters = document.querySelector('.filters')
 const dialog = document.querySelector('dialog')
 const title = dialog.querySelector('#viewer-title')
 const description = dialog.querySelector('#viewer-description')
+const albumGrid = dialog.querySelector('.album-grid')
+const detail = dialog.querySelector('.viewer-photo-window')
+const footer = dialog.querySelector('.viewer-bottom')
+const controls = dialog.querySelector('.viewer-controls')
+const back = dialog.querySelector('.back-to-grid')
 const photo = dialog.querySelector('.viewer-image')
 const count = dialog.querySelector('#frame-count')
 const previous = dialog.querySelector('#previous')
@@ -329,6 +334,8 @@ const original = dialog.querySelector('#original')
 let activeAlbum
 let frame = 0
 let opener
+let openedTile
+let gridScroll = 0
 
 filters.hidden = false
 filters.addEventListener('click', event => {
@@ -357,36 +364,73 @@ function fitPhotograph(image) {
   const [left, top, right, bottom] = bounds?.insets || [0, 0, 0, 0]
   const cropWidth = width - left - right
   const cropHeight = height - top - bottom
-  const window = image.parentElement
-  const windowWidth = window.clientWidth
-  const windowHeight = window.clientHeight
+  const photoWindow = image.parentElement
+  const windowWidth = photoWindow.clientWidth
+  const windowHeight = photoWindow.clientHeight
   if (!windowWidth || !windowHeight) return
-  const scale = image.classList.contains('viewer-image')
-    ? Math.min(windowWidth / cropWidth, windowHeight / cropHeight)
-    : Math.max(windowWidth / cropWidth, windowHeight / cropHeight)
+  const hero = image.closest('.hero-image')
+  const scale = hero
+    ? Math.max(windowWidth / cropWidth, windowHeight / cropHeight)
+    : Math.min(windowWidth / cropWidth, windowHeight / cropHeight)
   image.style.width = width * scale + 'px'
   image.style.height = height * scale + 'px'
   image.style.left = ((windowWidth - cropWidth * scale) / 2 - left * scale) + 'px'
-  const verticalAlignment = image.closest('.hero-image') ? 0.61 : 0.5
+  const verticalAlignment = hero ? 0.61 : 0.5
   image.style.top = ((windowHeight - cropHeight * scale) * verticalAlignment - top * scale) + 'px'
   // Clip the source border even when the viewer leaves space around a portrait.
   image.style.clipPath = 'inset(' + [top, right, bottom, left].map(value => value * scale + 'px').join(' ') + ')'
 }
-const photographWindows = [...document.querySelectorAll('.photo-window')]
-for (const window of photographWindows) {
-  const image = window.querySelector('img')
+const photoObserver = 'ResizeObserver' in window
+  ? new ResizeObserver(entries => {
+      for (const entry of entries) fitPhotograph(entry.target.querySelector('img'))
+    })
+  : null
+
+function observePhoto(photoWindow) {
+  const image = photoWindow.querySelector('img')
   image.addEventListener('load', () => fitPhotograph(image))
+  photoObserver?.observe(photoWindow)
   fitPhotograph(image)
 }
-if ('ResizeObserver' in window) {
-  const photoObserver = new ResizeObserver(entries => {
-    for (const entry of entries) fitPhotograph(entry.target.querySelector('img'))
-  })
-  for (const window of photographWindows) photoObserver.observe(window)
-} else {
+document.querySelectorAll('.photo-window').forEach(observePhoto)
+if (!photoObserver) {
   window.addEventListener('resize', () => {
-    for (const window of photographWindows) fitPhotograph(window.querySelector('img'))
+    document.querySelectorAll('.photo-window img').forEach(fitPhotograph)
   })
+}
+
+function updateOriginal(post) {
+  const source = post || activeAlbum.source
+  original.hidden = source === null
+  original.href = source || opener.href
+  original.textContent = !post && activeAlbum.source ? 'View project on Behance ↗' : 'View original post ↗'
+  footer.hidden = controls.hidden && original.hidden
+}
+
+function showAlbumGrid() {
+  albumGrid.hidden = false
+  detail.hidden = true
+  controls.hidden = true
+  updateOriginal()
+}
+
+function renderAlbumGrid() {
+  for (const tile of albumGrid.children) photoObserver?.unobserve(tile)
+  const tiles = activeAlbum.frames.map((image, index) => {
+    const tile = document.createElement('button')
+    tile.type = 'button'
+    tile.className = 'photo-window'
+    tile.dataset.frame = index
+    tile.setAttribute('aria-label', `View photo ${index + 1} of ${activeAlbum.frames.length}. ${image.alt}`)
+    const thumbnail = document.createElement('img')
+    thumbnail.alt = ''
+    thumbnail.loading = 'lazy'
+    thumbnail.decoding = 'async'
+    thumbnail.src = image.src
+    tile.append(thumbnail)
+    return tile
+  })
+  albumGrid.replaceChildren(...tiles)
 }
 
 function showFrame(index) {
@@ -395,7 +439,7 @@ function showFrame(index) {
   const image = activeAlbum.frames[frame]
   photo.alt = image.alt
   photo.src = image.src
-  original.href = image.post || activeAlbum.source || opener.href
+  updateOriginal(image.post)
   fitPhotograph(photo)
   count.textContent = (frame + 1) + ' / ' + activeAlbum.frames.length
   previous.disabled = frame === 0
@@ -410,18 +454,44 @@ for (const item of series) {
     activeAlbum = albums[link.dataset.album]
     title.textContent = activeAlbum.title
     description.textContent = activeAlbum.description
-    original.hidden = activeAlbum.source === null
-    original.textContent = activeAlbum.source ? 'View project on Behance ↗' : 'View original post ↗'
-    showFrame(0)
+    renderAlbumGrid()
+    showAlbumGrid()
     dialog.showModal()
-    fitPhotograph(photo)
+    dialog.scrollTop = 0
+    Array.from(albumGrid.children).forEach(observePhoto)
   })
 }
+
+albumGrid.addEventListener('click', event => {
+  const tile = event.target.closest('[data-frame]')
+  if (!tile) return
+  openedTile = tile
+  gridScroll = dialog.scrollTop
+  albumGrid.hidden = true
+  detail.hidden = false
+  controls.hidden = false
+  showFrame(Number(tile.dataset.frame))
+  dialog.scrollTop = 0
+  back.focus({preventScroll:true})
+})
+
+function returnToGrid() {
+  showAlbumGrid()
+  albumGrid.querySelectorAll('img').forEach(fitPhotograph)
+  dialog.scrollTop = gridScroll
+  openedTile?.focus({preventScroll:true})
+}
+back.addEventListener('click', returnToGrid)
 dialog.querySelector('.close').addEventListener('click', () => dialog.close())
 previous.addEventListener('click', () => showFrame(frame - 1))
 next.addEventListener('click', () => showFrame(frame + 1))
+dialog.addEventListener('cancel', event => {
+  if (detail.hidden) return
+  event.preventDefault()
+  returnToGrid()
+})
 dialog.addEventListener('keydown', event => {
-  if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
+  if (!detail.hidden && (event.key === 'ArrowLeft' || event.key === 'ArrowRight')) {
     event.preventDefault()
     showFrame(frame + (event.key === 'ArrowLeft' ? -1 : 1))
   }
