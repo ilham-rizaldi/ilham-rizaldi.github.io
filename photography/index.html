@@ -33,14 +33,23 @@ img{display:block;max-width:100%}
 .masthead nav{display:flex;gap:clamp(10px,3vw,34px);font-size:13px}
 .masthead a,.footer a{display:inline-flex;align-items:center;min-height:44px}
 .masthead a:hover,.footer a:hover,.under:hover{color:var(--accent)}
-.hero{display:grid;grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);align-items:center;gap:clamp(26px,4vw,68px);padding-block:clamp(24px,4vw,68px)}
-.hero h1{font:400 clamp(46px,6.65vw,105px)/.9 var(--display);letter-spacing:-.073em;margin-block:26px}
+.hero-collage{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:16/9;background:#fff}
+.hero-collage .photo-window{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);z-index:var(--layer,0);background:#fff}
+.hero-collage img{inset:0;width:100%;height:100%;object-fit:cover;object-position:center var(--focus,50%)}
+.hero-left{--x:0%;--y:10.7%;--w:28.25%;--h:74%;--layer:2;--focus:58%}
+.hero-upper{--x:27%;--y:1.7%;--w:26.5%;--h:59%;--layer:3;--focus:67%}
+.hero-lower{--x:20.9%;--y:58%;--w:30.1%;--h:47%;--layer:1;--focus:70%}
+.hero-center{--x:48%;--y:14.9%;--w:34%;--h:76%;--layer:4;--focus:58%}
+.hero-right{--x:75.7%;--y:8.5%;--w:24.3%;--h:68%;--layer:2;--focus:62%}
+.hero-detail{--x:75.7%;--y:74%;--w:24.3%;--h:31%;--layer:1;--focus:78%}
+.hero-intro{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px 36px;padding-block:clamp(28px,4vw,62px)}
+.hero h1{font:400 clamp(46px,6.65vw,105px)/.9 var(--display);letter-spacing:-.073em;margin-top:12px}
 .hero h1 em{font-weight:400}
 .intro{max-width:32ch;color:var(--mute);font-size:clamp(14px,1.25vw,18px)}
 .under{display:inline-flex;align-items:center;gap:18px;min-height:44px;border-bottom:1px solid var(--line);font-size:14px}
 .hero .under{margin-top:18px}
-.hero-image img{width:100%;height:clamp(440px,43vw,690px);object-fit:cover;object-position:center 61%;background:#35362f}
-.hero-image figcaption{display:flex;gap:12px;justify-content:space-between;padding-top:12px}
+.hero-source{display:flex;align-items:baseline;gap:8px;width:fit-content;margin-top:16px}
+.hero-source:hover{color:var(--accent)}
 .collection{padding-top:clamp(38px,7vw,100px);border-top:1px solid var(--line)}
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:26px}
 h2{font:400 clamp(44px,7vw,100px)/.95 var(--display);letter-spacing:-.065em}
@@ -85,11 +94,14 @@ body:has(dialog[open]){overflow:hidden}
 .viewer-bottom a{font-size:13px;text-decoration:underline;text-underline-offset:4px;padding-block:10px}
 @media(max-width:760px){
  .masthead{min-height:62px}
- .hero{grid-template-columns:1fr}
- .hero h1{font-size:clamp(44px,11vw,78px);margin-block:16px}
- .hero h1 br{display:none}
- .hero-image img{height:clamp(320px,105vw,560px)}
- .hero-image figcaption{font-size:10px}
+ .hero-collage{aspect-ratio:4/5}
+ .hero-left{--y:8%;--w:37%;--h:45%}
+ .hero-upper{--x:31%;--w:39%;--h:30%}
+ .hero-center{--x:25%;--y:29%;--w:59%;--h:51%}
+ .hero-right{--x:67%;--y:13%;--w:33%;--h:43%}
+ .hero-lower{--x:8%;--y:63%;--w:46%;--h:37%;--focus:65%}
+ .hero-detail{--x:66%;--y:72%;--w:34%;--h:28%}
+ .hero h1{font-size:clamp(39px,10vw,76px)}
  .contact{grid-template-columns:1fr}
 }
 @media(max-width:480px){
@@ -101,11 +113,7 @@ body:has(dialog[open]){overflow:hidden}
 /* Hide embedded white frames at every display size. */
 .photo-window{display:block;position:relative;overflow:hidden}
 .photo-window img{position:absolute;max-width:none;aspect-ratio:auto}
-.hero-image .photo-window{width:100%;height:clamp(440px,43vw,690px)}
 .viewer-photo-window{width:100%;height:min(68vh,720px);background:#111}
-@media(max-width:760px){
-.hero-image .photo-window{height:clamp(320px,105vw,560px)}
-}
 @media(max-width:480px){.viewer-photo-window{height:min(59dvh,570px)}}
 </style>
 </head>
@@ -115,19 +123,29 @@ body:has(dialog[open]){overflow:hidden}
 <a class="wordmark" href="./" aria-label="Rie Actn photography home">RIE ACTN</a>
 <nav aria-label="Photography navigation"><a href="#work">Photo series</a><a href="#contact">Contact</a></nav>
 </div></header>
-<main class="wrap">
+<main>
 <section class="hero" aria-labelledby="page-title">
+<figure class="hero-collage" aria-label="Ardiles Running: Gerbera Cross Jumper campaign in Bromo">
+<div class="photo-window hero-left"><img src="images/DSCi3ZQD7em-0.webp" width="1200" height="1600" alt="Two runners standing on dark volcanic rock against a blue sky" decoding="async"></div>
+<div class="photo-window hero-upper"><img src="images/DSCi3ZQD7em-1.webp" width="1200" height="1600" alt="Close-up of a green trail shoe landing on volcanic rock" decoding="async"></div>
+<div class="photo-window hero-lower"><img src="images/DSCi3ZQD7em-2.webp" width="1081" height="1440" data-insets="17 17 17 18" alt="Two runners climbing a rocky slope, seen from below" decoding="async"></div>
+<div class="photo-window hero-center"><img src="images/DSAIjuvjxuE-2.webp" width="1201" height="1600" alt="Two runners moving together across Bromo’s rocky terrain" fetchpriority="high" decoding="async"></div>
+<div class="photo-window hero-right"><img src="images/DSAIjuvjxuE-0.webp" width="1200" height="1600" alt="Two runners ascending a pale volcanic ridge" decoding="async"></div>
+<div class="photo-window hero-detail"><img src="images/DSCi3ZQD7em-3.webp" width="1081" height="1440" data-insets="18 17 17 18" alt="Close-up of a cream and yellow trail shoe on volcanic rock" decoding="async"></div>
+</figure>
+<div class="wrap hero-intro">
 <div>
 <p class="label">Ilham Rizaldi</p>
-<h1 id="page-title">Photography<br> <em>portfolio</em></h1>
+<h1 id="page-title">Photography <em>portfolio</em></h1>
+</div>
+<div>
 <p class="intro">Sports and events, architecture and interiors, portraits, products, and food.</p>
 <a class="under" href="#work">Explore the photo series <span aria-hidden="true">↓</span></a>
+<a class="label hero-source" href="#gerbera-cross-jumper"><span>Ardiles Running: Gerbera Cross Jumper</span><span aria-hidden="true">↗</span></a>
 </div>
-<figure class="hero-image">
-<div class="photo-window"><img src="images/DSCi3ZQD7em-0.webp" width="1200" height="1600" fetchpriority="high" alt="Two runners framed against the volcanic landscape in Bromo"></div>
-<figcaption class="label"><span>Ardiles Running: Gerbera Cross Jumper</span><span>Bromo</span></figcaption>
-</figure>
+</div>
 </section>
+<div class="wrap">
 <section class="collection" id="work" aria-labelledby="work-title">
 <div class="section-head"><div><p class="label">Rie Actn / Photography</p><h2 id="work-title">Photo series</h2></div><p class="label" id="series-count" role="status">41 series</p></div>
 <div class="filters" aria-label="Filter photo series" hidden>
@@ -398,6 +416,7 @@ body:has(dialog[open]){overflow:hidden}
 <a class="under" href="mailto:contact.ilhamrizaldi@gmail.com?subject=Photography%20inquiry">Email Ilham about a shoot <span aria-hidden="true">↗</span></a></div>
 </section>
 <footer class="footer"><span>Ilham Rizaldi / Rie Actn</span><nav aria-label="Elsewhere"><a href="https://www.instagram.com/rie.actn/">Rie Actn on Instagram ↗</a><a href="https://www.instagram.com/rie.architecture/">Architecture on Instagram ↗</a><a href="https://www.behance.net/ilhamrizaldi">Behance ↗</a><a href="../">Marketing portfolio ↗</a></nav></footer>
+</div>
 </main>
 <dialog aria-labelledby="viewer-title">
 <div class="viewer-top"><div><h2 id="viewer-title"></h2><p id="viewer-description"></p></div><button class="close" type="button" aria-label="Close gallery" autofocus>✕</button></div>
@@ -453,21 +472,23 @@ function fitPhotograph(image) {
   if (!bounds && !image.naturalWidth) return
   const width = bounds?.width || image.naturalWidth
   const height = bounds?.height || image.naturalHeight
-  const [left, top, right, bottom] = bounds?.insets || [0, 0, 0, 0]
+  const insets = image.dataset.insets?.split(' ').map(Number) || bounds?.insets || [0, 0, 0, 0]
+  const [left, top, right, bottom] = insets
   const cropWidth = width - left - right
   const cropHeight = height - top - bottom
   const photoWindow = image.parentElement
   const windowWidth = photoWindow.clientWidth
   const windowHeight = photoWindow.clientHeight
   if (!windowWidth || !windowHeight) return
-  const hero = image.closest('.hero-image')
+  const hero = image.closest('.hero-collage')
   const scale = hero
     ? Math.max(windowWidth / cropWidth, windowHeight / cropHeight)
     : Math.min(windowWidth / cropWidth, windowHeight / cropHeight)
   image.style.width = width * scale + 'px'
   image.style.height = height * scale + 'px'
   image.style.left = ((windowWidth - cropWidth * scale) / 2 - left * scale) + 'px'
-  const verticalAlignment = hero ? 0.61 : 0.5
+  const focus = hero ? parseFloat(getComputedStyle(photoWindow).getPropertyValue('--focus')) : 50
+  const verticalAlignment = Number.isFinite(focus) ? focus / 100 : 0.5
   image.style.top = ((windowHeight - cropHeight * scale) * verticalAlignment - top * scale) + 'px'
   // Clip the source border even when the viewer leaves space around a portrait.
   image.style.clipPath = 'inset(' + [top, right, bottom, left].map(value => value * scale + 'px').join(' ') + ')'
