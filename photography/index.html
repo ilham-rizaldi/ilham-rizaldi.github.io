@@ -33,11 +33,11 @@ img{display:block;max-width:100%}
 .masthead nav{display:flex;gap:clamp(10px,3vw,34px);font-size:13px}
 .masthead a,.footer a{display:inline-flex;align-items:center;min-height:44px}
 .masthead a:hover,.footer a:hover,.under:hover{color:var(--accent)}
-.hero-collage{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:16/9;background:#fff}
-.hero-collage .photo-window{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);z-index:var(--layer,0);background:#fff}
+.hero-collage{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:16/9;background:var(--bg)}
+.hero-collage .photo-window{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);z-index:var(--layer,0);background:var(--bg)}
 .hero-collage img{inset:0;width:100%;height:100%;object-fit:cover;object-position:center var(--focus,50%)}
 .hero-left{--x:0%;--y:10.7%;--w:28.25%;--h:74%;--layer:2;--focus:58%}
-.hero-upper{--x:27%;--y:1.7%;--w:26.5%;--h:59%;--layer:3;--focus:67%}
+.hero-upper{--x:27%;--y:1.7%;--w:26.5%;--h:59%;--layer:3;--focus:40%}
 .hero-lower{--x:20.9%;--y:58%;--w:30.1%;--h:47%;--layer:1;--focus:70%}
 .hero-center{--x:48%;--y:14.9%;--w:34%;--h:76%;--layer:4;--focus:58%}
 .hero-right{--x:75.7%;--y:8.5%;--w:24.3%;--h:68%;--layer:2;--focus:62%}
@@ -125,12 +125,12 @@ body:has(dialog[open]){overflow:hidden}
 </div></header>
 <main>
 <section class="hero" aria-labelledby="page-title">
-<figure class="hero-collage" aria-label="Ardiles Running: Gerbera Cross Jumper campaign in Bromo">
-<div class="photo-window hero-left"><img src="images/DSCi3ZQD7em-0.webp" width="1200" height="1600" alt="Two runners standing on dark volcanic rock against a blue sky" decoding="async"></div>
-<div class="photo-window hero-upper"><img src="images/DSCi3ZQD7em-1.webp" width="1200" height="1600" alt="Close-up of a green trail shoe landing on volcanic rock" decoding="async"></div>
-<div class="photo-window hero-lower"><img src="images/DSCi3ZQD7em-2.webp" width="1081" height="1440" data-insets="17 17 17 18" alt="Two runners climbing a rocky slope, seen from below" decoding="async"></div>
+<figure class="hero-collage" aria-label="Selected running, architecture, cycling, and product photographs by Ilham Rizaldi">
+<div class="photo-window hero-left"><img src="images/dika-avian-z-19.webp" width="1440" height="1920" alt="Dika Avian Z with his white bicycle in front of a graffiti wall" decoding="async"></div>
+<div class="photo-window hero-upper"><img src="images/iconnect-sunrise-mall-mojokerto-01.webp" width="1200" height="1600" alt="Timber-framed entrance and display tables at iConnect Sunrise Mall Mojokerto" decoding="async"></div>
+<div class="photo-window hero-lower"><img src="images/ranu-manduro-01.webp" width="1600" height="1060" alt="Hadi Tombro riding a red bicycle through grass near grazing cattle at Ranu Manduro" decoding="async"></div>
 <div class="photo-window hero-center"><img src="images/DSAIjuvjxuE-2.webp" width="1201" height="1600" alt="Two runners moving together across Bromo’s rocky terrain" fetchpriority="high" decoding="async"></div>
-<div class="photo-window hero-right"><img src="images/DSAIjuvjxuE-0.webp" width="1200" height="1600" alt="Two runners ascending a pale volcanic ridge" decoding="async"></div>
+<div class="photo-window hero-right"><img src="images/he-ji-02-hd.webp" width="1920" height="1920" alt="He-ji skincare jars and dropper bottles arranged on a pink set" decoding="async"></div>
 <div class="photo-window hero-detail"><img src="images/DSCi3ZQD7em-3.webp" width="1081" height="1440" data-insets="18 17 17 18" alt="Close-up of a cream and yellow trail shoe on volcanic rock" decoding="async"></div>
 </figure>
 <div class="wrap hero-intro">
@@ -141,7 +141,7 @@ body:has(dialog[open]){overflow:hidden}
 <div>
 <p class="intro">Sports and events, architecture and interiors, portraits, products, and food.</p>
 <a class="under" href="#work">Explore the photo series <span aria-hidden="true">↓</span></a>
-<a class="label hero-source" href="#gerbera-cross-jumper"><span>Ardiles Running: Gerbera Cross Jumper</span><span aria-hidden="true">↗</span></a>
+<a class="label hero-source" href="#gerbera-cross-jumper"><span>Center photo: Gerbera Cross Jumper</span><span aria-hidden="true">↗</span></a>
 </div>
 </div>
 </section>
