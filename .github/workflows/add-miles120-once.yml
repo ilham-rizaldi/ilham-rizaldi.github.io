@@ -15,6 +15,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
+          PYTHONUNBUFFERED: '1'
         shell: python
         run: |
           import base64, json, os, re, time
@@ -35,38 +36,38 @@ jobs:
           original = base64.b64decode(blob['content']).decode('utf-8')
           link = 'https://www.instagram.com/miles120_/'
           line_offsets = [0] + [m.end() for m in re.finditer('\n', original)]
-          class Divs(HTMLParser):
+          class Containers(HTMLParser):
               def __init__(self):
                   super().__init__(convert_charrefs=False)
-                  self.stack = []
+                  self.stacks = {'div': [], 'article': []}
                   self.nodes = []
               def absolute_position(self):
                   line, column = self.getpos()
                   return line_offsets[line-1] + column
               def handle_starttag(self, tag, attrs):
-                  if tag == 'div':
-                      self.stack.append({'start': self.absolute_position(), 'classes': dict(attrs).get('class', '').split()})
+                  if tag in self.stacks:
+                      self.stacks[tag].append({'tag': tag, 'start': self.absolute_position(), 'classes': dict(attrs).get('class', '').split()})
               def handle_startendtag(self, tag, attrs):
                   pass
               def handle_endtag(self, tag):
-                  if tag == 'div' and self.stack:
-                      node = self.stack.pop()
+                  if tag in self.stacks and self.stacks[tag]:
+                      node = self.stacks[tag].pop()
                       node['close'] = self.absolute_position()
                       self.nodes.append(node)
-          parser = Divs()
+          parser = Containers()
           parser.feed(original)
-          groups = [g for g in parser.nodes if 'collab-group' in g['classes'] and 'Runner collaboration' in original[g['start']:g['close']]]
-          assert len(groups) == 1, 'Expected exactly one Runner collaboration group; no edit made.'
+          groups = [g for g in parser.nodes if g['tag'] == 'article' and 'collab-group' in g['classes'] and '<h4>Runner collaboration</h4>' in original[g['start']:g['close']]]
+          assert len(groups) == 1, 'Expected exactly one Runner collaboration article; no edit made.'
           group = groups[0]
-          lists = [n for n in parser.nodes if 'collab-list' in n['classes'] and group['start'] < n['start'] < n['close'] < group['close']]
-          assert len(lists) == 1, 'Expected one collaboration list inside the runner group; no edit made.'
+          lists = [n for n in parser.nodes if n['tag'] == 'div' and 'collab-list' in n['classes'] and group['start'] < n['start'] < n['close'] < group['close']]
+          assert len(lists) == 1, 'Expected one collaboration list inside the runner article; no edit made.'
           target = lists[0]
           existing = original[target['start']:target['close']]
           assert 'Rameshiano' in existing and 'Okin' in existing, 'Expected the existing Okin entry; no edit made.'
           assert 'class="collab-row"' in existing and 'collab-copy' in existing
-          print('TARGET_VERIFIED=Runner collaboration / collab-list / existing Okin entry')
+          print('TARGET_VERIFIED=article.collab-group / Runner collaboration / div.collab-list')
           addition = '''
-                  <a class="collab-row" id="runner-miles120" href="https://www.instagram.com/miles120_/" target="_blank" rel="noopener noreferrer"><span class="kol-avatar" aria-hidden="true" style="display:flex;align-items:center;justify-content:center;background:var(--soft);color:var(--ink);font-size:11px;font-weight:600">M120</span><span class="collab-copy"><span class="collab-name">Miles120</span><span class="collab-note">@miles120_</span></span></a>
+                  <a class="collab-row" id="runner-miles120" href="https://www.instagram.com/miles120_/" target="_blank" rel="noopener noreferrer"><span class="kol-avatar" aria-hidden="true" style="display:flex;align-items:center;justify-content:center;width:40px;height:40px;background:var(--soft);color:var(--ink);font-size:11px;font-weight:600">M120</span><span class="collab-copy"><span class="collab-name">Miles120</span><span class="collab-note">@miles120_</span></span></a>
                 '''
           if link in existing:
               assert 'id="runner-miles120"' in existing
