@@ -1,0 +1,19 @@
+/* Shared screen palette and typography for both portfolios. */
+@media screen {
+  :root {
+    --bg: #0b0b0b;
+    --panel: #131313;
+    --panel2: #1d1d1d;
+    --ink: #eeede9;
+    --muted: #bdbcb8;
+    --dim: #a3a29e;
+    --line: #424242;
+    --lime: #deded8;
+    --paper: #e7e6e0;
+    --max: 1496px;
+    --pad: clamp(18px, 3.6vw, 58px);
+    --section-space: clamp(64px, 8vw, 124px);
+    --display: Inter, "Helvetica Neue", Arial, sans-serif;
+    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
+  }
+}

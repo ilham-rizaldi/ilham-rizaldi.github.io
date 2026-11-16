@@ -1,22 +1,5 @@
 /* Monochrome portfolio. The archive and case-study components retain their existing behavior. */
 @media screen {
-  :root {
-    --bg: #0b0b0b;
-    --panel: #131313;
-    --panel2: #1d1d1d;
-    --ink: #eeede9;
-    --muted: #bdbcb8;
-    --dim: #a3a29e;
-    --line: #424242;
-    --lime: #deded8;
-    --paper: #e7e6e0;
-    --max: 1496px;
-    --pad: clamp(18px, 3.6vw, 58px);
-    --section-space: clamp(64px, 8vw, 124px);
-    --display: Inter, "Helvetica Neue", Arial, sans-serif;
-    --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, monospace;
-  }
-
   body { background: var(--bg); color: var(--ink); }
   .topbar { background: var(--bg); border-bottom: 1px solid var(--line); }
   .nav-in { min-height: 62px; }
@@ -278,6 +261,37 @@
   .contact .btn { background: var(--paper); color: var(--bg); border-color: var(--paper); }
   .contact .btn:hover { color: var(--bg) !important; background: #fff; }
   .contact .contact-links, .contact .footer { border-color: var(--line); }
+
+  /* Carry the page styling through opened cases and supporting evidence. */
+  .archive-disclosure > summary:hover, .portfolio-context > summary:hover { background: var(--panel2); }
+  .archive-description, .case-eyebrow, .case-number, .case-body dt, .program-kind,
+  .project-ref-count, .project-metric-label, .strategy-category {
+    font-family: var(--mono);
+    letter-spacing: .055em;
+  }
+  .case[open] > .case-body, .case-featured .case-body {
+    padding: clamp(20px, 3.5vw, 49px);
+    border-top: 1px solid var(--line);
+    background: var(--panel);
+  }
+  .case-body dd { max-width: 72ch; }
+  .case-preview h3, .project-archive-heading h3 {
+    font-weight: 550;
+    letter-spacing: -.045em;
+  }
+  .archive-disclosure, .portfolio-context { border: 1px solid var(--line); }
+  .case-media.project-cover, .post-preview, .program-media { background: var(--bg); }
+  .case-number, .post-preview .preview-kind { background: #0b0b0be6; border-color: var(--line); }
+  .project-cover .media-unavailable, .post-preview .preview-unavailable,
+  .post-preview-document { background: var(--panel2); }
+  .cover-plan { color: var(--bg); }
+  .cover-plan .cover-lines, .cover-kicker { color: #424242; }
+  .type-art { color: var(--bg); }
+  .type-art .type-footer, .type-art.dark .type-footer,
+  .type-art.performance-art .type-footer, .type-art.hardcore-art .type-footer { border-color: var(--line); }
+  .type-art.dark, .type-art.performance-art, .type-art.hardcore-art,
+  .collab-art, .spotlight-art { background: var(--panel2); color: var(--ink); }
+  .copy-status { color: var(--muted); }
 
   @media (max-width: 1120px) {
     .selected-card { grid-column: span 6; }
