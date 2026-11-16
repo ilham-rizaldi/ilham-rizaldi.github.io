@@ -32,7 +32,7 @@ img{display:block;max-width:100%}
 .wordmark{font-weight:700;letter-spacing:.12em;font-size:14px}
 .masthead nav{display:flex;gap:clamp(10px,3vw,34px);font-size:13px}
 .masthead a,.footer a{display:inline-flex;align-items:center;min-height:44px}
-.masthead a:hover,.footer a:hover,.under:hover{color:var(--accent)}
+.masthead a:hover,.masthead a[aria-current=page],.footer a:hover,.under:hover{color:var(--accent)}
 .hero-collage{position:relative;isolation:isolate;overflow:hidden;aspect-ratio:16/9;background:var(--bg)}
 .hero-collage .photo-window{position:absolute;left:var(--x);top:var(--y);width:var(--w);height:var(--h);z-index:var(--layer,0);background:var(--bg)}
 .hero-collage img{inset:0;width:100%;height:100%;object-fit:cover;object-position:center var(--focus,50%)}
@@ -52,8 +52,8 @@ img{display:block;max-width:100%}
 .hero-source:hover{color:var(--accent)}
 .collection{padding-top:clamp(38px,7vw,100px);border-top:1px solid var(--line)}
 .section-head{display:flex;align-items:end;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-bottom:26px}
-h2{font:400 clamp(44px,7vw,100px)/.95 var(--display);letter-spacing:-.065em}
-.section-head h2{margin-top:12px}
+h2,.section-head h1{font:400 clamp(44px,7vw,100px)/.95 var(--display);letter-spacing:-.065em}
+.section-head h1,.section-head h2{margin-top:12px}
 .filters{display:flex;gap:8px;flex-wrap:wrap;padding-block:14px 20px;border-top:1px solid var(--line)}
 .filters button{border:1px solid var(--line);background:transparent;padding:6px 14px;min-height:44px;font-size:13px}
 .filters button[aria-pressed=true]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
@@ -121,7 +121,7 @@ body:has(dialog[open]){overflow:hidden}
 <a class="skip" href="#work">Skip to photo series</a>
 <header class="wrap"><div class="masthead">
 <a class="wordmark" href="./" aria-label="Rie Actn photography home">RIE ACTN</a>
-<nav aria-label="Photography navigation"><a href="#work">Photo series</a><a href="#contact">Contact</a></nav>
+<nav aria-label="Photography navigation"><a href="?view=sports" id="sports-link">Sports</a><a href="./#work">All work</a><a href="#contact">Contact</a></nav>
 </div></header>
 <main>
 <section class="hero" aria-labelledby="page-title">
@@ -147,7 +147,7 @@ body:has(dialog[open]){overflow:hidden}
 </section>
 <div class="wrap">
 <section class="collection" id="work" aria-labelledby="work-title">
-<div class="section-head"><div><p class="label">Rie Actn / Photography</p><h2 id="work-title">Photo series</h2></div><p class="label" id="series-count" role="status">44 series</p></div>
+<div class="section-head"><div><p class="label">Rie Actn / Photography</p><h2 id="work-title">Photo series</h2><h1 id="sports-title" hidden>Sports photography</h1></div><p class="label" id="series-count" role="status">44 series</p></div>
 <div class="filters" aria-label="Filter photo series" hidden>
 <button type="button" aria-pressed="true" data-filter="all">All work</button>
 <button type="button" aria-pressed="false" data-filter="campaign">Campaigns &amp; teams</button>
@@ -447,6 +447,10 @@ body:has(dialog[open]){overflow:hidden}
 const albums = JSON.parse(document.querySelector('#photo-series').textContent)
 const series = [...document.querySelectorAll('.album')]
 const filters = document.querySelector('.filters')
+const filterButtons = [...filters.querySelectorAll('[data-filter]')]
+const seriesCount = document.querySelector('#series-count')
+const sportsView = new URLSearchParams(location.search).get('view') === 'sports'
+const sportsCategories = new Set(['campaign', 'basketball', 'running', 'cycling'])
 const dialog = document.querySelector('dialog')
 const title = dialog.querySelector('#viewer-title')
 const description = dialog.querySelector('#viewer-description')
@@ -466,20 +470,41 @@ let opener
 let openedTile
 let gridScroll = 0
 
+function filterSeries(category) {
+  let visible = 0
+  for (const item of series) {
+    const itemCategory = item.dataset.category
+    const inView = !sportsView || sportsCategories.has(itemCategory)
+    item.hidden = !inView || (category !== 'all' && itemCategory !== category)
+    if (!item.hidden) visible++
+  }
+  for (const button of filterButtons) {
+    button.setAttribute('aria-pressed', String(button.dataset.filter === category))
+  }
+  seriesCount.textContent = visible + ' series'
+}
+
+if (sportsView) {
+  document.title = 'Sports Photography | Rie Actn'
+  document.querySelector('.hero').hidden = true
+  document.querySelector('#work-title').hidden = true
+  document.querySelector('#sports-title').hidden = false
+  document.querySelector('#work').setAttribute('aria-labelledby', 'sports-title')
+  document.querySelector('#sports-link').setAttribute('aria-current', 'page')
+  filters.setAttribute('aria-label', 'Filter sports photography')
+  for (const button of filterButtons) {
+    const category = button.dataset.filter
+    button.hidden = category !== 'all' && !sportsCategories.has(category)
+  }
+  filters.querySelector('[data-filter="all"]').textContent = 'All sports'
+  filters.querySelector('[data-filter="campaign"]').textContent = 'Sports campaigns & teams'
+  filterSeries('all')
+}
+
 filters.hidden = false
 filters.addEventListener('click', event => {
   const button = event.target.closest('[data-filter]')
-  if (!button) return
-  const category = button.dataset.filter
-  let visible = 0
-  for (const item of series) {
-    item.hidden = category !== 'all' && item.dataset.category !== category
-    if (!item.hidden) visible++
-  }
-  for (const item of filters.querySelectorAll('button')) {
-    item.setAttribute('aria-pressed', String(item === button))
-  }
-  document.querySelector('#series-count').textContent = visible + ' series'
+  if (button && !button.hidden) filterSeries(button.dataset.filter)
 })
 
 
