@@ -40,8 +40,46 @@
   .has-portfolio-reader :is(.case,.program-story,.strategy-case,#project-archive,#portfolio-context) > summary:hover {
     background: var(--panel2);
   }
-  .has-portfolio-reader #project-archive > summary { border-radius: 14px; }
-  .has-portfolio-reader #project-archive { border-radius: 14px; }
+  #project-archive, #project-archive > summary { border-radius: 14px; }
+  #project-archive > summary {
+    gap: clamp(13px, 2vw, 24px);
+    padding: clamp(17px, 3vw, 31px);
+  }
+  #project-archive .label {
+    margin: 0 0 7px;
+    font: 500 12px/1.45 var(--mono);
+  }
+  #project-archive h3 {
+    margin: 0;
+    font: 550 clamp(23px, 3vw, 32px)/1.2 var(--display);
+    letter-spacing: -.045em;
+  }
+  #project-archive .archive-description {
+    max-width: 56ch;
+    margin: 7px 0 0;
+    color: var(--muted);
+    font: 400 15px/1.55 var(--display);
+    letter-spacing: 0;
+  }
+  #project-archive .archive-open-label {
+    display: inline-flex;
+    align-items: center;
+    flex: 0 0 auto;
+    min-height: 44px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: var(--panel2);
+    color: var(--ink);
+    font: 550 14px/1.35 var(--display);
+  }
+  .portfolio-partnerships .partner-visuals { align-items: start; }
+  .athlete-featured-label {
+    margin: 14px 0 7px;
+    padding-top: 11px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font: 550 12px/1.45 var(--display);
+  }
 
   html.has-portfolio-reader { scrollbar-gutter: stable; }
   html:has(.portfolio-reader[open]) { overflow: hidden; }

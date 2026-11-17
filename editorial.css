@@ -265,7 +265,7 @@
 
   /* Carry the page styling through opened cases and supporting evidence. */
   .archive-disclosure > summary:hover, .portfolio-context > summary:hover { background: var(--panel2); }
-  .archive-description, .case-eyebrow, .case-number, .case-body dt, .program-kind,
+  .case-eyebrow, .case-number, .case-body dt, .program-kind,
   .project-ref-count, .project-metric-label, .strategy-category {
     font-family: var(--mono);
     letter-spacing: .055em;
