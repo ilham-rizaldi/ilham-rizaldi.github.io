@@ -9,7 +9,7 @@
   html { scroll-padding-top: var(--photo-header-offset); }
   body { font: 400 16px/1.6 var(--display); }
   .wrap { width: min(100%, var(--max)); }
-  .label { font: 500 11px/1.5 var(--mono); letter-spacing: .075em; }
+  .label { font: 500 12px/1.45 var(--mono); letter-spacing: .075em; }
   .skip { z-index: 5; }
   .photo-site-header {
     position: sticky;
@@ -171,7 +171,7 @@
     padding: clamp(13px, 1.8vw, 27px);
   }
   .album h3 { font-weight: 550; letter-spacing: -.043em; }
-  .album .category { font: 500 10px/1.5 var(--mono); letter-spacing: .055em; text-transform: uppercase; }
+  .album .category { font: 500 11px/1.45 var(--mono); letter-spacing: .055em; text-transform: uppercase; }
   .album-preview:hover, .album-preview:focus-visible { background: var(--panel2); }
   .album-preview:hover h3 { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .15em; }
   .album-preview:focus-visible { outline-offset: -3px; }

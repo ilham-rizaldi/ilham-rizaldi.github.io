@@ -23,9 +23,6 @@
 <meta name="twitter:description" content="Product launches, campaigns, partnerships, and paid advertising. Selected projects and work experience.">
 <meta name="twitter:image" content="https://ilham-rizaldi.github.io/og.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23c8ff3d'/%3E%3Ctext x='9' y='45' font-family='Arial,sans-serif' font-size='35' font-weight='700' fill='%2310110f'%3EIR%3C/text%3E%3C/svg%3E">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;450;500;550;600;650;700;750;800&display=swap" rel="stylesheet">
 <style>
 [hidden]{display:none!important}
 
@@ -404,9 +401,9 @@ body{overflow-wrap:break-word}.kicker,.label{font-size:12px}.identity-text{font-
 .creator-collaborations{margin:44px 0;scroll-margin-top:100px}.creator-examples{grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))}.creator-examples ul{padding-left:18px;margin:0}.creator-examples li,.creator-collaborations>p{color:var(--muted);font-size:13px;margin:0 0 8px}.creator-examples a,.creator-collaborations>p a{text-decoration:underline;text-underline-offset:.2em;color:var(--ink)}@media print{.creator-collaborations{display:none!important}}.partner-mark-white img{filter:brightness(0) invert(1)}.photo-partners{margin:24px 0 16px}.photo-partners h4{margin:0 0 4px;font-size:14px}.photo-partners p{margin:0;color:var(--muted);font-size:13px}.photo-partner-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr));max-width:780px;margin-top:12px}.partner-mark-taco{isolation:isolate}.partner-mark-taco img{filter:grayscale(1) brightness(.82) contrast(4) invert(1);mix-blend-mode:screen}</style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Ilham Rizaldi","url":"https://ilham-rizaldi.github.io/","worksFor":{"@type":"Organization","name":"Ardiles Performance"},"sameAs":["https://linkedin.com/in/ilhamrizaldi","https://www.instagram.com/riezaldd/","https://riezaldd.my.canva.site/portfolio"]}</script>
 <link rel="stylesheet" href="grid.css?v=20261117-runergize">
-<link rel="stylesheet" href="site-theme.css?v=20261117-portrait">
+<link rel="stylesheet" href="site-theme.css?v=20261117-scan">
 <link rel="stylesheet" href="editorial.css?v=20261117-portrait">
-<link rel="stylesheet" href="portfolio-reading.css?v=20261117-reader">
+<link rel="stylesheet" href="portfolio-reading.css?v=20261117-scan">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a><div class="progress" aria-hidden="true"></div>
@@ -614,9 +611,28 @@ body{overflow-wrap:break-word}.kicker,.label{font-size:12px}.identity-text{font-
       <button type="button" data-reader-close autofocus>Close <span aria-hidden="true">×</span></button>
     </div>
   </header>
-  <div class="portfolio-reader-scroll"></div>
+  <div class="portfolio-reader-scroll">
+    <div class="portfolio-reader-brief" hidden>
+      <dl class="portfolio-brief-top">
+        <div><dt>My role</dt><dd data-brief-role></dd></div>
+        <div><dt data-brief-result-label>Result</dt><dd data-brief-result></dd></div>
+      </dl>
+      <div class="portfolio-brief-steps">
+        <section><h3>Strategy</h3><p data-brief-strategy></p></section>
+        <section><h3>Execution</h3><p data-brief-execution></p></section>
+      </div>
+    </div>
+    <section class="portfolio-reader-evidence" hidden aria-labelledby="reader-evidence-title">
+      <h3 id="reader-evidence-title">Evidence</h3>
+      <details>
+        <summary>View sources and full project notes</summary>
+        <div class="portfolio-reader-source"></div>
+      </details>
+    </section>
+  </div>
 </dialog>
-<script src="portfolio-reader.js?v=20261117-reader"></script>
+<script src="portfolio-briefs.js?v=20261117-scan"></script>
+<script src="portfolio-reader.js?v=20261117-scan"></script>
 <script>
 (() => {
 'use strict';

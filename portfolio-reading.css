@@ -103,6 +103,87 @@
     border: 0;
     background: var(--panel);
   }
+  .portfolio-reader-brief, .portfolio-reader-evidence {
+    max-width: 920px;
+    margin-inline: auto;
+    padding: clamp(17px, 3.2vw, 38px);
+  }
+  .portfolio-reader-brief { padding-bottom: 0; }
+  .portfolio-brief-top {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    margin: 0 0 18px;
+  }
+  .portfolio-brief-top > div {
+    min-width: 0;
+    padding: clamp(13px, 2.2vw, 22px);
+    border: 1px solid var(--line);
+    border-radius: 11px;
+    background: var(--panel2);
+  }
+  .portfolio-brief-top > div:last-child {
+    border-color: color-mix(in srgb, var(--lime) 35%, var(--line));
+  }
+  .portfolio-brief-top dt {
+    color: var(--muted);
+    font: 500 12px/1.45 var(--mono);
+    letter-spacing: .055em;
+    text-transform: uppercase;
+  }
+  .portfolio-brief-top > div:last-child dt { color: var(--lime); }
+  .portfolio-brief-top dd {
+    margin: 6px 0 0;
+    color: var(--ink);
+    font: 550 clamp(15px, 1.7vw, 19px)/1.43 var(--display);
+    letter-spacing: -.015em;
+  }
+  .portfolio-brief-steps {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px 24px;
+  }
+  .portfolio-brief-steps section { padding: 15px 0; border-top: 1px solid var(--line); }
+  .portfolio-brief-steps h3, .portfolio-reader-evidence > h3 {
+    margin: 0 0 5px;
+    color: var(--ink);
+    font: 600 16px/1.35 var(--display);
+  }
+  .portfolio-brief-steps p {
+    max-width: 58ch;
+    margin: 0;
+    color: var(--muted);
+    font: 400 15px/1.6 var(--display);
+  }
+  .portfolio-reader-evidence { padding-top: 0; }
+  .portfolio-reader-evidence > h3 { padding-top: 15px; border-top: 1px solid var(--line); }
+  .portfolio-reader-evidence > details > summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: var(--bg);
+    color: var(--ink);
+    cursor: pointer;
+    font: 500 14px/1.4 var(--display);
+    list-style: none;
+  }
+  .portfolio-reader-evidence > details > summary::-webkit-details-marker { display: none; }
+  .portfolio-reader-evidence > details > summary::after { content: "+"; color: var(--lime); }
+  .portfolio-reader-evidence > details[open] > summary::after { content: "−"; }
+  .portfolio-reader-evidence > details:not([open]) > .portfolio-reader-source { display: none; }
+  .portfolio-reader-source > :is(.case-body,.program-body,.strategy-body) {
+    margin: 0;
+    padding: 18px 0 0;
+    border: 0;
+    background: var(--panel);
+  }
+  .portfolio-reader-scroll :is(.strategy-status,.strategy-module-status,.strategy-story h5,.strategy-delivered h5) {
+    font: 500 12px/1.45 var(--mono);
+  }
   .portfolio-reader-scroll .case-brief dl {
     padding: clamp(14px, 2.2vw, 26px);
     border-radius: 10px;
@@ -130,5 +211,10 @@
     .portfolio-reader-actions button { padding-inline: 8px; }
     .portfolio-reader-header { gap: 10px; }
     .portfolio-reader-scroll > .archive-body { padding-inline: 11px; }
+    .portfolio-brief-top, .portfolio-brief-steps { grid-template-columns: 1fr; }
+    .portfolio-brief-top { gap: 8px; margin-bottom: 10px; }
+    .portfolio-brief-steps { gap: 0; }
+    .portfolio-brief-steps section { padding-block: 12px; }
+    .portfolio-brief-top dd { font-size: 15px; }
   }
 }

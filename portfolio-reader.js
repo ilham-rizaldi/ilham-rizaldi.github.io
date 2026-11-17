@@ -6,6 +6,15 @@ window.initPortfolioReader = function initPortfolioReader() {
   const title = dialog.querySelector('#reader-title');
   const category = dialog.querySelector('.portfolio-reader-category');
   const scroller = dialog.querySelector('.portfolio-reader-scroll');
+  const brief = dialog.querySelector('.portfolio-reader-brief');
+  const evidence = dialog.querySelector('.portfolio-reader-evidence');
+  const evidenceDisclosure = evidence.querySelector('details');
+  const source = evidence.querySelector('.portfolio-reader-source');
+  const role = brief.querySelector('[data-brief-role]');
+  const resultLabel = brief.querySelector('[data-brief-result-label]');
+  const result = brief.querySelector('[data-brief-result]');
+  const strategy = brief.querySelector('[data-brief-strategy]');
+  const execution = brief.querySelector('[data-brief-execution]');
   const closeButton = dialog.querySelector('[data-reader-close]');
   const backButton = dialog.querySelector('[data-reader-back]');
   const archive = document.getElementById('project-archive');
@@ -81,7 +90,20 @@ window.initPortfolioReader = function initPortfolioReader() {
       current = null;
     }
     current = record;
-    scroller.append(record.content);
+    const summary = window.portfolioBriefs?.[record.item.id];
+    brief.hidden = evidence.hidden = !summary;
+    evidenceDisclosure.open = false;
+    if (summary) {
+      const [roleText, resultText, strategyText, executionText, label = 'Result'] = summary;
+      role.textContent = roleText;
+      resultLabel.textContent = label;
+      result.textContent = resultText;
+      strategy.textContent = strategyText;
+      execution.textContent = executionText;
+      source.append(record.content);
+    } else {
+      scroller.append(record.content);
+    }
     category.textContent = record.type;
     title.textContent = record.title;
     backButton.hidden = !history.state?.portfolioReaderHasParent;
@@ -89,9 +111,12 @@ window.initPortfolioReader = function initPortfolioReader() {
     closeButton.focus({preventScroll: true});
     scroller.scrollTop = 0;
 
-    if (restorePosition && readingPositions.has(depth())) {
-      scroller.scrollTop = readingPositions.get(depth());
+    const position = restorePosition ? readingPositions.get(depth()) : null;
+    if (position) {
+      evidenceDisclosure.open = position.evidenceOpen;
+      scroller.scrollTop = position.top;
     } else if (target !== record.item && record.content.contains(target)) {
+      if (summary) evidenceDisclosure.open = true;
       for (let node = target.parentElement; node && node !== scroller; node = node.parentElement) {
         if (node.tagName === 'DETAILS') node.open = true;
       }
@@ -101,8 +126,15 @@ window.initPortfolioReader = function initPortfolioReader() {
     visibleDepth = depth();
   }
 
+  function rememberPosition() {
+    if (current) readingPositions.set(visibleDepth, {
+      top: scroller.scrollTop,
+      evidenceOpen: evidenceDisclosure.open
+    });
+  }
+
   function navigate(target, trigger) {
-    readingPositions.set(visibleDepth, scroller.scrollTop);
+    rememberPosition();
     if (location.hash !== '#' + target.id || !dialog.open) {
       history.pushState({...history.state, portfolioReaderDepth: depth() + 1, portfolioReaderHasParent: Boolean(current)}, '', '#' + target.id);
     }
@@ -131,7 +163,7 @@ window.initPortfolioReader = function initPortfolioReader() {
 
   function syncLocation() {
     const target = fromHash(location.hash);
-    if (current) readingPositions.set(visibleDepth, scroller.scrollTop);
+    rememberPosition();
     if (closing) {
       closing = false;
       if (recordFor(target)) removeReadingHash();
