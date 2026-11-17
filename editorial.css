@@ -4,23 +4,24 @@
   .topbar { background: var(--bg); border-bottom: 1px solid var(--line); }
   .nav-in { min-height: 62px; }
   .identity { gap: 10px; }
-  .monogram { background: transparent; color: var(--ink); border: 1px solid var(--line); }
+  .monogram { background: var(--lime); color: var(--bg); border: 1px solid var(--lime); }
   .identity-text { font-size: 13px; letter-spacing: -.02em; }
   .desktop-nav { font: 11px/1 var(--mono); letter-spacing: .035em; }
   .desktop-nav a { padding-inline: clamp(13px, 2vw, 25px); }
   .desktop-nav .nav-cta, .desktop-nav .nav-cta[aria-current] {
-    background: var(--paper);
-    border-color: var(--paper);
+    background: var(--lime);
+    border-color: var(--lime);
     color: var(--bg);
   }
   .desktop-nav a:hover, .mobile-menu nav a:hover { background: var(--panel2); }
-  .desktop-nav .nav-cta:hover { background: var(--ink); color: var(--bg) !important; }
+  .desktop-nav .nav-cta:hover { background: var(--lime-hover); border-color: var(--lime-hover); color: var(--bg) !important; }
   .btn, .filter, .mobile-menu > summary { box-shadow: none; border-radius: 0; }
   .btn:active, .filter:active, .mobile-menu > summary:active { box-shadow: none; translate: none; }
   .mobile-menu > summary { border-color: var(--line); }
   .mobile-menu nav { border-color: var(--line); }
   .mobile-shortcuts { background: var(--bg); border-color: var(--line); }
-  :focus-visible, .contact :focus-visible { outline-color: var(--ink); }
+  :focus-visible, .contact :focus-visible { outline-color: var(--lime); }
+  .filter[aria-pressed="true"] { background: var(--lime); border-color: var(--lime); color: var(--bg); }
 
   .hero { max-width: none; padding: 0; }
   .hero-frame {
@@ -105,7 +106,7 @@
     letter-spacing: .065em;
     text-transform: uppercase;
   }
-  .hero-index-strip a { display: inline-flex; gap: 12px; align-items: center; min-height: 44px; }
+  .hero-index-strip a { display: inline-flex; gap: 12px; align-items: center; min-height: 44px; color: var(--lime); }
   .hero-index-strip a:hover { text-decoration: underline; text-underline-offset: .25em; }
 
   .hero-intro { padding-top: var(--section-space); padding-bottom: clamp(30px, 5vw, 72px); }
@@ -258,8 +259,8 @@
   .about-copy .side-work a { border-radius: 0; }
   .contact { padding-block: var(--section-space) 26px; background: var(--bg); border-top: 1px solid var(--line); }
   .contact .contact-top { align-items: end; gap: 22px; }
-  .contact .btn { background: var(--paper); color: var(--bg); border-color: var(--paper); }
-  .contact .btn:hover { color: var(--bg) !important; background: #fff; }
+  .contact .btn { background: var(--lime); color: var(--bg); border-color: var(--lime); }
+  .contact .btn:hover { color: var(--bg) !important; background: var(--lime-hover); border-color: var(--lime-hover); }
   .contact .contact-links, .contact .footer { border-color: var(--line); }
 
   /* Carry the page styling through opened cases and supporting evidence. */

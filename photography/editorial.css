@@ -1,7 +1,7 @@
 @media screen {
   :root {
     --mute: var(--muted);
-    --accent: var(--ink);
+    --accent: var(--lime);
     --edge: var(--pad);
     --photo-header-offset: 84px;
   }
@@ -25,7 +25,9 @@
     place-items: center;
     width: 37px;
     height: 37px;
-    border: 1px solid var(--line);
+    border: 1px solid var(--lime);
+    background: var(--lime);
+    color: var(--bg);
     font: 650 14px/1 var(--display);
     letter-spacing: -.055em;
   }
@@ -38,9 +40,9 @@
     text-transform: uppercase;
     white-space: nowrap;
   }
-  .masthead nav a:hover, .masthead nav a[aria-current="page"] { background: var(--panel2); color: var(--ink); }
-  .masthead nav .professional-link { background: var(--paper); color: var(--bg); }
-  .masthead nav .professional-link:hover { background: var(--ink); color: var(--bg); }
+  .masthead nav a:hover, .masthead nav a[aria-current="page"] { background: var(--panel2); color: var(--lime); }
+  .masthead nav .professional-link { background: var(--lime); color: var(--bg); }
+  .masthead nav .professional-link:hover { background: var(--lime-hover); color: var(--bg); }
   .masthead nav a:focus-visible { outline-offset: -3px; }
   .masthead nav .professional-link:focus-visible { outline-color: var(--bg); }
   .masthead .wordmark:hover { color: var(--ink); }
@@ -119,6 +121,7 @@
     letter-spacing: .045em;
     text-transform: uppercase;
   }
+  .photo-index .under { color: var(--lime); }
   .photo-index a:hover { text-decoration: underline; text-underline-offset: .25em; }
 
   .collection { padding-top: var(--section-space); border-top: 0; }
@@ -141,7 +144,7 @@
   }
   .filters button:hover, .filters button:focus-visible { position: relative; z-index: 1; }
   .filters button:focus-visible { outline-offset: -4px; }
-  .filters button[aria-pressed="true"] { background: var(--paper); border-color: var(--paper); }
+  .filters button[aria-pressed="true"] { background: var(--lime); border-color: var(--lime); }
   .filters button[aria-pressed="true"]:focus-visible { outline-color: var(--bg); }
   .gallery {
     --cover-size: calc(100cqw / 3);
@@ -183,12 +186,12 @@
   .contact .under {
     margin-top: 8px;
     padding-inline: 17px;
-    border: 1px solid var(--paper);
-    background: var(--paper);
+    border: 1px solid var(--lime);
+    background: var(--lime);
     color: var(--bg);
     font-weight: 550;
   }
-  .contact .under:hover { background: var(--ink); color: var(--bg); }
+  .contact .under:hover { background: var(--lime-hover); border-color: var(--lime-hover); color: var(--bg); }
   .footer { padding-block: 22px 30px; }
   .footer a:hover { text-decoration: underline; text-underline-offset: .25em; }
 

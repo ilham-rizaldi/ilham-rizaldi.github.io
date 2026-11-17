@@ -1,15 +1,16 @@
 /* Shared screen palette and typography for both portfolios. */
 @media screen {
   :root {
-    --bg: #0b0b0b;
-    --panel: #131313;
-    --panel2: #1d1d1d;
-    --ink: #eeede9;
-    --muted: #bdbcb8;
-    --dim: #a3a29e;
-    --line: #424242;
-    --lime: #deded8;
-    --paper: #e7e6e0;
+    --bg: #10110f;
+    --panel: #181a16;
+    --panel2: #20231d;
+    --ink: #f2f3e9;
+    --muted: #b1b6a7;
+    --dim: #8b927e;
+    --line: #34392e;
+    --lime: #c8ff3d;
+    --lime-hover: #dcff85;
+    --paper: #e9eddf;
     --max: 1496px;
     --pad: clamp(18px, 3.6vw, 58px);
     --section-space: clamp(64px, 8vw, 124px);
