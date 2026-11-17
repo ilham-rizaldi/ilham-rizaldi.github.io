@@ -73,13 +73,6 @@
     font: 550 14px/1.35 var(--display);
   }
   .portfolio-partnerships .partner-visuals { align-items: start; }
-  .athlete-featured-label {
-    margin: 14px 0 7px;
-    padding-top: 11px;
-    border-top: 1px solid var(--line);
-    color: var(--muted);
-    font: 550 12px/1.45 var(--display);
-  }
 
   html.has-portfolio-reader { scrollbar-gutter: stable; }
   html:has(.portfolio-reader[open]) { overflow: hidden; }
