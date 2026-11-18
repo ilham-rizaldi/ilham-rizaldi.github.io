@@ -89,7 +89,7 @@
     display: grid;
     grid-template-columns: none;
     grid-auto-flow: column;
-    grid-auto-columns: clamp(206px, 24%, 280px);
+    grid-auto-columns: clamp(166px, 18%, 212px);
     gap: 12px;
     margin: 0;
     padding: 3px 2px 12px;
@@ -101,7 +101,6 @@
     scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
     background: transparent;
   }
-  .portfolio-partnerships #photo-partnerships .partner-rail-track { grid-auto-columns: clamp(206px, calc((100% - 24px) / 3), 420px); }
   .portfolio-partnerships .partner-rail-track > li {
     min-width: 0;
     scroll-snap-align: start;
@@ -115,12 +114,26 @@
     border-color: color-mix(in srgb, var(--lime) 65%, var(--line));
     background: var(--panel2);
   }
-  .portfolio-partnerships .partner-rail-track .partner-mark { height: 64px; border-radius: 7px; }
-  .portfolio-partnerships .partner-rail-track .partner-mark img { max-height: 48px; }
-  .portfolio-partnerships .partner-rail-track > .partner-card { padding: 12px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark { height: 52px; border-radius: 7px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark img { max-height: 42px; }
+  .portfolio-partnerships .partner-rail-track > .partner-card { padding: 10px; }
   .portfolio-partnerships .partner-rail-track .partner-type { color: var(--lime); }
-  .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 16px; }
-  .portfolio-partnerships .partner-rail-track .partner-case { color: var(--muted); font-size: 13px; }
+  .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 15px; }
+  .portfolio-partnerships .partner-rail-track .partner-case { color: var(--muted); font-size: 12px; }
+  .portfolio-partnerships .partner-case-series {
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    gap: 0 5px;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .portfolio-partnerships .partner-case-series .partner-case {
+    margin: 0;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
   .portfolio-partnerships .partner-rail-track .partner-case:focus-visible,
   .portfolio-partnerships .partner-rail-track .partner-case:hover { color: var(--lime); }
   .partner-rail-controls, .partner-filters { display: flex; align-items: center; gap: 8px; }
@@ -150,15 +163,15 @@
     background: var(--lime);
     color: var(--bg);
   }
-  .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(166px, 20%, 226px); }
+  .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(136px, 14.5%, 178px); }
   .portfolio-partnerships .partner-rail-compact li > a {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 7px;
     height: 100%;
-    min-height: 115px;
-    padding: 13px;
+    min-height: 98px;
+    padding: 10px;
     border-radius: inherit;
     font-size: 14px;
     font-weight: 550;
@@ -166,18 +179,129 @@
   }
   .portfolio-partnerships .partner-rail-compact li > a:hover { text-decoration: underline; }
   .portfolio-partnerships .partner-rail-compact li > a:focus-visible { outline-offset: -3px; }
-  .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 48px; height: 48px; }
+  .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 40px; height: 40px; }
   .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin-top: 8px; font-size: 13px; }
   .portfolio-partnerships .partnership-case-links strong { color: var(--ink); font-weight: 600; }
 
-  @media (max-width: 550px) {
-    .portfolio-partnerships .partner-rail-track,
-    .portfolio-partnerships #photo-partnerships .partner-rail-track { grid-auto-columns: min(80%, 250px); }
-    .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: min(66%, 205px); }
-    .partnership-toolbar { flex-wrap: wrap; column-gap: 8px; row-gap: 6px; }
-    .partnership-toolbar .partner-filters { gap: 5px; }
-    .partnership-toolbar .partner-filters button { padding-inline: 9px; font-size: 12px; }
-    .partnership-toolbar .partner-rail-controls { margin-left: auto; }
+  @media (max-width: 760px) {
+    .portfolio-partnerships .partner-rail-track { grid-auto-columns: clamp(148px, 42vw, 176px); }
+    .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(124px, 35vw, 155px); }
+    .partnership-toolbar { gap: 7px; }
+    .partnership-toolbar .partner-filters {
+      flex: 1;
+      flex-wrap: nowrap;
+      min-width: 0;
+      gap: 5px;
+      padding: 2px 3px 5px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scrollbar-width: thin;
+      scrollbar-color: color-mix(in srgb, var(--lime) 40%, var(--line)) transparent;
+    }
+    .partnership-toolbar .partner-filters button { flex: none; padding-inline: 9px; font-size: 12px; white-space: nowrap; }
+    .partnership-toolbar .partner-filters button:focus-visible { outline-offset: -3px; }
+    .partnership-toolbar .partner-rail-controls { gap: 4px; padding-top: 2px; }
+  }
+
+  #campaign-programs { padding-block: clamp(26px, 3.8vw, 48px); }
+  #campaign-programs > .program-intro { margin-bottom: clamp(16px, 2vw, 26px); }
+  #campaign-programs .program-intro > div { grid-column: 1 / -1; }
+  .has-portfolio-reader #campaign-programs .program-stack {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: minmax(166px, calc((100% - 48px) / 5));
+    gap: 12px;
+    border: 0;
+    padding: 3px 2px 10px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 2px;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
+  }
+  .has-portfolio-reader #campaign-programs .program-story {
+    min-width: 0;
+    border: 1px solid var(--line);
+    border-top-color: color-mix(in srgb, var(--lime) 56%, var(--line));
+    border-radius: 12px;
+    background: var(--panel);
+    scroll-snap-align: start;
+  }
+  .has-portfolio-reader #campaign-programs .program-story > summary {
+    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-rows: auto 1fr;
+    align-items: start;
+    gap: 10px;
+    height: 100%;
+    padding: 12px;
+    border-radius: inherit;
+  }
+  .has-portfolio-reader #campaign-programs summary:focus-visible { outline-offset: -3px; }
+  .has-portfolio-reader #campaign-programs .program-media {
+    grid-area: 1 / 1;
+    width: 64px;
+    border-radius: 7px;
+  }
+  .has-portfolio-reader #campaign-programs .program-expand {
+    grid-area: 1 / 2;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    font-size: 17px;
+  }
+  .has-portfolio-reader #campaign-programs .program-summary { grid-column: 1 / -1; }
+  .has-portfolio-reader #campaign-programs .program-summary h4 { font-size: 16px; font-weight: 600; }
+  .has-portfolio-reader #campaign-programs .program-kind { margin-bottom: 4px; }
+  .has-portfolio-reader #campaign-programs .program-summary-copy { display: none; }
+  .has-portfolio-reader #campaign-programs .program-subtitle { line-height: 1.4; }
+
+  .career-highlights { margin-top: clamp(22px, 3.5vw, 42px); }
+  .career-highlights-head {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 4px 12px;
+    margin-bottom: 8px;
+  }
+  .career-highlights-head h2 {
+    color: var(--ink);
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 600;
+    letter-spacing: -.025em;
+  }
+  .career-highlights-head .text-link { min-height: 44px; color: var(--ink); font-size: 13px; }
+  .career-highlights-head .text-link span { color: var(--lime); }
+  .career-highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .career-highlights-grid li {
+    min-width: 0;
+    padding: clamp(11px, 2vw, 20px);
+    border: 1px solid var(--line);
+    border-top-color: color-mix(in srgb, var(--lime) 56%, var(--line));
+    border-radius: 10px;
+    background: var(--panel);
+  }
+  .career-highlights-grid strong {
+    display: block;
+    color: var(--lime);
+    font-size: clamp(26px, 4vw, 44px);
+    font-weight: 600;
+    line-height: 1.08;
+    letter-spacing: -.045em;
+    white-space: nowrap;
+  }
+  .career-highlights-grid p { margin-top: 6px; color: var(--ink); font-size: 14px; font-weight: 600; line-height: 1.35; }
+  .career-highlights-grid small { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
+  @media (max-width: 640px) {
+    .career-highlights-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   }
 
   #portfolio-context { border: 0; }

@@ -6,7 +6,8 @@
   const controls = toolbar.querySelector('.partner-rail-controls');
   const previous = controls.querySelector('[data-partner-prev]');
   const next = controls.querySelector('[data-partner-next]');
-  const buttons = [...toolbar.querySelectorAll('[data-partner-filter]')];
+  const filters = toolbar.querySelector('.partner-filters');
+  const buttons = [...filters.querySelectorAll('[data-partner-filter]')];
   const panels = [...section.querySelectorAll('[data-partner-panel]')];
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const resizeObserver = new ResizeObserver(updateControls);
@@ -48,6 +49,15 @@
     track.addEventListener('scroll', updateControls, {passive: true});
     resizeObserver.observe(track);
     updateControls();
+
+    const selectedButton = buttons.find(button => button.getAttribute('aria-pressed') === 'true');
+    if (filters.scrollWidth > filters.clientWidth) {
+      const bounds = filters.getBoundingClientRect();
+      const chip = selectedButton.getBoundingClientRect();
+      const inset = 3;
+      if (chip.left < bounds.left + inset) filters.scrollLeft += chip.left - bounds.left - inset;
+      if (chip.right > bounds.right - inset) filters.scrollLeft += chip.right - bounds.right + inset;
+    }
   }
 
   function showHashPanel() {
