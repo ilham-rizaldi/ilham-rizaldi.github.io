@@ -110,7 +110,7 @@ window.portfolioBriefs = {
   ],
   'case-ardiles': [
     'Lead a three-person brand team and coordinate product, design, production, sales, and community teams.',
-    'Supported 30+ product launches across my Ardiles roles.',
+    'Supported 40+ product launches across my Ardiles roles.',
     'Connect product communication with the people and channels responsible for getting each release to market.',
     'Coordinate launches, partner responsibilities, costs, schedules, and reporting across Running and Basketball.'
   ],

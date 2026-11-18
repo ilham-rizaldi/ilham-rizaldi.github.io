@@ -115,6 +115,9 @@ window.initPortfolioReader = function initPortfolioReader() {
     if (position) {
       evidenceDisclosure.open = position.evidenceOpen;
       scroller.scrollTop = position.top;
+      if (current.item === archive) {
+        current.content.querySelector('#project-grid').scrollTo({left: position.archiveLeft, behavior: 'instant'});
+      }
     } else if (target !== record.item && record.content.contains(target)) {
       if (summary) evidenceDisclosure.open = true;
       for (let node = target.parentElement; node && node !== scroller; node = node.parentElement) {
@@ -129,6 +132,7 @@ window.initPortfolioReader = function initPortfolioReader() {
   function rememberPosition() {
     if (current) readingPositions.set(visibleDepth, {
       top: scroller.scrollTop,
+      archiveLeft: current.item === archive ? current.content.querySelector('#project-grid').scrollLeft : 0,
       evidenceOpen: evidenceDisclosure.open
     });
   }

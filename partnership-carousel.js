@@ -22,9 +22,10 @@
 
   function move(direction, button) {
     if (button.getAttribute('aria-disabled') === 'true') return;
-    const [first, second] = track.children;
-    if (!second) return;
-    const distance = second.offsetLeft - first.offsetLeft;
+    const first = track.firstElementChild;
+    const nextColumn = [...track.children].find(card => card.offsetLeft > first.offsetLeft);
+    if (!nextColumn) return;
+    const distance = nextColumn.offsetLeft - first.offsetLeft;
     track.scrollBy({left: direction * distance, behavior: reducedMotion.matches ? 'auto' : 'smooth'});
   }
 

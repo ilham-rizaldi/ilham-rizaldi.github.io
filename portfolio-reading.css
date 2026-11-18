@@ -114,8 +114,8 @@
     border-color: color-mix(in srgb, var(--lime) 65%, var(--line));
     background: var(--panel2);
   }
-  .portfolio-partnerships .partner-rail-track .partner-mark { height: 52px; border-radius: 7px; }
-  .portfolio-partnerships .partner-rail-track .partner-mark img { max-height: 42px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark { height: clamp(72px, 9vw, 96px); border-radius: 7px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark img { max-width: 88%; max-height: 76%; }
   .portfolio-partnerships .partner-rail-track > .partner-card { padding: 10px; }
   .portfolio-partnerships .partner-rail-track .partner-type { color: var(--lime); }
   .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 15px; }
@@ -170,7 +170,7 @@
     align-items: flex-start;
     gap: 7px;
     height: 100%;
-    min-height: 98px;
+    min-height: 110px;
     padding: 10px;
     border-radius: inherit;
     font-size: 14px;
@@ -179,16 +179,22 @@
   }
   .portfolio-partnerships .partner-rail-compact li > a:hover { text-decoration: underline; }
   .portfolio-partnerships .partner-rail-compact li > a:focus-visible { outline-offset: -3px; }
-  .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 40px; height: 40px; }
+  .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 62px; height: 62px; }
   .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin-top: 8px; font-size: 13px; }
   .portfolio-partnerships .partnership-case-links strong { color: var(--ink); font-weight: 600; }
 
   @media (max-width: 760px) {
-    .portfolio-partnerships .partner-rail-track { grid-auto-columns: clamp(148px, 42vw, 176px); }
-    .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(124px, 35vw, 155px); }
-    .partnership-toolbar { gap: 7px; }
+    .portfolio-partnerships .partner-rail-track,
+    .portfolio-partnerships .partner-rail-compact .partner-rail-track {
+      grid-auto-columns: calc((100% - 8px) / 2);
+      gap: 8px;
+    }
+    .portfolio-partnerships .partner-rail-track:has(> li:nth-child(3)) {
+      grid-template-rows: repeat(2, minmax(0, auto));
+    }
+    .partnership-toolbar { flex-direction: column; gap: 5px; }
     .partnership-toolbar .partner-filters {
-      flex: 1;
+      width: 100%;
       flex-wrap: nowrap;
       min-width: 0;
       gap: 5px;
@@ -200,8 +206,9 @@
     }
     .partnership-toolbar .partner-filters button { flex: none; padding-inline: 9px; font-size: 12px; white-space: nowrap; }
     .partnership-toolbar .partner-filters button:focus-visible { outline-offset: -3px; }
-    .partnership-toolbar .partner-rail-controls { gap: 4px; padding-top: 2px; }
+    .partnership-toolbar .partner-rail-controls { align-self: flex-end; gap: 4px; }
   }
+
 
   #campaign-programs { padding-block: clamp(26px, 3.8vw, 48px); }
   #campaign-programs > .program-intro { margin-bottom: clamp(16px, 2vw, 26px); }
@@ -287,8 +294,9 @@
     .has-portfolio-reader #campaign-programs .program-stack {
       grid-template-columns: none;
       grid-auto-flow: column;
-      grid-auto-columns: min(90%, 410px);
-      gap: 12px;
+      grid-template-rows: repeat(2, minmax(0, auto));
+      grid-auto-columns: calc((100% - 8px) / 2);
+      gap: 8px;
       padding: 3px 2px 10px;
       overflow-x: auto;
       overscroll-behavior-inline: contain;
@@ -298,6 +306,12 @@
       scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
     }
     .has-portfolio-reader #campaign-programs .program-story { scroll-snap-align: start; }
+    .has-portfolio-reader #campaign-programs .program-story > summary { gap: 8px; }
+    .has-portfolio-reader #campaign-programs .program-summary { padding-inline: 10px; }
+    .has-portfolio-reader #campaign-programs .program-summary h4 { font-size: 16px; }
+    .has-portfolio-reader #campaign-programs .program-kind { font-size: 9px; }
+    .has-portfolio-reader #campaign-programs .program-summary-copy { font-size: 12px; line-height: 1.45; }
+    .has-portfolio-reader #campaign-programs .program-expand { gap: 5px; margin: 0 10px 9px; padding: 5px 7px; font-size: 11px; }
   }
 
   .career-highlights { margin-top: clamp(22px, 3.5vw, 42px); }
@@ -346,6 +360,120 @@
   .career-highlights-grid small { display: block; margin-top: 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
   @media (max-width: 640px) {
     .career-highlights-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  .archive-body .filter-bar {
+    flex-wrap: nowrap;
+    gap: 6px;
+    margin: 0;
+    padding: 3px 2px 7px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
+  }
+  .archive-body .filter-bar .filter {
+    flex: none;
+    max-width: none;
+    border-radius: 8px;
+    background: var(--panel2);
+    white-space: nowrap;
+  }
+  .archive-body .filter-bar .filter[aria-pressed="true"] { border-color: var(--lime); background: var(--lime); color: var(--bg); }
+  .archive-body .filter-bar .filter:focus-visible { outline-offset: -3px; }
+  .archive-results-meta {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    margin: 5px 0 11px;
+    color: var(--muted);
+    font-size: 12px;
+  }
+  .archive-results-meta .project-count { width: auto; margin: 0; }
+  .archive-swipe-note { display: none; }
+  @media (max-width: 760px) {
+    .archive-results-meta .archive-swipe-note { display: block; }
+    .archive-swipe-note span { color: var(--lime); }
+    .has-portfolio-reader .archive-body .projects {
+      grid-template-columns: none;
+      grid-auto-flow: column;
+      grid-auto-columns: calc((100% - 8px) / 2);
+      align-items: stretch;
+      justify-content: start;
+      gap: 8px;
+      padding: 2px 2px 8px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-padding-inline: 2px;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: thin;
+      scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
+    }
+    .has-portfolio-reader .archive-body .projects.two-row { grid-template-rows: repeat(2, minmax(0, auto)); }
+    .has-portfolio-reader .archive-body .case {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-top-color: color-mix(in srgb, var(--lime) 48%, var(--line));
+      border-radius: 9px;
+      background: var(--panel);
+      scroll-snap-align: start;
+    }
+    .has-portfolio-reader .archive-body .case > summary {
+      display: block;
+      height: 100%;
+      min-height: 100px;
+    }
+    .has-portfolio-reader .archive-body .case > summary:focus-visible { outline-offset: -3px; }
+    .has-portfolio-reader .archive-body .case-media.project-cover {
+      height: 72px;
+      min-height: 0;
+      max-height: none;
+      border-right: 0;
+    }
+    .has-portfolio-reader .archive-body .case-media :is(.case-number,.media-unavailable,.editorial-cover) { display: none; }
+    .has-portfolio-reader .archive-body .case-preview { padding: 9px 10px 10px; }
+    .has-portfolio-reader .archive-body .case-preview h3 {
+      color: var(--ink);
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 1.25;
+      letter-spacing: -.015em;
+    }
+    .has-portfolio-reader .archive-body .case-preview .case-eyebrow { margin-bottom: 4px; font-size: 9px; line-height: 1.4; }
+    .has-portfolio-reader .archive-body .case-preview :is(.case-description,.program-membership,.project-ref-count,.case-bottom) { display: none; }
+  }
+
+  .career-highlights-grid .career-growth,
+  .portfolio-context-body .stats .stat strong.career-growth { font-size: clamp(20px, 2.8vw, 35px); }
+  .career-highlights-grid .career-series,
+  .portfolio-context-body .stats .stat strong.career-series {
+    font-size: clamp(17px, 2.35vw, 28px);
+    line-height: 1.2;
+    white-space: normal;
+  }
+  .role-collaboration { display: grid; gap: 16px; margin-top: 18px; }
+  .role-collaboration > div {
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--panel);
+  }
+  .role-collaboration h4 { margin-bottom: 8px; color: var(--ink); font-size: 15px; font-weight: 600; }
+  .role-collaboration ul { margin: 0; padding: 0; list-style: none; }
+  .role-team-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 14px; }
+  .role-team-list li { min-width: 0; color: var(--ink); font-size: 13px; }
+  .role-team-list strong { font-weight: 550; }
+  .role-team-list small { display: block; color: var(--muted); font-size: 12px; line-height: 1.45; }
+  .role-partner-list { display: flex; flex-wrap: wrap; gap: 5px; }
+  .role-partner-list li { padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; color: var(--muted); font-size: 12px; }
+  @media (min-width: 1000px) { .role-collaboration { grid-template-columns: 1.65fr 1fr; } }
+  @media (max-width: 360px) {
+    .career-highlights-grid .career-growth,
+    .portfolio-context-body .stats .stat strong.career-growth { font-size: 17px; white-space: normal; }
+    .career-highlights-grid .career-budget,
+    .portfolio-context-body .stats .stat strong.career-budget { font-size: 20px; }
   }
 
   #portfolio-context { border: 0; }
