@@ -68,25 +68,21 @@
     color: var(--ink);
     font: 550 14px/1.35 var(--display);
   }
-  .portfolio-partnerships .partner-rail { min-width: 0; margin-block: 0 26px; }
-  .portfolio-partnerships .partner-rail-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    min-height: 44px;
+  #partnerships { padding-block: clamp(30px, 4vw, 54px); }
+  #partnerships > .program-intro { margin-bottom: clamp(16px, 2vw, 24px); }
+  .portfolio-partnerships .partner-rail { min-width: 0; margin: 0 0 18px; }
+  .portfolio-partnerships .partner-panel-title {
     margin-bottom: 8px;
-  }
-  .portfolio-partnerships :is(.partner-rail-head h4, .partnership-people-browser > h4) {
     color: var(--ink);
-    font-size: clamp(18px, 2vw, 24px);
+    font-size: 18px;
     font-weight: 600;
-    letter-spacing: -.025em;
   }
-  .portfolio-partnerships .partner-rail-head h5 {
-    color: var(--ink);
-    font-size: 15px;
-    font-weight: 600;
+  .partnership-toolbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
   }
   .portfolio-partnerships .partner-rail-note { margin: -2px 0 10px; color: var(--muted); font-size: 13px; }
   .portfolio-partnerships .partner-rail-track {
@@ -119,7 +115,9 @@
     border-color: color-mix(in srgb, var(--lime) 65%, var(--line));
     background: var(--panel2);
   }
-  .portfolio-partnerships .partner-rail-track .partner-mark { border-radius: 7px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark { height: 64px; border-radius: 7px; }
+  .portfolio-partnerships .partner-rail-track .partner-mark img { max-height: 48px; }
+  .portfolio-partnerships .partner-rail-track > .partner-card { padding: 12px; }
   .portfolio-partnerships .partner-rail-track .partner-type { color: var(--lime); }
   .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 16px; }
   .portfolio-partnerships .partner-rail-track .partner-case { color: var(--muted); font-size: 13px; }
@@ -145,14 +143,13 @@
     outline: 2px solid var(--lime);
     outline-offset: 2px;
   }
-  .portfolio-partnerships .partnership-people-browser { padding-top: 18px; border-top: 1px solid var(--line); }
-  .partner-filters { flex-wrap: wrap; margin-top: 11px; }
+  .partner-rail-controls { flex: none; }
+  .partner-filters { flex-wrap: wrap; }
   .partner-filters button[aria-pressed="true"] {
     border-color: var(--lime);
     background: var(--lime);
     color: var(--bg);
   }
-  .portfolio-partnerships .partner-rail-compact { margin: 12px 0 20px; }
   .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(166px, 20%, 226px); }
   .portfolio-partnerships .partner-rail-compact li > a {
     display: flex;
@@ -170,14 +167,17 @@
   .portfolio-partnerships .partner-rail-compact li > a:hover { text-decoration: underline; }
   .portfolio-partnerships .partner-rail-compact li > a:focus-visible { outline-offset: -3px; }
   .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 48px; height: 48px; }
-  .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin-top: 16px; font-size: 13px; }
+  .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin-top: 8px; font-size: 13px; }
   .portfolio-partnerships .partnership-case-links strong { color: var(--ink); font-weight: 600; }
 
   @media (max-width: 550px) {
     .portfolio-partnerships .partner-rail-track,
     .portfolio-partnerships #photo-partnerships .partner-rail-track { grid-auto-columns: min(80%, 250px); }
     .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: min(66%, 205px); }
-    .portfolio-partnerships .partner-rail-head { margin-bottom: 6px; }
+    .partnership-toolbar { flex-wrap: wrap; column-gap: 8px; row-gap: 6px; }
+    .partnership-toolbar .partner-filters { gap: 5px; }
+    .partnership-toolbar .partner-filters button { padding-inline: 9px; font-size: 12px; }
+    .partnership-toolbar .partner-rail-controls { margin-left: auto; }
   }
 
   #portfolio-context { border: 0; }
