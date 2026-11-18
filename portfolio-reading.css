@@ -74,6 +74,26 @@
   }
   .portfolio-partnerships .partner-visuals { align-items: start; }
 
+  .portfolio-partnerships .partnership-people { margin-bottom: 14px; }
+  .portfolio-partnerships #athlete-partnerships { grid-column: span 2; }
+  .portfolio-partnerships #athlete-partnerships .partner-name-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 14px;
+  }
+  .portfolio-partnerships .partnership-people h4 { margin-bottom: 12px; }
+  .partnership-people .partner-name-list a { padding-block: 2px; }
+  @media (min-width: 1021px) {
+    .portfolio-partnerships .partnership-organizations { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+  @media (min-width: 561px) and (max-width: 1020px) {
+    .portfolio-partnerships .partnership-people { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 560px) {
+    .portfolio-partnerships .partnership-people { grid-template-columns: minmax(0, 1fr); }
+    .portfolio-partnerships #athlete-partnerships { grid-column: auto; }
+    .portfolio-partnerships #athlete-partnerships .partner-name-list { grid-template-columns: minmax(0, 1fr); }
+  }
+
   #portfolio-context { border: 0; }
   #portfolio-context > summary {
     align-items: center;
