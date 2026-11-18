@@ -74,6 +74,125 @@
   }
   .portfolio-partnerships .partner-visuals { align-items: start; }
 
+  #portfolio-context { border: 0; }
+  #portfolio-context > summary {
+    align-items: center;
+    gap: 16px;
+    padding: clamp(17px, 3vw, 31px);
+    border: 1px solid color-mix(in srgb, var(--lime) 45%, var(--line));
+    border-radius: 14px;
+    background: var(--panel);
+  }
+  #portfolio-context > summary:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
+  #portfolio-context > summary strong {
+    color: var(--ink);
+    font-size: clamp(23px, 3vw, 32px);
+    font-weight: 600;
+    letter-spacing: -.035em;
+  }
+  #portfolio-context .career-figures-open {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    background: var(--lime);
+    color: var(--bg);
+    font: 600 14px/1.35 var(--display);
+  }
+  .portfolio-context-body > :is(.impact, .instagram-overview) {
+    padding: clamp(14px, 2.6vw, 26px);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--bg);
+  }
+  .portfolio-context-body > .instagram-overview { margin-top: 14px; }
+  .portfolio-context-body .wrap { padding: 0; }
+  .portfolio-context-body :is(.impact-intro, .instagram-overview-header) {
+    display: block;
+    margin: 0 0 16px;
+  }
+  .portfolio-context-body :is(.impact-intro, .instagram-overview-header) h2 {
+    margin: 0;
+    color: var(--ink);
+    font-size: clamp(22px, 2.8vw, 28px);
+    line-height: 1.2;
+    letter-spacing: -.03em;
+  }
+  .portfolio-context-body .impact-intro p {
+    max-width: none;
+    margin-top: 4px;
+    color: var(--muted);
+    font-size: 14px;
+    text-align: left;
+  }
+  .portfolio-context-body .instagram-overview-header .kicker {
+    margin-bottom: 6px;
+    color: var(--muted);
+    font-size: 11px;
+  }
+  .portfolio-context-body .instagram-overview-header p:not(.kicker) {
+    margin-top: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  .portfolio-context-body :is(.stats, .instagram-totals) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 10px;
+    border: 0;
+  }
+  .portfolio-context-body :is(.stats .stat, .instagram-total) {
+    min-width: 0;
+    padding: clamp(12px, 1.65vw, 18px);
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--panel2);
+  }
+  .portfolio-context-body .stats .stat strong {
+    color: var(--lime);
+    font-size: clamp(29px, 3.8vw, 52px);
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .portfolio-context-body .instagram-total strong {
+    margin: 0;
+    color: var(--ink);
+    font-size: clamp(25px, 3vw, 39px);
+    font-weight: 600;
+  }
+  .portfolio-context-body :is(.stats .stat, .instagram-total) h3 {
+    margin: 7px 0 0;
+    color: var(--ink);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+  }
+  .portfolio-context-body .stats .stat p { font-size: 13px; line-height: 1.45; }
+  .portfolio-context-body .instagram-method {
+    margin-top: 12px;
+    border: 1px solid var(--line);
+    border-radius: 9px;
+    background: var(--panel2);
+  }
+  .portfolio-context-body .instagram-method > summary {
+    padding-inline: 12px;
+    color: var(--ink);
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .portfolio-context-body .instagram-method-body { padding-inline: 12px; }
+
+  @media (max-width: 760px) {
+    .portfolio-context-body :is(.stats, .instagram-totals) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .portfolio-context-body .stats .stat { padding: 12px !important; }
+  }
+  @media (max-width: 520px) {
+    #portfolio-context > summary { flex-wrap: wrap; }
+    .portfolio-context-body .stats .stat strong { font-size: clamp(25px, 7.4vw, 34px); }
+  }
+
   html.has-portfolio-reader { scrollbar-gutter: stable; }
   html:has(.portfolio-reader[open]) { overflow: hidden; }
   .portfolio-reader {
@@ -134,6 +253,7 @@
     border: 0;
     background: var(--panel);
   }
+  .portfolio-reader-scroll > .portfolio-context-body { padding: clamp(14px, 2.6vw, 28px); }
   .portfolio-reader-brief, .portfolio-reader-evidence {
     max-width: 920px;
     margin-inline: auto;
