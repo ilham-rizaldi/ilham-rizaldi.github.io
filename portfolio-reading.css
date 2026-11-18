@@ -23,16 +23,13 @@
   .selected-card .selected-role { padding: 12px; border-radius: 8px; background: var(--panel2); }
   .selected-read { padding-block: 8px; }
   .portfolio-partnerships .partner-support > div { padding: 16px; border: 0; border-radius: 10px; background: var(--panel); }
-  .work-section .creator-collaborations, .work-section .strategy-work {
+  .work-section .strategy-work {
     margin-block: clamp(36px, 5vw, 64px);
     padding: clamp(22px, 4vw, 52px);
     border: 1px solid var(--line);
     border-radius: 18px;
     background: var(--panel);
   }
-  .creator-collaborations .program-intro h3 { font-size: clamp(30px, 3.6vw, 52px); }
-  .creator-examples li { margin-bottom: 14px; }
-  .creator-examples strong { color: var(--ink); }
   .program-showcase { border-top-color: var(--dim); }
   .program-story > summary, .strategy-case > summary { padding-block: clamp(18px, 2vw, 29px); }
   .strategy-work .strategy-case:last-child { border-bottom: 0; }
@@ -75,6 +72,8 @@
   .portfolio-partnerships .partner-visuals { align-items: start; }
 
   .portfolio-partnerships .partnership-people { margin-bottom: 14px; }
+  .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin: 0 0 16px; }
+  .portfolio-partnerships .partnership-case-links strong { color: var(--ink); font-weight: 600; }
   .portfolio-partnerships #athlete-partnerships { grid-column: span 2; }
   .portfolio-partnerships #athlete-partnerships .partner-name-list {
     grid-template-columns: repeat(2, minmax(0, 1fr));
