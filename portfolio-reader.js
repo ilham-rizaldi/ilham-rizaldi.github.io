@@ -19,6 +19,10 @@ window.initPortfolioReader = function initPortfolioReader() {
   const backButton = dialog.querySelector('[data-reader-back]');
   const archive = document.getElementById('project-archive');
   const records = new Map();
+  const programFeature = document.getElementById('program-feature');
+  const programCards = [...document.querySelectorAll('#campaign-programs .program-story')];
+  const programDesktop = window.matchMedia('(min-width: 1001px)');
+  let selectedProgram;
   const labels = [
     ['.case', 'Case study'], ['.program-story', 'Product program'],
     ['.strategy-case', 'Strategy & research'], ['#project-archive', 'Project archive'],
@@ -38,7 +42,12 @@ window.initPortfolioReader = function initPortfolioReader() {
     if (marker) marker.textContent = '↗';
     summary.addEventListener('click', event => {
       event.preventDefault();
-      navigate(item, summary);
+      if (isDesktopProgram(item)) {
+        history.replaceState(history.state, '', '#' + item.id);
+        selectProgram(item, true);
+      } else {
+        navigate(item, summary);
+      }
     });
   }
   document.documentElement.classList.add('has-portfolio-reader');
@@ -62,6 +71,65 @@ window.initPortfolioReader = function initPortfolioReader() {
     if (!hash) return null;
     try { return document.getElementById(decodeURIComponent(hash.slice(1))); }
     catch { return null; }
+  }
+
+
+  function isDesktopProgram(item) {
+    return programDesktop.matches && programCards.includes(item);
+  }
+
+  function selectProgram(item, focus = false, scroll = false) {
+    const record = records.get(item);
+    if (!record) return;
+    selectedProgram = item;
+    const setField = (field, value) => {
+      programFeature.querySelector('[data-program-feature-' + field + ']').textContent = value;
+    };
+    const cover = record.summary.querySelector('.program-media').cloneNode(true);
+    cover.querySelector('img').loading = 'eager';
+    programFeature.querySelector('[data-program-feature-cover]').replaceChildren(cover);
+    programFeature.dataset.program = item.id;
+    const heading = programFeature.querySelector('#program-feature-title');
+    heading.textContent = record.title;
+    setField('kind', record.summary.querySelector('.program-kind').textContent);
+    setField('summary', record.summary.querySelector('.program-summary-copy').textContent);
+    const facts = window.portfolioBriefs?.[item.id];
+    programFeature.querySelector('.program-feature-facts').hidden = !facts;
+    if (facts) {
+      const [programRole, programResult, programStrategy, programExecution, programResultLabel = 'Result'] = facts;
+      setField('role', programRole);
+      setField('result', programResult);
+      setField('strategy', programStrategy);
+      setField('execution', programExecution);
+      setField('result-label', programResultLabel);
+    }
+    programFeature.querySelector('[data-program-feature-link]').href = '#' + record.content.id;
+    for (const card of programCards) card.hidden = card === item;
+    if (focus) heading.focus({preventScroll: true});
+    const bounds = heading.getBoundingClientRect();
+    if (scroll || (focus && (bounds.top < 72 || bounds.bottom + 160 > window.innerHeight))) {
+      programFeature.scrollIntoView({block: 'start', behavior: 'instant'});
+    }
+  }
+
+  function updateProgramLayout() {
+    const desktop = programDesktop.matches;
+    const restoreProgramFocus = !desktop && programFeature.contains(document.activeElement);
+    programFeature.hidden = !desktop;
+    programFeature.parentElement.classList.toggle('is-program-feature', desktop);
+    for (const item of programCards) {
+      const {summary} = records.get(item);
+      if (desktop) {
+        summary.removeAttribute('aria-haspopup');
+        summary.setAttribute('aria-controls', programFeature.id);
+      } else {
+        item.hidden = false;
+        summary.setAttribute('aria-haspopup', 'dialog');
+        summary.setAttribute('aria-controls', dialog.id);
+      }
+    }
+    if (desktop) selectProgram(selectedProgram || programCards[0]);
+    else if (restoreProgramFocus) records.get(selectedProgram).summary.focus({preventScroll: true});
   }
 
   function restoreContent() {
@@ -118,6 +186,8 @@ window.initPortfolioReader = function initPortfolioReader() {
       if (current.item === archive) {
         current.content.querySelector('#project-grid').scrollTo({left: position.archiveLeft, behavior: 'instant'});
       }
+    } else if (target === record.content && summary) {
+      evidenceDisclosure.open = true;
     } else if (target !== record.item && record.content.contains(target)) {
       if (summary) evidenceDisclosure.open = true;
       for (let node = target.parentElement; node && node !== scroller; node = node.parentElement) {
@@ -170,8 +240,11 @@ window.initPortfolioReader = function initPortfolioReader() {
     rememberPosition();
     if (closing) {
       closing = false;
-      if (recordFor(target)) removeReadingHash();
+      if (recordFor(target) && !isDesktopProgram(target)) removeReadingHash();
       dismiss();
+    } else if (isDesktopProgram(target) && !depth()) {
+      if (dialog.open) dismiss();
+      selectProgram(target, false, true);
     } else if (recordFor(target)) {
       render(target, null, true);
     } else if (dialog.open) {
@@ -185,7 +258,11 @@ window.initPortfolioReader = function initPortfolioReader() {
       event.metaKey || event.ctrlKey || event.shiftKey || event.altKey ||
       (link.target && link.target !== '_self')) return;
     const target = fromHash(link.hash);
-    if (recordFor(target)) {
+    if (isDesktopProgram(target) && !dialog.open) {
+      event.preventDefault();
+      if (location.hash !== link.hash) history.pushState(history.state, '', link.hash);
+      selectProgram(target, true, true);
+    } else if (recordFor(target)) {
       event.preventDefault();
       navigate(target, link);
     } else if (dialog.open && dialog.contains(link) && target) {
@@ -198,7 +275,19 @@ window.initPortfolioReader = function initPortfolioReader() {
     event.preventDefault();
     requestClose();
   });
+  updateProgramLayout();
+  programDesktop.addEventListener('change', updateProgramLayout);
   window.addEventListener('hashchange', syncLocation);
   requestAnimationFrame(syncLocation);
+  const initialHash = location.hash;
+  if (isDesktopProgram(fromHash(initialHash)) && document.readyState !== 'complete') {
+    window.addEventListener('load', () => {
+      requestAnimationFrame(() => {
+        if (location.hash === initialHash && !dialog.open && programDesktop.matches) {
+          programFeature.scrollIntoView({block: 'start', behavior: 'instant'});
+        }
+      });
+    }, {once: true});
+  }
   return true;
 };

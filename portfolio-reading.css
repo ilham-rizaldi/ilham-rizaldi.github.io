@@ -114,8 +114,23 @@
     border-color: color-mix(in srgb, var(--lime) 65%, var(--line));
     background: var(--panel2);
   }
-  .portfolio-partnerships .partner-rail-track .partner-mark { height: clamp(72px, 9vw, 96px); border-radius: 7px; }
-  .portfolio-partnerships .partner-rail-track .partner-mark img { max-width: 88%; max-height: 76%; }
+  .portfolio-partnerships .partner-rail-track .partner-mark {
+    grid-template: minmax(0, 1fr) / minmax(0, 1fr);
+    height: clamp(72px, 9vw, 96px);
+    padding: clamp(8px, 1vw, 13px) clamp(10px, 1.4vw, 18px);
+    overflow: hidden;
+    border-radius: 7px;
+  }
+  .portfolio-partnerships .partner-rail-track .partner-mark img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-width: 0;
+    min-height: 0;
+    max-width: none;
+    max-height: none;
+    object-fit: contain;
+  }
   .portfolio-partnerships .partner-rail-track > .partner-card { padding: 10px; }
   .portfolio-partnerships .partner-rail-track .partner-type { color: var(--lime); }
   .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 15px; }
@@ -312,6 +327,87 @@
     .has-portfolio-reader #campaign-programs .program-kind { font-size: 9px; }
     .has-portfolio-reader #campaign-programs .program-summary-copy { font-size: 12px; line-height: 1.45; }
     .has-portfolio-reader #campaign-programs .program-expand { gap: 5px; margin: 0 10px 9px; padding: 5px 7px; font-size: 11px; }
+  }
+
+  @media (min-width: 1001px) {
+    #campaign-programs .is-program-feature {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(0, 1fr);
+      align-items: start;
+      gap: clamp(14px, 1.8vw, 24px);
+    }
+    #campaign-programs .is-program-feature .program-stack {
+      position: sticky;
+      top: 80px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    #campaign-programs .is-program-feature .program-story > summary { gap: 10px; }
+    #campaign-programs .is-program-feature .program-summary { padding-inline: 12px; }
+    #campaign-programs .is-program-feature .program-summary h4 { font-size: clamp(16px, 1.5vw, 20px); }
+    #campaign-programs .is-program-feature .program-summary-copy {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+    #campaign-programs .is-program-feature .program-expand { margin: 0 12px 10px; font-size: 12px; }
+    #campaign-programs .program-feature {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-top-color: var(--lime);
+      border-radius: 13px;
+      background: var(--panel);
+      scroll-margin-top: 12px;
+    }
+    #campaign-programs .program-feature .program-media {
+      aspect-ratio: 2.85 / 1;
+      border-radius: 12px 12px 0 0;
+    }
+    #campaign-programs .program-feature[data-program="program-hardcore"] .program-media img[data-content-crop] { top: 68%; }
+    .program-feature-copy { padding: clamp(17px, 2.3vw, 29px); }
+    .program-feature-copy h4 {
+      margin: 0;
+      color: var(--ink);
+      font-size: clamp(27px, 3vw, 40px);
+      font-weight: 600;
+      line-height: 1.1;
+      letter-spacing: -.035em;
+    }
+    .program-feature-copy h4:focus-visible { outline: 2px solid var(--lime); outline-offset: 4px; }
+    .program-feature-summary { margin-top: 9px; color: var(--muted); font-size: 15px; line-height: 1.6; }
+    .program-feature-facts {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+      margin: 15px 0;
+    }
+    .program-feature-facts > div {
+      min-width: 0;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel2);
+    }
+    .program-feature-facts > div:nth-child(2) { border-color: color-mix(in srgb, var(--lime) 45%, var(--line)); }
+    .program-feature-facts dt { margin-bottom: 5px; color: var(--lime); font: 500 11px/1.4 var(--mono); }
+    .program-feature-facts dd { margin: 0; color: var(--ink); font-size: 14px; line-height: 1.5; }
+    .program-feature-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      color: var(--lime);
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .program-feature-link:hover, .program-feature-link:focus-visible { border-color: var(--lime); }
   }
 
   .career-highlights { margin-top: clamp(22px, 3.5vw, 42px); }
