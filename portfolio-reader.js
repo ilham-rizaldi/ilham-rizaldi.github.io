@@ -107,7 +107,9 @@ window.initPortfolioReader = function initPortfolioReader() {
     for (const card of programCards) card.hidden = card === item;
     if (focus) heading.focus({preventScroll: true});
     const bounds = heading.getBoundingClientRect();
-    if (scroll || (focus && (bounds.top < 72 || bounds.bottom + 160 > window.innerHeight))) {
+    if (focus && heading.matches(':focus-visible')) {
+      heading.scrollIntoView({block: 'center', behavior: 'instant'});
+    } else if (scroll || (focus && (bounds.top < 72 || bounds.bottom + 160 > window.innerHeight))) {
       programFeature.scrollIntoView({block: 'start', behavior: 'instant'});
     }
   }

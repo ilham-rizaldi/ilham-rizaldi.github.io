@@ -364,10 +364,9 @@
       scroll-margin-top: 12px;
     }
     #campaign-programs .program-feature .program-media {
-      aspect-ratio: 2.85 / 1;
+      aspect-ratio: 1 / 1;
       border-radius: 12px 12px 0 0;
     }
-    #campaign-programs .program-feature[data-program="program-hardcore"] .program-media img[data-content-crop] { top: 68%; }
     .program-feature-copy { padding: clamp(17px, 2.3vw, 29px); }
     .program-feature-copy h4 {
       margin: 0;
