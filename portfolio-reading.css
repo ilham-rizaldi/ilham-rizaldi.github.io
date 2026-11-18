@@ -206,19 +206,13 @@
   #campaign-programs { padding-block: clamp(26px, 3.8vw, 48px); }
   #campaign-programs > .program-intro { margin-bottom: clamp(16px, 2vw, 26px); }
   #campaign-programs .program-intro > div { grid-column: 1 / -1; }
+  #campaign-programs .program-open-label { display: none; }
   .has-portfolio-reader #campaign-programs .program-stack {
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: minmax(166px, calc((100% - 48px) / 5));
-    gap: 12px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: stretch;
+    gap: 16px;
     border: 0;
-    padding: 3px 2px 10px;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
-    scroll-snap-type: x mandatory;
-    scroll-padding-inline: 2px;
-    scrollbar-width: thin;
-    scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
   }
   .has-portfolio-reader #campaign-programs .program-story {
     min-width: 0;
@@ -226,35 +220,85 @@
     border-top-color: color-mix(in srgb, var(--lime) 56%, var(--line));
     border-radius: 12px;
     background: var(--panel);
-    scroll-snap-align: start;
   }
   .has-portfolio-reader #campaign-programs .program-story > summary {
-    grid-template-columns: minmax(0, 1fr) auto;
-    grid-template-rows: auto 1fr;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto;
     align-items: start;
-    gap: 10px;
+    gap: 14px;
     height: 100%;
-    padding: 12px;
+    padding: 0;
     border-radius: inherit;
   }
   .has-portfolio-reader #campaign-programs summary:focus-visible { outline-offset: -3px; }
   .has-portfolio-reader #campaign-programs .program-media {
-    grid-area: 1 / 1;
-    width: 64px;
-    border-radius: 7px;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 11px 11px 0 0;
+  }
+  .has-portfolio-reader #campaign-programs .program-media img {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform: none;
+    object-fit: cover;
+  }
+  .has-portfolio-reader #campaign-programs .program-media img[data-content-crop] {
+    inset: 50% auto auto 50%;
+    width: var(--crop-width);
+    height: auto;
+    transform: translate(var(--crop-x, -50%), var(--crop-y, -50%));
+  }
+  .has-portfolio-reader #program-hardcore .program-media img[data-content-crop] { top: 66%; }
+  .has-portfolio-reader #campaign-programs .program-summary { padding-inline: clamp(15px, 2vw, 21px); }
+  .has-portfolio-reader #campaign-programs .program-summary h4 {
+    color: var(--ink);
+    font-size: clamp(20px, 2vw, 26px);
+    font-weight: 600;
+  }
+  .has-portfolio-reader #campaign-programs .program-kind { margin-bottom: 5px; font-size: 11px; }
+  .has-portfolio-reader #campaign-programs .program-summary-copy {
+    display: block;
+    margin-top: 7px;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.55;
   }
   .has-portfolio-reader #campaign-programs .program-expand {
-    grid-area: 1 / 2;
-    width: 32px;
-    height: 32px;
-    border-radius: 6px;
-    font-size: 17px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    justify-self: start;
+    width: auto;
+    height: auto;
+    min-height: 44px;
+    margin: 0 clamp(15px, 2vw, 21px) 16px;
+    padding: 7px 12px;
+    border-radius: 7px;
+    background: var(--panel2);
+    font-size: 14px;
   }
-  .has-portfolio-reader #campaign-programs .program-summary { grid-column: 1 / -1; }
-  .has-portfolio-reader #campaign-programs .program-summary h4 { font-size: 16px; font-weight: 600; }
-  .has-portfolio-reader #campaign-programs .program-kind { margin-bottom: 4px; }
-  .has-portfolio-reader #campaign-programs .program-summary-copy { display: none; }
-  .has-portfolio-reader #campaign-programs .program-subtitle { line-height: 1.4; }
+  .has-portfolio-reader #campaign-programs .program-open-label { display: inline; font-weight: 600; }
+  .has-portfolio-reader #campaign-programs summary:is(:hover, :focus-visible) .program-expand { border-color: var(--lime); }
+  @media (max-width: 1000px) {
+    .has-portfolio-reader #campaign-programs .program-stack { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .has-portfolio-reader #campaign-programs .program-stack {
+      grid-template-columns: none;
+      grid-auto-flow: column;
+      grid-auto-columns: min(90%, 410px);
+      gap: 12px;
+      padding: 3px 2px 10px;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: 2px;
+      scrollbar-width: thin;
+      scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
+    }
+    .has-portfolio-reader #campaign-programs .program-story { scroll-snap-align: start; }
+  }
 
   .career-highlights { margin-top: clamp(22px, 3.5vw, 42px); }
   .career-highlights-head {
