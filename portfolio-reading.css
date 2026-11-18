@@ -22,7 +22,6 @@
   }
   .selected-card .selected-role { padding: 12px; border-radius: 8px; background: var(--panel2); }
   .selected-read { padding-block: 8px; }
-  .portfolio-partnerships .partner-support > div { padding: 16px; border: 0; border-radius: 10px; background: var(--panel); }
   .work-section .strategy-work {
     margin-block: clamp(36px, 5vw, 64px);
     padding: clamp(22px, 4vw, 52px);
@@ -69,28 +68,116 @@
     color: var(--ink);
     font: 550 14px/1.35 var(--display);
   }
-  .portfolio-partnerships .partner-visuals { align-items: start; }
-
-  .portfolio-partnerships .partnership-people { margin-bottom: 14px; }
-  .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin: 0 0 16px; }
+  .portfolio-partnerships .partner-rail { min-width: 0; margin-block: 0 26px; }
+  .portfolio-partnerships .partner-rail-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    min-height: 44px;
+    margin-bottom: 8px;
+  }
+  .portfolio-partnerships :is(.partner-rail-head h4, .partnership-people-browser > h4) {
+    color: var(--ink);
+    font-size: clamp(18px, 2vw, 24px);
+    font-weight: 600;
+    letter-spacing: -.025em;
+  }
+  .portfolio-partnerships .partner-rail-head h5 {
+    color: var(--ink);
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .portfolio-partnerships .partner-rail-note { margin: -2px 0 10px; color: var(--muted); font-size: 13px; }
+  .portfolio-partnerships .partner-rail-track {
+    display: grid;
+    grid-template-columns: none;
+    grid-auto-flow: column;
+    grid-auto-columns: clamp(206px, 24%, 280px);
+    gap: 12px;
+    margin: 0;
+    padding: 3px 2px 12px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: 2px;
+    scrollbar-width: thin;
+    scrollbar-color: color-mix(in srgb, var(--lime) 48%, var(--line)) transparent;
+    background: transparent;
+  }
+  .portfolio-partnerships #photo-partnerships .partner-rail-track { grid-auto-columns: clamp(206px, calc((100% - 24px) / 3), 420px); }
+  .portfolio-partnerships .partner-rail-track > li {
+    min-width: 0;
+    scroll-snap-align: start;
+    border: 1px solid var(--line);
+    border-top-color: color-mix(in srgb, var(--lime) 56%, var(--line));
+    border-radius: 12px;
+    background: var(--panel);
+  }
+  .portfolio-partnerships .partner-rail-track > li:hover,
+  .portfolio-partnerships .partner-rail-track > li:focus-within {
+    border-color: color-mix(in srgb, var(--lime) 65%, var(--line));
+    background: var(--panel2);
+  }
+  .portfolio-partnerships .partner-rail-track .partner-mark { border-radius: 7px; }
+  .portfolio-partnerships .partner-rail-track .partner-type { color: var(--lime); }
+  .portfolio-partnerships .partner-rail-track .partner-profile strong { color: var(--ink); font-size: 16px; }
+  .portfolio-partnerships .partner-rail-track .partner-case { color: var(--muted); font-size: 13px; }
+  .portfolio-partnerships .partner-rail-track .partner-case:focus-visible,
+  .portfolio-partnerships .partner-rail-track .partner-case:hover { color: var(--lime); }
+  .partner-rail-controls, .partner-filters { display: flex; align-items: center; gap: 8px; }
+  .partner-rail-controls button, .partner-filters button {
+    display: inline-grid;
+    place-items: center;
+    min-height: 44px;
+    padding: 7px 13px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    background: var(--panel2);
+    color: var(--ink);
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .partner-rail-controls button { width: 44px; padding: 0; color: var(--lime); font-size: 19px; }
+  .partner-rail-controls button[aria-disabled="true"] { opacity: .45; cursor: default; }
+  .partner-rail-controls button[aria-disabled="false"]:hover, .partner-filters button:hover { border-color: var(--lime); }
+  .partner-rail-controls button:focus-visible, .partner-filters button:focus-visible {
+    outline: 2px solid var(--lime);
+    outline-offset: 2px;
+  }
+  .portfolio-partnerships .partnership-people-browser { padding-top: 18px; border-top: 1px solid var(--line); }
+  .partner-filters { flex-wrap: wrap; margin-top: 11px; }
+  .partner-filters button[aria-pressed="true"] {
+    border-color: var(--lime);
+    background: var(--lime);
+    color: var(--bg);
+  }
+  .portfolio-partnerships .partner-rail-compact { margin: 12px 0 20px; }
+  .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: clamp(166px, 20%, 226px); }
+  .portfolio-partnerships .partner-rail-compact li > a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    height: 100%;
+    min-height: 115px;
+    padding: 13px;
+    border-radius: inherit;
+    font-size: 14px;
+    font-weight: 550;
+    text-decoration: none;
+  }
+  .portfolio-partnerships .partner-rail-compact li > a:hover { text-decoration: underline; }
+  .portfolio-partnerships .partner-rail-compact li > a:focus-visible { outline-offset: -3px; }
+  .portfolio-partnerships .partner-rail-compact .partner-avatar { width: 48px; height: 48px; }
+  .portfolio-partnerships .partnership-case-links { gap: 8px 16px; margin-top: 16px; font-size: 13px; }
   .portfolio-partnerships .partnership-case-links strong { color: var(--ink); font-weight: 600; }
-  .portfolio-partnerships #athlete-partnerships { grid-column: span 2; }
-  .portfolio-partnerships #athlete-partnerships .partner-name-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 14px;
-  }
-  .portfolio-partnerships .partnership-people h4 { margin-bottom: 12px; }
-  .partnership-people .partner-name-list a { padding-block: 2px; }
-  @media (min-width: 1021px) {
-    .portfolio-partnerships .partnership-organizations { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-  }
-  @media (min-width: 561px) and (max-width: 1020px) {
-    .portfolio-partnerships .partnership-people { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  }
-  @media (max-width: 560px) {
-    .portfolio-partnerships .partnership-people { grid-template-columns: minmax(0, 1fr); }
-    .portfolio-partnerships #athlete-partnerships { grid-column: auto; }
-    .portfolio-partnerships #athlete-partnerships .partner-name-list { grid-template-columns: minmax(0, 1fr); }
+
+  @media (max-width: 550px) {
+    .portfolio-partnerships .partner-rail-track,
+    .portfolio-partnerships #photo-partnerships .partner-rail-track { grid-auto-columns: min(80%, 250px); }
+    .portfolio-partnerships .partner-rail-compact .partner-rail-track { grid-auto-columns: min(66%, 205px); }
+    .portfolio-partnerships .partner-rail-head { margin-bottom: 6px; }
   }
 
   #portfolio-context { border: 0; }
