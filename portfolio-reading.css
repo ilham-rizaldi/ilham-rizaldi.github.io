@@ -1,3 +1,18 @@
+@media screen and (min-width: 1001px) {
+  :root {
+    --max: 1200px;
+    --pad: 48px;
+  }
+  body > .topbar > .wrap,
+  #main > .hero > .hero-intro.wrap,
+  #main > .section > .wrap,
+  #main > .portfolio-context.wrap,
+  body > .contact > .wrap {
+    width: min(100%, calc(100% - 96px));
+    margin-inline: auto;
+  }
+}
+
 @media screen {
   .portfolio-explore {
     grid-template-columns: repeat(4, minmax(0, 1fr));
