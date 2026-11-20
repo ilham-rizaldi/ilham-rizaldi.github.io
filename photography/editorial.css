@@ -301,3 +301,20 @@
     .viewer-stage { flex: 1 1 auto; height: auto; min-height: 0; }
   }
 }
+
+@media screen and (min-width: 1001px) {
+  :root {
+    --max: 1200px;
+    --pad: 48px;
+  }
+  .wrap {
+    width: min(100%, calc(100% - 96px));
+    max-width: var(--max);
+    margin-inline: auto;
+  }
+  dialog {
+    width: min(calc(100% - 192px), 1104px);
+    max-height: calc(100dvh - 64px);
+    margin: auto;
+  }
+}
