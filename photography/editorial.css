@@ -145,6 +145,7 @@
   .filters button:focus-visible { outline-offset: -4px; }
   .filters button[aria-pressed="true"] { background: var(--lime); border-color: var(--lime); }
   .filters button[aria-pressed="true"]:focus-visible { outline-color: var(--bg); }
+  .filters button { border-radius: 8px; }
   .gallery {
     --cover-gap: clamp(9px, 1.3vw, 18px);
     --cover-size: calc((100cqw - 2 * var(--cover-gap)) / 3);
@@ -216,25 +217,33 @@
   .viewer-top p { max-width: 65ch; margin-top: 8px; font-size: 14px; }
   .viewer-controls button, .close { flex-shrink: 0; border-radius: 0; color: var(--ink); }
   .viewer-controls button:not(:disabled):hover, .close:hover { background: var(--panel2); }
+  .close {
+    min-width: 82px;
+    padding-inline: 12px;
+    border-color: var(--lime);
+    border-radius: 8px;
+    background: var(--lime);
+    color: var(--bg);
+    font: 600 14px/1.2 var(--display);
+    white-space: nowrap;
+  }
+  .close:hover { background: var(--lime-hover); color: var(--bg); }
   .album-grid {
-    --photo-row-height: clamp(150px, 27cqw, 350px);
-    --photo-max-row-height: clamp(250px, 40cqw, 500px);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: start;
-    justify-content: center;
-    gap: 2px;
+    display: block;
+    columns: 3;
+    column-gap: 8px;
     padding: 0;
     background: var(--bg);
     container-type: inline-size;
   }
-  /* Incomplete rows keep the same approximate scale as the rows above. */
-  .album-grid::after { content: ""; flex: 1000 0 0; }
+  .album-grid::after { content: none; }
   .album-grid .photo-window {
     --photo-ratio: 1;
-    flex: calc(10 * var(--photo-ratio)) 0 min(100%, calc(var(--photo-ratio) * var(--photo-row-height)));
-    width: auto;
-    max-width: calc(var(--photo-ratio) * var(--photo-max-row-height));
+    display: block;
+    break-inside: avoid;
+    width: 100%;
+    max-width: none;
+    margin: 0 0 8px;
     aspect-ratio: var(--photo-ratio);
     background: var(--panel);
   }
@@ -260,6 +269,7 @@
 
   @media (max-width: 900px) {
     .gallery { --cover-size: calc((100cqw - var(--cover-gap)) / 2); }
+    .album-grid { columns: 2; }
   }
   @media (max-width: 540px) {
     .gallery { display: grid; grid-template-columns: minmax(0, 1fr); }
@@ -267,6 +277,14 @@
   }
 
   @media (max-width: 760px) {
+    .filters {
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      overscroll-behavior-inline: contain;
+      scrollbar-width: thin;
+      scrollbar-color: var(--lime) transparent;
+    }
+    .filters button { flex: 0 0 auto; white-space: nowrap; }
     .photo-stage { min-height: clamp(460px, 73svh, 650px); }
     .hero-collage { grid-template-columns: 19fr 62fr 19fr; }
     .hero .photo-nameplate h1 { font-size: clamp(40px, 9.4vw, 70px); }
@@ -293,9 +311,10 @@
     .viewer-top, .viewer-bottom { padding-inline: 14px; }
     dialog { width: 100%; height: 100dvh; max-height: 100dvh; margin: 0; border: 0; border-radius: 0; }
     .album-grid {
-      --photo-row-height: clamp(105px, 45cqw, 240px);
-      --photo-max-row-height: clamp(180px, 105cqw, 420px);
+      columns: 2;
+      column-gap: 4px;
     }
+    .album-grid .photo-window { margin-bottom: 4px; }
     dialog[open]:has(.viewer-stage:not([hidden])) { display: flex; flex-direction: column; }
     .viewer-top, .viewer-bottom { flex-shrink: 0; }
     .viewer-stage { flex: 1 1 auto; height: auto; min-height: 0; }

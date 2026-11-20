@@ -7385,7 +7385,7 @@
       "source_kind": "Existing project cover, retained in its original HTML layout",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/existing-project-media-1.webp",
+        "src": "assets/thumbnails/existing-project-media-1-hd.webp",
         "alt": "Marketing for Ardiles Running and Basketball. project image",
         "width": 640,
         "height": 800,
@@ -7398,10 +7398,10 @@
       "source_kind": "Existing project cover, retained in its original HTML layout",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/existing-project-media-3.webp",
+        "src": "assets/thumbnails/existing-project-media-3-hd.webp",
         "alt": "Speedy Weeedy × Kevinswork: Love & Hustle. project image",
-        "width": 640,
-        "height": 800,
+        "width": 1080,
+        "height": 1350,
         "title": "Speedy Weeedy × Kevinswork: Love & Hustle."
       }
     },
@@ -7446,10 +7446,10 @@
       "source_sha256": "7f7bdadee4de01a75914023e10d498e566f998263046bd6671f7b0f659a56152",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/hardcore.webp",
+        "src": "assets/thumbnails/hardcore-hd.webp",
         "alt": "Ardiles Hardcore × IBL launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Ardiles Hardcore × IBL launch."
       }
     },
@@ -7475,10 +7475,10 @@
       "source_sha256": "9b0927cbea6b77b1a769e6c72877dfeb56855c73bdf6921542ab0223108fc091",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/team-ardiles-athletes.webp",
+        "src": "assets/thumbnails/team-ardiles-athletes-hd.webp",
         "alt": "Team Ardiles running athletes: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1920,
         "title": "Team Ardiles running athletes"
       }
     },
@@ -7507,10 +7507,10 @@
       "source_sha256": "7472306aec47f82746f6890bf9453d98a2701b72ae4379857abc5d684aea3841",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/sense-pro-launch.webp",
+        "src": "assets/thumbnails/sense-pro-launch-hd.webp",
         "alt": "Ardiles Sense Pro 2.0 launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1920,
         "title": "Ardiles Sense Pro 2.0 launch"
       }
     },
@@ -7523,10 +7523,10 @@
       "source_sha256": "36b5bd9db139dbce373d76a150767e654d7f386588a60d7ec846c79c4c9353cc",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/runergize.webp",
+        "src": "assets/thumbnails/runergize-hd.webp",
         "alt": "Ardiles Runergize launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1920,
         "title": "Ardiles Runergize launch"
       }
     },
@@ -7539,10 +7539,10 @@
       "source_sha256": "25c68b0459c15ddee1a620152a8268d31574d06cfec00adfe940537c219802ab",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/speedy-weeedy-signature.webp",
+        "src": "assets/thumbnails/speedy-weeedy-signature-hd.webp",
         "alt": "Speedy Weeedy signature shoe: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Speedy Weeedy signature shoe"
       }
     },
@@ -7555,10 +7555,10 @@
       "source_sha256": "7fbbbb2e414f4f9132ed8be30594b1894bd31c8a357ed4e5140a55a2a5731cb8",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/retrodrive.webp",
+        "src": "assets/thumbnails/retrodrive-hd.webp",
         "alt": "Speedy Weeedy Retrodrive: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1918,
         "title": "Speedy Weeedy Retrodrive"
       }
     },
@@ -7571,10 +7571,10 @@
       "source_sha256": "91393c51a1ff051db064d1f595a3d4ce04e28336a7f8197a2b1c594269fc962e",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/xplode.webp",
+        "src": "assets/thumbnails/xplode-hd.webp",
         "alt": "Ardiles Xplode launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1349,
+        "height": 1687,
         "title": "Ardiles Xplode launch"
       }
     },
@@ -7587,10 +7587,10 @@
       "source_sha256": "4ec7c1bf2717efc3009b6f0f52b6ace41a2da9823a71d691d7a9006bfed54425",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/ultimate.webp",
+        "src": "assets/thumbnails/ultimate-hd.webp",
         "alt": "Ardiles Ultimate 1.0 launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Ardiles Ultimate 1.0 launch"
       }
     },
@@ -7603,10 +7603,10 @@
       "source_sha256": "9f2985e945ce9dd691d1d82e102db85af1a4e54d6f8e3e1597e4011a6519ad3c",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/speedy-weeedy-snake.webp",
+        "src": "assets/thumbnails/speedy-weeedy-snake-hd.webp",
         "alt": "Speedy Weeedy 1.5 Snake: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1350,
+        "height": 1688,
         "title": "Speedy Weeedy 1.5 Snake"
       }
     },
@@ -7619,10 +7619,10 @@
       "source_sha256": "a1fc1237faa47ea4a6aaee9e6448280bef03993744824c8a3e7f2b0663990f19",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/gerbera-cross-jumper.webp",
+        "src": "assets/thumbnails/gerbera-cross-jumper-hd.webp",
         "alt": "Ardiles Gerbera Cross Jumper: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1382,
+        "height": 1860,
         "title": "Ardiles Gerbera Cross Jumper"
       }
     },
@@ -7651,10 +7651,10 @@
       "source_sha256": "351d3217e1a29c5db782b598c52442b45528f0bbcc2446b6750fdd4d46e21ea7",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/thunderspeed.webp",
+        "src": "assets/thumbnails/thunderspeed-hd.webp",
         "alt": "Speedy Weeedy Thunderspeed: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Speedy Weeedy Thunderspeed"
       }
     },
@@ -7667,10 +7667,10 @@
       "source_sha256": "ccce51de915814d62e32901eb6b4d0f35e505406fe17b630c6a7aafbb717c4ec",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/ibl-all-star.webp",
+        "src": "assets/thumbnails/ibl-all-star-hd.webp",
         "alt": "Ardiles at IBL All-Star 2025: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1080,
+        "height": 1350,
         "title": "Ardiles at IBL All-Star 2025"
       }
     },
@@ -7683,10 +7683,10 @@
       "source_sha256": "74299b508ecffd3e33cc4954e9a4f58b30650458093dc80017ff1bee05902099",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/maverick.webp",
+        "src": "assets/thumbnails/maverick-hd.webp",
         "alt": "Ardiles Maverick launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1200,
+        "height": 1600,
         "title": "Ardiles Maverick launch"
       }
     },
@@ -7699,10 +7699,10 @@
       "source_sha256": "390f86fccbe65670ef5f0b701dbbbaad5b29667a32906e1f4d193d09e0a2f822",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/attack.webp",
+        "src": "assets/thumbnails/attack-hd.webp",
         "alt": "Ardiles Attack launch: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Ardiles Attack launch"
       }
     },
@@ -7715,10 +7715,10 @@
       "source_sha256": "b8d64eeb45fc2c95ec852e945a1e4d17eaac7837e9a3e383165a08f4c96e5276",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/hdp-ball-handling.webp",
+        "src": "assets/thumbnails/hdp-ball-handling-hd.webp",
         "alt": "HDP Ball Handling × Ardiles: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1918,
         "title": "HDP Ball Handling × Ardiles"
       }
     },
@@ -7763,10 +7763,10 @@
       "source_sha256": "429a8a5a35fac63ca29df00ab7f74058f9be28ee200af15d45b0e96d8e54c483",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/uss-jsd.webp",
+        "src": "assets/thumbnails/uss-jsd-hd.webp",
         "alt": "Urban Sneaker Society and Jakarta Sneakers Day: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Urban Sneaker Society and Jakarta Sneakers Day"
       }
     },
@@ -7827,10 +7827,10 @@
       "source_sha256": "2836e9f0a59c6cdfde5779d06a9b779faad4b60a21bf69190493886f499506ed",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/dbl-student-tributes.webp",
+        "src": "assets/thumbnails/dbl-student-tributes-hd.webp",
         "alt": "DBL Academy student tributes: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1440,
         "title": "DBL Academy student tributes"
       }
     },
@@ -7843,10 +7843,10 @@
       "source_sha256": "b65e1fce25ece5c8f6ff31fe7bbe3c96d82a968ea6f542fe788b019c4506972f",
       "cover": {
         "kind": "image",
-        "src": "assets/thumbnails/event-photography.webp",
+        "src": "assets/thumbnails/event-photography-hd.webp",
         "alt": "Event photography: Salomon and HOKA: image from a related project post",
-        "width": 720,
-        "height": 450,
+        "width": 1440,
+        "height": 1800,
         "title": "Event photography: Salomon and HOKA"
       }
     },
@@ -7898,9 +7898,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DeoNoaxvKgc.webp",
-        "width": 720,
-        "height": 405,
+        "src": "assets/campaigns/DeoNoaxvKgc-hd.webp",
+        "width": 1080,
+        "height": 1920,
         "alt": "Drive Day Walker campaign film showing work and everyday movement in a split-screen scene",
         "title": "Drive Day Walker campaign"
       }
@@ -7910,9 +7910,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DeW0gLHnx1a.webp",
-        "width": 720,
-        "height": 960,
+        "src": "assets/campaigns/DeW0gLHnx1a-hd.webp",
+        "width": 1536,
+        "height": 2048,
         "alt": "Run Into the Wild participant handing a relay baton to a teammate at the Surabaya activation",
         "title": "Run Into the Wild event activation"
       }
@@ -7922,9 +7922,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DMPqWfepRmE.webp",
-        "width": 721,
-        "height": 960,
+        "src": "assets/campaigns/DMPqWfepRmE-hd.webp",
+        "width": 1440,
+        "height": 1918,
         "alt": "Allegro Meta basketball shoes on the orange Ready Now launch artwork",
         "title": "Allegro Meta: All Game. All Day."
       }
@@ -7934,9 +7934,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/Comok3ov2aB.webp",
-        "width": 960,
-        "height": 960,
+        "src": "assets/campaigns/Comok3ov2aB-hd.webp",
+        "width": 1280,
+        "height": 1280,
         "alt": "Ardiles Community League and Headshoes event announcement for 5 March 2023 at The Breeze BSD",
         "title": "Ardiles Community League × Headshoes."
       }
@@ -7946,9 +7946,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DPQqPvzCakD.webp",
-        "width": 721,
-        "height": 960,
+        "src": "assets/campaigns/DPQqPvzCakD-hd.webp",
+        "width": 1440,
+        "height": 1918,
         "alt": "Spectra White Blue and Black Purple basketball shoes on the green Ready Now campaign artwork",
         "title": "Spectra: Lightspeed."
       }
@@ -7994,9 +7994,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DUXqYLzktHy.webp",
-        "width": 720,
-        "height": 960,
+        "src": "assets/campaigns/DUXqYLzktHy-hd.webp",
+        "width": 1440,
+        "height": 1920,
         "alt": "Run and Recharge 5K fun run invitation for 15 February 2026 at Fork Tunjungan",
         "title": "Run & Recharge × EJ Sport."
       }
@@ -8006,9 +8006,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/DU3HHTJkkeO.webp",
-        "width": 767,
-        "height": 960,
+        "src": "assets/campaigns/DU3HHTJkkeO-hd.webp",
+        "width": 1350,
+        "height": 1688,
         "alt": "Metora 3.0 training shoes in the launch product artwork",
         "title": "Metora 3.0: Hybrid Training."
       }
@@ -8030,9 +8030,9 @@
       "source_kind": "Reviewed public campaign post",
       "cover": {
         "kind": "image",
-        "src": "assets/campaigns/CpzqyzlsKwr.webp",
-        "width": 540,
-        "height": 960,
+        "src": "assets/campaigns/CpzqyzlsKwr-hd.webp",
+        "width": 1080,
+        "height": 1920,
         "alt": "Hansaluft in an episode of the Ardiles-sponsored running comedy series",
         "title": "Running Stories with PGL Films."
       }
@@ -8100,5 +8100,1292 @@
     "source_files_modified": false,
     "script": "scripts/apply_portfolio_usability.py",
     "notes": "Recorded source dimensions remove padding from displayed photo covers and atlas cells. Original sources remain unchanged; edge content may be cropped."
+  },
+  "hd_preview_audit": {
+    "date": "2026-11-20",
+    "project_covers": 29,
+    "supporting_previews": 81,
+    "photography_covers": [
+      {
+        "album": "DSCi3ZQD7em",
+        "old": "thumbs/DSCi3ZQD7em.webp",
+        "src": "images/DSCi3ZQD7em-0.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "DXOCt44FF7a",
+        "old": "thumbs/DXOCt44FF7a.webp",
+        "src": "images/DXOCt44FF7a-0.webp",
+        "dimensions": [
+          1080,
+          1440
+        ]
+      },
+      {
+        "album": "C9eZycbP3wK",
+        "old": "thumbs/C9eZycbP3wK.webp",
+        "src": "images/C9eZycbP3wK-1.webp",
+        "dimensions": [
+          1280,
+          1600
+        ]
+      },
+      {
+        "album": "DVAmKudD_JQ",
+        "old": "thumbs/cyclist-portrait-dika-avian-z.webp",
+        "src": "images/dika-avian-z-28-hd.webp",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      {
+        "album": "DFIEiW8vddb",
+        "old": "thumbs/DFIEiW8vddb.webp",
+        "src": "images/DFIEiW8vddb-0.webp",
+        "dimensions": [
+          1280,
+          1600
+        ]
+      },
+      {
+        "album": "DX8y1WglA66",
+        "old": "thumbs/DX8y1WglA66.webp",
+        "src": "images/DX8y1WglA66-0.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "DTUbdcXDwth",
+        "old": "thumbs/DTUbdcXDwth.webp",
+        "src": "images/DTUbdcXDwth-1.webp",
+        "dimensions": [
+          1440,
+          1152
+        ]
+      },
+      {
+        "album": "C9J8FRlvbjv",
+        "old": "thumbs/C9J8FRlvbjv-behance.webp",
+        "src": "images/C9J8FRlvbjv-behance-09.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "C9MrSRMvmDO",
+        "old": "thumbs/C9MrSRMvmDO-behance.webp",
+        "src": "images/C9MrSRMvmDO-1-hd.webp",
+        "dimensions": [
+          1536,
+          1920
+        ]
+      },
+      {
+        "album": "DFFZkFfvGoy",
+        "old": "thumbs/DFFZkFfvGoy.webp",
+        "src": "images/DFFZkFfvGoy-0.webp",
+        "dimensions": [
+          1280,
+          1600
+        ]
+      },
+      {
+        "album": "DC6Erb8Ph08",
+        "old": "thumbs/DC6Erb8Ph08.webp",
+        "src": "images/DC6Erb8Ph08-0.webp",
+        "dimensions": [
+          1280,
+          1600
+        ]
+      },
+      {
+        "album": "taco-retro-summer-run",
+        "old": "thumbs/taco-retro-summer-run.webp",
+        "src": "images/taco-retro-summer-run-01.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "he-ji",
+        "old": "thumbs/he-ji-behance.webp",
+        "src": "images/he-ji-02-hd.webp",
+        "dimensions": [
+          1920,
+          1920
+        ]
+      },
+      {
+        "album": "merah-rempah-ramadhan-special-menu",
+        "old": "thumbs/merah-rempah-ramadhan-special-menu-behance.webp",
+        "src": "images/merah-rempah-ramadhan-special-menu-01-hd.webp",
+        "dimensions": [
+          1080,
+          1080
+        ]
+      },
+      {
+        "album": "ranu-manduro",
+        "old": "thumbs/ranu-manduro.webp",
+        "src": "images/ranu-manduro-01.webp",
+        "dimensions": [
+          1600,
+          1060
+        ]
+      },
+      {
+        "album": "iconnect-sunrise-mall-mojokerto",
+        "old": "thumbs/iconnect-sunrise-mall-mojokerto.webp",
+        "src": "images/iconnect-sunrise-mall-mojokerto-01.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "eische",
+        "old": "thumbs/eische.webp",
+        "src": "images/eische-01.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "rumah-tenggilis",
+        "old": "thumbs/rumah-tenggilis.webp",
+        "src": "images/rumah-tenggilis-01.webp",
+        "dimensions": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "album": "zams-intro",
+        "old": "thumbs/zams-intro.webp",
+        "src": "images/zams-intro-01.webp",
+        "dimensions": [
+          1200,
+          1600
+        ]
+      },
+      {
+        "album": "novam-erina",
+        "old": "thumbs/novam-erina.webp",
+        "src": "images/novam-erina-01.webp",
+        "dimensions": [
+          1067,
+          1600
+        ]
+      },
+      {
+        "album": "tour-of-kemala-gresik",
+        "old": "thumbs/tour-of-kemala-gresik.webp",
+        "src": "images/tour-of-kemala-gresik-behance-04.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "al-akram-speaker",
+        "old": "thumbs/al-akram-speaker.webp",
+        "src": "images/al-akram-speaker-behance-04.webp",
+        "dimensions": [
+          1080,
+          1080
+        ]
+      },
+      {
+        "album": "outdoor-wedding-decoration",
+        "old": "thumbs/outdoor-wedding-decoration.webp",
+        "src": "images/outdoor-wedding-decoration-behance-01.webp",
+        "dimensions": [
+          1920,
+          1080
+        ]
+      },
+      {
+        "album": "indonesia-downhill-watu-cenik",
+        "old": "thumbs/indonesia-downhill-watu-cenik.webp",
+        "src": "images/indonesia-downhill-watu-cenik-behance-01.webp",
+        "dimensions": [
+          1536,
+          1920
+        ]
+      },
+      {
+        "album": "portrait-of-myself-2020",
+        "old": "thumbs/portrait-of-myself-2020.webp",
+        "src": "images/portrait-of-myself-2020-behance-01.webp",
+        "dimensions": [
+          1536,
+          1920
+        ]
+      },
+      {
+        "album": "coca-cola-zero-sugar",
+        "old": "thumbs/coca-cola-zero-sugar.webp",
+        "src": "images/coca-cola-zero-sugar-behance-03.webp",
+        "dimensions": [
+          1280,
+          1920
+        ]
+      },
+      {
+        "album": "nike-hyperrev-2016",
+        "old": "thumbs/nike-hyperrev-2016.webp",
+        "src": "images/nike-hyperrev-2016-behance-02.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "wd-my-book",
+        "old": "thumbs/wd-my-book.webp",
+        "src": "images/wd-my-book-behance-01.webp",
+        "dimensions": [
+          1920,
+          1920
+        ]
+      },
+      {
+        "album": "junior-dbl-final-match",
+        "old": "thumbs/junior-dbl-final-match.webp",
+        "src": "images/junior-dbl-final-match-behance-01.webp",
+        "dimensions": [
+          1920,
+          1920
+        ]
+      },
+      {
+        "album": "iphone-x-premium-leather-case",
+        "old": "thumbs/iphone-x-premium-leather-case.webp",
+        "src": "images/iphone-x-premium-leather-case-behance-01.webp",
+        "dimensions": [
+          1860,
+          1860
+        ]
+      },
+      {
+        "album": "bape-bmw-f30",
+        "old": "thumbs/bape-bmw-f30.webp",
+        "src": "images/bape-bmw-f30-behance-01.webp",
+        "dimensions": [
+          1080,
+          608
+        ]
+      },
+      {
+        "album": "soloensis-liberate-day",
+        "old": "thumbs/soloensis-liberate-day.webp",
+        "src": "images/soloensis-liberate-day-behance-01.webp",
+        "dimensions": [
+          1500,
+          1000
+        ]
+      },
+      {
+        "album": "dbl-academy-international-competitions",
+        "old": "thumbs/dbl-academy-international-competitions.webp",
+        "src": "images/dbl-academy-international-competitions-behance-01.webp",
+        "dimensions": [
+          1920,
+          1920
+        ]
+      },
+      {
+        "album": "bromo-different-perspective",
+        "old": "thumbs/bromo-different-perspective.webp",
+        "src": "images/bromo-different-perspective-behance-01.webp",
+        "dimensions": [
+          1538,
+          1920
+        ]
+      },
+      {
+        "album": "dbl-all-star-2019-vs-unair",
+        "old": "thumbs/dbl-all-star-2019-vs-unair.webp",
+        "src": "images/dbl-all-star-2019-vs-unair-behance-01.webp",
+        "dimensions": [
+          1537,
+          1920
+        ]
+      },
+      {
+        "album": "yudha-bmw-e46",
+        "old": "thumbs/yudha-bmw-e46.webp",
+        "src": "images/yudha-bmw-e46-behance-01.webp",
+        "dimensions": [
+          1080,
+          1350
+        ]
+      },
+      {
+        "album": "verlian-panji-civic-fb-parking-garage",
+        "old": "thumbs/verlian-panji-civic-fb-parking-garage.webp",
+        "src": "images/verlian-panji-civic-fb-parking-garage-17.webp",
+        "dimensions": [
+          1280,
+          1920
+        ]
+      },
+      {
+        "album": "verlian-panji-civic-fb-mountain-pass",
+        "old": "thumbs/verlian-panji-civic-fb-mountain-pass.webp",
+        "src": "images/verlian-panji-civic-fb-mountain-pass-07.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "verlian-panji-civic-fb-industrial-lot",
+        "old": "thumbs/verlian-panji-civic-fb-industrial-lot.webp",
+        "src": "images/verlian-panji-civic-fb-industrial-lot-05.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "dika-warung-ketintang",
+        "old": "thumbs/dika-warung-ketintang.webp",
+        "src": "images/dika-warung-ketintang-05.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "kedung-cowek-cycling-exploration",
+        "old": "thumbs/kedung-cowek-cycling-exploration.webp",
+        "src": "images/kedung-cowek-cycling-exploration-23.webp",
+        "dimensions": [
+          1920,
+          1280
+        ]
+      },
+      {
+        "album": "prints-graduation-photo",
+        "old": "thumbs/prints-graduation-photo.webp",
+        "src": "images/prints-graduation-photo-77.webp",
+        "dimensions": [
+          1280,
+          1920
+        ]
+      },
+      {
+        "album": "project-delta-aralia",
+        "old": "thumbs/project-delta-aralia.webp",
+        "src": "images/project-delta-aralia-09.webp",
+        "dimensions": [
+          1440,
+          1920
+        ]
+      },
+      {
+        "album": "kebun-refugia-magetan",
+        "old": "thumbs/kebun-refugia-magetan.webp",
+        "src": "images/kebun-refugia-magetan-01.webp",
+        "dimensions": [
+          1440,
+          1440
+        ]
+      }
+    ],
+    "assets": {
+      "assets/thumbnails/hardcore-hd.webp": {
+        "source": "https://www.instagram.com/p/DBkpf3hS19X/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "e59f36f0eb6cba424d4d1ed1a88021838d2acfb69ed1429f568d06394a86bb6f"
+      },
+      "assets/thumbnails/team-ardiles-athletes-hd.webp": {
+        "source": "https://www.instagram.com/p/DTwsfgHkg1W/",
+        "dimensions": [
+          1440,
+          1920
+        ],
+        "sha256": "d1ddb90895c233f92e15a4e6facd47e5c0d253e739a84bed52e4c9b91a35b815"
+      },
+      "assets/thumbnails/sense-pro-launch-hd.webp": {
+        "source": "https://www.instagram.com/p/DVgRqrAE-ZN/",
+        "dimensions": [
+          1440,
+          1920
+        ],
+        "sha256": "ea25c410aa2627e05ab5e6d0fa72af063e1110b802a05261cebc8395c81023bf"
+      },
+      "assets/thumbnails/runergize-hd.webp": {
+        "source": "https://www.instagram.com/p/DXbCdTqEwl8/",
+        "dimensions": [
+          1440,
+          1920
+        ],
+        "sha256": "dc2a71eca068fa7dcf6d2b43d61337bb5328be06fd34aab525f14bc55bd95b63"
+      },
+      "assets/thumbnails/speedy-weeedy-signature-hd.webp": {
+        "source": "https://www.instagram.com/p/C7RSO1KBXCa/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "67e3bea818e63e6bf9e5ed659139edfdece63da29c519b00627f2a28122902d7"
+      },
+      "assets/thumbnails/retrodrive-hd.webp": {
+        "source": "https://www.instagram.com/p/DTnR8GciQWn/",
+        "dimensions": [
+          1440,
+          1918
+        ],
+        "sha256": "490635fa22da45a6a9bbd8a2cda017d7e1a807e74dbd9e91f81c6057ddfcdb8f"
+      },
+      "assets/thumbnails/xplode-hd.webp": {
+        "source": "https://www.instagram.com/p/Cuts3ViBHkZ/",
+        "dimensions": [
+          1349,
+          1687
+        ],
+        "sha256": "fc229664a124a57f8dccf59a5e217854ce1ad83d5c664f77aa89773bd4d372f2"
+      },
+      "assets/thumbnails/ultimate-hd.webp": {
+        "source": "https://www.instagram.com/p/CtMDPbbBN6B/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "9d66b89bdd87cd5ab7a3e620251a3953d7d16dcdbd362d616268cc1c839f2c2e"
+      },
+      "assets/thumbnails/speedy-weeedy-snake-hd.webp": {
+        "source": "https://www.instagram.com/p/DGkp9qfy9gE/",
+        "dimensions": [
+          1350,
+          1688
+        ],
+        "sha256": "ac3f7e0ea36a753979c6f5deb5398b67e93757ffd963c1d5ddb08d2cae3af961"
+      },
+      "assets/thumbnails/thunderspeed-hd.webp": {
+        "source": "https://www.instagram.com/p/DJwG9RmJds2/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "b26ee37f676e6fcc4c8abfa9d91452f7c4b88364e0d653c944822f00ff3c2204"
+      },
+      "assets/thumbnails/ibl-all-star-hd.webp": {
+        "source": "https://www.instagram.com/p/DJOvASqppnH/",
+        "dimensions": [
+          1080,
+          1350
+        ],
+        "sha256": "7c87e4f1f76d91db5f0bc3fb76cb03b2d8217248f5ac4fc851cbef7c8a4d7607"
+      },
+      "assets/thumbnails/maverick-hd.webp": {
+        "source": "https://www.instagram.com/p/DOdX-eOiT_9/",
+        "dimensions": [
+          1200,
+          1600
+        ],
+        "sha256": "bcb10830b9c68564b9c4863735d37314d8cf4014e5318dac13afd3b6435981a4"
+      },
+      "assets/thumbnails/attack-hd.webp": {
+        "source": "https://www.instagram.com/p/DUF7kNPCZoi/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "34304ab74181fb5ff8e477723c706e930ed16f09192116f5c8a645a97018df80"
+      },
+      "assets/thumbnails/hdp-ball-handling-hd.webp": {
+        "source": "https://www.instagram.com/p/DNK0sOKJpjs/",
+        "dimensions": [
+          1440,
+          1918
+        ],
+        "sha256": "2185349b23bd33d75350bfe356f13db2edbfe898824829a661adf94bfea25432"
+      },
+      "assets/thumbnails/uss-jsd-hd.webp": {
+        "source": "https://www.instagram.com/p/DQzSa9QCVwR/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "db7044863478bfaf91cb85b209203ba65d09bd2885fca29c31e75e2ce5eafacd"
+      },
+      "assets/thumbnails/dbl-student-tributes-hd.webp": {
+        "source": "https://www.instagram.com/p/B8T9rVppFPk/",
+        "dimensions": [
+          1440,
+          1440
+        ],
+        "sha256": "2bb5c1c408dbaa2d0e90f7f357aac11c6c276784311e0c20815f779c5e2baf12"
+      },
+      "assets/thumbnails/event-photography-hd.webp": {
+        "source": "https://www.instagram.com/p/C9J8FRlvbjv/",
+        "dimensions": [
+          1440,
+          1800
+        ],
+        "sha256": "205a81f8fcba33235b9c8561e8a0bd2fe2f31da5255d499c8c39c949ee16f4fb"
+      },
+      "assets/thumbnails/existing-project-media-3-hd.webp": {
+        "source": "https://riezaldd.my.canva.site/portfolio",
+        "dimensions": [
+          1080,
+          1350
+        ],
+        "sha256": "fef702d945d5ef6fe817073e0e08624c79d339861cb6c56b6f33df2c02adac53"
+      },
+      "assets/thumbnails/existing-project-media-1-hd.webp": {
+        "source": "https://riezaldd.my.canva.site/portfolio",
+        "dimensions": [
+          640,
+          800
+        ],
+        "sha256": "538f0800b8940281a89d803a85db5541940c803a4dcfff7f0076f9f3a7933d1d"
+      },
+      "assets/thumbnails/gerbera-cross-jumper-hd.webp": {
+        "source": "https://www.instagram.com/p/DOSZJx5EvfE/",
+        "dimensions": [
+          1382,
+          1860
+        ],
+        "sha256": "f040c36e6855b7c2c11d5f66fa4c9d224f6c918c5e51fa9e929c9ad2c55d3a16"
+      },
+      "assets/campaigns/CpzqyzlsKwr-hd.webp": {
+        "source": "https://www.instagram.com/p/CpzqyzlsKwr/",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "fdcee74d5cf3be0be3f688a63e723c6a1e7d5dbd4e7267287cb63c166c60904d"
+      },
+      "assets/campaigns/Comok3ov2aB-hd.webp": {
+        "source": "https://www.instagram.com/p/Comok3ov2aB/",
+        "dimensions": [
+          1280,
+          1280
+        ],
+        "sha256": "a71e354b19f1df9f6993c0bcb365f41dc40fb4eff35252f2982aa115807a4c3b"
+      },
+      "assets/campaigns/DU3HHTJkkeO-hd.webp": {
+        "source": "https://www.instagram.com/p/DU3HHTJkkeO/",
+        "dimensions": [
+          1350,
+          1688
+        ],
+        "sha256": "f0b806a12cad14bad93c698cbb7f2ef17ee608eb33462afc7a664b54f2ab76ae"
+      },
+      "assets/campaigns/DPQqPvzCakD-hd.webp": {
+        "source": "https://www.instagram.com/p/DPQqPvzCakD/",
+        "dimensions": [
+          1440,
+          1918
+        ],
+        "sha256": "042c794a403e93b4a67c68a52f14e6de7a7aed69853967a3b78f666cdcdbb842"
+      },
+      "assets/campaigns/DUXqYLzktHy-hd.webp": {
+        "source": "https://www.instagram.com/p/DUXqYLzktHy/",
+        "dimensions": [
+          1440,
+          1920
+        ],
+        "sha256": "6580dffc2e9dc7f9f9f28bc53561a64916a8b2d216444313f6a1ee0a5fc204a0"
+      },
+      "assets/campaigns/DeW0gLHnx1a-hd.webp": {
+        "source": "https://www.instagram.com/p/DeW0gLHnx1a/",
+        "dimensions": [
+          1536,
+          2048
+        ],
+        "sha256": "4b239f4d37385200d7517673d870f432bce17d0844fa387329bc5d27db15fffc"
+      },
+      "assets/campaigns/DMPqWfepRmE-hd.webp": {
+        "source": "https://www.instagram.com/p/DMPqWfepRmE/",
+        "dimensions": [
+          1440,
+          1918
+        ],
+        "sha256": "5c4ec1e9345e2883e6e54565ca699cc95a27e346aae387165abc39cf747a4eba"
+      },
+      "assets/campaigns/DeoNoaxvKgc-hd.webp": {
+        "source": "https://www.instagram.com/p/DeoNoaxvKgc/",
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "sha256": "640d0997360f55613d8c109056208c0dfb8dd27c7a113ff65f0312c63c41980b"
+      },
+      "assets/thumbnails/posts-hd/DU5W0T2EdJi.webp": {
+        "source": "https://www.instagram.com/p/DU5W0T2EdJi/",
+        "dimensions": [
+          512,
+          512
+        ],
+        "sha256": "416209564bd5062735f41230be44e83e7c7749a795cb2948e014afe9afce49d2"
+      },
+      "assets/thumbnails/posts-hd/DXzD6MIE2-F.webp": {
+        "source": "https://www.instagram.com/p/DXzD6MIE2-F/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "3225f461e71f69642b2e97b78da70039c5f1a7b81ac8a66e1dda46c0280f01ca"
+      },
+      "assets/thumbnails/posts-hd/DYuGBZoSePK.webp": {
+        "source": "https://www.instagram.com/p/DYuGBZoSePK/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "6319ef3b226143d573d76f793229150c6c7e9ee31b202b625c13ca3d7139e31b"
+      },
+      "assets/thumbnails/posts-hd/DBseGnoSgRU.webp": {
+        "source": "https://www.instagram.com/p/DBseGnoSgRU/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "f812851e66c787df4667d21f51a8ba5d3ad2c8e2aee699e0e480f568f943e798"
+      },
+      "assets/thumbnails/posts-hd/DLNAs6qy3bj.webp": {
+        "source": "https://www.instagram.com/p/DLNAs6qy3bj/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "dca759398c73e111641dfb6e48baf286eed6beb2105b98a9936abb89652d13c7"
+      },
+      "assets/thumbnails/posts-hd/DJOvASqppnH.webp": {
+        "source": "https://www.instagram.com/p/DJOvASqppnH/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "dd4e8ef4af6de1225a529401532c6dfb816aeb65a5c816c95078c2b93d3a5a97"
+      },
+      "assets/thumbnails/posts-hd/DVqk7icE4Nj.webp": {
+        "source": "https://www.instagram.com/p/DVqk7icE4Nj/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "4f0f64ad8499bc644c8582d2a0bc3eacc1fbacda6f4915c250fe8cc01ba5cdf5"
+      },
+      "assets/thumbnails/posts-hd/C7JbyGcOEal.webp": {
+        "source": "https://www.instagram.com/p/C7JbyGcOEal/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "c8ff2592032f84580bc1c6e0b4eb00cd6011a1fb9f7ccd7eaeab751f85d65df9"
+      },
+      "assets/thumbnails/posts-hd/DY3S0krSCFZ.webp": {
+        "source": "https://www.instagram.com/p/DY3S0krSCFZ/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "c25fcccfeb21f8b087dbce9a0ae82519793561aedd53245b93eabf98d49d919e"
+      },
+      "assets/thumbnails/posts-hd/DOdX-eOiT_9.webp": {
+        "source": "https://www.instagram.com/p/DOdX-eOiT_9/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "bfef3c8a523a5ae404f687c7e7a4cf0407048a82dd8ab504d1e9e87cac70fb42"
+      },
+      "assets/thumbnails/posts-hd/DXdZ0r1E827.webp": {
+        "source": "https://www.instagram.com/p/DXdZ0r1E827/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "2e8b5af3253d6eb3b41fc9408050cab87aaaad443b4dd1ee713c6d6650c72060"
+      },
+      "assets/thumbnails/posts-hd/DTwsfgHkg1W.webp": {
+        "source": "https://www.instagram.com/p/DTwsfgHkg1W/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "c30a0bf6aad29b9cb152203888c1e22ebc158ace891bddca3e12379ca0b29ce4"
+      },
+      "assets/thumbnails/posts-hd/DX3PTNLk18N.webp": {
+        "source": "https://www.instagram.com/p/DX3PTNLk18N/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "691baf6b6bf4370278b5ae3eb39ffc76192b9f6b624c1b81db26a02f25e5176c"
+      },
+      "assets/thumbnails/posts-hd/DXgCbAxE-pz.webp": {
+        "source": "https://www.instagram.com/p/DXgCbAxE-pz/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "2659366601ea0283113d637b956f9e3f874df44bede39219d04145b4b01c7e14"
+      },
+      "assets/thumbnails/posts-hd/DU75vilkZE2.webp": {
+        "source": "https://www.instagram.com/p/DU75vilkZE2/",
+        "dimensions": [
+          512,
+          464
+        ],
+        "sha256": "686b3c92ae9c6e67ab5624f5be747e0def39d55aac054d2be5b40329978216c0"
+      },
+      "assets/thumbnails/posts-hd/DXiQhQ8E8Gy.webp": {
+        "source": "https://www.instagram.com/p/DXiQhQ8E8Gy/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "1518d3ce6c5a810489fa9260fc24cb79a28637ad8679ba31e2c53dcc7ddc51de"
+      },
+      "assets/thumbnails/posts-hd/DT2u5U0EjTT.webp": {
+        "source": "https://www.instagram.com/p/DT2u5U0EjTT/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "dbce24b79a7f17c32a6180f10ab7f9a6710e4cd93ad8505b984ecf1d89990ccc"
+      },
+      "assets/thumbnails/posts-hd/DGkp9qfy9gE.webp": {
+        "source": "https://www.instagram.com/p/DGkp9qfy9gE/",
+        "dimensions": [
+          409,
+          512
+        ],
+        "sha256": "069da608c9c2e7c9244e5ae1a3e0ad7bcf48d8b87f2e4c5e1852c535ab610ca8"
+      },
+      "assets/thumbnails/posts-hd/DXla5l8Ey91.webp": {
+        "source": "https://www.instagram.com/p/DXla5l8Ey91/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "0197bf2373988490e3ff74d04bf48184b16bd7edd81ed475734ce29a415cda87"
+      },
+      "assets/thumbnails/posts-hd/DU5WCGgEZqv.webp": {
+        "source": "https://www.instagram.com/p/DU5WCGgEZqv/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "0955430f3c8f57bbc358003d9b5cb16c833f6cb88c50665111fbeb690719fc5e"
+      },
+      "assets/thumbnails/posts-hd/DaDHVwizWQo.webp": {
+        "source": "https://www.instagram.com/p/DaDHVwizWQo/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "3856197bc447f751bb34d1b5896dfc0f1b338bbb6c8412f30376cc8109b41855"
+      },
+      "assets/thumbnails/posts-hd/B6sXpvUJZq8.webp": {
+        "source": "https://www.instagram.com/p/B6sXpvUJZq8/",
+        "dimensions": [
+          329,
+          512
+        ],
+        "sha256": "405011b815afe51e9b180885688e6831d3d16b9e0a9c02db7d93d15406163343"
+      },
+      "assets/thumbnails/posts-hd/DUF7kNPCZoi.webp": {
+        "source": "https://www.instagram.com/p/DUF7kNPCZoi/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "3d2e99646897250e6a3ce33a0d67170aa49c140d2d1c0ca58762440c3b66104b"
+      },
+      "assets/thumbnails/posts-hd/C7RSO1KBXCa.webp": {
+        "source": "https://www.instagram.com/p/C7RSO1KBXCa/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "f6e55696362dafceb0d1c8f5dc8a25b67d014f4fa00af5b8802dfac60067c130"
+      },
+      "assets/thumbnails/posts-hd/CtOjMCOhtah.webp": {
+        "source": "https://www.instagram.com/p/CtOjMCOhtah/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "106400c40afb208ac92a44e4c61c78ab79482a0b177acd7ea6638bb3450bbc3c"
+      },
+      "assets/thumbnails/posts-hd/DU7NugCEtMy.webp": {
+        "source": "https://www.instagram.com/p/DU7NugCEtMy/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "91c1b2720912039f54bbdba0e3da5abf00af9745d70118394e2a8acffd0ea867"
+      },
+      "assets/thumbnails/posts-hd/DQy9eHtgc6A.webp": {
+        "source": "https://www.instagram.com/p/DQy9eHtgc6A/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "29d468e33585fa1f0b6c3e12c8741b376a231634155b35de9066f6d4d39ea19f"
+      },
+      "assets/thumbnails/posts-hd/DZOkMXhpDTQ.webp": {
+        "source": "https://www.instagram.com/p/DZOkMXhpDTQ/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "d6740d55daa7f53b4a173970b8f3c327a70d10f90f144e3421ebca656d1ff77a"
+      },
+      "assets/thumbnails/posts-hd/C7MIV6xB0UE.webp": {
+        "source": "https://www.instagram.com/p/C7MIV6xB0UE/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "12ac211fb27923712cdfdc767121a59bf840c5f553c115a59ef14b2dd82297e2"
+      },
+      "assets/thumbnails/posts-hd/DVuhErfEzO8.webp": {
+        "source": "https://www.instagram.com/p/DVuhErfEzO8/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "5ea1f80c028ae5c3c2b41b4887da60138cf5e2045f465a3993d5f843e7b71eb6"
+      },
+      "assets/thumbnails/posts-hd/DTag5_wkjDX.webp": {
+        "source": "https://www.instagram.com/p/DTag5_wkjDX/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "814f3da78828224dd82e043dbb1440c7b1d8abc066f7a7dcb938cb0047113c94"
+      },
+      "assets/thumbnails/posts-hd/DXwc2vlEwIv.webp": {
+        "source": "https://www.instagram.com/p/DXwc2vlEwIv/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "0012f2fb88aad6cb9294e7bd18c35d96bf5972c14fe98ae4bd45801c416ad39c"
+      },
+      "assets/thumbnails/posts-hd/DRY3G-skmgX.webp": {
+        "source": "https://www.instagram.com/p/DRY3G-skmgX/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "6ec07f9a22b97a0db3ee9ea2d05ce54fce3bda30e2820af5d616d5aaca47daec"
+      },
+      "assets/thumbnails/posts-hd/DBQ_8XovPfw.webp": {
+        "source": "https://www.instagram.com/p/DBQ_8XovPfw/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "0245a20358e3e857fed419bdc919afe4ac20b32083507fdf6377f7f9e09c17aa"
+      },
+      "assets/thumbnails/posts-hd/C7DeT6ChUe0.webp": {
+        "source": "https://www.instagram.com/p/C7DeT6ChUe0/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "faaed5152ce0e2caf0e3a00207e8e53dd066a49e2861426bb6cb7c3239ff361a"
+      },
+      "assets/thumbnails/posts-hd/DVgRqrAE-ZN.webp": {
+        "source": "https://www.instagram.com/p/DVgRqrAE-ZN/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "449b1a56150f52a7d572637ded4d9e234fc73b1330374351b9df424d2bae8d6f"
+      },
+      "assets/thumbnails/posts-hd/DNK0sOKJpjs.webp": {
+        "source": "https://www.instagram.com/p/DNK0sOKJpjs/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "cc2176ac53f8b336ff201ba7d9f33851f6994ba077f2186c767907cf995f21ef"
+      },
+      "assets/thumbnails/posts-hd/DAdSNUkOsMk.webp": {
+        "source": "https://www.instagram.com/p/DAdSNUkOsMk/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "40a6d7eef867008b91039d1d2a598408c16fdfcd30794f103f4c437fe32b0646"
+      },
+      "assets/thumbnails/posts-hd/B8T9rVppFPk.webp": {
+        "source": "https://www.instagram.com/p/B8T9rVppFPk/",
+        "dimensions": [
+          512,
+          512
+        ],
+        "sha256": "895614c778a8021214976954aacce6e45712f0529dc72513fbaa66488b921e9c"
+      },
+      "assets/thumbnails/posts-hd/DBkpf3hS19X.webp": {
+        "source": "https://www.instagram.com/p/DBkpf3hS19X/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "ab29a6d36599cdb4e0dcbfe40fd2d525fe1649c0163b0b17067c7fb512884b82"
+      },
+      "assets/thumbnails/posts-hd/C9J8FRlvbjv.webp": {
+        "source": "https://www.instagram.com/p/C9J8FRlvbjv/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "fdec5f29fe7c095173721db016f31a74a081ff519cbbef3cf53c47bfd6b67c43"
+      },
+      "assets/thumbnails/posts-hd/DAGKUoti7GU.webp": {
+        "source": "https://www.instagram.com/p/DAGKUoti7GU/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "55bd8f999bda16df2e47f4932055bd23115340a7c14dc722463da3a43ab825af"
+      },
+      "assets/thumbnails/posts-hd/DQiocVKibEp.webp": {
+        "source": "https://www.instagram.com/p/DQiocVKibEp/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "de984d25e7857d2c76a45751bb408eadfd12391c521551a3c62246151d2f4d4c"
+      },
+      "assets/thumbnails/posts-hd/CtMDPbbBN6B.webp": {
+        "source": "https://www.instagram.com/p/CtMDPbbBN6B/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "b89963e2cc717c5fc4f7489c0407af2cd102d8aeb19007e31d93c2c98ed09a1e"
+      },
+      "assets/thumbnails/posts-hd/DXgXr7kk2dI.webp": {
+        "source": "https://www.instagram.com/p/DXgXr7kk2dI/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "64391427502d10f5a3b6cb551f3f5c5032bc5a9f05d901f80bd56afac31a80e6"
+      },
+      "assets/thumbnails/posts-hd/DZRy8hDE_ea.webp": {
+        "source": "https://www.instagram.com/p/DZRy8hDE_ea/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "8293707a881d884b22fb7789be83a5551a843286d9c2946c3c7f037875d419f7"
+      },
+      "assets/thumbnails/posts-hd/DBIqLW4PvBB.webp": {
+        "source": "https://www.instagram.com/p/DBIqLW4PvBB/",
+        "dimensions": [
+          512,
+          512
+        ],
+        "sha256": "cb2729ac07ee1f210e715f3ed0e17ff0808928d4d9bb2eef2d8f9b43303db584"
+      },
+      "assets/thumbnails/posts-hd/DYy1D1hpsR7.webp": {
+        "source": "https://www.instagram.com/p/DYy1D1hpsR7/",
+        "dimensions": [
+          512,
+          288
+        ],
+        "sha256": "ae2dd5f6f35d70ee7e1b291156195945593cf32f8ad89eea778a670fb575164a"
+      },
+      "assets/thumbnails/posts-hd/C-49qqVJ9W9.webp": {
+        "source": "https://www.instagram.com/p/C-49qqVJ9W9/",
+        "dimensions": [
+          289,
+          512
+        ],
+        "sha256": "2dc1ea1314d2726ea4ccb6af5fdf4aaa5dfcc632fddfb650119846e5ea293612"
+      },
+      "assets/thumbnails/posts-hd/DRMg3oiktLc.webp": {
+        "source": "https://www.instagram.com/p/DRMg3oiktLc/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "e6e7ea8a2959ad792d2e30453df6bba8ab2fdd4c0f76b7fca6327c5434542e08"
+      },
+      "assets/thumbnails/posts-hd/DQzSa9QCVwR.webp": {
+        "source": "https://www.instagram.com/p/DQzSa9QCVwR/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "5980f5b561084ffeaaa9daf78893fb9cd3a3ca8b66a2c48d0f1c3cf78eec33fb"
+      },
+      "assets/thumbnails/posts-hd/DTnR8GciQWn.webp": {
+        "source": "https://www.instagram.com/p/DTnR8GciQWn/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "67095c304358f91209c0525d45e6c28066df9171efe344638b449b1673d973e4"
+      },
+      "assets/thumbnails/posts-hd/DYbniNUkq4v.webp": {
+        "source": "https://www.instagram.com/p/DYbniNUkq4v/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "8e66cbccd6167b9c287938f48399bbe9c3e04a8c6185434ac892602138ca5731"
+      },
+      "assets/thumbnails/posts-hd/CtEWUxlhmtA.webp": {
+        "source": "https://www.instagram.com/p/CtEWUxlhmtA/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "f82249f611748a9744df242287ad03d45fd0188e12c66f900fd6d1e9a8777d23"
+      },
+      "assets/thumbnails/posts-hd/DXoE-8Lk_yr.webp": {
+        "source": "https://www.instagram.com/p/DXoE-8Lk_yr/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "27f3128e6eae350e0547f42e9adbd7c38a805e1204ada8d04ef7561428f84495"
+      },
+      "assets/thumbnails/posts-hd/DCBpmBpuU00.webp": {
+        "source": "https://www.instagram.com/p/DCBpmBpuU00/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "593144b1a29d2400ac8c5fa4c244ebbc74cd06d41a392a824e59ae673ba06970"
+      },
+      "assets/thumbnails/posts-hd/DXjEreYE8Vo.webp": {
+        "source": "https://www.instagram.com/p/DXjEreYE8Vo/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "82f34c1a0f91345437d4e3f7a164dacfd104c77d13ff96225e5ab64e6dcb2d92"
+      },
+      "assets/thumbnails/posts-hd/DXbCdTqEwl8.webp": {
+        "source": "https://www.instagram.com/p/DXbCdTqEwl8/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "0a7c846495f1d960d383d547f4bbe4e5299cd720f5185aebacfe6b58b10c5525"
+      },
+      "assets/thumbnails/posts-hd/C6TWSL6hg2l.webp": {
+        "source": "https://www.instagram.com/p/C6TWSL6hg2l/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "f8ebde5c302e2c942b708aa79be5cd3cd8b247650d8534e872346ee7fe195d39"
+      },
+      "assets/thumbnails/posts-hd/DZ30k4MmT7x.webp": {
+        "source": "https://www.instagram.com/p/DZ30k4MmT7x/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "8cf8e9e904bbc089fe4373271eda05935fbc2444522552ceee836c126d51580f"
+      },
+      "assets/thumbnails/posts-hd/DWsroLEEnnq.webp": {
+        "source": "https://www.instagram.com/p/DWsroLEEnnq/",
+        "dimensions": [
+          289,
+          512
+        ],
+        "sha256": "46a82b1b73b0a47c9a16c43be4127055f3aad567b133a80a02493cf8cb15fc8f"
+      },
+      "assets/thumbnails/posts-hd/DBmnQy7pGvy.webp": {
+        "source": "https://www.instagram.com/p/DBmnQy7pGvy/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "162969d38c371f347d5cf5878389fa113363c520a70117a2d9fa4e159bcc535f"
+      },
+      "assets/thumbnails/posts-hd/DYT3kxakpoZ.webp": {
+        "source": "https://www.instagram.com/p/DYT3kxakpoZ/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "1ad16b4e13050e77bbd20c6092ab947186bb597c13bd8de2f88174af13403ebf"
+      },
+      "assets/thumbnails/posts-hd/DZgtq_Vk2o_.webp": {
+        "source": "https://www.instagram.com/p/DZgtq_Vk2o_/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "5c55aed71b46659173bf54bac9d0560095009b06c649612114f4fa046d89d36d"
+      },
+      "assets/thumbnails/posts-hd/Cuts3ViBHkZ.webp": {
+        "source": "https://www.instagram.com/p/Cuts3ViBHkZ/",
+        "dimensions": [
+          409,
+          512
+        ],
+        "sha256": "a4f49f6dad8a61801843c4e6b48933beefa43becabbc055caf3adc14a43b81ef"
+      },
+      "assets/thumbnails/posts-hd/DYZObfeEibQ.webp": {
+        "source": "https://www.instagram.com/p/DYZObfeEibQ/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "eb70520ce16588bba1f88070639d5ab1f1bfe09a7557d2c1ffd33570dbb103e6"
+      },
+      "assets/thumbnails/posts-hd/DAOBtm3y78S.webp": {
+        "source": "https://www.instagram.com/p/DAOBtm3y78S/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "1915c825650bcbbbac7b87f14d899207219765e657d5cb8dfe37e32fd7fea224"
+      },
+      "assets/thumbnails/posts-hd/DVs5p_0j_F2.webp": {
+        "source": "https://www.instagram.com/p/DVs5p_0j_F2/",
+        "dimensions": [
+          512,
+          486
+        ],
+        "sha256": "1a798894456e6a35221450846fddfaf8e502803435da3d30cde59759ce777324"
+      },
+      "assets/thumbnails/posts-hd/DOSZJx5EvfE.webp": {
+        "source": "https://www.instagram.com/p/DOSZJx5EvfE/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "22176ca530aa527737f3ad99013759800f01886e9db0162c1ea54d09430a9467"
+      },
+      "assets/thumbnails/posts-hd/DGxiQEsSShn.webp": {
+        "source": "https://www.instagram.com/p/DGxiQEsSShn/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "caca0d2f52415c10c87ca1117c1f7e50b9c2a125e576ab40a3cbbbdfdf06bf6e"
+      },
+      "assets/thumbnails/posts-hd/DaR-WG_E5Lv.webp": {
+        "source": "https://www.instagram.com/p/DaR-WG_E5Lv/",
+        "dimensions": [
+          384,
+          512
+        ],
+        "sha256": "2a7a85c10fc38508646cbcd1c5b1bffca52542340fe370c41c67d70fc3df25ea"
+      },
+      "assets/thumbnails/posts-hd/DZUgkETEvJo.webp": {
+        "source": "https://www.instagram.com/p/DZUgkETEvJo/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "adfdf87e81579b1e23b319cdc1c5b161075bff9568acab70002a668202a72b21"
+      },
+      "assets/thumbnails/posts-hd/DRE98XlAb0T.webp": {
+        "source": "https://www.instagram.com/p/DRE98XlAb0T/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "df32c3412341b7e5398633ca5085cdcbbd04dbd4f9f356ff8dc46880fb65825c"
+      },
+      "assets/thumbnails/posts-hd/DQyvtQIAZgT.webp": {
+        "source": "https://www.instagram.com/p/DQyvtQIAZgT/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "938eeb2ff058b8b431843f664d320b76868a222b5370a4e819276fd175894fb8"
+      },
+      "assets/thumbnails/posts-hd/DBqhKhEvWgD.webp": {
+        "source": "https://www.instagram.com/p/DBqhKhEvWgD/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "39772cc0bae07d2257be2a0771574b0ca3de6970852213d61fafce9e2f522835"
+      },
+      "assets/thumbnails/posts-hd/DJwG9RmJds2.webp": {
+        "source": "https://www.instagram.com/p/DJwG9RmJds2/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "457e77fe612b9abc61e946a1e40b4a6eb1a52256ffaf79b6fe620a80e03c5a28"
+      },
+      "assets/thumbnails/posts-hd/DX6uIKYzLOP.webp": {
+        "source": "https://www.instagram.com/p/DX6uIKYzLOP/",
+        "dimensions": [
+          512,
+          384
+        ],
+        "sha256": "248abe97216d0c874ec36c72d4b8abadb05c4e296bc9ffb598d2a5d2bd8f0fbb"
+      },
+      "assets/thumbnails/posts-hd/DYeHavrEYN7.webp": {
+        "source": "https://www.instagram.com/p/DYeHavrEYN7/",
+        "dimensions": [
+          410,
+          512
+        ],
+        "sha256": "b8325072328ca49454a94b851a290e710a1fb13a2a70d3372bde607d88b91d19"
+      },
+      "assets/thumbnails/posts-hd/DZMqNFDziHj.webp": {
+        "source": "https://www.instagram.com/p/DZMqNFDziHj/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "6b50a30066732654f09072c2b107964578e09cf57e0078a10cc4a72f0e26f780"
+      },
+      "assets/thumbnails/posts-hd/DZNJ1hGTKUC.webp": {
+        "source": "https://www.instagram.com/p/DZNJ1hGTKUC/",
+        "dimensions": [
+          288,
+          512
+        ],
+        "sha256": "a4d8a4b7a759a7aded4825ed9c950968a86f88d8a75fd2d6c84491f414e33691"
+      },
+      "assets/thumbnails/posts-hd/DYbyzCwyXWB.webp": {
+        "source": "https://www.instagram.com/p/DYbyzCwyXWB/",
+        "dimensions": [
+          512,
+          288
+        ],
+        "sha256": "f5c82713ac837b604603b8a3cd91bdb18ccdaf396bb21c1eb0abff0e5546c2b0"
+      },
+      "assets/campaigns/DcSXOmUTSwP-hd.webp": {
+        "source": "https://www.instagram.com/p/DcSXOmUTSwP/",
+        "dimensions": [
+          1276,
+          720
+        ],
+        "video_frame_seconds": 53,
+        "sha256": "4de0396d25f63dadc3a2ece94417a775e76fc051586a62a15974acfc24c697ad"
+      }
+    },
+    "note": "Native source resolution only; no AI upscaling. Existing albums and full photographs retained."
   }
 }

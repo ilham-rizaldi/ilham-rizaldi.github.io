@@ -881,3 +881,17 @@
     .portfolio-brief-top dd { font-size: 15px; }
   }
 }
+
+@media screen {
+  .post-preview-photo > img { display: block; width: 100%; height: 100%; max-width: 100%; object-fit: cover; }
+}
+@media screen and (max-width: 640px) {
+  .has-portfolio-reader .archive-body .project-cover .collab-art { display: block; }
+  .has-portfolio-reader .archive-body .project-cover .collab-art > span { display: none; }
+  .has-portfolio-reader .archive-body .project-cover .collab-art > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 35%;
+  }
+}
