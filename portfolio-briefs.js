@@ -42,10 +42,10 @@ window.portfolioBriefs = {
   ],
   'program-runergize': [
     'Prepared product information and coordinated campaign content with creators and retailers.',
-    'Two releases were documented, alongside product trials, community events, and a retailer content challenge.',
+    '~250 pairs sold out in 1h 28m 34s. Black White exclusive release.',
     'Give the first launch and Black White release their own distinct communication roles.',
     'Connected launch films and product education with trials, community events, and Runergize Showdown.',
-    'Published work'
+    'Commercial result'
   ],
   'program-speedy-weeedy': [
     'Coordinated launch communication and contributed to product copy, PR, and content planning.',
@@ -82,10 +82,10 @@ window.portfolioBriefs = {
   ],
   'case-runergize-black': [
     'Worked on brand communication and campaign-content coordination for Ardiles Running.',
-    'The campaign documented the 25 August web release, 31 August marketplace release, and September retailer challenge.',
+    '~250 pairs sold out in 1h 28m 34s. Black White exclusive release.',
     'Use Always Fast to tie the Black White edition’s product story to athlete and retailer content.',
     'The sequence combined teaser films, product education, release posts, and Runergize Showdown.',
-    'Published work'
+    'Commercial result'
   ],
   'case-run-into-the-wild': [
     'Worked on event communication and campaign-content coordination for Ardiles Running.',
